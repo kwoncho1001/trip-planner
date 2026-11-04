@@ -1921,13 +1921,12 @@ export function init(ctx) {
     const esc = (t) => String(t ?? "").replace(/[&<>"]/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
     const it = city.info?.intro;
     const story = Array.isArray(it?.story) ? it.story.filter(Boolean) : [];
-    if (!story.length) return city.desc ? `<p class="detail-desc">${esc(city.desc)}</p>` : "";
-    const hooks = Array.isArray(it.hooks) && it.hooks.length
+    const hooks = Array.isArray(it?.hooks) && it.hooks.length
       ? `<div class="intro-hooks">${it.hooks.map((h) => `<span class="intro-hook">${esc(h)}</span>`).join("")}</div>`
       : "";
     const facts = [];
-    if (it.winter?.temp) facts.push(`<div class="intro-fact"><span class="intro-fact-k">12~2월</span><span class="intro-fact-v">${esc(it.winter.temp)}${it.winter.note ? ` · ${esc(it.winter.note)}` : ""}</span></div>`);
-    if (it.stay?.nights) facts.push(`<div class="intro-fact"><span class="intro-fact-k">추천 체류</span><span class="intro-fact-v">${esc(it.stay.nights)}${it.stay.why ? ` · ${esc(it.stay.why)}` : ""}</span></div>`);
+    if (it?.winter?.temp) facts.push(`<div class="intro-fact"><span class="intro-fact-k">12~2월</span><span class="intro-fact-v">${esc(it.winter.temp)}${it.winter.note ? ` · ${esc(it.winter.note)}` : ""}</span></div>`);
+    if (it?.stay?.nights) facts.push(`<div class="intro-fact"><span class="intro-fact-k">추천 체류</span><span class="intro-fact-v">${esc(it.stay.nights)}${it.stay.why ? ` · ${esc(it.stay.why)}` : ""}</span></div>`);
     const deeper = (key, title) => {
       const d = city.info?.[key];
       if (!d) return "";
@@ -1941,7 +1940,7 @@ export function init(ctx) {
     };
     return `<div class="detail-intro">
       ${hooks}
-      <div class="intro-story">${story.map((t) => `<p>${esc(t)}</p>`).join("")}</div>
+      ${story.length ? `<div class="intro-story">${story.map((t) => `<p>${esc(t)}</p>`).join("")}</div>` : city.desc ? `<p class="detail-desc">${esc(city.desc)}</p>` : ""}
       ${facts.length ? `<div class="intro-facts">${facts.join("")}</div>` : ""}
       ${deeper("intro2", "더 깊이 — 역사와 도시 이야기")}
       ${deeper("intro3", "방문 전에 — 역사 전체와 동네 읽기")}

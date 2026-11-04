@@ -45,5 +45,8 @@
   "cityinfo/fares-hksz.json",
   "cityinfo/fares-sea.json",
   "cityinfo/fares-th.json",
-  "cityinfo/fares-vn.json"
+  "cityinfo/fares-vn.json",
+  "cityinfo/t3dish-guangzhou.json",
+  "cityinfo/story3-chongqing.json",
+  "cityinfo/story3-chengdu.json"
 ]
