@@ -1930,14 +1930,14 @@ export function init(ctx) {
         if (spot && typeof spot.lat === "number") {
           // Markers are rebuilt after the move, so open the popup on the new marker
           map.once("moveend", () => setTimeout(() => spotMarkers.get(spotId)?.openPopup(), 450));
-          map.setView([spot.lat, spot.lng], Math.max(map.getZoom(), 15), { animate: true });
+          map.setView([spot.lat, spot.lng], Math.max(map.getZoom(), 13), { animate: true });
           setTimeout(() => { const mk = spotMarkers.get(spotId); if (mk && !mk.isPopupOpen()) mk.openPopup(); }, 1300);
           return;
         }
       }
       if (sm) {
         if (source === "card") {
-          map.setView(sm.getLatLng(), Math.max(map.getZoom(), 15), { animate: true });
+          map.setView(sm.getLatLng(), Math.max(map.getZoom(), 13), { animate: true });
         } else if (source !== "map") {
           map.panTo(sm.getLatLng());
         }

@@ -1722,3 +1722,32 @@
 
 .spot-name.is-map-link { cursor: pointer; }
 .spot-name.is-map-link:hover { color: var(--color-accent); text-decoration: underline; text-underline-offset: 3px; }
+
+/* City detail tabs: 개요 (cover to food) and 장소 (spot list) */
+.detail-tabs {
+  margin-left: auto;
+  display: inline-flex;
+  gap: 2px;
+  padding: 2px;
+  border-radius: var(--radius-sm);
+  background: var(--fill);
+  flex-shrink: 0;
+}
+.detail-tab {
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font: var(--text-footnote);
+  font-weight: 600;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+.detail-tab.is-active {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  box-shadow: 0 0 0 1px var(--border-subtle);
+}
+[data-tab="overview"] .detail-spots-section { display: none; }
+[data-tab="spots"] .detail-hero-cover,
+[data-tab="spots"] .detail-body > :not(.detail-spots-section) { display: none; }

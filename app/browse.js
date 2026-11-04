@@ -1174,10 +1174,45 @@ export function init(ctx) {
     breadcrumbEl.querySelector(".btn-back").addEventListener("click", () => {
       nav.close("detail", () => switchView("cities"));
     });
+
+    // 개요 / 장소 tabs on the right of the bar (user, 2026-11-05)
+    const nSpots = (data.spotsOfCity(city.id) || []).length;
+    const tabs = document.createElement("span");
+    tabs.className = "detail-tabs";
+    tabs.setAttribute("role", "tablist");
+    tabs.innerHTML = `
+      <button type="button" class="detail-tab" data-tab="overview" role="tab">개요</button>
+      <button type="button" class="detail-tab" data-tab="spots" role="tab">장소 ${nSpots}</button>
+    `;
+    for (const btn of tabs.querySelectorAll(".detail-tab")) {
+      btn.addEventListener("click", () => setDetailTab(btn.dataset.tab, true));
+    }
+    breadcrumbEl.appendChild(tabs);
+    syncDetailTabs();
+  }
+
+  function syncDetailTabs() {
+    const cur = viewDetail.dataset.tab || "overview";
+    for (const btn of viewDetail.querySelectorAll(".detail-tab")) {
+      const on = btn.dataset.tab === cur;
+      btn.classList.toggle("is-active", on);
+      btn.setAttribute("aria-selected", on ? "true" : "false");
+    }
+  }
+
+  function setDetailTab(tab, scrollTop) {
+    viewDetail.dataset.tab = tab === "spots" ? "spots" : "overview";
+    syncDetailTabs();
+    if (scrollTop) {
+      const bar = viewDetail.querySelector(".detail-breadcrumb");
+      if (bar) bar.scrollIntoView({ block: "start" });
+      viewDetail.scrollTop = 0;
+    }
   }
 
   function renderCityDetailView(city) {
     viewDetail.innerHTML = "";
+    viewDetail.dataset.tab = "overview";
 
     // 1. Breadcrumb
     const breadcrumb = document.createElement("div");
@@ -2129,6 +2164,7 @@ export function init(ctx) {
       openCityDetail(spot.cityId);
     }
 
+    if (source !== "card") setDetailTab("spots", false);
     setTimeout(() => {
       const card = viewDetail.querySelector(`[data-spot-id="${spotId}"]`);
       if (card) {
