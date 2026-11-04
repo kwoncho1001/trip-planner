@@ -1683,3 +1683,13 @@
 
 /* Like / pass on the right of a spot card (user, 2026-11-05) */
 .spot-card .spot-actions { justify-content: flex-end; }
+
+/* Train stations: a plain section like the others, not a highlighted box (user, 2026-11-05) */
+.station-box.rail-station-box {
+  border-left: none;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+}
+.rail-station-box .station-box-title { color: var(--text-primary); }
+.rail-station-box .station-box-title .section-subtitle { margin: 0; }

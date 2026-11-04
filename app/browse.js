@@ -1279,7 +1279,7 @@ export function init(ctx) {
           : "";
         railBoxHtml = `
           <div class="station-box rail-station-box detail-station-box">
-            <div class="station-box-title">🚆 기차역</div>
+            <div class="station-box-title"><span class="section-subtitle">기차역</span></div>
             <div class="station-none-text">${nearestText}</div>
             ${noteHtml}
             ${sourceHtml}
@@ -1334,7 +1334,7 @@ export function init(ctx) {
           .join("");
         railBoxHtml = `
           <details class="station-box rail-station-box detail-station-box" open>
-            <summary class="station-box-title">🚆 기차역 <span class="station-count">${stations.length}곳</span></summary>
+            <summary class="station-box-title"><span class="section-subtitle">기차역</span> <span class="station-count">${stations.length}곳</span></summary>
             <div class="station-list">
               ${stationsHtml}
             </div>
@@ -1352,9 +1352,6 @@ export function init(ctx) {
         ${city.local ? `<span class="detail-local">${city.local}</span>` : ""}
         <span class="badge">${city.kind || ""}</span>
       </div>
-      ${railBoxHtml}
-      ${city.desc ? `<p class="detail-desc">${city.desc}</p>` : ""}
-      ${mediaSectionHtml}
       <div class="detail-actions">
         <button type="button" class="btn btn-pick-city like ${pick === "like" ? "is-active" : ""}" data-pick="like">♥ 끌림</button>
         <button type="button" class="btn btn-pick-city pass ${pick === "pass" ? "is-active" : ""}" data-pick="pass">✕ 패스</button>
@@ -1362,7 +1359,16 @@ export function init(ctx) {
         ${researchReqHtml(city)}
         <a href="https://www.google.com/maps/@${city.lat},${city.lng},14z/data=!3m1!1e3" target="_blank" rel="noopener noreferrer" class="btn btn-satellite" data-action="satellite">위성지도</a>
       </div>
+      ${city.desc ? `<p class="detail-desc">${city.desc}</p>` : ""}
+      ${mediaSectionHtml}
     `;
+    // Order (user, 2026-11-05): name, buttons, intro, photos, evaluation, train stations, food, spots
+    let railEl = null;
+    if (railBoxHtml) {
+      const tmpRail = document.createElement("div");
+      tmpRail.innerHTML = railBoxHtml.trim();
+      railEl = tmpRail.firstElementChild;
+    }
 
     header.querySelectorAll(".city-media-card").forEach((card) => {
       card.addEventListener("click", () => {
@@ -1681,12 +1687,6 @@ export function init(ctx) {
 
         evalSection.appendChild(prosConsGrid);
 
-        if (evaluation.best_for) {
-          const bestForP = document.createElement("div");
-          bestForP.className = "eval-best-for";
-          bestForP.textContent = `이런 여행자에게: ${evaluation.best_for}`;
-          evalSection.appendChild(bestForP);
-        }
 
         if (Array.isArray(evaluation.sources) && evaluation.sources.length > 0) {
           const details = document.createElement("details");
@@ -1859,6 +1859,12 @@ export function init(ctx) {
       });
     }
 
+    {
+      const evalNode = body.querySelector(".detail-eval-section, .detail-reviews-section");
+      const infoNode = body.querySelector(".detail-info-section");
+      if (railEl) body.insertBefore(railEl, infoNode);
+      if (evalNode) body.insertBefore(evalNode, railEl || infoNode);
+    }
     body.appendChild(spotsSection);
 
     // D10: research request moved to detail-actions
