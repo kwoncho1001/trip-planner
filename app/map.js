@@ -65,9 +65,21 @@ const PICK_COLORS = {
   none: "#2F6FDB"
 };
 
+// Web mode draws on colourful OSM tiles: city outlines need a colour that OSM does not use, and more weight
+let webOutline = false;
 function cityAreaStyle(pick, zoom) {
   const isCityView = typeof zoom === "number" ? zoom >= 10 : false;
   const undecided = !PICK_COLORS[pick] || pick === "none";
+  if (webOutline && undecided) {
+    return {
+      className: "city-area",
+      color: "#6E3FA3",
+      weight: isCityView ? 3 : 1.8,
+      opacity: isCityView ? 0.9 : 0.75,
+      dashArray: isCityView ? "8 5" : undefined,
+      fillOpacity: 0
+    };
+  }
 
   if (isCityView) {
     const color = undecided ? "#9a9a9a" : (PICK_COLORS[pick] || "#9a9a9a");
@@ -370,6 +382,7 @@ export function init(ctx) {
     typeof window !== "undefined" &&
     new URLSearchParams(window.location.search).has("selftest");
   const webMode = Boolean(ctx?.util?.isWebMode?.());
+  webOutline = webMode;
 
   let voyagerLayer = null;
   let esriLayer = null;
@@ -805,6 +818,9 @@ export function init(ctx) {
   }
 
   // Train station markers (D3)
+  // City names stay above station and terminal icons so they can be clicked (user, 2026-11-05)
+  map.createPane("cityLabelPane");
+  map.getPane("cityLabelPane").style.zIndex = "660";
   map.createPane("stationPane");
   map.getPane("stationPane").style.zIndex = "650";
 
@@ -1479,6 +1495,7 @@ export function init(ctx) {
         if (c.type === "city") {
           const isInteractive = z > 4;
           const marker = L.marker(c.center, {
+            pane: "cityLabelPane",
             icon: L.divIcon({
               className: `city-name-label tier-${c.tier} pick-${c.pick}${z <= 4 ? " low-zoom" : ""}`,
               html: c.text,
