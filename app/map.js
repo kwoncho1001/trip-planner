@@ -387,7 +387,9 @@ export function init(ctx) {
     // CARTO now needs an API key (tiles showed "API KEY REQUIRED", 2026-11-04): OpenStreetMap standard tiles need none
     voyagerLayer = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
-      attribution: "© OpenStreetMap contributors"
+      attribution: "© OpenStreetMap contributors",
+      // Faded base (map.css): OSM's own pink and yellow roads looked like metro lines
+      className: "osm-base-tiles"
     });
     esriLayer = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
       maxZoom: 19,
