@@ -1,0 +1,2464 @@
+[
+  {
+    "city_id": "city:충칭",
+    "fares": [
+      {
+        "from_station": "충칭북역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 106,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chongqing-to-chengdu/"
+      },
+      {
+        "from_station": "충칭서역",
+        "to_city": "구이양",
+        "to_station": "구이양북역",
+        "train": "고속철 2등석",
+        "hours": 2.1,
+        "price": {
+          "amount": 128,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chongqing-to-guiyang/"
+      },
+      {
+        "from_station": "충칭서역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 4.3,
+        "price": {
+          "amount": 260,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chongqing-to-xian/"
+      },
+      {
+        "from_station": "충칭서역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "고속철 2등석",
+        "hours": 4.5,
+        "price": {
+          "amount": 345,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chongqing-to-kunming/"
+      },
+      {
+        "from_station": "충칭북역",
+        "to_city": "완저우",
+        "to_station": "완저우북역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 98,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chongqing-to-wanzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:첸장 (충칭)",
+    "fares": [
+      {
+        "from_station": "첸장역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 66,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "첸장역",
+        "to_city": "장자제",
+        "to_station": "장자제서역",
+        "train": "고속철 2등석",
+        "hours": 1.1,
+        "price": {
+          "amount": 53,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "첸장역",
+        "to_city": "창사",
+        "to_station": "창사남역",
+        "train": "고속철 2등석",
+        "hours": 3.5,
+        "price": {
+          "amount": 160,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "첸장역",
+        "to_city": "화이화",
+        "to_station": "화이화역",
+        "train": "일반열차 좌석",
+        "hours": 2.5,
+        "price": {
+          "amount": 33,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:치장",
+    "fares": [
+      {
+        "from_station": "치장동역",
+        "to_city": "충칭",
+        "to_station": "충칭서역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 23,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "치장동역",
+        "to_city": "쭌이",
+        "to_station": "쭌이역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 53,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "치장동역",
+        "to_city": "구이양",
+        "to_station": "구이양북역",
+        "train": "고속철 2등석",
+        "hours": 1.7,
+        "price": {
+          "amount": 105,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:완저우",
+    "fares": [
+      {
+        "from_station": "완저우북역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 98,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "완저우북역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 205,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "완저우북역",
+        "to_city": "이창",
+        "to_station": "이창동역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 110,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "완저우북역",
+        "to_city": "정저우",
+        "to_station": "정저우동역",
+        "train": "고속철 2등석",
+        "hours": 3.8,
+        "price": {
+          "amount": 320,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:푸링",
+    "fares": [
+      {
+        "from_station": "푸링북역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 32,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "푸링북역",
+        "to_city": "완저우",
+        "to_station": "완저우북역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 66,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "푸링북역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 2,
+        "price": {
+          "amount": 138,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:허촨",
+    "fares": [
+      {
+        "from_station": "허촨역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 21,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "허촨역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 95,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "허촨역",
+        "to_city": "난충",
+        "to_station": "난충역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 36,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:융촨",
+    "fares": [
+      {
+        "from_station": "융촨동역",
+        "to_city": "충칭",
+        "to_station": "충칭서역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 29,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "융촨동역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "융촨동역",
+        "to_city": "네이장",
+        "to_station": "네이장북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 28,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:창서우",
+    "fares": [
+      {
+        "from_station": "창서우북역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "창서우북역",
+        "to_city": "완저우",
+        "to_station": "완저우북역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 78,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "창서우북역",
+        "to_city": "푸링",
+        "to_station": "푸링북역",
+        "train": "고속철 2등석",
+        "hours": 0.2,
+        "price": {
+          "amount": 14,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:청두",
+    "fares": [
+      {
+        "from_station": "청두동역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 106,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chengdu-to-chongqing/"
+      },
+      {
+        "from_station": "청두동역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 3.2,
+        "price": {
+          "amount": 263,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chengdu-to-xian/"
+      },
+      {
+        "from_station": "청두동역",
+        "to_city": "구이양",
+        "to_station": "구이양북역",
+        "train": "고속철 2등석",
+        "hours": 3.5,
+        "price": {
+          "amount": 235,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chengdu-to-guiyang/"
+      },
+      {
+        "from_station": "청두동역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "고속철 2등석",
+        "hours": 5.5,
+        "price": {
+          "amount": 440,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chengdu-to-kunming/"
+      },
+      {
+        "from_station": "청두동역",
+        "to_city": "러산",
+        "to_station": "러산역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 54,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chengdu-to-leshan/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:두장옌",
+    "fares": [
+      {
+        "from_station": "두장옌역",
+        "to_city": "청두",
+        "to_station": "시푸역",
+        "train": "도시철도 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 10,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "두장옌역",
+        "to_city": "청두",
+        "to_station": "청두역",
+        "train": "도시철도 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "두장옌역",
+        "to_city": "야안",
+        "to_station": "야안역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 60,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:러산",
+    "fares": [
+      {
+        "from_station": "러산역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 54,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "러산역",
+        "to_city": "어메이산",
+        "to_station": "어메이산역",
+        "train": "고속철 2등석",
+        "hours": 0.2,
+        "price": {
+          "amount": 11,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "러산역",
+        "to_city": "이빈",
+        "to_station": "이빈역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 50,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "러산역",
+        "to_city": "구이양",
+        "to_station": "구이양북역",
+        "train": "고속철 2등석",
+        "hours": 3,
+        "price": {
+          "amount": 185,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:쯔궁",
+    "fares": [
+      {
+        "from_station": "쯔궁역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 68,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "쯔궁역",
+        "to_city": "이빈",
+        "to_station": "이빈역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 27,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "쯔궁역",
+        "to_city": "루저우",
+        "to_station": "루저우역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 28,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:이빈",
+    "fares": [
+      {
+        "from_station": "이빈역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 85,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "이빈역",
+        "to_city": "구이양",
+        "to_station": "구이양북역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 120,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "이빈역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "고속철 2등석",
+        "hours": 3.8,
+        "price": {
+          "amount": 260,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "이빈역",
+        "to_city": "충칭",
+        "to_station": "충칭서역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 95,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:루저우",
+    "fares": [
+      {
+        "from_station": "루저우역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 1.3,
+        "price": {
+          "amount": 92,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "루저우역",
+        "to_city": "충칭",
+        "to_station": "충칭서역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 50,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "루저우역",
+        "to_city": "쯔궁",
+        "to_station": "쯔궁역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 28,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:야안",
+    "fares": [
+      {
+        "from_station": "야안역",
+        "to_city": "청두",
+        "to_station": "청두서역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 52,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "야안역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 140,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "야안역",
+        "to_city": "러산",
+        "to_station": "러산역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:광위안",
+    "fares": [
+      {
+        "from_station": "광위안역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 111,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "광위안역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 1.7,
+        "price": {
+          "amount": 152,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "광위안역",
+        "to_city": "란저우",
+        "to_station": "란저우서역",
+        "train": "고속철 2등석",
+        "hours": 3.2,
+        "price": {
+          "amount": 165,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "광위안역",
+        "to_city": "한중",
+        "to_station": "한중역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+
+  {
+    "city_id": "city:몐양",
+    "fares": [
+      {
+        "from_station": "몐양역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "몐양역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 218,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "몐양역",
+        "to_city": "광위안",
+        "to_station": "광위안역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 66,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:난충",
+    "fares": [
+      {
+        "from_station": "난충북역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 1.3,
+        "price": {
+          "amount": 65,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "난충북역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "난충북역",
+        "to_city": "다저우",
+        "to_station": "다저우역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:다저우",
+    "fares": [
+      {
+        "from_station": "다저우역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 2.3,
+        "price": {
+          "amount": 110,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "다저우역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 60,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "다저우역",
+        "to_city": "시안",
+        "to_station": "시안역",
+        "train": "일반열차 좌석",
+        "hours": 5,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:바중",
+    "fares": [
+      {
+        "from_station": "바중동역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 2.3,
+        "price": {
+          "amount": 135,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "바중동역",
+        "to_city": "난충",
+        "to_station": "난충북역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "바중동역",
+        "to_city": "다저우",
+        "to_station": "다저우역",
+        "train": "일반열차 좌석",
+        "hours": 1.8,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:네이장",
+    "fares": [
+      {
+        "from_station": "네이장북역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 54,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "네이장북역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 65,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "네이장북역",
+        "to_city": "쯔궁",
+        "to_station": "쯔궁역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 18,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:시창",
+    "fares": [
+      {
+        "from_station": "시창서역",
+        "to_city": "청두",
+        "to_station": "청두남역",
+        "train": "고속철 2등석",
+        "hours": 3,
+        "price": {
+          "amount": 149,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "시창서역",
+        "to_city": "판즈화",
+        "to_station": "판즈화남역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "시창서역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍역",
+        "train": "고속철 2등석",
+        "hours": 3.5,
+        "price": {
+          "amount": 140,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:판즈화",
+    "fares": [
+      {
+        "from_station": "판즈화남역",
+        "to_city": "청두",
+        "to_station": "청두남역",
+        "train": "고속철 2등석",
+        "hours": 4.2,
+        "price": {
+          "amount": 195,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "판즈화남역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍역",
+        "train": "고속철 2등석",
+        "hours": 2.2,
+        "price": {
+          "amount": 85,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "판즈화남역",
+        "to_city": "시창",
+        "to_station": "시창서역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:쿤밍",
+    "fares": [
+      {
+        "from_station": "쿤밍남역",
+        "to_city": "징훙",
+        "to_station": "시솽반나역",
+        "train": "고속철 2등석",
+        "hours": 3.2,
+        "price": {
+          "amount": 200,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/kunming-to-xishuangbanna/"
+      },
+      {
+        "from_station": "쿤밍역",
+        "to_city": "다리",
+        "to_station": "대리역",
+        "train": "고속철 2등석",
+        "hours": 2,
+        "price": {
+          "amount": 145,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/kunming-to-dali/"
+      },
+      {
+        "from_station": "쿤밍남역",
+        "to_city": "비엔티안",
+        "to_station": "비엔티안역",
+        "train": "고속철 2등석",
+        "hours": 9.6,
+        "price": {
+          "amount": 542,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/kunming-to-vientiane/"
+      },
+      {
+        "from_station": "쿤밍남역",
+        "to_city": "구이양",
+        "to_station": "구이양북역",
+        "train": "고속철 2등석",
+        "hours": 2.1,
+        "price": {
+          "amount": 213,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/kunming-to-guiyang/"
+      },
+      {
+        "from_station": "쿤밍남역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 5.5,
+        "price": {
+          "amount": 440,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/kunming-to-chengdu/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:징훙",
+    "fares": [
+      {
+        "from_station": "시솽반나역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "고속철 2등석",
+        "hours": 3.2,
+        "price": {
+          "amount": 200,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "시솽반나역",
+        "to_city": "루앙프라방",
+        "to_station": "루앙프라방역",
+        "train": "고속철 2등석",
+        "hours": 4.5,
+        "price": {
+          "amount": 190,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "시솽반나역",
+        "to_city": "비엔티안",
+        "to_station": "비엔티안역",
+        "train": "고속철 2등석",
+        "hours": 6,
+        "price": {
+          "amount": 370,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "시솽반나역",
+        "to_city": "푸얼",
+        "to_station": "푸얼역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "시솽반나역",
+        "to_city": "모한",
+        "to_station": "모한역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:푸얼",
+    "fares": [
+      {
+        "from_station": "푸얼역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 150,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "푸얼역",
+        "to_city": "징훙",
+        "to_station": "시솽반나역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "푸얼역",
+        "to_city": "위시",
+        "to_station": "위시역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 105,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:멍쯔",
+    "fares": [
+      {
+        "from_station": "멍쯔역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍역",
+        "train": "고속철 2등석",
+        "hours": 2,
+        "price": {
+          "amount": 80,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "멍쯔역",
+        "to_city": "허커우",
+        "to_station": "허커우북역",
+        "train": "동차 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 35,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "멍쯔역",
+        "to_city": "위시",
+        "to_station": "위시역",
+        "train": "고속철 2등석",
+        "hours": 1.3,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:바오산",
+    "fares": [
+      {
+        "from_station": "보산역",
+        "to_city": "다리",
+        "to_station": "대리역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "보산역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍역",
+        "train": "고속철 2등석",
+        "hours": 3.2,
+        "price": {
+          "amount": 185,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "보산역",
+        "to_city": "리장",
+        "to_station": "리장역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 95,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:취징",
+    "fares": [
+      {
+        "from_station": "취징북역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 35,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "취징북역",
+        "to_city": "구이양",
+        "to_station": "구이양북역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 180,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "취징북역",
+        "to_city": "류판수이",
+        "to_station": "류판수이역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 65,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:위시",
+    "fares": [
+      {
+        "from_station": "위시역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "위시역",
+        "to_city": "푸얼",
+        "to_station": "푸얼역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 105,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "위시역",
+        "to_city": "징훙",
+        "to_station": "시솽반나역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 155,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "위시역",
+        "to_city": "멍쯔",
+        "to_station": "멍쯔역",
+        "train": "고속철 2등석",
+        "hours": 1.3,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:추슝",
+    "fares": [
+      {
+        "from_station": "추슝역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "추슝역",
+        "to_city": "다리",
+        "to_station": "대리역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 50,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "추슝역",
+        "to_city": "리장",
+        "to_station": "리장역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 85,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:자오퉁",
+    "fares": [
+      {
+        "from_station": "자오퉁동역",
+        "to_city": "구이양",
+        "to_station": "구이양북역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 90,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "자오퉁동역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 150,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "자오퉁동역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "고속철 2등석",
+        "hours": 2.2,
+        "price": {
+          "amount": 140,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:린창",
+    "fares": [
+      {
+        "from_station": "린창역",
+        "to_city": "다리",
+        "to_station": "대리역",
+        "train": "고속철 2등석",
+        "hours": 1.6,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "린창역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍역",
+        "train": "고속철 2등석",
+        "hours": 3.6,
+        "price": {
+          "amount": 165,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "린창역",
+        "to_city": "추슝",
+        "to_station": "추슝역",
+        "train": "고속철 2등석",
+        "hours": 2.6,
+        "price": {
+          "amount": 120,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+
+  {
+    "city_id": "city:시안",
+    "fares": [
+      {
+        "from_station": "시안북역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 3.2,
+        "price": {
+          "amount": 263,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/xian-to-chengdu/"
+      },
+      {
+        "from_station": "시안북역",
+        "to_city": "충칭",
+        "to_station": "충칭북역",
+        "train": "고속철 2등석",
+        "hours": 4.3,
+        "price": {
+          "amount": 260,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/xian-to-chongqing/"
+      },
+      {
+        "from_station": "시안북역",
+        "to_city": "란저우",
+        "to_station": "란저우서역",
+        "train": "고속철 2등석",
+        "hours": 2.8,
+        "price": {
+          "amount": 175,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/xian-to-lanzhou/"
+      },
+      {
+        "from_station": "시안북역",
+        "to_city": "뤄양",
+        "to_station": "뤄양용문역",
+        "train": "고속철 2등석",
+        "hours": 1.3,
+        "price": {
+          "amount": 119,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/xian-to-luoyang/"
+      },
+      {
+        "from_station": "시안북역",
+        "to_city": "한중",
+        "to_station": "한중역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 97,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:셴양",
+    "fares": [
+      {
+        "from_station": "셴양서역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 0.2,
+        "price": {
+          "amount": 10,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "셴양서역",
+        "to_city": "바오지",
+        "to_station": "바오지남역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "셴양서역",
+        "to_city": "란저우",
+        "to_station": "란저우서역",
+        "train": "고속철 2등석",
+        "hours": 2.7,
+        "price": {
+          "amount": 165,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:바오지",
+    "fares": [
+      {
+        "from_station": "바오지남역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 51,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "바오지남역",
+        "to_city": "톈수이",
+        "to_station": "톈수이남역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "바오지남역",
+        "to_city": "란저우",
+        "to_station": "란저우서역",
+        "train": "고속철 2등석",
+        "hours": 1.9,
+        "price": {
+          "amount": 125,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:옌안",
+    "fares": [
+      {
+        "from_station": "옌안역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 2,
+        "price": {
+          "amount": 97,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "옌안역",
+        "to_city": "위린 (산시)",
+        "to_station": "위린역",
+        "train": "고속철 2등석",
+        "hours": 2.2,
+        "price": {
+          "amount": 70,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "옌안역",
+        "to_city": "타이위안",
+        "to_station": "타이위안남역",
+        "train": "일반열차 좌석",
+        "hours": 5,
+        "price": {
+          "amount": 65,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:한중",
+    "fares": [
+      {
+        "from_station": "한중역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 97,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "한중역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "고속철 2등석",
+        "hours": 2.2,
+        "price": {
+          "amount": 165,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "한중역",
+        "to_city": "광위안",
+        "to_station": "광위안역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:위린 (산시)",
+    "fares": [
+      {
+        "from_station": "위린역",
+        "to_city": "시안",
+        "to_station": "시안역",
+        "train": "동차 2등석",
+        "hours": 4.5,
+        "price": {
+          "amount": 160,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "위린역",
+        "to_city": "옌안",
+        "to_station": "옌안역",
+        "train": "고속철 2등석",
+        "hours": 2.2,
+        "price": {
+          "amount": 70,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "위린역",
+        "to_city": "오르도스",
+        "to_station": "오르도스역",
+        "train": "일반열차 좌석",
+        "hours": 1.8,
+        "price": {
+          "amount": 28,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:웨이난",
+    "fares": [
+      {
+        "from_station": "웨이난북역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 19,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "웨이난북역",
+        "to_city": "뤄양",
+        "to_station": "뤄양용문역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 100,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "웨이난북역",
+        "to_city": "화산",
+        "to_station": "화산북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:퉁촨",
+    "fares": [
+      {
+        "from_station": "퉁촨역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "퉁촨역",
+        "to_city": "옌안",
+        "to_station": "옌안역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 70,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "퉁촨역",
+        "to_city": "황링",
+        "to_station": "황링서역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 30,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:안캉",
+    "fares": [
+      {
+        "from_station": "안캉역",
+        "to_city": "시안",
+        "to_station": "시안역",
+        "train": "동차 2등석",
+        "hours": 2,
+        "price": {
+          "amount": 65,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "안캉역",
+        "to_city": "다저우",
+        "to_station": "다저우역",
+        "train": "일반열차 좌석",
+        "hours": 2.5,
+        "price": {
+          "amount": 38,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "안캉역",
+        "to_city": "한중",
+        "to_station": "한중역",
+        "train": "동차 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 50,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:상뤄",
+    "fares": [
+      {
+        "from_station": "상뤄역",
+        "to_city": "시안",
+        "to_station": "시안역",
+        "train": "일반열차 좌석",
+        "hours": 1.5,
+        "price": {
+          "amount": 22,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "상뤄역",
+        "to_city": "난양",
+        "to_station": "난양역",
+        "train": "일반열차 좌석",
+        "hours": 3.5,
+        "price": {
+          "amount": 40,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "상뤄역",
+        "to_city": "웨이난",
+        "to_station": "웨이난역",
+        "train": "일반열차 좌석",
+        "hours": 2.5,
+        "price": {
+          "amount": 28,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:란저우",
+    "fares": [
+      {
+        "from_station": "란저우서역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 2.8,
+        "price": {
+          "amount": 175,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/lanzhou-to-xian/"
+      },
+      {
+        "from_station": "란저우서역",
+        "to_city": "시닝",
+        "to_station": "시닝역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 58,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/lanzhou-to-xining/"
+      },
+      {
+        "from_station": "란저우서역",
+        "to_city": "톈수이",
+        "to_station": "톈수이남역",
+        "train": "고속철 2등석",
+        "hours": 1.3,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "란저우서역",
+        "to_city": "장예",
+        "to_station": "장예서역",
+        "train": "고속철 2등석",
+        "hours": 3,
+        "price": {
+          "amount": 150,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "란저우서역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "동차 2등석",
+        "hours": 6.5,
+        "price": {
+          "amount": 230,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/lanzhou-to-chengdu/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:톈수이",
+    "fares": [
+      {
+        "from_station": "톈수이남역",
+        "to_city": "란저우",
+        "to_station": "란저우서역",
+        "train": "고속철 2등석",
+        "hours": 1.3,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "톈수이남역",
+        "to_city": "시안",
+        "to_station": "시안북역",
+        "train": "고속철 2등석",
+        "hours": 1.6,
+        "price": {
+          "amount": 100,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "톈수이남역",
+        "to_city": "바오지",
+        "to_station": "바오지남역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:장예",
+    "fares": [
+      {
+        "from_station": "장예서역",
+        "to_city": "란저우",
+        "to_station": "란저우서역",
+        "train": "고속철 2등석",
+        "hours": 3,
+        "price": {
+          "amount": 150,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "장예서역",
+        "to_city": "주취안",
+        "to_station": "주취안남역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 65,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "장예서역",
+        "to_city": "자위관",
+        "to_station": "자위관남역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 70,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "장예서역",
+        "to_city": "시닝",
+        "to_station": "시닝역",
+        "train": "고속철 2등석",
+        "hours": 2,
+        "price": {
+          "amount": 90,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:우웨이",
+    "fares": [
+      {
+        "from_station": "우웨이동역",
+        "to_city": "란저우",
+        "to_station": "란저우서역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 65,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "우웨이동역",
+        "to_city": "장예",
+        "to_station": "장예서역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "우웨이동역",
+        "to_city": "중웨이",
+        "to_station": "중웨이남역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 80,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:주취안",
+    "fares": [
+      {
+        "from_station": "주취안남역",
+        "to_city": "란저우",
+        "to_station": "란저우서역",
+        "train": "고속철 2등석",
+        "hours": 4,
+        "price": {
+          "amount": 205,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "주취안남역",
+        "to_city": "장예",
+        "to_station": "장예서역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 65,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "주취안남역",
+        "to_city": "둔황",
+        "to_station": "둔황역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 110,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "주취안남역",
+        "to_city": "자위관",
+        "to_station": "자위관남역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:핑량",
+    "fares": [
+      {
+        "from_station": "핑량역",
+        "to_city": "시안",
+        "to_station": "시안역",
+        "train": "일반열차 좌석",
+        "hours": 3.5,
+        "price": {
+          "amount": 43.5,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "핑량역",
+        "to_city": "중웨이",
+        "to_station": "중웨이역",
+        "train": "일반열차 좌석",
+        "hours": 3.5,
+        "price": {
+          "amount": 37.5,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "핑량역",
+        "to_city": "란저우",
+        "to_station": "란저우역",
+        "train": "일반열차 좌석",
+        "hours": 5,
+        "price": {
+          "amount": 53.5,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:룽난",
+    "fares": [
+      {
+        "from_station": "룽남역",
+        "to_city": "란저우",
+        "to_station": "란저우서역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 95,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "룽남역",
+        "to_city": "청두",
+        "to_station": "청두동역",
+        "train": "동차 2등석",
+        "hours": 3,
+        "price": {
+          "amount": 115,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      },
+      {
+        "from_station": "룽남역",
+        "to_city": "광위안",
+        "to_station": "광위안역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.12306.cn/"
+      }
+    ]
+  }
+]

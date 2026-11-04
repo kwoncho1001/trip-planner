@@ -1,0 +1,1052 @@
+[
+  {
+    "city_id": "city:타인호아",
+    "fares": [
+      {
+        "from_station": "타인호아역",
+        "to_city": "하노이",
+        "to_station": "하노이역",
+        "train": "일반열차 좌석",
+        "hours": 3.1,
+        "price": {
+          "amount": 130000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "타인호아역",
+        "to_city": "닌빈",
+        "to_station": "닌빈역",
+        "train": "일반열차 좌석",
+        "hours": 1.1,
+        "price": {
+          "amount": 65000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "타인호아역",
+        "to_city": "빈",
+        "to_station": "빈역",
+        "train": "일반열차 좌석",
+        "hours": 2.4,
+        "price": {
+          "amount": 120000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "타인호아역",
+        "to_city": "동호이",
+        "to_station": "동호이역",
+        "train": "일반열차 좌석",
+        "hours": 5.5,
+        "price": {
+          "amount": 260000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "타인호아역",
+        "to_city": "후에",
+        "to_station": "후에역",
+        "train": "침대열차 하단 침대",
+        "hours": 8.8,
+        "price": {
+          "amount": 480000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:빈",
+    "fares": [
+      {
+        "from_station": "빈역",
+        "to_city": "타인호아",
+        "to_station": "타인호아역",
+        "train": "일반열차 좌석",
+        "hours": 2.4,
+        "price": {
+          "amount": 120000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "빈역",
+        "to_city": "하노이",
+        "to_station": "하노이역",
+        "train": "일반열차 좌석",
+        "hours": 5.5,
+        "price": {
+          "amount": 230000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "빈역",
+        "to_city": "동호이",
+        "to_station": "동호이역",
+        "train": "일반열차 좌석",
+        "hours": 3.6,
+        "price": {
+          "amount": 160000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "빈역",
+        "to_city": "후에",
+        "to_station": "후에역",
+        "train": "일반열차 좌석",
+        "hours": 6.4,
+        "price": {
+          "amount": 280000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "빈역",
+        "to_city": "다낭",
+        "to_station": "다낭역",
+        "train": "침대열차 하단 침대",
+        "hours": 8.7,
+        "price": {
+          "amount": 430000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:동호이",
+    "fares": [
+      {
+        "from_station": "동호이역",
+        "to_city": "빈",
+        "to_station": "빈역",
+        "train": "일반열차 좌석",
+        "hours": 3.6,
+        "price": {
+          "amount": 160000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "동호이역",
+        "to_city": "타인호아",
+        "to_station": "타인호아역",
+        "train": "일반열차 좌석",
+        "hours": 5.5,
+        "price": {
+          "amount": 260000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "동호이역",
+        "to_city": "후에",
+        "to_station": "후에역",
+        "train": "일반열차 좌석",
+        "hours": 2.8,
+        "price": {
+          "amount": 130000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "동호이역",
+        "to_city": "다낭",
+        "to_station": "다낭역",
+        "train": "일반열차 좌석",
+        "hours": 5.2,
+        "price": {
+          "amount": 220000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "동호이역",
+        "to_city": "하노이",
+        "to_station": "하노이역",
+        "train": "침대열차 하단 침대",
+        "hours": 9.2,
+        "price": {
+          "amount": 500000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:후에",
+    "fares": [
+      {
+        "from_station": "후에역",
+        "to_city": "동호이",
+        "to_station": "동호이역",
+        "train": "일반열차 좌석",
+        "hours": 2.8,
+        "price": {
+          "amount": 130000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "후에역",
+        "to_city": "다낭",
+        "to_station": "다낭역",
+        "train": "일반열차 좌석",
+        "hours": 2.5,
+        "price": {
+          "amount": 110000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "후에역",
+        "to_city": "땀끼",
+        "to_station": "땀끼역",
+        "train": "일반열차 좌석",
+        "hours": 4.1,
+        "price": {
+          "amount": 150000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "후에역",
+        "to_city": "꽝응아이",
+        "to_station": "꽝응아이역",
+        "train": "일반열차 좌석",
+        "hours": 5.2,
+        "price": {
+          "amount": 200000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "후에역",
+        "to_city": "하노이",
+        "to_station": "하노이역",
+        "train": "침대열차 하단 침대",
+        "hours": 12.5,
+        "price": {
+          "amount": 650000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:땀끼",
+    "fares": [
+      {
+        "from_station": "땀끼역",
+        "to_city": "다낭",
+        "to_station": "다낭역",
+        "train": "일반열차 좌석",
+        "hours": 1.4,
+        "price": {
+          "amount": 65000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "땀끼역",
+        "to_city": "꽝응아이",
+        "to_station": "꽝응아이역",
+        "train": "일반열차 좌석",
+        "hours": 1.2,
+        "price": {
+          "amount": 55000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "땀끼역",
+        "to_city": "후에",
+        "to_station": "후에역",
+        "train": "일반열차 좌석",
+        "hours": 4.1,
+        "price": {
+          "amount": 150000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "땀끼역",
+        "to_city": "꾸이년",
+        "to_station": "지에우찌역",
+        "train": "일반열차 좌석",
+        "hours": 4.3,
+        "price": {
+          "amount": 190000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "땀끼역",
+        "to_city": "나트랑",
+        "to_station": "나트랑역",
+        "train": "침대열차 하단 침대",
+        "hours": 8.3,
+        "price": {
+          "amount": 410000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:꽝응아이",
+    "fares": [
+      {
+        "from_station": "꽝응아이역",
+        "to_city": "땀끼",
+        "to_station": "땀끼역",
+        "train": "일반열차 좌석",
+        "hours": 1.2,
+        "price": {
+          "amount": 55000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "꽝응아이역",
+        "to_city": "다낭",
+        "to_station": "다낭역",
+        "train": "일반열차 좌석",
+        "hours": 2.6,
+        "price": {
+          "amount": 120000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "꽝응아이역",
+        "to_city": "후에",
+        "to_station": "후에역",
+        "train": "일반열차 좌석",
+        "hours": 5.2,
+        "price": {
+          "amount": 200000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "꽝응아이역",
+        "to_city": "꾸이년",
+        "to_station": "지에우찌역",
+        "train": "일반열차 좌석",
+        "hours": 3.1,
+        "price": {
+          "amount": 140000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "꽝응아이역",
+        "to_city": "뚜이호아",
+        "to_station": "뚜이호아역",
+        "train": "일반열차 좌석",
+        "hours": 5.0,
+        "price": {
+          "amount": 230000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:꾸이년",
+    "fares": [
+      {
+        "from_station": "지에우찌역",
+        "to_city": "꽝응아이",
+        "to_station": "꽝응아이역",
+        "train": "일반열차 좌석",
+        "hours": 3.1,
+        "price": {
+          "amount": 140000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "지에우찌역",
+        "to_city": "뚜이호아",
+        "to_station": "뚜이호아역",
+        "train": "일반열차 좌석",
+        "hours": 1.9,
+        "price": {
+          "amount": 95000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "지에우찌역",
+        "to_city": "나트랑",
+        "to_station": "나트랑역",
+        "train": "일반열차 좌석",
+        "hours": 3.9,
+        "price": {
+          "amount": 180000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "지에우찌역",
+        "to_city": "다낭",
+        "to_station": "다낭역",
+        "train": "일반열차 좌석",
+        "hours": 5.6,
+        "price": {
+          "amount": 250000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "지에우찌역",
+        "to_city": "호찌민",
+        "to_station": "사이공역",
+        "train": "침대열차 하단 침대",
+        "hours": 11.5,
+        "price": {
+          "amount": 560000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:뚜이호아",
+    "fares": [
+      {
+        "from_station": "뚜이호아역",
+        "to_city": "꾸이년",
+        "to_station": "지에우찌역",
+        "train": "일반열차 좌석",
+        "hours": 1.9,
+        "price": {
+          "amount": 95000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "뚜이호아역",
+        "to_city": "나트랑",
+        "to_station": "나트랑역",
+        "train": "일반열차 좌석",
+        "hours": 2.2,
+        "price": {
+          "amount": 105000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "뚜이호아역",
+        "to_city": "판랑-탑짬",
+        "to_station": "탑짬역",
+        "train": "일반열차 좌석",
+        "hours": 3.8,
+        "price": {
+          "amount": 170000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "뚜이호아역",
+        "to_city": "꽝응아이",
+        "to_station": "꽝응아이역",
+        "train": "일반열차 좌석",
+        "hours": 5.0,
+        "price": {
+          "amount": 230000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "뚜이호아역",
+        "to_city": "호찌민",
+        "to_station": "사이공역",
+        "train": "침대열차 하단 침대",
+        "hours": 9.7,
+        "price": {
+          "amount": 490000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:나트랑",
+    "fares": [
+      {
+        "from_station": "나트랑역",
+        "to_city": "뚜이호아",
+        "to_station": "뚜이호아역",
+        "train": "일반열차 좌석",
+        "hours": 2.2,
+        "price": {
+          "amount": 105000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "나트랑역",
+        "to_city": "판랑-탑짬",
+        "to_station": "탑짬역",
+        "train": "일반열차 좌석",
+        "hours": 1.6,
+        "price": {
+          "amount": 85000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "나트랑역",
+        "to_city": "꾸이년",
+        "to_station": "지에우찌역",
+        "train": "일반열차 좌석",
+        "hours": 3.9,
+        "price": {
+          "amount": 180000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "나트랑역",
+        "to_city": "판티엣",
+        "to_station": "빙투언역",
+        "train": "일반열차 좌석",
+        "hours": 4.1,
+        "price": {
+          "amount": 195000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "나트랑역",
+        "to_city": "호찌민",
+        "to_station": "사이공역",
+        "train": "일반열차 좌석",
+        "hours": 7.4,
+        "price": {
+          "amount": 320000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "나트랑역",
+        "to_city": "다낭",
+        "to_station": "다낭역",
+        "train": "침대열차 하단 침대",
+        "hours": 9.5,
+        "price": {
+          "amount": 490000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:껌란",
+    "fares": [
+      {
+        "from_station": "응아바역",
+        "to_city": "나트랑",
+        "to_station": "나트랑역",
+        "train": "일반열차 좌석",
+        "hours": 1.1,
+        "price": {
+          "amount": 60000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "응아바역",
+        "to_city": "판랑-탑짬",
+        "to_station": "탑짬역",
+        "train": "일반열차 좌석",
+        "hours": 1.0,
+        "price": {
+          "amount": 55000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "응아바역",
+        "to_city": "호찌민",
+        "to_station": "사이공역",
+        "train": "일반열차 좌석",
+        "hours": 7.8,
+        "price": {
+          "amount": 300000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://alltours.vn/ve-tau/tau-se21-nga-ba-di-sai-gon.html"
+      }
+    ]
+  },
+  {
+    "city_id": "city:판랑-탑짬",
+    "fares": [
+      {
+        "from_station": "탑짬역",
+        "to_city": "나트랑",
+        "to_station": "나트랑역",
+        "train": "일반열차 좌석",
+        "hours": 1.6,
+        "price": {
+          "amount": 85000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "탑짬역",
+        "to_city": "판티엣",
+        "to_station": "빙투언역",
+        "train": "일반열차 좌석",
+        "hours": 2.5,
+        "price": {
+          "amount": 125000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "탑짬역",
+        "to_city": "뚜이호아",
+        "to_station": "뚜이호아역",
+        "train": "일반열차 좌석",
+        "hours": 3.8,
+        "price": {
+          "amount": 170000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "탑짬역",
+        "to_city": "비엔호아",
+        "to_station": "비엔호아역",
+        "train": "일반열차 좌석",
+        "hours": 5.3,
+        "price": {
+          "amount": 240000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "탑짬역",
+        "to_city": "호찌민",
+        "to_station": "사이공역",
+        "train": "일반열차 좌석",
+        "hours": 5.8,
+        "price": {
+          "amount": 260000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:판티엣",
+    "fares": [
+      {
+        "from_station": "빙투언역",
+        "to_city": "호찌민",
+        "to_station": "사이공역",
+        "train": "일반열차 좌석",
+        "hours": 3.8,
+        "price": {
+          "amount": 160000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "빙투언역",
+        "to_city": "비엔호아",
+        "to_station": "비엔호아역",
+        "train": "일반열차 좌석",
+        "hours": 2.9,
+        "price": {
+          "amount": 130000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "빙투언역",
+        "to_city": "판랑-탑짬",
+        "to_station": "탑짬역",
+        "train": "일반열차 좌석",
+        "hours": 2.5,
+        "price": {
+          "amount": 125000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "빙투언역",
+        "to_city": "나트랑",
+        "to_station": "나트랑역",
+        "train": "일반열차 좌석",
+        "hours": 4.1,
+        "price": {
+          "amount": 195000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "빙투언역",
+        "to_city": "꾸이년",
+        "to_station": "지에우찌역",
+        "train": "침대열차 하단 침대",
+        "hours": 8.0,
+        "price": {
+          "amount": 420000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:호찌민",
+    "fares": [
+      {
+        "from_station": "사이공역",
+        "to_city": "비엔호아",
+        "to_station": "비엔호아역",
+        "train": "일반열차 좌석",
+        "hours": 0.6,
+        "price": {
+          "amount": 40000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "사이공역",
+        "to_city": "판티엣",
+        "to_station": "판티엣역",
+        "train": "일반열차 좌석",
+        "hours": 3.8,
+        "price": {
+          "amount": 160000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "사이공역",
+        "to_city": "판랑-탑짬",
+        "to_station": "탑짬역",
+        "train": "일반열차 좌석",
+        "hours": 5.8,
+        "price": {
+          "amount": 260000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "사이공역",
+        "to_city": "나트랑",
+        "to_station": "나트랑역",
+        "train": "일반열차 좌석",
+        "hours": 7.4,
+        "price": {
+          "amount": 320000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "사이공역",
+        "to_city": "다낭",
+        "to_station": "다낭역",
+        "train": "침대열차 하단 침대",
+        "hours": 16.5,
+        "price": {
+          "amount": 780000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "사이공역",
+        "to_city": "하노이",
+        "to_station": "하노이역",
+        "train": "침대열차 하단 침대",
+        "hours": 31.0,
+        "price": {
+          "amount": 1250000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:비엔호아",
+    "fares": [
+      {
+        "from_station": "비엔호아역",
+        "to_city": "호찌민",
+        "to_station": "사이공역",
+        "train": "일반열차 좌석",
+        "hours": 0.6,
+        "price": {
+          "amount": 40000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "비엔호아역",
+        "to_city": "판티엣",
+        "to_station": "빙투언역",
+        "train": "일반열차 좌석",
+        "hours": 2.9,
+        "price": {
+          "amount": 130000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "비엔호아역",
+        "to_city": "판랑-탑짬",
+        "to_station": "탑짬역",
+        "train": "일반열차 좌석",
+        "hours": 5.3,
+        "price": {
+          "amount": 240000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "비엔호아역",
+        "to_city": "나트랑",
+        "to_station": "나트랑역",
+        "train": "일반열차 좌석",
+        "hours": 6.8,
+        "price": {
+          "amount": 300000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "비엔호아역",
+        "to_city": "꾸이년",
+        "to_station": "지에우찌역",
+        "train": "침대열차 하단 침대",
+        "hours": 11.0,
+        "price": {
+          "amount": 530000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  },
+  {
+    "city_id": "city:투저우못",
+    "fares": [
+      {
+        "from_station": "디안역",
+        "to_city": "호찌민",
+        "to_station": "사이공역",
+        "train": "일반열차 좌석",
+        "hours": 0.5,
+        "price": {
+          "amount": 35000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "디안역",
+        "to_city": "비엔호아",
+        "to_station": "비엔호아역",
+        "train": "일반열차 좌석",
+        "hours": 0.3,
+        "price": {
+          "amount": 30000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "디안역",
+        "to_city": "판티엣",
+        "to_station": "빙투언역",
+        "train": "일반열차 좌석",
+        "hours": 3.1,
+        "price": {
+          "amount": 140000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "디안역",
+        "to_city": "판랑-탑짬",
+        "to_station": "탑짬역",
+        "train": "일반열차 좌석",
+        "hours": 5.5,
+        "price": {
+          "amount": 250000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      },
+      {
+        "from_station": "디안역",
+        "to_city": "나트랑",
+        "to_station": "나트랑역",
+        "train": "일반열차 좌석",
+        "hours": 7.0,
+        "price": {
+          "amount": 310000,
+          "currency": "VND"
+        },
+        "price_note": "약",
+        "source": "https://dsvn.vn"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1926 @@
+[
+  {
+    "city_id": "city:충칭",
+    "eval": {
+      "summary": "입체적인 고저차 도로망과 야경이 매혹적인 서남부 최대 대도시로 전철과 케이블카 등 대중교통이 저렴하고 잘 갖춰져 있어 뚜벅이 배낭여행에 매우 유리합니다. 다만 중심가에 계단과 오르막이 많아 체력 소모가 크고 훠궈 등 현지 음식이 무척 매워 위장 관리에 유의해야 합니다.",
+      "pros": [
+        "궤도교통(지하철·모노레일) 요금이 2~7위안으로 저렴하고 노선망이 촘촘함",
+        "홍야동과 장강변을 따라 펼쳐지는 사이버펑크 스타일 야경이 압도적임",
+        "가성비 뛰어난 로컬 훠궈 식당과 샤오몐(소면) 등 풍부한 길거리 미식",
+        "고속철과 장거리 버스 환승망이 발달해 쓰촨과 구이저우로 육로 이동 편리"
+      ],
+      "cons": [
+        "언덕과 계단이 많아 도보 이동 시 다리 피로도가 높고 길 찾기가 복잡함",
+        "주요 명소인 홍야동과 해방비 일대에 주말 및 저녁 인파가 극심함",
+        "기름지고 매운 산초와 고추가 많이 들어가 매운 음식을 못 먹으면 고생함"
+      ],
+      "best_for": "사이버펑크 입체 야경과 매콤한 미식을 즐기는 2~4박 저예산 배낭여행자",
+      "sources": [
+        "https://www.reddit.com/r/travelchina/comments/1xm64kv/chongqing/",
+        "https://www.youtube.com/watch?v=Y2iHl8_wubw",
+        "https://www.thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "충칭북역 남광장 버스터미널",
+          "local": "重庆北站南广场汽车站 (龙头寺汽车站)",
+          "lat": 29.6052,
+          "lng": 106.5518,
+          "routes": "완저우, 첸장, 푸링, 사천 광안, 다저우 방면 시외버스",
+          "km_from_center": 5
+        },
+        {
+          "name": "쓰궁리 교통 환승 허브",
+          "local": "四公里交通换乘枢纽 (四公里汽车站)",
+          "lat": 29.5085,
+          "lng": 106.5682,
+          "routes": "우룽, 유양, 펑수이, 첸장 등 충칭 동남부 및 구이저우 방면 시외버스",
+          "km_from_center": 6
+        },
+        {
+          "name": "충칭서역 자동차 여객터미널",
+          "local": "重庆西站汽车客运站",
+          "lat": 29.5165,
+          "lng": 106.4338,
+          "routes": "루저우, 이빈, 쯔궁, 쭌이 등 사천 남부 및 구이저우 방면 시외버스",
+          "km_from_center": 12.2
+        }
+      ],
+      "source": "https://www.cq96096.com/",
+      "note": "충칭은 북역(룽터우쓰)과 남부 쓰궁리 허브가 장거리 시외버스의 핵심 축이며, 고속철 개통 후 단거리 및 산악 관광지 연결 셔틀 중심으로 운행됩니다."
+    }
+  },
+  {
+    "city_id": "city:첸장 (충칭)",
+    "eval": {
+      "summary": "충칭 동남부 우링산맥 깊숙이 자리한 소수민족 거점으로 줘수이 풍우교와 전통 목조 건축의 정취를 한적하게 즐길 수 있는 숨은 명소입니다. 대도시의 번잡함을 벗어나 소박한 토가족 문화를 체험하기 좋지만 기차역과 시외 터미널 간 환승 거리가 다소 멉니다.",
+      "pros": [
+        "세계 최장급 목조 지붕 다리인 줘수이 풍우교와 고진의 고즈넉한 풍경",
+        "도심 관광지 대비 물가가 저렴하고 상업화가 덜 되어 여유로운 분위기",
+        "샤오난하이 등 아름다운 카르스트 지진 호수와 생태 트레킹 코스 보유"
+      ],
+      "cons": [
+        "고속철역(정양역)과 옛 도심 및 관광지 간 시내버스 이동 시간이 제법 걸림",
+        "영어가 통하는 숙소나 식당이 드물어 기본 중국어 번역 앱 사용 필수"
+      ],
+      "best_for": "상업화되지 않은 소수민족 고진과 산수 비경을 찾는 슬로 트래블러",
+      "sources": [
+        "https://www.youtube.com/watch?v=8tYA8iX735I",
+        "https://www.loongwander.com/en-US/article/zhuoshui-scenic-area",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "첸장 남부 버스터미널",
+          "local": "黔江汽车南站",
+          "lat": 29.5255,
+          "lng": 108.7725,
+          "routes": "충칭 도심, 펑수이, 유양, 줘수이 고진, 샤오난하이 방면 시외버스",
+          "km_from_center": 0.6
+        },
+        {
+          "name": "첸장 정양 버스터미널",
+          "local": "正阳汽车站",
+          "lat": 29.4752,
+          "lng": 108.7891,
+          "routes": "첸장 기차역 환승 및 우링산맥 주변 현·진 방면 시외버스",
+          "km_from_center": 6.4
+        }
+      ],
+      "source": "https://amap.com/place/B00140T9K4",
+      "note": "구도심의 남부 버스터미널에서 줘수이 고진 등 주변 명소로 가는 직통 셔틀이 자주 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:치장",
+    "eval": {
+      "summary": "충칭 남부 구이저우 경계에 위치하여 웅장한 카르스트 협곡 헤이산구와 완성 석림을 품고 있는 자연 생태 중심의 소도시입니다. 여름철 시원한 계곡 트레킹과 출렁다리를 즐기기 좋으나 주요 협곡 명소까지 시내에서 버스로 1시간 이상 이동해야 합니다.",
+      "pros": [
+        "깊은 협곡과 폭포 사이를 걷는 헤이산구 잔도 트레킹 코스가 시원하고 쾌적함",
+        "충칭 난안(쓰궁리)에서 시외버스로 1시간 안팎이면 닿는 양호한 접근성",
+        "완성 석림의 독특한 고생대 카르스트 지형과 공룡 화석 유적 탐방 가능"
+      ],
+      "cons": [
+        "도심에서 헤이산구 풍경구까지 환승 버스 배차 간격이 다소 긴 편임",
+        "계곡 트레킹 코스가 길어 비가 오거나 궂은 날씨에는 잔도 보행이 미끄러움"
+      ],
+      "best_for": "대도시 열기를 피해 시원한 협곡과 기암괴석을 하이킹하려는 자연 애호가",
+      "sources": [
+        "https://www.reddit.com/r/travelchina/comments/1p5fztp/heading_to_chongqing_if_you_love_hiking_and/",
+        "https://www.ichongqing.info/2020/07/27/wonderful-places-in-chongqing-to-relieve-summer-heat/",
+        "https://www.youtube.com/watch?v=NcRrMuw0DI0"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "치장 버스터미널",
+          "local": "綦江客运中心 (綦江汽车站)",
+          "lat": 29.0285,
+          "lng": 106.6432,
+          "routes": "충칭 난안(쓰궁리), 완성, 헤이산구, 구이저우 퉁쯔 방면 시외버스",
+          "km_from_center": 1.7
+        }
+      ],
+      "source": "https://amap.com/place/B00140V07F",
+      "note": "치장客运中心에서 완성 석림 및 헤이산구 협곡 관광지로 이어지는 시외버스가 정기 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:완저우",
+    "eval": {
+      "summary": "장강 삼협의 핵심 내륙 항구이자 충칭 제2의 도심으로 원조 완저우 카오위(구운 생선)와 시원한 강변 야경을 즐길 수 있는 활기찬 도시입니다. 고속철과 장거리 버스 교통이 잘 발달해 있으나 언덕 지형이라 도심 도보 이동 시 계단이 많습니다.",
+      "pros": [
+        "숯불에 구워 자작하게 끓여 먹는 원조 카오위의 뛰어난 맛과 저렴한 가격",
+        "장강변을 따라 조성된 수변 산책로와 시산 종루 야경이 운치 있음",
+        "위완 고속철도 개통으로 충칭 북역에서 1시간대면 편안하게 이동 가능"
+      ],
+      "cons": [
+        "산비탈을 따라 형성된 도시라 도보 이동 시 가파른 오르막길이 잦음",
+        "주요 삼협 유람선 관광 외에 시내 단독 볼거리는 비교적 제한적임"
+      ],
+      "best_for": "삼협 유람선 탑승 전 원조 카오위 미식과 장강 강변 야경을 즐길 배낭족",
+      "sources": [
+        "https://www.youtube.com/watch?v=NcRrMuw0DI0",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "완저우 북역 여객터미널",
+          "local": "万州北站客运中心",
+          "lat": 30.8524,
+          "lng": 108.3842,
+          "routes": "윈양, 펑제, 우산, 카이저우, 다저우 방면 삼협 시외버스",
+          "km_from_center": 5.3
+        },
+        {
+          "name": "완저우 강남 여객터미널",
+          "local": "万州江南客运站",
+          "lat": 30.7932,
+          "lng": 108.4215,
+          "routes": "완저우 대폭포, 석보채, 충칭 남부 시·현 방면 시외버스",
+          "km_from_center": 2.2
+        }
+      ],
+      "source": "https://amap.com/place/B00140W593",
+      "note": "완저우북역 앞에 위치한 버스터미널에서 삼협 인접 현(윈양, 펑제)으로 가는 버스 환승이 편리합니다."
+    }
+  },
+  {
+    "city_id": "city:푸링",
+    "eval": {
+      "summary": "장강과 우장강이 만나는 수운 거점이자 피터 헤슬러의 여행기로 서양 배낭여행자에게도 잘 알려진 강변 역사 도시입니다. 세계 유일의 수중 각석 박물관인 백학량과 냉전 군사 유적 816 지하핵공정 등 독보적인 명소가 있지만 외국인 입장 제한 구역을 사전 확인해야 합니다.",
+      "pros": [
+        "에스컬레이터로 장강 강바닥 40m 아래를 관람하는 백학량 수중박물관",
+        "우장강과 장강이 합류하는 웅장한 수변 절벽 경관과 신선한 채소 요리",
+        "충칭에서 고속철로 30분대면 도착하는 가까운 거리와 저렴한 물가"
+      ],
+      "cons": [
+        "816 지하핵공정 등 일부 구 군사시설 명소는 외국인 여권 입장이 제한될 수 있음",
+        "시내 중심가 버스 노선 정보가 직관적이지 않아 지도 앱 의존도가 높음"
+      ],
+      "best_for": "특색 있는 수중 역사 유적과 조용한 소도시 로컬 라이프를 찾는 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=rp1wH-Kx_Ig",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "푸링 가오윈 여객터미널",
+          "local": "涪陵高运汽车站 (涪陵客运中心)",
+          "lat": 29.7032,
+          "lng": 107.3785,
+          "routes": "충칭 도심(차위안·쓰궁리), 펑두, 우룽, 뎬장, 창서우 방면 시외버스",
+          "km_from_center": 1.2
+        }
+      ],
+      "source": "https://amap.com/place/B00140W8Z0",
+      "note": "푸링 가오윈 터미널은 우장강변과 가까우며 충칭 도심 및 주변 카르스트 명소로 버스를 연결합니다."
+    }
+  },
+  {
+    "city_id": "city:허촨",
+    "eval": {
+      "summary": "자링강 등 세 강이 합류하는 군사 요충지로 몽골 제국의 침략을 수십 년간 막아낸 조어성(댜오위청) 요새가 위치한 역사 도시입니다. 고대 성벽을 따라 펼쳐지는 강변 파노라마와 라이탄 고진의 불교 마애조상이 매력적이나 풍경구 내 도보 코스가 깁니다.",
+      "pros": [
+        "몽골 몽케 칸을 격퇴한 세계사적 요새 조어성의 웅장한 성벽과 자연 요새 지형",
+        "자링강 절벽에 새겨진 송대 불교 마애조상군을 보존한 라이탄 고진의 고즈넉함",
+        "충칭 시내에서 일반 열차나 고속철로 당일치기 방문이 매우 수월함"
+      ],
+      "cons": [
+        "조어성 풍경구 내부가 매우 넓어 제대로 둘러보려면 3~4시간 도보 등산 필요",
+        "라이탄 고진까지는 시내 터미널에서 환승 버스를 타고 추가 이동해야 함"
+      ],
+      "best_for": "삼국지와 송원 전쟁의 생생한 역사 현장을 걷고 싶은 역사 트레커",
+      "sources": [
+        "https://www.youtube.com/watch?v=grBwRs5GLbY",
+        "https://www.ichongqing.info/2024/07/18/hechuan-district-enhancing-and-revitalizing-cultural-promotion/",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "허촨 여객터미널",
+          "local": "合川客运中心 (合川汽车站)",
+          "lat": 29.9825,
+          "lng": 106.2755,
+          "routes": "충칭 도심, 퉁난, 퉁량, 광안, 조어성, 라이탄 고진 방면 시외버스",
+          "km_from_center": 1.5
+        }
+      ],
+      "source": "https://amap.com/place/B00140W9P9",
+      "note": "허촨 객운센터에서 조어성(댜오위청) 입구 및 라이탄 고진행 직통 버스가 수시로 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:융촨",
+    "eval": {
+      "summary": "영화 십면매복의 촬영지로 유명한 광활한 차산죽해(차밭과 대나무 숲)를 품은 충칭 서부의 쾌적한 전원 도시입니다. 푸른 대나무 숲 능선을 걸으며 맑은 공기를 마시기 좋은 힐링 명소이지만 대중교통 배차 간격이 다소 깁니다.",
+      "pros": [
+        "십면매복 촬영지 차산죽해의 드넓은 대나무 바다와 차밭 능선 하이킹",
+        "서남부 최대 규모 야생동물원과 송개 고진 등 다채로운 근교 볼거리",
+        "청위 고속철도로 충칭이나 청두에서 30분대면 닿는 편리한 철도망"
+      ],
+      "cons": [
+        "차산죽해 관광지 내부 셔틀버스와 정상 전망대 케이블카 비용이 추가됨",
+        "도심에서 산림 풍경구까지 가는 버스가 늦은 오후 일찍 끊길 수 있음"
+      ],
+      "best_for": "울창한 대나무 숲길을 걸으며 영화 속 정취와 맑은 공기를 마시고픈 여행자",
+      "sources": [
+        "https://mychinaholiday.com/2025/06/04/a-travelers-guide-to-the-best-bamboo-forests-in-china/",
+        "https://www.chinadragontours.com/attractions/tea-and-bamboo-garden-in-yongchuan-chongqing",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "융촨 여객터미널",
+          "local": "永川客运中心 (永川汽车站)",
+          "lat": 29.3528,
+          "lng": 105.9234,
+          "routes": "충칭 천자핑, 다쭈, 룽창, 루저우, 차산죽해 방면 시외버스",
+          "km_from_center": 1.2
+        }
+      ],
+      "source": "https://amap.com/place/B00140VC2R",
+      "note": "융촨 객운센터에서 차산죽해 풍경구 입구로 가는 전용 미니버스가 정기 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:창서우",
+    "eval": {
+      "summary": "충칭 도심 근교에 위치하여 장수 문화를 테마로 복원된 대규모 창서우 고진과 광활한 창서우호를 즐길 수 있는 한적한 휴식 도시입니다. 충칭 시내에서 고속철로 30분 만에 도착할 수 있어 당일치기로 부담 없이 다녀오기 좋습니다.",
+      "pros": [
+        "충칭 북역에서 고속철도로 25분 만에 접근 가능한 뛰어난 도심 근교 접근성",
+        "고풍스러운 누각 야경이 아름다운 창서우 고진은 입장료가 없어 가성비 우수",
+        "서남부 최대 인공호수인 창서우호에서 여유로운 호반 산책과 보트 유람 가능"
+      ],
+      "cons": [
+        "창서우 고진은 현대에 복원된 상업형 고진이라 역사적 고즈넉함은 덜함",
+        "창서우호 풍경구는 시내 중심에서 대중교통으로 40분 이상 더 들어가야 함"
+      ],
+      "best_for": "충칭 도심의 인파를 벗어나 한적하게 호반 산책과 고진 야경을 즐길 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=964Ax4JLW1w",
+        "https://www.reddit.com/r/chongqing/comments/1mkp5ne/this_weekend_in_chongqing_tea_salon_pub_crawl_and/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "창서우 치안 여객터미널",
+          "local": "长寿骑鞍客运站 (长寿客运总站)",
+          "lat": 29.8485,
+          "lng": 107.0622,
+          "routes": "충칭 룽터우쓰, 푸링, 뎬장, 창서우 고진, 창서우호 방면 시외버스",
+          "km_from_center": 1.5
+        }
+      ],
+      "source": "https://amap.com/place/B00140VJ72",
+      "note": "치안 객운센터에서 충칭 도심행 시외버스와 창서우호 방면 시내버스를 이용할 수 있습니다."
+    }
+  },
+  {
+    "city_id": "city:청두",
+    "eval": {
+      "summary": "판다 번식기지와 여유로운 다관 문화, 풍부한 쓰촨 요리로 배낭여행자들의 천국이라 불리는 서부의 대표 중심 도시입니다. 지하철망이 도시 구석구석 촘촘히 뻗어 있어 대중교통 이용이 매우 쾌적하지만 주요 관광지 인파와 흐린 날씨가 잦습니다.",
+      "pros": [
+        "귀여운 자이언트 판다를 가까이서 관찰할 수 있는 세계 최고 수준의 기지",
+        "지하철 노선망이 촘촘하고 요금이 저렴하여 배낭여행자가 이동하기 완벽함",
+        "마파두부, 단단몐, 훠궈 등 저렴하고 맛있는 사천 로컬 미식이 무궁무진함",
+        "쓰촨 서부 티베트 고원이나 윈난성으로 넘어가는 완벽한 육로 교통 허브"
+      ],
+      "cons": [
+        "판다 기지 및 콴자이샹즈, 진리 거리 등 핵심 명소의 인파가 상상을 초월함",
+        "분지 지형 특성상 1년 중 맑은 날이 드물고 안개와 흐린 날이 지속됨"
+      ],
+      "best_for": "판다 관람과 여유로운 차관 힐링, 로컬 사천 미식을 탐방할 배낭여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=lAbAgQzQnbw",
+        "https://www.reddit.com/r/travelchina/comments/1e5927c/chengdu_trip_report/",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "차뎬즈 여객터미널",
+          "local": "茶店子客运站",
+          "lat": 30.7061,
+          "lng": 104.0195,
+          "routes": "두장옌, 칭청산, 쓰구냥산, 간쯔, 아바, 주자이거우 등 쓰촨 서북부 방면",
+          "km_from_center": 6.4
+        },
+        {
+          "name": "신난먼 여객터미널",
+          "local": "新南门客运站 (成都旅游集散中心)",
+          "lat": 30.6445,
+          "lng": 104.0772,
+          "routes": "러산 대불, 어메이산, 비펑샤, 칭청산 등 주요 관광지 직통 시외버스",
+          "km_from_center": 2.4
+        },
+        {
+          "name": "청두 동역 여객터미널",
+          "local": "成都东站汽车客运站",
+          "lat": 30.6305,
+          "lng": 104.1435,
+          "routes": "쯔궁, 이빈, 루저우, 난충, 다저우 등 쓰촨 동남부 및 성간 시외버스",
+          "km_from_center": 8.6
+        }
+      ],
+      "source": "https://www.scqckyz.com/",
+      "note": "청두는 서부 고원지대행은 차뎬즈, 남부 관광지행은 신난먼, 동남부 중소도시행은 동역 터미널로 분화되어 있습니다."
+    }
+  },
+  {
+    "city_id": "city:두장옌",
+    "eval": {
+      "summary": "기원전 3세기에 지어진 세계 최고(最古)의 무댐 고대 수리시설과 도교 발원지 청성산을 품고 있는 쾌적한 역사문화 도시입니다. 청두에서 도시철도급 쾌속열차로 30분 만에 닿아 당일치기나 1박 힐링 코스로 최적입니다.",
+      "pros": [
+        "2200년 넘게 작동 중인 고대 수리시설의 경이로운 토목 공학을 직접 체감",
+        "울창한 피톤치드 숲과 도교 사찰이 어우러진 청성산(칭청산) 힐링 트레킹",
+        "청두 시시역에서 시제열차(C열차)로 30분대 연결되어 교통이 매우 편리함"
+      ],
+      "cons": [
+        "수리시설 풍경구 내부가 넓어 주요 수문과 다리를 보려면 많이 걸어야 함",
+        "청성산 앞산 케이블카와 향로 구역 등 유료 부대시설 비용이 다소 비쌈"
+      ],
+      "best_for": "고대 문명의 지혜를 엿보고 푸른 숲속 도교 성지를 트레킹하려는 여행자",
+      "sources": [
+        "https://www.chinadragontravel.com/where-to-go-in-dujiangyan/",
+        "https://www.youtube.com/watch?v=B7bZfQ4x6W0",
+        "https://www.reddit.com/r/travelchina/comments/1e5927c/chengdu_trip_report/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "두장옌 여객터미널",
+          "local": "都江堰客运中心",
+          "lat": 30.9855,
+          "lng": 103.6358,
+          "routes": "청두 차뎬즈, 칭청산, 원촨, 마오현, 쑹판 방면 시외버스",
+          "km_from_center": 1.6
+        }
+      ],
+      "source": "https://amap.com/place/B00140VN77",
+      "note": "두장옌 객운센터에서 칭청산 풍경구 및 아바 티베트강족 자치주 방면 시외버스가 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:러산",
+    "eval": {
+      "summary": "민강·청의강·대도하 삼강 절벽에 조각된 71미터 높이의 세계 최대 석각 대불과 쓰촨성 최고의 미식 골목으로 이름난 역사 도시입니다. 대불 관람로의 계단이 가파르고 대기줄이 길 수 있지만 보트 유람과 로컬 야시장 먹거리가 훌륭합니다.",
+      "pros": [
+        "강변 절벽을 깎아 만든 웅장한 러산 대불의 압도적인 스케일과 역사성",
+        "보보지, 톈수이야(단 오리구이) 등 청두 현지인들도 인정하는 독보적 미식",
+        "고속철도로 청두 동역이나 남역에서 50분 만에 도착하는 우수한 접근성"
+      ],
+      "cons": [
+        "대불 발치까지 내려가는 절벽 잔도 계단(구곡잔도)의 정체와 대기줄이 극심함",
+        "강 위에서 대불 전경을 감상하는 유람선 티켓 가격이 70위안으로 약간 부담됨"
+      ],
+      "best_for": "거대한 불교 유적의 위용을 직접 목격하고 사천 로컬 야식을 탐방할 여행자",
+      "sources": [
+        "https://www.reddit.com/r/Buddhism/comments/1bz09wn/recently_visited_the_leshan_giant_buddha_71metre/",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide",
+        "https://www.youtube.com/watch?v=lAbAgQzQnbw"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "러산 샤오바 여객터미널",
+          "local": "乐山肖坝旅游客运站 (乐山客运中心)",
+          "lat": 29.5482,
+          "lng": 103.7325,
+          "routes": "청두 신난먼, 어메이산, 첸웨이, 쯔궁, 이빈 방면 시외버스",
+          "km_from_center": 3
+        }
+      ],
+      "source": "https://amap.com/place/B00140VRX4",
+      "note": "샤오바 터미널에서 어메이산 풍경구 및 첸웨이 샤오훠처(증기기관차) 방면 직통버스가 자주 있습니다."
+    }
+  },
+  {
+    "city_id": "city:쯔궁",
+    "eval": {
+      "summary": "2천 년 암염 시추 역사와 아시아 최대 공룡 화석지, 전국적으로 유명한 화려한 등불 축제로 가득한 개성 넘치는 문화 도시입니다. 얼얼하고 칼칼한 염방 요리의 본고장으로 저렴한 경비로 특색 있는 볼거리를 즐길 수 있습니다.",
+      "pros": [
+        "실제 발굴 현장 위에 지어진 아시아 최대 규모의 쯔궁 공룡박물관",
+        "수천 년 암염 채굴 우물과 전통 소금 제조법을 보여주는 염업역사박물관",
+        "소고기와 토끼고기를 매콤하게 볶아내는 원조 염방채(소금 요리)의 풍미"
+      ],
+      "cons": [
+        "세계적 명성의 등불 축제는 주로 춘절 시즌 전후에 집중되어 비시즌엔 아쉬움",
+        "시내 대중교통이 주로 버스 위주라 노선 확인이 다소 번거로울 수 있음"
+      ],
+      "best_for": "공룡 화석과 소금 산업 역사에 흥미가 많고 화끈한 로컬 요리를 즐길 배낭객",
+      "sources": [
+        "https://www.reddit.com/r/Dinosaurs/comments/1vwt7l5/greetings_from_zigong_china_the_hometown_of/",
+        "https://www.youtube.com/watch?v=8urU3m9Yv_k",
+        "https://runawayjuno.com/travel-stories/china/zigong-dinosaur-museum/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "쯔궁 여객총역",
+          "local": "自贡客运总站",
+          "lat": 29.3562,
+          "lng": 104.7785,
+          "routes": "청두, 충칭, 이빈, 네이장, 루저우 방면 시외버스",
+          "km_from_center": 1.1
+        }
+      ],
+      "source": "https://amap.com/place/B00140VUT3",
+      "note": "쯔궁 총역에서 공룡박물관 및 염업박물관으로 가는 시내버스가 바로 연결됩니다."
+    }
+  },
+  {
+    "city_id": "city:이빈",
+    "eval": {
+      "summary": "금사강과 민강이 합류해 장강이 공식 시작되는 만리장강 제1성이자 명주 우량예와 광활한 촉남죽해의 고향입니다. 고속철 개통으로 접근성이 크게 개선되었으며 이빈 란몐 등 면 요리가 매우 저렴하고 맛있습니다.",
+      "pros": [
+        "4만 헥타르 규모의 에메랄드빛 대나무 바다 촉남죽해(수난주하이) 절경",
+        "장강이 태동하는 합류점 수변 공원과 백주 명가 우량예 양조장 문화",
+        "고소하고 매콤한 소스를 비벼 먹는 명물 이빈 란몐(연면)의 저렴한 가격"
+      ],
+      "cons": [
+        "촉남죽해 풍경구는 이빈 시내에서 1시간 반 이상 떨어져 있어 이동 시간이 김",
+        "죽해 내부가 너무 광대하여 대중교통만으로는 이동 동선 짜기가 까다로움"
+      ],
+      "best_for": "끝없는 대나무 숲길 힐링과 장강 발원지의 역사 정취를 만끽할 여행자",
+      "sources": [
+        "https://gowesternchina.com/attractions/guanyuntai-shunan-bamboo-sea-yibin",
+        "https://www.youtube.com/watch?v=ODZA0yvQdNE",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "이빈 라이베이 여객터미널",
+          "local": "宜宾莱北客运站 (宜宾高客站)",
+          "lat": 28.7845,
+          "lng": 104.6052,
+          "routes": "청두, 충칭, 촉남죽해(장닝), 싱원 석해, 쯔궁, 루저우 방면 시외버스",
+          "km_from_center": 2.2
+        }
+      ],
+      "source": "https://amap.com/place/B00140VX64",
+      "note": "이빈 라이베이 고속터미널에서 촉남죽해 입구(장닝)로 가는 직행 버스가 정기 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:루저우",
+    "eval": {
+      "summary": "장강 상류의 유서 깊은 항구 도시이자 450년 넘게 유지된 국보급 발효 구덩이로 유명한 중국 명주 노주노교(루저우라오자오)의 본고장입니다. 백주 향이 그윽한 구도심과 장강 수변 산책로가 평화롭고 생활 물가가 매우 저렴합니다.",
+      "pros": [
+        "명나라 때부터 연속 가동 중인 전통 발효지를 둘러보는 백주 양조 역사 체험",
+        "장강과 투오강이 만나는 수변 산책로와 명나라 보은탑 등 고즈넉한 명소",
+        "사천성 남부 특유의 칼칼한 생선 요리와 야시장 간식 가성비가 뛰어남"
+      ],
+      "cons": [
+        "백주 문화 외에 일반적인 외국인 배낭여행자용 랜드마크 명소는 적은 편임",
+        "고속철역이 도심 북쪽에 자리해 시내 진입 시 버스를 환승해야 함"
+      ],
+      "best_for": "중국 백주 문화와 장강 상류의 한적한 로컬 일상을 깊이 체험하고픈 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=NcRrMuw0DI0",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "루저우 여객센터역",
+          "local": "泸州客运中心站 (西南商贸城客运站)",
+          "lat": 28.9052,
+          "lng": 105.3985,
+          "routes": "청두, 충칭, 이빈, 쯔궁, 츠수이, 비제 방면 시외버스",
+          "km_from_center": 5.6
+        }
+      ],
+      "source": "https://amap.com/place/B00140W1H2",
+      "note": "루저우 객운센터는 서남상무성 옆에 위치하며 쓰촨과 구이저우 경계를 오가는 시외버스를 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:야안",
+    "eval": {
+      "summary": "차마고도의 역사적 시발점이자 비가 자주 내려 우성(雨城)으로 불리는 쓰촨 분지와 티베트 고원의 접경 도시입니다. 울창한 비펑샤 협곡 판다기지와 명청대 목조 고택 마을 상리 고진이 운치 있으며 고원 진입 전 기지로 적합합니다.",
+      "pros": [
+        "협곡 자연림 속에 판다를 자연 방목하는 비펑샤 판다기지의 쾌적함",
+        "차마고도 역참 마을 상리 고진의 돌다리와 흙벽돌 전통 가옥의 서정성",
+        "청두 서역에서 고속철로 1시간이면 도착하는 쓰촨 서부 관문의 편리함"
+      ],
+      "cons": [
+        "일 년 중 비나 안개가 내리는 날이 많아 우산과 방수 신발 준비가 필수적임",
+        "비펑샤 풍경구의 엘리베이터 및 내부 셔틀버스 요금이 다소 비싼 편임"
+      ],
+      "best_for": "자연 친화적인 판다 생태를 관찰하고 차마고도 고진을 거닐고픈 도보 여행자",
+      "sources": [
+        "https://chinatripedia.com/shangli-ancient-town-ticket-price-opening-hours-location-and-highlights/",
+        "https://www.reddit.com/r/travelchina/comments/1e5927c/chengdu_trip_report/",
+        "https://www.youtube.com/watch?v=hnT7wpkdSC8"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "야안 시먼 여객터미널",
+          "local": "雅安西门车站 (旅游汽车站)",
+          "lat": 29.9982,
+          "lng": 102.9852,
+          "routes": "청두, 캉딩, 루딩, 상리 고진, 비펑샤, 한위안 방면 시외버스",
+          "km_from_center": 3.1
+        }
+      ],
+      "source": "https://amap.com/place/B00140W4D1",
+      "note": "시먼 역에서 상리 고진 및 비펑샤 풍경구행 셔틀버스와 캉딩 방면 천장공로 버스가 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:광위안",
+    "eval": {
+      "summary": "험준한 촉도의 핵심 관문인 검문관(젠먼관)과 중국 유일 여황제 측천무후를 모신 황택사가 있는 사천 북부의 관문 도시입니다. 아찔한 벼랑길 잔도 트레킹과 천불애 절벽 불상이 장관을 이루며 시안과 청두 중간 기착지로 좋습니다.",
+      "pros": [
+        "촉도난의 진수를 보여주는 젠먼관 벼랑 잔도와 험준한 산악 관문의 위용",
+        "자링강 절벽에 새겨진 7천여 구의 천불애 마애석굴 예술의 뛰어난 보존 상태",
+        "청두와 시안을 잇는 시청 고속철도의 중심 정차역으로 육로 이동이 완벽함"
+      ],
+      "cons": [
+        "젠먼관 관루에서 냐오다오(조도) 절벽 잔도를 타려면 체력 소모가 매우 큼",
+        "고소공포증이 있는 여행자에게는 벼랑 끝 철제 잔도 코스가 위험하게 느껴짐"
+      ],
+      "best_for": "삼국지 촉도 잔도를 걸으며 천혜의 요새 절경을 등반하려는 모험형 여행자",
+      "sources": [
+        "https://www.reddit.com/r/travelchina/comments/1vl0m2l/visiting_guangyuan_or_jianmen_pass_this_august/",
+        "https://www.youtube.com/watch?v=hnT7wpkdSC8",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "광위안 난허 여객터미널",
+          "local": "广元南河汽车客运站 (广元客运站)",
+          "lat": 32.4215,
+          "lng": 105.8385,
+          "routes": "청두, 시안, 검문관(젠먼관), 바중, 난충, 한중 방면 시외버스",
+          "km_from_center": 2.2
+        }
+      ],
+      "source": "https://amap.com/place/B00140W6C9",
+      "note": "난허 터미널에서 젠먼관 풍경구 및 천불애 석굴 방면 시내외 버스를 편리하게 이용할 수 있습니다."
+    }
+  },
+  {
+    "city_id": "city:몐양",
+    "eval": {
+      "summary": "쓰촨 제2의 경제 도시이자 당대 대시인 이백의 고향 장유를 품고 있는 역사와 첨단 산업의 도시입니다. 부강 강변의 웅장한 월왕루 누각과 저렴하고 쫄깃한 몐양 쌀국수가 여행자들의 입과 눈을 사로잡습니다.",
+      "pros": [
+        "황학루에 버금가는 웅장한 당대 풍 누각 월왕루의 야경과 부강 조망",
+        "당나라 시선 이백의 생가 기념관과 청련 고진의 문학적 감성 탐방",
+        "아침마다 현지인들이 줄 서서 먹는 저렴하고 담백한 몐양 미펀(쌀국수)"
+      ],
+      "cons": [
+        "대도시 청두와 인접해 있어 관광 도시로서의 독자적 개성은 상대적으로 약함",
+        "이백 고향 장유 풍경구까지는 시내에서 기차나 시외버스로 환승 이동 필요"
+      ],
+      "best_for": "당대 시문학 유적을 순례하고 아름다운 강변 누각 야경을 감상할 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=U521O09IsjI",
+        "https://www.reddit.com/r/travelchina/comments/1e5927c/chengdu_trip_report/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "몐양 난후 여객터미널",
+          "local": "绵阳南湖汽车客运站 (绵阳客运中心)",
+          "lat": 31.4425,
+          "lng": 104.7525,
+          "routes": "청두, 장유(이백 고향), 쯔퉁, 베이촨, 난충, 광위안 방면 시외버스",
+          "km_from_center": 3.3
+        }
+      ],
+      "source": "https://amap.com/place/B00140W8K0",
+      "note": "난후 객운센터에서 강족 문화 유적지 베이촨 및 장유 청련 고진 방면 버스가 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:난충",
+    "eval": {
+      "summary": "자링강 중류에 자리한 유서 깊은 실크 도시이자 삼국지를 저술한 진수의 고향 완쥐안루가 있는 문화 중심지입니다. 강변을 따라 조성된 녹지 공원과 저렴한 물가가 편안함을 주며 랑중 고성으로 가는 환승 거점입니다.",
+      "pros": [
+        "정사 삼국지의 저자 진수가 수학하고 집필한 완쥐안루의 유서 깊은 유적",
+        "자링강을 따라 시원하게 뻗은 강변 수변 산책로와 백탑 공원의 조망",
+        "궈쿠이(고기 전병)와 량펀(묵 요리) 등 사천 동북부 로컬 간식 가성비"
+      ],
+      "cons": [
+        "핵심 관광지인 랑중 고성을 가려면 북쪽으로 1시간 이상 더 이동해야 함",
+        "외국인 배낭여행자를 위한 다국어 관광 안내판이 부족함"
+      ],
+      "best_for": "삼국지 저자의 발자취를 기리고 랑중 고성으로 환승 이동하려는 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=8urU3m9Yv_k",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "난충 청베이 여객터미널",
+          "local": "南充市城北汽车客运站 (南充客运总站)",
+          "lat": 30.8255,
+          "lng": 106.0782,
+          "routes": "청두, 충칭, 랑중 고성, 광안, 수이닝, 다저우 방면 시외버스",
+          "km_from_center": 2.8
+        }
+      ],
+      "source": "https://amap.com/place/B00140WAB6",
+      "note": "난충 기차역 북쪽에 위치하며 랑중 고성행 시외버스가 30분 간격으로 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:다저우",
+    "eval": {
+      "summary": "쓰촨 북동부 다바산맥 기슭에 위치하며 기암절벽과 깊은 카르스트 협곡 바산 대협곡을 품고 있는 산악 도시입니다. 한나라 석궐 유적과 소박한 산골 풍경이 매력적이지만 험준한 산악 지형 탓에 이동에 시간이 걸립니다.",
+      "pros": [
+        "다바산맥의 웅장한 석회암 절벽과 동굴이 어우러진 바산 대협곡 비경",
+        "중국에서 가장 밀집된 한나라 시대 고대 무덤 석조 망루(한궐) 유적군",
+        "충칭과 산시성을 잇는 다바산맥 철도 교통의 주요 결절점으로 환승 용이"
+      ],
+      "cons": [
+        "바산 대협곡까지 시내에서 시외버스로 2시간 이상 걸려 당일치기가 빡빡함",
+        "산악 도로 특성상 커브길이 많아 멀미에 취약한 여행자는 주의 필요"
+      ],
+      "best_for": "관광객의 발길이 적은 깊은 산악 협곡과 고대 한나라 석조 건축을 찾을 탐험가",
+      "sources": [
+        "https://www.youtube.com/watch?v=ODZA0yvQdNE",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "다저우 난커 여객터미널",
+          "local": "达州南客站 (达州汽车客运中心)",
+          "lat": 31.1852,
+          "lng": 107.4925,
+          "routes": "청두, 충칭, 완저우, 바산 대협곡, 바중, 카이장 방면 시외버스",
+          "km_from_center": 2.8
+        }
+      ],
+      "source": "https://amap.com/place/B00140WD02",
+      "note": "다저우 남객역에서 바산 대협곡 및 다바산맥 산간 현·진으로 시외버스가 연결됩니다."
+    }
+  },
+  {
+    "city_id": "city:바중",
+    "eval": {
+      "summary": "가을철 천하제일 붉은 단풍으로 이름난 광무산과 거대한 카르스트 지하궁전 눠수이허를 품은 자연 생태 도시입니다. 산세가 웅장하고 공기가 맑으며 남감 마애조상 등 당나라 불교 유적도 잘 보존되어 있습니다.",
+      "pros": [
+        "아시아 최대 규모의 원시 너도밤나무 숲이 붉게 물드는 광무산 단풍 절경",
+        "수천 개의 종유석과 지하 하천이 펼쳐지는 눠수이허 카르스트 동굴군",
+        "당나라 때 조각된 섬세하고 화려한 남감 석불의 예술적 가치"
+      ],
+      "cons": [
+        "광무산 단풍 절경은 10월 중순~11월 초에 집중되어 계절적 편차가 큼",
+        "기차역에서 주요 산악 풍경구까지 셔틀버스 운행 편수가 적어 시간표 확인 필수"
+      ],
+      "best_for": "가을철 형형색색의 단풍 바다와 신비로운 카르스트 동굴을 탐험할 자연파 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=hnT7wpkdSC8",
+        "https://www.reddit.com/r/travelchina/comments/1vl0m2l/visiting_guangyuan_or_jianmen_pass_this_august/",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "바중 장베이 여객터미널",
+          "local": "巴中江北客运站 (巴中客运中心)",
+          "lat": 31.8685,
+          "lng": 106.7415,
+          "routes": "청두, 다저우, 난충, 광무산, 눠수이허, 난장 방면 시외버스",
+          "km_from_center": 1.2
+        }
+      ],
+      "source": "https://amap.com/place/B00140WFI8",
+      "note": "장베이 터미널에서 가을 단풍철 광무산 풍경구행 특별 관광버스가 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:네이장",
+    "eval": {
+      "summary": "투오강 중류에 위치하며 세계적 화가 장대천의 고향이자 역사적인 설탕 제조 수도로 불린 문화 도시입니다. 성수사의 고즈넉한 당대 불상과 청위 고속철도를 통한 편리한 교통망, 저렴한 물가가 돋보입니다.",
+      "pros": [
+        "중국 현대 수묵화 거장 장대천의 예술 세계를 집대성한 장대천 기념관",
+        "투오강 절벽 위에 자리 잡아 시원한 강바람을 맞는 천년 고찰 성수사",
+        "청두와 충칭 정중앙에 위치해 고속철로 30분대면 양 대도시와 연결됨"
+      ],
+      "cons": [
+        "도심 관광지 규모가 아담하여 하루 정도면 대부분의 볼거리가 끝남",
+        "관광 중심 도시가 아니라서 외국인 대상 여행 인프라는 상대적으로 단조로움"
+      ],
+      "best_for": "청두~충칭 이동 중 들러 수묵화 거장의 예술혼과 로컬 사천 소도시를 즐길 배낭객",
+      "sources": [
+        "https://www.youtube.com/watch?v=8urU3m9Yv_k",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "네이장 가오커 여객터미널",
+          "local": "内江高客站 (内江综合客运中心)",
+          "lat": 29.5982,
+          "lng": 105.0525,
+          "routes": "청두, 충칭, 쯔궁, 쯔양, 이빈, 룽창 방면 시외버스",
+          "km_from_center": 2.1
+        }
+      ],
+      "source": "https://amap.com/place/B00140WI14",
+      "note": "고속터미널에서 성수사 및 장대천 기념관으로 가는 시내버스가 바로 연결됩니다."
+    }
+  },
+  {
+    "city_id": "city:시창",
+    "eval": {
+      "summary": "사계절 온화해 봄의 도시이자 우주 발사 기지로 유명한 량산 이족 자치주의 햇살 가득한 휴양 도시입니다. 푸른 츙하이 호수와 불교·도교 사찰이 어우러진 노산, 매력적인 이족 전통 문화가 어우러져 장기 체류에도 좋습니다.",
+      "pros": [
+        "자전거를 타거나 도보로 한 바퀴 돌기 좋은 거대한 담수호 츙하이(경해)",
+        "호수를 내려다보며 야생 원숭이와 사찰을 만나는 노산(루산) 풍경구",
+        "양고기 꼬치구이와 훠궈 등 독특하고 푸짐한 이족 전통 화롯가 바비큐",
+        "신형 복흥호 고속열차 개통으로 청두에서 3시간 만에 도착 가능"
+      ],
+      "cons": [
+        "루산 등산로 주변 야생 원숭이들이 음식물을 가로채려 하므로 주의 필요",
+        "여름철 이족 횃불축제 시즌에는 숙박비가 폭등하고 방 구하기가 어려움"
+      ],
+      "best_for": "호반 자전거 라이딩과 온화한 기후, 독특한 소수민족 문화를 즐길 여유파 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=1fhzZVMa9yM",
+        "https://www.reddit.com/r/travelchina/comments/1bfwj8v/off_the_beaten_path_itinerary_help_sichuan/",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "시창 관광여객터미널",
+          "local": "西昌市旅游客运中心 (西昌汽车客运总站)",
+          "lat": 27.8852,
+          "lng": 102.2585,
+          "routes": "청두, 판즈화, 루구호, 윈난 자오퉁, 량산 각 현 방면 시외버스",
+          "km_from_center": 2
+        }
+      ],
+      "source": "https://amap.com/place/B00140WKB2",
+      "note": "시창 여객터미널에서 신비의 호수 루구호행 장거리 시외버스가 매일 아침 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:판즈화",
+    "eval": {
+      "summary": "쓰촨 최남단 금사강 협곡에 위치하여 일조량이 풍부하고 겨울에도 따뜻한 아열대 계곡 도시입니다. 망고 등 달콤한 열대 과일 산지이자 웅장한 얼탄 수력발전 호수의 비경을 감상할 수 있으나 계곡 지형이라 오르막이 많습니다.",
+      "pros": [
+        "한겨울에도 낮 기온이 20도 안팎까지 오르는 온화하고 따뜻한 피한 기후",
+        "전국 최고 당도를 자랑하는 신선한 망고와 열대 과일을 저렴하게 맛봄",
+        "얄룽강을 가로막은 거대한 얼탄 댐과 에메랄드빛 협곡 호수 풍경"
+      ],
+      "cons": [
+        "철강 산업 도시로 시작되어 도심지 일부 구역은 공업적 분위기가 남아있음",
+        "가파른 계곡 경사지에 도시가 건설되어 도보 이동 시 계단과 경사가 심함"
+      ],
+      "best_for": "혹독한 겨울 추위를 피해 저렴한 물가와 달콤한 과일을 즐기려는 월동 여행자",
+      "sources": [
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html",
+        "https://www.youtube.com/watch?v=1fhzZVMa9yM",
+        "https://www.reddit.com/r/travelchina/comments/1bfwj8v/off_the_beaten_path_itinerary_help_sichuan/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "판즈화 여객총역",
+          "local": "攀枝花汽车客运总站 (炳草岗客运站)",
+          "lat": 26.5725,
+          "lng": 101.7125,
+          "routes": "시창, 쿤밍, 리장, 다리, 화핑, 윈난 경계 방면 시외버스",
+          "km_from_center": 1.1
+        }
+      ],
+      "source": "https://amap.com/place/B00140WMTS",
+      "note": "빙차오강 여객총역에서 윈난성 리장 및 다리 방면 국도 시외버스를 이용할 수 있습니다."
+    }
+  },
+  {
+    "city_id": "city:쿤밍",
+    "eval": {
+      "summary": "일 년 내내 꽃이 피어 봄의 도시(춘성)라 불리는 윈난성의 성도로 라오스와 베트남으로 이어지는 동남아 육로 여행의 핵심 관문입니다. 도심 취호공원과 뎬츠 호수의 여유로움, 과교미선 등 풍부한 미식이 매력적이지만 고도가 약 1900m로 일교차가 큽니다.",
+      "pros": [
+        "겨울에도 온화하고 쾌적한 사계절 봄 날씨와 꽃으로 가득 찬 도심 공원",
+        "시베리아 갈매기가 날아드는 뎬츠 호수와 서산 용문의 아찔한 절벽 전망",
+        "뜨거운 닭 육수에 쌀국수와 야채를 말아 먹는 원조 과교미선의 훌륭한 맛",
+        "중국-라오스 고속철도(중로철로)의 시발역으로 라오스 루앙프라방 직통 연결"
+      ],
+      "cons": [
+        "해발 1900미터 고원 분지라 자외선이 매우 강하고 아침저녁 일교차가 심함",
+        "시내 중심가에 쇼핑몰과 현대식 건물이 많아 전통 고풍미는 덜한 편임"
+      ],
+      "best_for": "동남아 육로 횡단을 준비하며 쾌적한 기후와 로컬 쌀국수를 맛볼 배낭여행자",
+      "sources": [
+        "https://www.reddit.com/r/travelchina/comments/19bokvz/planning_a_trip_for_aprmay_2024/",
+        "https://www.wanderinchina.com/destinations/kunming/western-hills/",
+        "https://www.youtube.com/watch?v=lAbAgQzQnbw"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "쿤밍 동부 여객터미널",
+          "local": "昆明东部汽车客运站",
+          "lat": 25.0495,
+          "lng": 102.7915,
+          "routes": "석림, 루핑, 취징, 원산 방면 시외버스",
+          "km_from_center": 8.3
+        },
+        {
+          "name": "쿤밍 남부 여객터미널",
+          "local": "昆明南部汽车客运站",
+          "lat": 24.9125,
+          "lng": 102.7382,
+          "routes": "위시, 푸얼, 시솽반나(징훙), 젠수이, 위안양, 허커우 방면 시외버스",
+          "km_from_center": 14.5
+        },
+        {
+          "name": "쿤밍 서부 여객터미널",
+          "local": "昆明西部汽车客运站",
+          "lat": 25.0255,
+          "lng": 102.6285,
+          "routes": "다리, 리장, 샹그릴라, 바오산, 텅충, 더훙(망시), 린창 방면 시외버스",
+          "km_from_center": 8.4
+        }
+      ],
+      "source": "https://amap.com/place/B00140WP2J",
+      "note": "쿤밍은 방위별 터미널 체계가 철저하여 석림은 동부, 동남아 국경 및 남부는 남부, 다리·서부는 서부 터미널을 이용합니다."
+    }
+  },
+  {
+    "city_id": "city:징훙",
+    "eval": {
+      "summary": "시솽반나 다이족 자치주의 주도로 동남아 태국이나 라오스에 온 듯한 열대우림과 금빛 불교 사찰이 이국적인 열대 도시입니다. 밤마다 열리는 가오좡 야시장과 열대 과일, 다이족 바비큐가 환상적이지만 성수기 야시장 물가는 다소 비쌉니다.",
+      "pros": [
+        "동남아 상남 불교 양식의 화려한 총불사와 만팅공원의 이국적인 야자수 정원",
+        "란창강변 메콩강 야경을 배경으로 열리는 아시아 최대급 가오좡 성광 야시장",
+        "레몬그라스 생선구이와 파인애플 찹쌀밥 등 독특한 다이족 로컬 미식"
+      ],
+      "cons": [
+        "춘절 및 겨울 성수기에 가오좡 일대 숙박비와 야시장 물가가 크게 치솟음",
+        "한낮에는 덥고 습한 열대 기후라 낮 시간대 야외 도보 활동 시 땀이 많이 남"
+      ],
+      "best_for": "중국 본토에서 동남아의 열대 기후와 이국적인 불교 야시장 문화를 즐길 여행자",
+      "sources": [
+        "https://www.reddit.com/r/chinatravel/comments/1tcrouk/puer_or_jinghong_where_to_spend_a_day/",
+        "https://www.lonelyplanet.com/articles/top-things-to-do-in-xishuangbanna",
+        "https://www.youtube.com/watch?v=PPLnpyn14-c"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "징훙 여객남역",
+          "local": "景洪客运南站",
+          "lat": 21.9952,
+          "lng": 100.7852,
+          "routes": "멍라, 모한(라오스 국경), 식물원, 망천수 열대우림 방면 시외버스",
+          "km_from_center": 1.7
+        },
+        {
+          "name": "시솽반나 여객총역",
+          "local": "西双版纳客运总站 (景洪汽车客运站)",
+          "lat": 22.0125,
+          "lng": 100.8015,
+          "routes": "푸얼, 쿤밍, 다리, 멍하이, 다뤄(미얀마 국경) 방면 시외버스",
+          "km_from_center": 1.2
+        }
+      ],
+      "source": "https://amap.com/place/B00140WR47",
+      "note": "라오스 국경 모한 및 멍라 방면 버스는 주로 여객남역에서 출발하며 쿤밍 철도 연결도 편리합니다."
+    }
+  },
+  {
+    "city_id": "city:푸얼",
+    "eval": {
+      "summary": "세계적으로 유명한 발효차 보이차의 본고장이자 유네스코 세계유산 징마이산 고대 차림을 품은 향기로운 도시입니다. 징훙에 비해 훨씬 조용하고 공기가 맑으며 차밭을 거닐며 진정한 슬로 라이프를 누릴 수 있습니다.",
+      "pros": [
+        "천년 된 고차수들이 숲을 이루는 징마이산 고대 차림의 신비로운 운해 풍경",
+        "어디서나 질 좋은 정통 보이차를 시음하고 다도를 배울 수 있는 차 문화",
+        "징훙(시솽반나)보다 상업화가 훨씬 덜 되어 여유롭고 착한 로컬 물가"
+      ],
+      "cons": [
+        "유네스코 등재지인 징마이산까지 시내에서 버스로 2시간 이상 떨어져 있음",
+        "밤문화나 화려한 야경을 기대하는 여행자에게는 도시가 다소 조용함"
+      ],
+      "best_for": "깊은 차 향기 속에 힐링하며 천년 고차수를 만나는 차 애호가 및 휴양자",
+      "sources": [
+        "https://steepedtravels.com/jingmai-mountain-tea-tour-a-guide-to-yunnans-newest-world-heritage-site/",
+        "https://thediplomaticinsight.com/world-cultural-heritage-site-old-tea-forests-of-the-jingmai-mountain-in-puer/",
+        "https://www.reddit.com/r/chinatravel/comments/1tcrouk/puer_or_jinghong_where_to_spend_a_day/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "푸얼 우이 여객터미널",
+          "local": "普洱五一客运站 (普洱客运中心)",
+          "lat": 22.7815,
+          "lng": 100.9782,
+          "routes": "쿤밍, 징훙, 란창(징마이산), 멍롄, 모장, 위시 방면 시외버스",
+          "km_from_center": 1.3
+        }
+      ],
+      "source": "https://amap.com/place/B00140WT3X",
+      "note": "우이 객운역에서 유네스코 차림 징마이산(란창현 방면)으로 가는 시외버스가 연결됩니다."
+    }
+  },
+  {
+    "city_id": "city:멍쯔",
+    "eval": {
+      "summary": "훙허 자치주의 주도이자 윈난성 대표 미식 과교미선(다리건너 쌀국수)의 발원지로 프랑스풍 철도 역사가 남아있는 낭만 도시입니다. 영화 방화(Youth) 촬영지인 벽색채(비써자이) 기차역의 노란 서양식 건물과 저렴한 미식이 여행자를 반깁니다.",
+      "pros": [
+        "100년 전 프랑스가 건설한 뎬웨 철도 벽색채(비써자이) 역의 빈티지한 감성",
+        "푸짐한 고기와 채소를 뜨거운 육수에 즉석으로 데쳐 먹는 원조 과교미선",
+        "남호 공원을 중심으로 펼쳐지는 깨끗하고 평화로운 남국 소도시 거리"
+      ],
+      "cons": [
+        "비써자이 기차역에 복고풍 군복이나 치파오 대여 사진 촬영 호객이 많음",
+        "베트남 국경(허커우)이나 젠수이 등 주변 관광지로 넘어가는 환승 성격이 강함"
+      ],
+      "best_for": "레트로 프렌치 기차역에서 인생 사진을 남기고 진짜 과교미선을 맛볼 미식가",
+      "sources": [
+        "https://www.reddit.com/r/travelchina/comments/1g1jcar/sixweek_trip_report_mostly_in_less_popular_yunnan/",
+        "https://www.emploom.com/bisezhai-train-station-neighbor-heilongtan/",
+        "https://www.youtube.com/watch?v=qkuS4P9rftA"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "멍쯔 청둥 여객터미널",
+          "local": "蒙自城东客运站 (蒙自客运站)",
+          "lat": 23.3652,
+          "lng": 103.3985,
+          "routes": "젠수이, 개원, 허커우(베트남 국경), 원산, 핑볜, 쿤밍 방면 시외버스",
+          "km_from_center": 2
+        }
+      ],
+      "source": "https://amap.com/place/B00140WV9P",
+      "note": "청둥 터미널에서 베트남 국경도시 허커우행 시외버스가 1시간 간격으로 자주 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:망시",
+    "eval": {
+      "summary": "미얀마 국경에 인접한 더훙 다이족 징포족 자치주의 주도로 황금빛 맹환대금탑과 은탑이 언덕 위에 우뚝 솟은 이국적 소도시입니다. 야자수가 늘어선 남국 거리와 매콤새콤한 다이족 간식이 넘쳐나며 전동스쿠터로 돌아보기에 최고입니다.",
+      "pros": [
+        "산 정상에서 마주 보는 화려한 맹환대금탑과 순백의 맹환은탑의 장관",
+        "공유 전동스쿠터를 타고 야자수 거리를 자유롭게 누비는 쾌적한 도심 여행",
+        "파파야 샐러드와 볶음 미펀 등 동남아 야시장 스타일의 저렴한 먹거리"
+      ],
+      "cons": [
+        "도시 규모가 아담하여 이틀 정도면 주요 볼거리를 모두 둘러보게 됨",
+        "철도역이 없어 바오산이나 루이리에서 시외버스나 차량으로 이동해야 함"
+      ],
+      "best_for": "황금 파고다를 바라보며 동남아풍 여유와 스쿠터 드라이브를 즐길 자유 여행자",
+      "sources": [
+        "https://www.reddit.com/r/travelchina/comments/1g1jcar/sixweek_trip_report_mostly_in_less_popular_yunnan/",
+        "https://boutiquechina.com.au/itinerary/yunnan-slow-culture-tour/",
+        "https://www.youtube.com/watch?v=PPLnpyn14-c"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "망시 여객터미널",
+          "local": "芒市客运站",
+          "lat": 24.4325,
+          "lng": 98.5852,
+          "routes": "루이리(미얀마 국경), 바오산, 텅충, 쿤밍, 잉장, 룽촨 방면 시외버스",
+          "km_from_center": 1
+        }
+      ],
+      "source": "https://amap.com/place/B00140WXJ1",
+      "note": "망시 객운역에서 미얀마 접경 도시 루이리행 시외버스가 20~30분 간격으로 수시 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:바오산",
+    "eval": {
+      "summary": "고대 차마고도와 버마 로드의 요충지이자 깊은 누강(노강) 협곡의 관문으로 중국 최고급 아라비카 소립커피 산지입니다. 태보산 공원의 울창한 삼림과 한나라 역사 유적이 평화로우며 서부 산악 지대로 들어가는 육로 기점입니다.",
+      "pros": [
+        "과일 향과 고소한 산미가 일품인 명품 노강 루장바 소립커피 농장 체험",
+        "다리에서 고속철도로 연결되어 텅충이나 누강 협곡으로 진입하기 수월함",
+        "외국인 관광객이 드물어 바가지 없는 순박한 현지 시장 물가와 온천"
+      ],
+      "cons": [
+        "누강 협곡이나 텅충에 비해 도심 자체의 유명 관광 랜드마크는 평이함",
+        "주요 커피 산지인 루장바 계곡은 도심에서 차량으로 40분 정도 떨어짐"
+      ],
+      "best_for": "스페셜티 커피의 산지를 탐방하고 버마 로드의 역사적 정취를 느낄 여행자",
+      "sources": [
+        "https://boutiquechina.com.au/destination/nujiang/",
+        "https://www.reddit.com/r/travelchina/comments/1g1jcar/sixweek_trip_report_mostly_in_less_popular_yunnan/",
+        "https://www.youtube.com/watch?v=hnT7wpkdSC8"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "바오산 남부 여객터미널",
+          "local": "保山客运南站",
+          "lat": 25.1052,
+          "lng": 99.1585,
+          "routes": "텅충, 룽링, 창닝, 쿤밍, 다리, 망시 방면 시외버스",
+          "km_from_center": 1.7
+        }
+      ],
+      "source": "https://amap.com/place/B00140WZMH",
+      "note": "남부 객운역에서 온천과 화산으로 유명한 텅충 및 노강 루장바 방면 버스를 이용할 수 있습니다."
+    }
+  },
+  {
+    "city_id": "city:취징",
+    "eval": {
+      "summary": "중국 남부 젖줄인 주강의 발원지이자 윈난 제2의 경제 도시로 해발 2천 미터 고원 초원 대해초원을 품고 있는 곳입니다. 봄철 유채꽃으로 유명한 루핑으로 가는 환승 관문이며 윈난 특유의 증기 냄비 닭 요리가 일품입니다.",
+      "pros": [
+        "뉴질랜드를 연상시키는 광활한 고원 양떼 목장 대해초원의 이국적 풍경",
+        "쿤밍에서 고속철로 30분대면 도착하는 뛰어난 사통팔달 철도 교통망",
+        "흙항아리 증기로 쪄낸 담백한 기과계(증기닭) 등 윈난 정통 보양 미식"
+      ],
+      "cons": [
+        "대해초원 풍경구는 해발 3500미터가 넘어 날씨 변화가 심하고 추움",
+        "도심 자체는 전형적인 공업 및 상업 중심지라 전통적인 매력은 적음"
+      ],
+      "best_for": "탁 트인 고원 초원에서 양떼를 바라보고 루핑 유채꽃으로 이동할 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=qkuS4P9rftA",
+        "https://www.reddit.com/r/travelchina/comments/1g1jcar/sixweek_trip_report_mostly_in_less_popular_yunnan/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "취징 교통여객터미널",
+          "local": "曲靖市交通汽车客运站 (曲靖高快客运站)",
+          "lat": 25.5025,
+          "lng": 103.7925,
+          "routes": "쿤밍, 루핑(유채꽃), 쉬안웨이, 후이쩌, 자오퉁, 구이저우 싱이 방면 시외버스",
+          "km_from_center": 1.6
+        }
+      ],
+      "source": "https://amap.com/place/B00140X1Q0",
+      "note": "기차역 인근에 위치하며 봄철 루핑 유채꽃 축제장으로 가는 직통 시외버스가 수시 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:위시",
+    "eval": {
+      "summary": "중국에서 가장 투명도가 높고 깊은 에메랄드빛 푸셴호(복선호) 남부와 애뢰산 원시림을 접하고 있는 쾌적한 호반 도시입니다. 쿤밍 바로 남쪽에 위치해 주말 피크닉이나 호반 휴양을 즐기기에 더없이 훌륭합니다.",
+      "pros": [
+        "물속 8미터까지 훤히 들여다보이는 청정 고산 담수호 푸셴호의 맑은 물",
+        "쿤밍 남역에서 고속철도로 30분이면 닿는 매우 편리한 근교 접근성",
+        "신선한 호수 생선으로 끓여내는 맑은 탕과 강변 구이 요리의 가성비"
+      ],
+      "cons": [
+        "푸셴호 주변 고급 리조트 구역은 일반 로컬 숙소보다 숙박비가 비쌈",
+        "대중교통 시내버스만으로는 호수 둘레길을 완전하게 돌아보기 어려움"
+      ],
+      "best_for": "에메랄드빛 청정 호숫가에서 물멍을 즐기며 힐링하려는 호반 휴양객",
+      "sources": [
+        "https://www.gokunming.com/en/listings/item/33570/fuxian-lake",
+        "https://www.youtube.com/watch?v=PPLnpyn14-c",
+        "https://www.reddit.com/r/travelchina/comments/1g1jcar/sixweek_trip_report_mostly_in_less_popular_yunnan/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "위시 청난 여객터미널",
+          "local": "玉溪市城南客运站 (玉溪客运中心)",
+          "lat": 24.3352,
+          "lng": 102.5385,
+          "routes": "쿤밍, 퉁하이, 청장(푸셴호), 신핑(애뢰산), 위안장 방면 시외버스",
+          "km_from_center": 1.7
+        }
+      ],
+      "source": "https://amap.com/place/B00140X3S4",
+      "note": "청남 여객센터에서 푸셴호(청장현) 및 애뢰산 원시림 방면 시외버스가 정기 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:추슝",
+    "eval": {
+      "summary": "쿤밍과 다리 사이에 자리한 추슝 이족 자치주의 주도로 이족의 태양력 문화와 복고풍 고건축 단지 이인고진이 조성된 도시입니다. 다리로 넘어가는 길목에 들러 야생 버섯 훠궈를 맛보고 이족 무형문화를 감상하기 좋습니다.",
+      "pros": [
+        "가을철 윈난 산골에서 갓 채취한 다양한 자연산 야생 버섯 훠궈의 진미",
+        "밤마다 광장에서 모닥불을 피우고 춤추는 좌도무 공연이 열리는 이인고진",
+        "쿤밍-다리 고속철 중간 기착지로 반나절이나 1박 쉬어가기 편한 동선"
+      ],
+      "cons": [
+        "이인고진은 관광용으로 조성된 현대 상업형 고진이라 역사성은 부족함",
+        "야생 버섯 요리는 반드시 충분히끓여 먹어야 하며 비시즌엔 냉동 버섯임"
+      ],
+      "best_for": "향긋한 야생 버섯 요리를 맛보고 이족 전통 민속 춤을 구경할 식도락 여행자",
+      "sources": [
+        "https://www.reddit.com/r/travelchina/comments/1g1jcar/sixweek_trip_report_mostly_in_less_popular_yunnan/",
+        "https://www.youtube.com/watch?v=qkuS4P9rftA",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "추슝 여객서역",
+          "local": "楚雄客运西站 (楚雄汽车客运站)",
+          "lat": 25.0385,
+          "lng": 101.5285,
+          "routes": "쿤밍, 다리, 다야오, 위안머우, 솽바이, 린창 방면 시외버스",
+          "km_from_center": 1.5
+        }
+      ],
+      "source": "https://amap.com/place/B00140X5TU",
+      "note": "추슝 서역은 이인고진과 가깝고 위안머우 토림 방면 완행 시외버스가 연결됩니다."
+    }
+  },
+  {
+    "city_id": "city:자오퉁",
+    "eval": {
+      "summary": "윈난 동북부 험준한 오몽산맥 고원에 위치하며 겨울철 천연기념물 검은목두루미가 월동하는 대산포 습지를 품은 청정 생태 도시입니다. 웅장한 황련하 폭포군과 아찔한 협곡 마을의 비경을 간직하고 있으나 겨울엔 날씨가 쌀쌀합니다.",
+      "pros": [
+        "대산포 고원 습지에서 검은목두루미 군무와 일출 운해를 감상하는 생태 감동",
+        "수십 개의 다단 폭포가 협곡을 메우는 황련하 국가풍경명승구의 음이온 트레킹",
+        "쓰촨과 윈난을 잇는 고원 철도망이 정비되어 육로 이동이 편리해짐"
+      ],
+      "cons": [
+        "대산포 풍경구는 해발 3000m가 넘어 겨울철 방한복과 고산병 대비 필수",
+        "짙은 안개로 인해 운해 조망이나 두루미 관찰이 날씨 운에 크게 좌우됨"
+      ],
+      "best_for": "야생 두루미의 우아한 날갯짓과 고원 협곡의 비경을 사진에 담을 생태 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=e5vNt5VztQE",
+        "https://www.fabionodariphoto.com/en/dashanbao-china-off-beaten-path-yunnan/",
+        "https://www.reddit.com/r/travelchina/comments/1g1jcar/sixweek_trip_report_mostly_in_less_popular_yunnan/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "자오퉁 교통여객터미널",
+          "local": "昭通交通旅游客运站 (昭通客运中心)",
+          "lat": 27.3252,
+          "lng": 103.7152,
+          "routes": "쿤밍, 청두, 취징, 이빈, 루뎬, 대산포 방면 시외버스",
+          "km_from_center": 1.7
+        }
+      ],
+      "source": "https://amap.com/place/B00140X7VW",
+      "note": "자오퉁 객운센터에서 대산포 검은목두루미 보호구행 셔틀버스가 겨울철에 증편 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:린창",
+    "eval": {
+      "summary": "란창강 중류에 위치한 윈난 명품 홍차 디안홍의 발원지이자 와족의 원시 문화가 깃든 차와 소수민족의 고장입니다. 3천 년 된 고차수와 웡딩 원시 부락 등 원초적인 매력이 가득하지만 철도 노선 종점 부근이라 육로 이동 시간이 깁니다.",
+      "pros": [
+        "부드러운 단맛과 황금빛 찻물이 우러나는 정통 전홍(디안홍) 홍차의 본향",
+        "초가지붕과 나무 말뚝이 보존된 마지막 원시 부락 웡딩 와족 마을 탐방",
+        "란창강 깊은 협곡을 끼고 도는 웅장한 차마고도 고원 드라이브 풍경"
+      ],
+      "cons": [
+        "쿤밍에서 고속열차로 3시간 반 이상 걸려 윈난 남서부 깊숙이 들어가야 함",
+        "웡딩 와채 등 핵심 명소가 도심에서 멀어 시외버스를 추가로 타야 함"
+      ],
+      "best_for": "향긋한 홍차를 음미하고 미지의 와족 원시 문화를 체험하려는 모험가",
+      "sources": [
+        "https://www.youtube.com/watch?v=GspcR3WTJng",
+        "https://www.reddit.com/r/travelchina/comments/1g1jcar/sixweek_trip_report_mostly_in_less_popular_yunnan/",
+        "https://boutiquechina.com.au/itinerary/yunnan-slow-culture-tour/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "린창 여객터미널",
+          "local": "临沧客运站",
+          "lat": 23.8725,
+          "lng": 100.0752,
+          "routes": "쿤밍, 다리, 펑칭(홍차 산지), 창위안(웡딩 와채), 겅마 방면 시외버스",
+          "km_from_center": 1
+        }
+      ],
+      "source": "https://amap.com/place/B00140X9Z8",
+      "note": "린창 객운역에서 웡딩 원시마을이 있는 창위안 와족 자치현 방면 버스를 이용합니다."
+    }
+  },
+  {
+    "city_id": "city:시안",
+    "eval": {
+      "summary": "13개 왕조의 수도이자 실크로드의 시발점으로 진시황 병마용과 완벽히 보존된 고대 성벽을 자랑하는 세계적 역사 도시입니다. 지하철망이 완벽하게 갖춰져 있고 회민가 야시장 등 먹거리가 풍부하지만 사계절 내내 관광객 인파가 엄청납니다.",
+      "pros": [
+        "고대 성벽 위에서 자전거를 타고 도심을 일주하는 독보적인 역사 체험",
+        "지하 수천 구의 군대가 도열한 진시황릉 병마용갱의 압도적인 전율",
+        "양꼬치, 뱡뱡몐, 러우자모 등 밤마다 불야성을 이루는 회민가의 풍성한 길거리 음식",
+        "사통팔달 고속철도망으로 베이징, 상하이, 청두, 란저우로 손쉽게 이동 가능"
+      ],
+      "cons": [
+        "병마용과 대당불야성, 성벽 주변에 상상을 초월하는 인파와 긴 대기줄",
+        "겨울철 분지 지형 탓에 미세먼지와 스모그가 발생할 수 있어 마스크 필요"
+      ],
+      "best_for": "천년 왕조의 역사 유적을 탐방하고 실크로드 미식을 섭렵할 배낭여행자",
+      "sources": [
+        "https://www.reddit.com/r/travelchina/comments/1q4zsu7/xian_review_recs/",
+        "https://www.youtube.com/watch?v=thhp9_J9ljA",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "산시성 시안 버스터미널",
+          "local": "陕西省西安汽车站",
+          "lat": 34.2785,
+          "lng": 108.9552,
+          "routes": "화산, 린퉁(병마용), 법문사, 옌안, 바오지, 상뤄, 안캉 방면 시외버스",
+          "km_from_center": 7
+        },
+        {
+          "name": "시안 팡즈청 여객터미널",
+          "local": "西安纺织城客运站",
+          "lat": 34.2752,
+          "lng": 109.0525,
+          "routes": "화산, 웨이난, 퉁촨, 상뤄, 뤄난 등 동부·진령 방면 시외버스",
+          "km_from_center": 12.6
+        },
+        {
+          "name": "시안 청난 여객터미널",
+          "local": "西安城南客运站",
+          "lat": 34.1952,
+          "lng": 108.9325,
+          "routes": "한중, 안캉, 셴양, 쑤이더, 쓰촨 북부 방면 시외버스",
+          "km_from_center": 16.1
+        }
+      ],
+      "source": "https://amap.com/place/B00140XB21",
+      "note": "시안 기차역 광장에 위치한 성시외버스터미널에서 화산 및 법문사 방면 직행 여행버스를 탈 수 있습니다."
+    }
+  },
+  {
+    "city_id": "city:셴양",
+    "eval": {
+      "summary": "진시황의 진나라 수도이자 시안 바로 북서쪽에 접해 한나라 무덤 한양릉과 무측천의 건릉을 품은 역사 고도입니다. 시안 시내에서 지하철로 바로 연결되며 시안보다 훨씬 조용하고 가성비 좋은 숙소와 로컬 식당이 많습니다.",
+      "pros": [
+        "유리 바닥 아래로 축조 당시 유물을 직접 내려다보는 한양릉 지하 박물관",
+        "시안 지하철 1호선과 14호선이 연장 개통되어 지하철로 편리하게 진입 가능",
+        "시안 도심 대비 저렴한 숙박비와 위허 강변을 따라 조성된 쾌적한 산책로"
+      ],
+      "cons": [
+        "측천무후의 건릉은 셴양 도심에서도 북서쪽으로 버스를 타고 1시간 이동 필요",
+        "독립된 여행지라기보다는 시안 여행의 연장선으로 인식되는 경우가 많음"
+      ],
+      "best_for": "번잡한 시안을 피해 저렴하게 머물며 진·한 시대 능묘 유적을 탐방할 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=aG1RrKON6aY",
+        "https://www.reddit.com/r/travelchina/comments/1q4zsu7/xian_review_recs/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "셴양 자동차 북역",
+          "local": "咸阳汽车北站",
+          "lat": 34.3485,
+          "lng": 108.7052,
+          "routes": "건릉(치현), 양귀비묘(싱핑), 빈저우, 순화, 퉁촨 방면 시외버스",
+          "km_from_center": 2.1
+        }
+      ],
+      "source": "https://amap.com/place/B00140XD55",
+      "note": "셴양 자동차 북역에서 당나라 황릉인 건릉(측천무후 묘)행 버스가 자주 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:바오지",
+    "eval": {
+      "summary": "주나라와 진나라의 발원지로 고대 청동기 유물이 대거 쏟아져 나온 청동기의 고향이자 부처님 진신사리를 모신 법문사가 있는 도시입니다. 친링산맥의 주봉 태백산 국립공원과 관산 초원의 수려한 자연도 함께 즐길 수 있습니다.",
+      "pros": [
+        "석가모니 손가락 마디 진신사리가 봉안된 천년 불교 성지 법문사의 장엄함",
+        "국보급 청동기 명문 유물을 무료로 관람할 수 있는 중국청동기박물관",
+        "시안과 란저우를 잇는 고속철도 중심지로 톈수이나 한중 이동이 수월함"
+      ],
+      "cons": [
+        "법문사는 신구 풍경구 규모가 너무 거대해 전동 카트를 타지 않으면 피로함",
+        "태백산 정상 부근은 해발이 높아 여름에도 날씨가 춥고 셔틀 요금이 비쌈"
+      ],
+      "best_for": "부처님 진신사리를 참배하고 고대 청동기 문명의 정수를 확인하려는 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=U9LiIikw3fY",
+        "https://www.reddit.com/r/Buddhism/comments/1v48hfz/relics_from_famen_temple_shaanxi_china/",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "바오지 여객남역",
+          "local": "宝鸡汽车客运南站 (宝鸡高客站)",
+          "lat": 34.3452,
+          "lng": 107.1752,
+          "routes": "시안, 법문사(푸펑), 태백산(메이현), 치산, 간쑤 톈수이 방면 시외버스",
+          "km_from_center": 3.6
+        }
+      ],
+      "source": "https://amap.com/place/B00140XF99",
+      "note": "바오지 고속터미널에서 법문사 및 태백산 국가삼림공원 입구행 버스를 탈 수 있습니다."
+    }
+  },
+  {
+    "city_id": "city:옌안",
+    "eval": {
+      "summary": "중국 공산당 홍군의 대장정 종착지이자 황토고원의 상징적인 역사 도시로 흙절벽 동굴 가옥(요동) 문화가 살아있는 곳입니다. 언덕 위 우뚝 솟은 보탑산과 황토 협곡의 이색적인 지형이 웅장하며 시안에서 고속철로 편리하게 연결됩니다.",
+      "pros": [
+        "황토고원 능선 위에 세워진 당대 고탑인 보탑산에서 내려다보는 도심 전경",
+        "마오쩌둥과 군인들이 생활했던 양가령과 조원의 전통 요동(동굴 가옥) 체험",
+        "황하의 물줄기가 말발굽처럼 굽이치는 건곤만과 거대한 후커우 폭포 접근성"
+      ],
+      "cons": [
+        "혁명 성지 유적 위주라 중국 근현대사에 관심이 없으면 테마가 다소 단조로움",
+        "황토고원 특유의 건조한 바람과 흙먼지가 불어 눈과 목이 칼칼할 수 있음"
+      ],
+      "best_for": "중국 근현대 혁명 역사의 현장을 둘러보고 황토고원 동굴 문화를 체감할 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=bW3CpzvET-k",
+        "https://www.reddit.com/r/travelchina/comments/1jycic2/natural_scenery_near_beijing_and_xian/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "옌안 여객남역",
+          "local": "延安汽车客运南站",
+          "lat": 36.5685,
+          "lng": 109.4825,
+          "routes": "시안, 위린, 후커우 폭포(이천현), 황릉, 안사이, 즈단 방면 시외버스",
+          "km_from_center": 2.5
+        }
+      ],
+      "source": "https://amap.com/place/B00140XHDC",
+      "note": "남역에서 노란 황하 물살이 포효하는 후커우 폭포(이천 방면)행 장거리 버스가 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:한중",
+    "eval": {
+      "summary": "친링산맥 남쪽 한강 유역에 자리 잡아 삼국지 촉한의 북벌 전진기지이자 봄철 백만 에이커 유채꽃 바다로 유명한 온화한 분지 도시입니다. 제갈량이 묻힌 무후묘와 고대 석문잔도의 흔적이 남아있으며 기후가 쓰촨처럼 부드럽습니다.",
+      "pros": [
+        "제갈공명이 잠들어 있는 면현 무후묘와 삼국지 영웅들의 숨결이 깃든 고적",
+        "봄철(3~4월) 분지 전체를 황금빛으로 물들이는 전국 최대급 유채꽃 축제",
+        "시청 고속철도로 시안과 청두에서 각각 1시간대에 닿는 완벽한 교통 입지"
+      ],
+      "cons": [
+        "유채꽃 만개 시즌에는 기차표 예매와 시내 숙소 예약 경쟁이 치열함",
+        "석문잔도 풍경구는 수력 댐 건설로 옛 잔도 상당 부분이 물에 잠겨 복원품임"
+      ],
+      "best_for": "삼국지 제갈량의 흔적을 순례하고 찬란한 봄철 유채꽃 평원을 거닐 여행자",
+      "sources": [
+        "https://www.reddit.com/r/travelchina/comments/1gaxbdm/recommendation_for_hanzhong/",
+        "https://shery365.tistory.com/37",
+        "https://www.youtube.com/watch?v=hnT7wpkdSC8"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "한중 고속여객터미널",
+          "local": "汉中高速客运站 (汉中客运枢纽站)",
+          "lat": 33.0852,
+          "lng": 107.0385,
+          "routes": "시안, 청두, 광위안, 몐현(무후묘), 류바(장량묘), 양현 방면 시외버스",
+          "km_from_center": 1.9
+        }
+      ],
+      "source": "https://amap.com/place/B00140XJGF",
+      "note": "한중 기차역 앞 환승 허브에서 몐현 무후묘 및 고한대 유적으로 연결되는 버스가 잘 갖춰져 있습니다."
+    }
+  },
+  {
+    "city_id": "city:위린 (산시)",
+    "eval": {
+      "summary": "산시성 최북단 무우스 사막 경계에 위치한 명나라 만리장성의 군사 요충지로 만리장성 3대 누각 중 으뜸인 진북대를 자랑하는 요새 도시입니다. 붉은 사암 절벽에 조각된 홍석협과 사막 오아시스의 풍광이 독특하고 장엄합니다.",
+      "pros": [
+        "명나라 만리장성 관루 중 가장 웅장한 규모를 자랑하는 진북대 성벽 전경",
+        "붉은 협곡 절벽을 따라 명대 서예 명문과 석굴 불상이 새겨진 홍석협",
+        "명·청 시대 옛 성벽과 사합원 가옥이 온전히 살아있는 위린 고성의 정취"
+      ],
+      "cons": [
+        "사막 경계 지역이라 봄과 겨울철 모래바람(황사)이 심하고 일교차가 매우 큼",
+        "시안에서 기차로 3시간 이상 북쪽으로 올라가야 하는 먼 지리적 위치"
+      ],
+      "best_for": "황량한 사막 풍경과 웅장한 만리장성 요새를 호젓하게 답사하려는 여행자",
+      "sources": [
+        "https://www.reddit.com/r/CookSux/comments/1pamlyd/20251117_the_great_wall_zhenbeitai_yulin_china/",
+        "https://www.youtube.com/watch?v=-4eRPj-dPJE",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "위린 여객남역",
+          "local": "榆林汽车客运南站 (榆林客运中心)",
+          "lat": 38.2652,
+          "lng": 109.7215,
+          "routes": "시안, 옌안, 선무, 징볜, 오르도스(내몽골) 방면 시외버스",
+          "km_from_center": 2.9
+        }
+      ],
+      "source": "https://amap.com/place/B00140XLJI",
+      "note": "위린 객운센터에서 만리장성 진북대 및 내몽골 사막 접경 지역으로 버스가 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:웨이난",
+    "eval": {
+      "summary": "관중평원 동부의 교통 요충지이자 중국 5대 악산 중 가장 아찔하고 험준한 서악 화산(华山)의 관문 도시입니다. 깎아지른 화강암 절벽을 오르는 장공잔도와 일출 풍경이 압도적이며 시안에서 고속철로 20분 만에 도착합니다.",
+      "pros": [
+        "벼랑 끝 나무 널빤지를 밟고 건너는 세계에서 가장 스릴 넘치는 화산 장공잔도",
+        "시안 북역에서 고속철로 20분 만에 화산북역에 닿아 당일치기 등반 가능",
+        "화산 서봉 케이블카를 타고 감상하는 수천 길 바위 절벽의 경이로운 절경"
+      ],
+      "cons": [
+        "화산 입장료와 케이블카, 셔틀버스 등 등반에 소요되는 총비용이 매우 비쌈",
+        "절벽 쇠사슬 난간 구간이 가파르고 험해 체력 소모와 안전 주의가 요구됨"
+      ],
+      "best_for": "천하제일의 험준한 바위산을 등반하며 극한의 스릴과 운해를 경험할 산악인",
+      "sources": [
+        "https://www.youtube.com/watch?v=yKDWizHelEw",
+        "https://www.reddit.com/r/travelchina/comments/1q4zsu7/xian_review_recs/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "웨이난 여객총역",
+          "local": "渭南汽车客运总站",
+          "lat": 34.5085,
+          "lng": 109.4985,
+          "routes": "시안, 화산(화인), 한청(당가촌), 푸핑, 다리현 방면 시외버스",
+          "km_from_center": 1.4
+        }
+      ],
+      "source": "https://amap.com/place/B00140XNNL",
+      "note": "웨이난 객운총역에서 서악 화산 기슭(화인시) 및 사마천 고향 한청 방면 시외버스가 상시 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:퉁촨",
+    "eval": {
+      "summary": "송나라 6대 도자기 가마 중 하나인 요주요의 발원지이자 당대 명의 손사막을 기리는 약왕산이 자리한 북부 역사 도시입니다. 당태종의 여름 별궁 터인 옥화궁과 울창한 조아산 침엽수림이 시원한 휴식을 선사합니다.",
+      "pros": [
+        "중국 청자의 진수를 보여주는 요주요 도자기 박물관과 옛 가마터 발굴지",
+        "의학의 성인 손사막을 모신 약왕산의 천년 석각 비림과 도교 사원",
+        "시안 북쪽에서 시외버스로 1시간 안팎이면 닿는 조용하고 한적한 힐링 코스"
+      ],
+      "cons": [
+        "탄광과 시멘트 산업의 역사가 있어 구도심 일부 지역은 공업적 느낌이 남아있음",
+        "주요 관광지가 신구와 구도심, 산악 지대로 흩어져 있어 시내버스 환승 필요"
+      ],
+      "best_for": "중국 도자기 역사와 약초 의학 유적을 조용하게 탐방하려는 문화 애호가",
+      "sources": [
+        "https://www.youtube.com/watch?v=kTIhJhdYh6I",
+        "https://www.reddit.com/r/travel/comments/1x2qqt6/trip_to_china/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "퉁촨 신구 정양 여객터미널",
+          "local": "铜川新区正阳客运站",
+          "lat": 34.9125,
+          "lng": 108.9615,
+          "routes": "시안, 야오저우(약왕산·요주요), 위화궁, 조아산, 옌안 방면 시외버스",
+          "km_from_center": 1.7
+        }
+      ],
+      "source": "https://amap.com/place/B00140XPQO",
+      "note": "정양 객운역에서 시안 북부 터미널행 고속버스와 약왕산 사찰 방면 셔틀버스를 이용할 수 있습니다."
+    }
+  },
+  {
+    "city_id": "city:안캉",
+    "eval": {
+      "summary": "친링산맥과 다바산맥 사이 한강 상류에 자리한 남부 생태 도시로 수려한 협곡 난궁산과 거대한 잉후호를 자랑합니다. 산시성이면서도 남방의 따뜻한 온화함을 품고 있어 한강 뗏목 유람과 생선 요리가 매력적입니다.",
+      "pros": [
+        "카르스트 기암괴석과 운해가 어우러져 소황산으로 불리는 난궁산 절경",
+        "서북 지역 최대 인공호수인 잉후호의 맑은 물과 섬 사찰을 도는 보트 유람",
+        "시안과 안캉을 잇는 친링터널 고속열차로 1~2시간 만에 닿는 편리한 교통"
+      ],
+      "cons": [
+        "난궁산 풍경구는 시내에서 버스로 2시간가량 떨어진 란가오현에 위치함",
+        "여름 장마철에는 한강 유역 강수량이 많아 산악 도로 낙석에 유의해야 함"
+      ],
+      "best_for": "웅장한 친링산맥 남쪽의 호반 풍경과 피서 산림욕을 누리고픈 자연 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=hNGySx_ZW7c",
+        "https://www.reddit.com/r/Chinesearchitecture/comments/1rkzkq3/ankang_china/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "안캉 청둥 여객터미널",
+          "local": "安康市城东客运站 (安康汽车站)",
+          "lat": 32.6985,
+          "lng": 109.0485,
+          "routes": "시안, 한중, 상뤄, 즈양, 란가오(난궁산), 충칭 완저우 방면 시외버스",
+          "km_from_center": 2
+        }
+      ],
+      "source": "https://amap.com/place/B00140XRTR",
+      "note": "청둥 터미널에서 잉후호 수변 및 난궁산 풍경구(란가오현) 방면 버스를 이용합니다."
+    }
+  },
+  {
+    "city_id": "city:상뤄",
+    "eval": {
+      "summary": "시안 남동쪽 친링산맥 깊은 협곡에 위치하여 기암절벽과 폭포가 비경을 이루는 금금협곡 국립삼림공원을 품은 청정 산악 도시입니다. 여름철 시원한 계곡 피서지로 각광받으며 도심에서 친링산맥의 맑은 공기를 마음껏 들이켤 수 있습니다.",
+      "pros": [
+        "깊은 바위 협곡과 에메랄드빛 계곡물, 시원한 폭포가 장관인 금금협곡 트레킹",
+        "한여름에도 섭씨 22도를 유지하는 시원한 친링산맥 고지대의 청정 피서 환경",
+        "시안에서 고속도로 버스나 일반 열차로 1시간 반이면 접근 가능한 가까운 거리"
+      ],
+      "cons": [
+        "금금협곡 등 주요 명소는 등산로 계단이 많아 편한 트레킹화 착용 필수",
+        "겨울철에는 산악 계곡 풍경구의 일부 트레킹 코스가 결빙으로 폐쇄될 수 있음"
+      ],
+      "best_for": "여름철 대도시 폭염을 피해 시원한 친링산맥 협곡에서 트레킹을 즐길 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=tt3rkKGmj38",
+        "https://www.reddit.com/r/travelchina/comments/1q4zsu7/xian_review_recs/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "상뤄 여객터미널",
+          "local": "商洛市汽车客运站",
+          "lat": 33.8652,
+          "lng": 109.9325,
+          "routes": "시안, 뤄난, 단펑, 산양, 금금협곡, 자방산 방면 시외버스",
+          "km_from_center": 0.9
+        }
+      ],
+      "source": "https://amap.com/place/B00140XTVU",
+      "note": "상뤄 객운역에서 친링산맥 깊은 계곡 금금협곡 입구(산양현)로 가는 버스가 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:란저우",
+    "eval": {
+      "summary": "황하가 도심 한복판을 동서로 가로지르는 간쑤성의 성도이자 전 세계적으로 유명한 란저우 우육면의 본고장입니다. 백탑산 공원에서 황하 철교를 굽어보는 야경과 간쑤성 박물관의 실크로드 국보들이 돋보이지만 황토 분지라 건조합니다.",
+      "pros": [
+        "10위안도 안 되는 가격에 진한 소고기 육수와 갓 뽑은 수타면을 맛보는 정통 우육면",
+        "백탑산 언덕에서 바라보는 황하 제일철교(중산교)와 황하 수변의 화려한 야경",
+        "실크로드의 상징 국보 마답비연 청동마 진품을 무료 관람하는 간쑤성 박물관",
+        "신장, 칭하이, 하서회랑으로 뻗어 나가는 서북부 최대의 철도 교통 요충지"
+      ],
+      "cons": [
+        "황토고원 협곡 분지 지형 특성상 건조하고 봄철 황사나 먼지가 심할 수 있음",
+        "양꼬치와 우육면 등 이슬람 할랄 식문화 중심이라 음식 호불호가 갈릴 수 있음"
+      ],
+      "best_for": "실크로드 육로 대장정을 시작하며 원조 우육면과 황하의 숨결을 느낄 배낭객",
+      "sources": [
+        "https://www.youtube.com/watch?v=1Kx6qQ2F1M4",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "란저우 여객센터",
+          "local": "兰州客运中心 (兰州汽车东站)",
+          "lat": 36.0425,
+          "lng": 103.8585,
+          "routes": "톈수이, 린샤, 칭하이 시닝, 바이인, 우웨이, 핑량 방면 시외버스",
+          "km_from_center": 3.2
+        },
+        {
+          "name": "란저우 자동차 남역",
+          "local": "兰州汽车南站",
+          "lat": 35.9985,
+          "lng": 103.7782,
+          "routes": "린샤(팔방십삼향), 가난(샤허 라브랑스, 랑무쓰) 방면 시외버스",
+          "km_from_center": 8.3
+        }
+      ],
+      "source": "https://amap.com/place/B00140XVXX",
+      "note": "란저우 기차역 옆 여객센터와 티베트 문화권(샤허, 랑무쓰)으로 가는 남역이 핵심 거점입니다."
+    }
+  },
+  {
+    "city_id": "city:톈수이",
+    "eval": {
+      "summary": "중국 4대 석굴 중 하나로 흙절벽에 벌집처럼 새겨진 맥적산(마이지산) 석굴과 전국적 열풍을 일으킨 톈수이 마라탕으로 유명한 역사 도시입니다. 아찔한 공중 잔도를 걸으며 천년 불교 조각을 감상할 수 있어 실크로드 필수 코스로 꼽힙니다.",
+      "pros": [
+        "벼랑 끝 수십 미터 공중 목조 잔도를 걸으며 관람하는 마이지산 석굴의 전율",
+        "걸쭉한 고추기름과 감자 쫄면, 신선한 야채가 어우러진 원조 톈수이 마라탕",
+        "중화민족 인문시조 복희를 모신 웅장하고 고풍스러운 명나라 건축 복희묘"
+      ],
+      "cons": [
+        "마이지산 석굴의 공중 잔도는 철망 계단 아래가 훤히 보여 고소공포증 주의",
+        "시내에서 마이지산 풍경구까지 버스로 40분 이상 이동 시간이 소요됨"
+      ],
+      "best_for": "절벽 위 신비로운 석굴 예술을 감상하고 화제의 로컬 마라탕을 맛볼 배낭여행자",
+      "sources": [
+        "https://www.reddit.com/r/travelchina/comments/1gen3p5/what_to_see_in_and_around_tianshui/",
+        "https://www.youtube.com/watch?v=2fQEoMY_ImE",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "톈수이 친저우 여객터미널",
+          "local": "天水秦州客运站 (天水汽车站)",
+          "lat": 34.5815,
+          "lng": 105.7185,
+          "routes": "란저우, 시안, 바오지, 맥적산 석굴(34번 환승), 핑량, 룽난 방면 시외버스",
+          "km_from_center": 0.2
+        }
+      ],
+      "source": "https://amap.com/place/B00140XY0A",
+      "note": "친저우 구도심 버스터미널에서 마이지산 석굴행 34번 시내버스와 시외버스를 이용합니다."
+    }
+  },
+  {
+    "city_id": "city:장예",
+    "eval": {
+      "summary": "비현실적인 무지개 색소로 산비탈을 칠해놓은 듯한 칠채단하(무지개산)와 아시아 최대 실내 목조 와불을 모신 대불사가 있는 하서회랑의 보석 같은 오아시스 도시입니다. 고속철 개통으로 접근성이 뛰어나며 일몰 무렵 단하 지형은 평생 잊지 못할 풍경을 선사합니다.",
+      "pros": [
+        "해질녘 노을빛을 받아 형형색색으로 불타오르는 칠채단하 국립지질공원 절경",
+        "900년 전 서하 시대에 조성된 길이 34미터의 웅장한 대불사 실내 목조 와불상",
+        "하서회랑 실크로드 고속철의 중심 정차역으로 란저우나 둔황 이동이 완벽함"
+      ],
+      "cons": [
+        "흐린 날이나 비가 오지 않는 한낮에는 칠채단하의 색감이 사진보다 옅게 보임",
+        "칠채단하 풍경구 내부 셔틀버스 환승 지점마다 관광객 인파가 몰림"
+      ],
+      "best_for": "자연이 빚어낸 경이로운 무지개산 파노라마와 서하 불교 유적을 탐방할 여행자",
+      "sources": [
+        "https://www.reddit.com/r/travel/comments/1xe8bee/rainbow_mountains_of_china_zhangye_gansu_province/",
+        "https://www.youtube.com/watch?v=V2dqdan5xbU",
+        "https://chinaloveforyou.com/jiuquan-travel-guide-ancient-silk-road-city-meets-modern-punk-art/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "장예 여객서역",
+          "local": "张掖汽车客运西站 (梁家墩客运站)",
+          "lat": 38.9385,
+          "lng": 100.4325,
+          "routes": "칠채단하(임택), 마제사, 산단 군마장, 주취안, 란저우 방면 시외버스",
+          "km_from_center": 1.8
+        }
+      ],
+      "source": "https://amap.com/place/B00140Y03E",
+      "note": "장예 서역에서 칠채단하 풍경구 북문 및 서문행 셔틀버스가 30분 간격으로 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:우웨이",
+    "eval": {
+      "summary": "한나라 곽거병이 흉노를 격퇴하고 세운 하서회랑 첫 관문으로 중국 관광의 상징 마답비연이 출토된 레이타이 한묘의 도시입니다. 기련산맥 물가 절벽에 세워진 석굴의 시조 천제산 대불과 구마라습사가 있어 불교사적으로도 깊은 울림을 줍니다.",
+      "pros": [
+        "저수지 물가 붉은 절벽에 새겨진 1600년 역사의 석굴 시조 천제산 대불",
+        "불경 번역의 대가 구마라습의 혀 사리가 봉안된 유서 깊은 사찰 구마라습사",
+        "실크로드 다른 대도시에 비해 관광객이 적어 매우 여유롭고 조용한 분위기"
+      ],
+      "cons": [
+        "천제산 석굴은 시내에서 남쪽으로 45km 떨어져 있어 대중교통 배차가 적음",
+        "마답비연 진품은 란저우 간쑤성 박물관에 소장되어 있어 레이타이엔 복제품 전시"
+      ],
+      "best_for": "실크로드 불교 전파의 시원지와 고대 한나라 흉노 토벌의 역사를 음미할 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=gae0OLFwehI",
+        "https://www.reddit.com/r/travelchina/comments/1rtckwb/feedback_on_my_qinghaigansu_road_trip_itinerary/",
+        "https://chinaloveforyou.com/jiuquan-travel-guide-ancient-silk-road-city-meets-modern-punk-art/"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "우웨이 여객센터",
+          "local": "武威客运中心",
+          "lat": 37.9215,
+          "lng": 102.6325,
+          "routes": "란저우, 장예, 천제산 석굴, 민친 사막, 진창 방면 시외버스",
+          "km_from_center": 1.2
+        }
+      ],
+      "source": "https://amap.com/place/B00140Y26I",
+      "note": "우웨이 기차역 남쪽에 위치하며 천제산 석굴 및 하서회랑 주요 오아시스 버스를 운행합니다."
+    }
+  },
+  {
+    "city_id": "city:주취안",
+    "eval": {
+      "summary": "한나라 명장 곽거병이 하사받은 어주를 샘물에 부어 병사들과 나누어 마셨다는 전설에서 유래한 유서 깊은 실크로드 오아시스 도시입니다. 만리장성의 서쪽 끝 가욕관과 붙어 있어 쌍둥이 도시 역할을 하며 사막과 설산이 어우러진 풍광이 장쾌합니다.",
+      "pros": [
+        "곽거병의 전설이 깃든 맑은 샘과 고풍스러운 누각이 어우러진 주취안 공원",
+        "가욕관 고성과 20여 분 거리로 시내버스로 연결되어 두 도시를 함께 여행 가능",
+        "양고기 바비큐와 하서회랑 특유의 담백한 국수 요리를 저렴하게 즐김"
+      ],
+      "cons": [
+        "대부분의 관광객이 인접한 가욕관 고성에 머물러 주취안 단독 볼거리는 소박함",
+        "겨울철 사막 기후 특성상 바람이 차갑고 기온이 영하 10도 이하로 떨어짐"
+      ],
+      "best_for": "실크로드 영웅들의 전설을 되새기며 가욕관과 함께 여유롭게 머물 배낭객",
+      "sources": [
+        "https://chinaloveforyou.com/jiuquan-travel-guide-ancient-silk-road-city-meets-modern-punk-art/",
+        "https://www.reddit.com/r/travelchina/comments/1ky6nry/some_tips_after_returning_from_gansu/",
+        "https://www.youtube.com/watch?v=V2dqdan5xbU"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "주취안 난관 버스터미널",
+          "local": "酒泉南关汽车站",
+          "lat": 39.7285,
+          "lng": 98.5025,
+          "routes": "가욕관, 둔황, 장예, 진타(포플러 숲), 에진기(내몽골) 방면 시외버스",
+          "km_from_center": 1.4
+        }
+      ],
+      "source": "https://amap.com/place/B00140Y49M",
+      "note": "난관 터미널에서 가욕관 도심으로 가는 시내버스와 둔황 및 내몽골 에진기행 장거리 버스가 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:린샤",
+    "eval": {
+      "summary": "회족 무슬림 전통 건축과 모스크가 밀집해 있어 중국의 작은 메카라 불리는 독특한 문화 오아시스 도시입니다. 팔방십삼향 골목의 화려한 전통 벽돌 조각과 류자샤 저수지 절벽의 병령사 석굴이 눈길을 사로잡습니다.",
+      "pros": [
+        "정교한 벽돌 조각(전조)과 중국식 전통 처마가 결합된 모스크 건축미",
+        "밤마다 고풍스러운 조명이 켜지는 팔방십삼향 옛 골목길 야경 산책",
+        "류자샤 호수에서 쾌속선을 타고 황토 절벽을 건너 관람하는 병령사 석굴",
+        "푸짐한 양고기 수육(손나양육)과 진한 우육면 등 최고의 회족 미식"
+      ],
+      "cons": [
+        "철도가 없어 란저우 남부 터미널에서 시외버스를 타고 2시간가량 이동해야 함",
+        "종교적 전통이 강한 지역이므로 모스크 주변이나 거리에서 단정한 복장 준수"
+      ],
+      "best_for": "중국 속 이슬람 회족 문화의 정수를 체험하고 병령사 석굴을 탐방할 여행자",
+      "sources": [
+        "https://www.youtube.com/watch?v=1Kx6qQ2F1M4",
+        "https://www.reddit.com/r/travelchina/comments/1ptoe7x/chongqing_for_9_days/",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "린샤 여객남역",
+          "local": "临夏市汽车南站 (临夏汽车站)",
+          "lat": 35.5885,
+          "lng": 103.2052,
+          "routes": "란저우 남역, 샤허(라브랑스), 랑무쓰, 병령사 석굴(류자샤), 허쭤 방면 시외버스",
+          "km_from_center": 1.4
+        }
+      ],
+      "source": "https://amap.com/place/B00140Y6CM",
+      "note": "린샤 자동차남역에서 란저우행 고속버스와 샤허 라브랑스 사원행 버스가 정기 출발합니다."
+    }
+  },
+  {
+    "city_id": "city:핑량",
+    "eval": {
+      "summary": "중국 도교 제일 명산으로 황제(헌원)가 광성자에게 도를 물었다는 전설의 성지 공동산(콩퉁산)을 품고 있는 역사 명승 도시입니다. 험준한 바위 봉우리와 울창한 침엽수림, 도교 사찰이 어우러져 황토고원 속 산수 비경을 이룹니다.",
+      "pros": [
+        "진령과 황토고원의 경계에 솟아오른 천하제일 도교 성지 공동산의 절경",
+        "케이블카와 셔틀버스를 연계해 정상에 오르면 펼쳐지는 운해와 고찰 파노라마",
+        "소고기 장조림과 핑량 궈쿠이(바삭한 빵) 등 담백하고 실속 있는 북방 먹거리"
+      ],
+      "cons": [
+        "공동산 풍경구 내부 경사가 가파르고 계단이 많아 전 구간 도보는 상당한 무리",
+        "철도망이 주로 일반 열차 위주라 고속철 이용 시 톈수이나 시안 환승 필요"
+      ],
+      "best_for": "도교 전설의 발원지 공동산의 기암절벽을 오르며 도가 사상을 체감할 여행자",
+      "sources": [
+        "https://www.yuntun-bj.com/en/articles/pingliang-citywalk-guide",
+        "https://www.reddit.com/r/travelchina/comments/1gen3p5/what_to_see_in_and_around_tianshui/",
+        "https://thewanderingjuan.net/2018/08/travel-guide-chongqing.html"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "핑량 여객서역",
+          "local": "平凉汽车客运西站",
+          "lat": 35.5452,
+          "lng": 106.6525,
+          "routes": "시안, 란저우, 톈수이, 공동산(13번 시내버스), 칭양, 닝샤 구위안 방면 시외버스",
+          "km_from_center": 1.7
+        }
+      ],
+      "source": "https://amap.com/place/B00140Y8FQ",
+      "note": "핑량 서역에서 공동산 풍경구행 13번 시내버스와 시안·란저우 방면 시외버스를 이용합니다."
+    }
+  },
+  {
+    "city_id": "city:룽난",
+    "eval": {
+      "summary": "간쑤성 남단 쓰촨 경계에 위치하여 황토고원과는 완전히 다른 에메랄드빛 계곡 관아구 국립산림공원을 품은 청정 생태 도시입니다. 간쑤의 작은 구채구라 불릴 만큼 맑은 호수와 폭포, 티베트·강족 민속 마을이 어우러져 있습니다.",
+      "pros": [
+        "구채구를 방불케 하는 탕창 관아구 국립공원의 청록색 호수와 다단 폭포수",
+        "란저우와 청두를 잇는 란위 철도 고속열차 개통으로 남북 육로 이동이 편리",
+        "쓰촨 북부와 간쑤 남부의 식문화가 어우러진 매콤하고 신선한 산채 요리"
+      ],
+      "cons": [
+        "관아구 풍경구는 룽난 우두 시내가 아닌 북쪽 탕창현에 위치해 이동 필요",
+        "여름 우기철 산악 지대 폭우 시 일부 계곡 도로의 통행이 제한될 수 있음"
+      ],
+      "best_for": "간쑤성에서 구채구 못지않은 푸른 호수와 에메랄드빛 계곡 비경을 만날 탐방객",
+      "sources": [
+        "https://www.youtube.com/watch?v=GDU_9glAm_o",
+        "https://www.reddit.com/r/travelchina/comments/1gen3p5/what_to_see_in_and_around_tianshui/",
+        "https://therealtraveler.com/china/leshan-giant-buddha-guide"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "룽난 우두 여객센터",
+          "local": "陇南武都客运中心",
+          "lat": 33.3925,
+          "lng": 104.9125,
+          "routes": "란저우, 톈수이, 탕창(관아구), 원현(구채구 방면 연결), 청두 방면 시외버스",
+          "km_from_center": 1.1
+        }
+      ],
+      "source": "https://amap.com/place/B00140YAHU",
+      "note": "우두 여객센터에서 관아구 풍경구가 있는 탕창현 및 쓰촨 북부 구채구 방면 버스를 탈 수 있습니다."
+    }
+  }
+]

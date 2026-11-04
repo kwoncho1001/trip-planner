@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>육로 아시아 일주</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/vendor/leaflet.min.css">
+  <link rel="stylesheet" href="app/app.css">
+  <link rel="stylesheet" href="app/map.css">
+  <link rel="stylesheet" href="app/browse.css">
+  <link rel="stylesheet" href="app/plan.css">
+</head>
+<body>
+  <header id="app-header">
+    <h1 class="header-title">육로 아시아 일주</h1>
+    <div id="global-search"></div>
+    <div id="progress-bar"></div>
+  </header>
+  <main id="app-main" class="three-pane">
+    <section id="pane-browse"></section>
+    <button type="button" id="toggle-browse" class="sidebar-toggle" aria-label="둘러보기 패널 접기">‹</button>
+    <section id="pane-map" class="is-active"></section>
+    <button type="button" id="toggle-plan" class="sidebar-toggle" aria-label="일정 패널 접기">›</button>
+    <section id="pane-plan"></section>
+  </main>
+  <nav id="mobile-tabs">
+    <button type="button" data-pane="browse">둘러보기</button>
+    <button type="button" data-pane="map" class="is-active">지도</button>
+    <button type="button" data-pane="plan">일정</button>
+  </nav>
+  <div id="banner-slot"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script type="module">
+    import { boot } from "./app/core.js";
+    boot();
+  </script>
+</body>
+</html>

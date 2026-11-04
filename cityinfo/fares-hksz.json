@@ -1,0 +1,72 @@
+[
+  {
+    "city_id": "city:홍콩",
+    "fares": [
+      {
+        "from_station": "홍콩 서구룡역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 88,
+          "currency": "HKD"
+        },
+        "price_note": "약",
+        "source": "https://www.highspeed.mtr.com.hk/en/ticket/fares.html"
+      },
+      {
+        "from_station": "홍콩 서구룡역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 251,
+          "currency": "HKD"
+        },
+        "price_note": "약",
+        "source": "https://www.highspeed.mtr.com.hk/en/ticket/fares.html"
+      },
+      {
+        "from_station": "홍콩 서구룡역",
+        "to_city": "구이린",
+        "to_station": "구이린서역",
+        "train": "고속철 2등석",
+        "hours": 3.1,
+        "price": {
+          "amount": 526,
+          "currency": "HKD"
+        },
+        "price_note": "약",
+        "source": "https://www.highspeed.mtr.com.hk/en/ticket/fares.html"
+      },
+      {
+        "from_station": "홍콩 서구룡역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 4,
+        "price": {
+          "amount": 510,
+          "currency": "HKD"
+        },
+        "price_note": "약",
+        "source": "https://www.highspeed.mtr.com.hk/en/ticket/fares.html"
+      },
+      {
+        "from_station": "홍콩 서구룡역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "고속철 2등석",
+        "hours": 7.6,
+        "price": {
+          "amount": 1043,
+          "currency": "HKD"
+        },
+        "price_note": "약",
+        "source": "https://www.highspeed.mtr.com.hk/en/ticket/fares.html"
+      }
+    ]
+  }
+]

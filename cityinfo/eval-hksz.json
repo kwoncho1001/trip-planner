@@ -1,0 +1,56 @@
+[
+  {
+    "city_id": "city:홍콩",
+    "eval": {
+      "summary": "홍콩은 2층 트램과 지하철, 스타페리 등 저렴하고 촘촘한 대중교통망을 갖춰 뚜벅이 저예산 육로 여행자가 이동하기에 매우 편리한 도시입니다. 다만 숙박비와 외식 물가가 본토에 비해 상당히 높아 로컬 차찬텡과 골목 베이커리를 공략하고 현금 결제 위주의 옥토퍼스 카드를 준비하는 등 철저한 경비 관리가 필요합니다.",
+      "pros": [
+        "트램과 지하철, 스타페리 등 대중교통 요금이 저렴하고 노선망이 촘촘함",
+        "2층 트램 위나 침사추이 산책로에서 감상하는 화려한 야경이 인상적임",
+        "로컬 차찬텡과 딤섬 전문점에서 즐기는 홍콩 특유의 식문화 매력이 뛰어남",
+        "MTR을 통해 선전 등 중국 본토 국경 검문소로 육로 이동하기 매우 수월함"
+      ],
+      "cons": [
+        "호스텔과 호텔 등 전반적인 숙박비와 외식 물가가 본토 대비 2배 이상 비쌈",
+        "옥토퍼스 카드 충전이나 노포 식당 이용 시 현금 결제만 가능한 곳이 많음",
+        "피크트램이나 주요 명소의 대기줄이 길고 좁은 보행로에 인파가 매우 몰림"
+      ],
+      "best_for": "도심 야경과 로컬 미식을 즐기며 중국 본토로 넘어가려는 2~3박 육로 배낭여행자",
+      "sources": [
+        "https://www.reddit.com/r/HongKong/comments/1q7gsbd/thoughts_on_hong_kong_trip/",
+        "https://anyin93.tistory.com/entry/%ED%99%8D%EC%BD%A9-%EB%A7%88%EC%B9%B4%EC%98%A4-%EC%9E%90%EC%9C%A0%EC%97%AC%ED%96%89-3%EB%B0%95-4%EC%9D%BC-%EC%9D%BC%EC%A0%95-%EC%B4%9D-%EC%A0%95%EB%A6%AC-%EA%BF%80%ED%8C%81%EA%B9%8C%EC%A7%80-%EC%BB%A4%ED%94%8C-%EC%97%AC%ED%96%89-%ED%95%84%EC%88%98-%EB%A7%9B%EC%A7%91-%EC%95%BC%EA%B2%BD-%ED%88%AC%EC%96%B4",
+        "https://lisaandpol.com/posts/5-days-in-hong-kong-on-a-budget-what-we-did-and-what-it-cost",
+        "https://www.youtube.com/watch?v=gIOtZOevwKU"
+      ]
+    },
+    "bus": {
+      "terminals": [
+        {
+          "name": "차이나 홍콩 시티 국경 버스 터미널",
+          "local": "中港城 跨境巴士總站 (China Hong Kong City)",
+          "lat": 22.301,
+          "lng": 114.1676,
+          "km_from_center": 2.2,
+          "routes": "광저우, 선전, 둥관, 포산, 중산 등 광둥성 주요 도시행 직통 시외버스"
+        },
+        {
+          "name": "프린스 에드워드(아란 스트리트) 국경 버스 정류소",
+          "local": "太子(鴉蘭街) 跨境巴士站 (Prince Edward Arran Street)",
+          "lat": 22.323,
+          "lng": 114.168,
+          "km_from_center": 0.4,
+          "routes": "선전 황강 고안(24시간 셔틀), 광저우, 후이저우, 장먼 등 광둥성 방면 시외버스"
+        },
+        {
+          "name": "완차이 국경 버스 터미널 (회전역 PTI)",
+          "local": "灣仔跨境全日通總站 / 會展站公共運輸交匯處 (Wan Chai Cross Boundary Coach Terminus)",
+          "lat": 22.2815,
+          "lng": 114.1752,
+          "km_from_center": 4.3,
+          "routes": "선전 황강 고안(24시간 완차이 라인), 광저우, 주하이 등 광둥성 방면 시외버스"
+        }
+      ],
+      "source": "https://www.td.gov.hk/en/transport_in_hong_kong/land_based_cross_boundary_transport/index.html",
+      "note": "홍콩은 단일 중앙 시외버스터미널 대신 구룡(침사추이 중항성, 프린스에드워드)과 홍콩섬(완차이) 등의 주요 환승 거점에서 중국 본토 및 국경 검문소(황강·선전만 등)를 오가는 직통 국경 시외버스가 상시 운행합니다."
+    }
+  }
+]

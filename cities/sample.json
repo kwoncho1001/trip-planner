@@ -1,0 +1,41 @@
+[
+  {
+    "country": "중국",
+    "region": "광둥",
+    "city": "광저우",
+    "local": "广州 / Guangzhou",
+    "kind": "대도시",
+    "desc": "광둥성의 성도이자 주강 삼각주의 중심 도시. 역사적인 무역항이자 광둥 요리의 발상지로 알려져 있다.",
+    "known_for": ["광둥 요리", "주강", "사몐다오", "광저우 타워"],
+    "lat": 23.13,
+    "lng": 113.26,
+    "sources": ["Wikivoyage", "Trip.com"],
+    "note": ""
+  },
+  {
+    "country": "중국",
+    "region": "광둥",
+    "city": "선전",
+    "local": "深圳 / Shenzhen",
+    "kind": "대도시",
+    "desc": "홍콩에 인접한 중국 최대의 IT·기술 혁신 도시이자 경제특구. 현대적인 도시 경관과 테마파크가 발달해 있다.",
+    "known_for": ["화창베이 전자상가", "롄화산 공원", "선전만 공원"],
+    "lat": 22.54,
+    "lng": 114.05,
+    "sources": ["Wikivoyage", "Trip.com"],
+    "note": ""
+  },
+  {
+    "country": "중국",
+    "region": "홍콩특별행정구",
+    "city": "홍콩",
+    "local": "香港 / Hong Kong",
+    "kind": "대도시",
+    "desc": "빅토리아항을 낀 국제 금융 중심지. 초고층 빌딩 숲과 빅토리아 피크, 전통 시장과 딤섬 문화가 공존한다.",
+    "known_for": ["빅토리아 피크", "침사추이", "딤섬", "빅토리아 하버 야경"],
+    "lat": 22.3193,
+    "lng": 114.1694,
+    "sources": ["Wikivoyage", "Trip.com"],
+    "note": ""
+  }
+]

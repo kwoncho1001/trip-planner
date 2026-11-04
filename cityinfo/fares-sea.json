@@ -1,0 +1,976 @@
+[
+  {
+    "city_id": "city:비엔티안",
+    "fares": [
+      {
+        "from_station": "비엔티안역",
+        "to_city": "방비엥",
+        "to_station": "방비엥역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 171000,
+          "currency": "LAK"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/laos.htm"
+      },
+      {
+        "from_station": "비엔티안역",
+        "to_city": "루앙프라방",
+        "to_station": "루앙프라방역",
+        "train": "고속철 2등석",
+        "hours": 1.9,
+        "price": {
+          "amount": 330000,
+          "currency": "LAK"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/laos.htm"
+      },
+      {
+        "from_station": "비엔티안역",
+        "to_city": "보텐",
+        "to_station": "보텐역",
+        "train": "고속철 2등석",
+        "hours": 3.5,
+        "price": {
+          "amount": 510000,
+          "currency": "LAK"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/laos.htm"
+      },
+      {
+        "from_station": "비엔티안역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "국제고속철 2등석",
+        "hours": 9.4,
+        "price": {
+          "amount": 542,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/laos.htm"
+      }
+    ]
+  },
+  {
+    "city_id": "city:루앙프라방",
+    "fares": [
+      {
+        "from_station": "루앙프라방역",
+        "to_city": "방비엥",
+        "to_station": "방비엥역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 140000,
+          "currency": "LAK"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/laos.htm"
+      },
+      {
+        "from_station": "루앙프라방역",
+        "to_city": "비엔티안",
+        "to_station": "비엔티안역",
+        "train": "고속철 2등석",
+        "hours": 1.9,
+        "price": {
+          "amount": 330000,
+          "currency": "LAK"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/laos.htm"
+      },
+      {
+        "from_station": "루앙프라방역",
+        "to_city": "보텐",
+        "to_station": "보텐역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 210000,
+          "currency": "LAK"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/laos.htm"
+      },
+      {
+        "from_station": "루앙프라방역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "국제고속철 2등석",
+        "hours": 7.5,
+        "price": {
+          "amount": 423,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/laos.htm"
+      }
+    ]
+  },
+  {
+    "city_id": "city:프놈펜",
+    "fares": [
+      {
+        "from_station": "프놈펜역",
+        "to_city": "바탐방",
+        "to_station": "바탐방역",
+        "train": "일반열차 좌석",
+        "hours": 6.5,
+        "price": {
+          "amount": 8,
+          "currency": "USD"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/cambodia.htm"
+      },
+      {
+        "from_station": "프놈펜역",
+        "to_city": "시하누크빌",
+        "to_station": "시하누크빌역",
+        "train": "일반열차 좌석",
+        "hours": 6,
+        "price": {
+          "amount": 10,
+          "currency": "USD"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/cambodia.htm"
+      },
+      {
+        "from_station": "프놈펜역",
+        "to_city": "캄폿",
+        "to_station": "캄폿역",
+        "train": "일반열차 좌석",
+        "hours": 4,
+        "price": {
+          "amount": 9,
+          "currency": "USD"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/cambodia.htm"
+      },
+      {
+        "from_station": "프놈펜역",
+        "to_city": "포이펫",
+        "to_station": "포이펫역",
+        "train": "일반열차 좌석",
+        "hours": 9,
+        "price": {
+          "amount": 10,
+          "currency": "USD"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/cambodia.htm"
+      }
+    ]
+  },
+  {
+    "city_id": "city:바탐방",
+    "fares": [
+      {
+        "from_station": "바탐방역",
+        "to_city": "프놈펜",
+        "to_station": "프놈펜역",
+        "train": "일반열차 좌석",
+        "hours": 6.5,
+        "price": {
+          "amount": 8,
+          "currency": "USD"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/cambodia.htm"
+      },
+      {
+        "from_station": "바탐방역",
+        "to_city": "포르삿",
+        "to_station": "포르삿역",
+        "train": "일반열차 좌석",
+        "hours": 2,
+        "price": {
+          "amount": 5,
+          "currency": "USD"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/cambodia.htm"
+      },
+      {
+        "from_station": "바탐방역",
+        "to_city": "포이펫",
+        "to_station": "포이펫역",
+        "train": "일반열차 좌석",
+        "hours": 2.5,
+        "price": {
+          "amount": 6,
+          "currency": "USD"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/cambodia.htm"
+      }
+    ]
+  },
+  {
+    "city_id": "city:시하누크빌",
+    "fares": [
+      {
+        "from_station": "시하누크빌역",
+        "to_city": "캄폿",
+        "to_station": "캄폿역",
+        "train": "일반열차 좌석",
+        "hours": 2,
+        "price": {
+          "amount": 7,
+          "currency": "USD"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/cambodia.htm"
+      },
+      {
+        "from_station": "시하누크빌역",
+        "to_city": "타케오",
+        "to_station": "타케오역",
+        "train": "일반열차 좌석",
+        "hours": 4.5,
+        "price": {
+          "amount": 8,
+          "currency": "USD"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/cambodia.htm"
+      },
+      {
+        "from_station": "시하누크빌역",
+        "to_city": "프놈펜",
+        "to_station": "프놈펜역",
+        "train": "일반열차 좌석",
+        "hours": 6,
+        "price": {
+          "amount": 10,
+          "currency": "USD"
+        },
+        "price_note": "약",
+        "source": "https://www.seat61.com/cambodia.htm"
+      }
+    ]
+  },
+  {
+    "city_id": "city:쿠알라룸푸르",
+    "fares": [
+      {
+        "from_station": "KL 센트럴역",
+        "to_city": "이포",
+        "to_station": "이포역",
+        "train": "ETS 보통석",
+        "hours": 2.3,
+        "price": {
+          "amount": 42,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "KL 센트럴역",
+        "to_city": "조지타운",
+        "to_station": "버터워스역 (페낭)",
+        "train": "ETS 보통석",
+        "hours": 4,
+        "price": {
+          "amount": 79,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "KL 센트럴역",
+        "to_city": "조호르바루",
+        "to_station": "JB 센트럴역",
+        "train": "ETS 보통석",
+        "hours": 4.5,
+        "price": {
+          "amount": 75,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "KL 센트럴역",
+        "to_city": "스름반",
+        "to_station": "스름반역",
+        "train": "통근전철 좌석",
+        "hours": 1.5,
+        "price": {
+          "amount": 9,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "KL 센트럴역",
+        "to_city": "핫야이",
+        "to_station": "핫야이 분기역",
+        "train": "ETS 보통석 환승",
+        "hours": 6.5,
+        "price": {
+          "amount": 105,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:조지타운",
+    "fares": [
+      {
+        "from_station": "버터워스역 (페낭)",
+        "to_city": "쿠알라룸푸르",
+        "to_station": "KL 센트럴역",
+        "train": "ETS 보통석",
+        "hours": 4,
+        "price": {
+          "amount": 79,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "버터워스역 (페낭)",
+        "to_city": "이포",
+        "to_station": "이포역",
+        "train": "ETS 보통석",
+        "hours": 1.8,
+        "price": {
+          "amount": 42,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "버터워스역 (페낭)",
+        "to_city": "타이핑",
+        "to_station": "타이핑역",
+        "train": "ETS 보통석",
+        "hours": 1,
+        "price": {
+          "amount": 26,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "버터워스역 (페낭)",
+        "to_city": "알로르세타르",
+        "to_station": "알로르세타르역",
+        "train": "ETS 보통석",
+        "hours": 1.2,
+        "price": {
+          "amount": 29,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "버터워스역 (페낭)",
+        "to_city": "핫야이",
+        "to_station": "핫야이 분기역",
+        "train": "국경연계 통근열차",
+        "hours": 2.5,
+        "price": {
+          "amount": 18,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:이포",
+    "fares": [
+      {
+        "from_station": "이포역",
+        "to_city": "쿠알라룸푸르",
+        "to_station": "KL 센트럴역",
+        "train": "ETS 보통석",
+        "hours": 2.2,
+        "price": {
+          "amount": 42,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "이포역",
+        "to_city": "조지타운",
+        "to_station": "버터워스역 (페낭)",
+        "train": "ETS 보통석",
+        "hours": 1.8,
+        "price": {
+          "amount": 42,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "이포역",
+        "to_city": "타이핑",
+        "to_station": "타이핑역",
+        "train": "ETS 보통석",
+        "hours": 0.8,
+        "price": {
+          "amount": 24,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "이포역",
+        "to_city": "스름반",
+        "to_station": "스름반역",
+        "train": "ETS 보통석",
+        "hours": 3.8,
+        "price": {
+          "amount": 54,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:조호르바루",
+    "fares": [
+      {
+        "from_station": "JB 센트럴역",
+        "to_city": "싱가포르",
+        "to_station": "우드랜즈 기차역",
+        "train": "셔틀 테브라우 좌석",
+        "hours": 0.1,
+        "price": {
+          "amount": 5,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "JB 센트럴역",
+        "to_city": "쿠알라룸푸르",
+        "to_station": "KL 센트럴역",
+        "train": "ETS 보통석",
+        "hours": 4.5,
+        "price": {
+          "amount": 75,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "JB 센트럴역",
+        "to_city": "스름반",
+        "to_station": "스름반역",
+        "train": "ETS 보통석",
+        "hours": 3.8,
+        "price": {
+          "amount": 62,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "JB 센트럴역",
+        "to_city": "클루앙",
+        "to_station": "클루앙역",
+        "train": "ETS 보통석",
+        "hours": 1.5,
+        "price": {
+          "amount": 25,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "JB 센트럴역",
+        "to_city": "코타바루",
+        "to_station": "와카프바루역 (코타바루)",
+        "train": "침대열차 하단 침대",
+        "hours": 16.5,
+        "price": {
+          "amount": 50,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:푸트라자야",
+    "fares": [
+      {
+        "from_station": "푸트라자야 센트럴역",
+        "to_city": "쿠알라룸푸르",
+        "to_station": "KL 센트럴역",
+        "train": "KLIA 트랜짓",
+        "hours": 0.3,
+        "price": {
+          "amount": 14,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://www.kliaekspres.com/fares-passes/"
+      },
+      {
+        "from_station": "푸트라자야 센트럴역",
+        "to_city": "페탈링자야",
+        "to_station": "반다르 우타마역",
+        "train": "MRT 전철",
+        "hours": 0.9,
+        "price": {
+          "amount": 5,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://myrapid.com.my"
+      },
+      {
+        "from_station": "푸트라자야 센트럴역",
+        "to_city": "샤알람",
+        "to_station": "샤알람역",
+        "train": "통근전철 환승",
+        "hours": 1.2,
+        "price": {
+          "amount": 8,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://myrapid.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:페탈링자야",
+    "fares": [
+      {
+        "from_station": "세티아자야역",
+        "to_city": "쿠알라룸푸르",
+        "to_station": "KL 센트럴역",
+        "train": "통근전철 좌석",
+        "hours": 0.5,
+        "price": {
+          "amount": 3.1,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "세티아자야역",
+        "to_city": "샤알람",
+        "to_station": "샤알람역",
+        "train": "통근전철 좌석",
+        "hours": 0.3,
+        "price": {
+          "amount": 2.3,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "세티아자야역",
+        "to_city": "클랑",
+        "to_station": "클랑역",
+        "train": "통근전철 좌석",
+        "hours": 0.6,
+        "price": {
+          "amount": 3.2,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:샤알람",
+    "fares": [
+      {
+        "from_station": "샤알람역",
+        "to_city": "쿠알라룸푸르",
+        "to_station": "KL 센트럴역",
+        "train": "통근전철 좌석",
+        "hours": 0.8,
+        "price": {
+          "amount": 4,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "샤알람역",
+        "to_city": "페탈링자야",
+        "to_station": "세티아자야역",
+        "train": "통근전철 좌석",
+        "hours": 0.3,
+        "price": {
+          "amount": 2.3,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "샤알람역",
+        "to_city": "클랑",
+        "to_station": "클랑역",
+        "train": "통근전철 좌석",
+        "hours": 0.3,
+        "price": {
+          "amount": 2.5,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:클랑",
+    "fares": [
+      {
+        "from_station": "클랑역",
+        "to_city": "쿠알라룸푸르",
+        "to_station": "KL 센트럴역",
+        "train": "통근전철 좌석",
+        "hours": 1.1,
+        "price": {
+          "amount": 5.2,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "클랑역",
+        "to_city": "샤알람",
+        "to_station": "샤알람역",
+        "train": "통근전철 좌석",
+        "hours": 0.3,
+        "price": {
+          "amount": 2.5,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "클랑역",
+        "to_city": "페탈링자야",
+        "to_station": "세티아자야역",
+        "train": "통근전철 좌석",
+        "hours": 0.6,
+        "price": {
+          "amount": 3.2,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:타이핑",
+    "fares": [
+      {
+        "from_station": "타이핑역",
+        "to_city": "이포",
+        "to_station": "이포역",
+        "train": "ETS 보통석",
+        "hours": 0.8,
+        "price": {
+          "amount": 24,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "타이핑역",
+        "to_city": "조지타운",
+        "to_station": "버터워스역 (페낭)",
+        "train": "ETS 보통석",
+        "hours": 1,
+        "price": {
+          "amount": 26,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "타이핑역",
+        "to_city": "쿠알라룸푸르",
+        "to_station": "KL 센트럴역",
+        "train": "ETS 보통석",
+        "hours": 3,
+        "price": {
+          "amount": 58,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "타이핑역",
+        "to_city": "알로르세타르",
+        "to_station": "알로르세타르역",
+        "train": "ETS 보통석",
+        "hours": 2,
+        "price": {
+          "amount": 45,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:알로르세타르",
+    "fares": [
+      {
+        "from_station": "알로르세타르역",
+        "to_city": "조지타운",
+        "to_station": "버터워스역 (페낭)",
+        "train": "ETS 보통석",
+        "hours": 1.2,
+        "price": {
+          "amount": 29,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "알로르세타르역",
+        "to_city": "쿠알라룸푸르",
+        "to_station": "KL 센트럴역",
+        "train": "ETS 보통석",
+        "hours": 4.8,
+        "price": {
+          "amount": 90,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "알로르세타르역",
+        "to_city": "이포",
+        "to_station": "이포역",
+        "train": "ETS 보통석",
+        "hours": 2.8,
+        "price": {
+          "amount": 62,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "알로르세타르역",
+        "to_city": "핫야이",
+        "to_station": "핫야이 분기역",
+        "train": "국경연계 통근열차",
+        "hours": 1.5,
+        "price": {
+          "amount": 15,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:스름반",
+    "fares": [
+      {
+        "from_station": "스름반역",
+        "to_city": "쿠알라룸푸르",
+        "to_station": "KL 센트럴역",
+        "train": "통근전철 좌석",
+        "hours": 1.5,
+        "price": {
+          "amount": 9,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "스름반역",
+        "to_city": "조호르바루",
+        "to_station": "JB 센트럴역",
+        "train": "ETS 보통석",
+        "hours": 3.8,
+        "price": {
+          "amount": 62,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "스름반역",
+        "to_city": "이포",
+        "to_station": "이포역",
+        "train": "ETS 보통석",
+        "hours": 3.8,
+        "price": {
+          "amount": 54,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "스름반역",
+        "to_city": "클루앙",
+        "to_station": "클루앙역",
+        "train": "ETS 보통석",
+        "hours": 2.5,
+        "price": {
+          "amount": 42,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:코타바루",
+    "fares": [
+      {
+        "from_station": "와카프바루역 (코타바루)",
+        "to_city": "조호르바루",
+        "to_station": "JB 센트럴역",
+        "train": "침대열차 하단 침대",
+        "hours": 16.5,
+        "price": {
+          "amount": 50,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "와카프바루역 (코타바루)",
+        "to_city": "클루앙",
+        "to_station": "클루앙역",
+        "train": "침대열차 하단 침대",
+        "hours": 14.5,
+        "price": {
+          "amount": 46,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "와카프바루역 (코타바루)",
+        "to_city": "구아무상",
+        "to_station": "구아무상역",
+        "train": "일반열차 좌석",
+        "hours": 3.5,
+        "price": {
+          "amount": 12,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      },
+      {
+        "from_station": "와카프바루역 (코타바루)",
+        "to_city": "툼팟",
+        "to_station": "툼팟역",
+        "train": "일반열차 좌석",
+        "hours": 0.4,
+        "price": {
+          "amount": 3,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://online.ktmb.com.my"
+      }
+    ]
+  },
+  {
+    "city_id": "city:코타키나발루",
+    "fares": [
+      {
+        "from_station": "탄중아루역",
+        "to_city": "파파르",
+        "to_station": "파파르역",
+        "train": "디젤 여객열차 좌석",
+        "hours": 1,
+        "price": {
+          "amount": 1.85,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://railway.sabah.gov.my"
+      },
+      {
+        "from_station": "탄중아루역",
+        "to_city": "뷰포트",
+        "to_station": "뷰포트역",
+        "train": "디젤 여객열차 좌석",
+        "hours": 2,
+        "price": {
+          "amount": 4.8,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://railway.sabah.gov.my"
+      },
+      {
+        "from_station": "탄중아루역",
+        "to_city": "테놈",
+        "to_station": "테놈역",
+        "train": "디젤 여객열차 좌석",
+        "hours": 4,
+        "price": {
+          "amount": 7.55,
+          "currency": "MYR"
+        },
+        "price_note": "약",
+        "source": "https://railway.sabah.gov.my"
+      }
+    ]
+  }
+]

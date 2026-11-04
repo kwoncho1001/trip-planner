@@ -1,0 +1,4142 @@
+{
+  "city:간저우": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.2_1",
+    "adm3": "CHN.16.2.6_1"
+  },
+  "city:간쯔": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.8_1"
+  },
+  "city:거셴춘": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.8_1",
+    "adm3": "CHN.16.8.5_1"
+  },
+  "city:겐팅 하이랜드": {
+    "cc": "MYS",
+    "adm1": "MYS.8_1",
+    "adm2": "MYS.8.1_1",
+    "adm3": ""
+  },
+  "city:겔랑": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:광위안": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.7_1",
+    "adm3": "CHN.26.7.5_1"
+  },
+  "city:광저우": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.4_1",
+    "adm3": "CHN.6.4.2_1"
+  },
+  "city:구눙물루 국립공원": {
+    "cc": "MYS",
+    "adm1": "MYS.14_1",
+    "adm2": "MYS.14.16_1",
+    "adm3": ""
+  },
+  "city:구랑위": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.8_1",
+    "adm3": "CHN.4.8.2_1"
+  },
+  "city:구이강": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.5_1",
+    "adm3": "CHN.7.5.1_1"
+  },
+  "city:구이린": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.6_1",
+    "adm3": "CHN.7.6.3_1"
+  },
+  "city:구이양": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.3_1",
+    "adm3": "CHN.8.3.1_1"
+  },
+  "city:구이핑": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.5_1",
+    "adm3": "CHN.7.5.2_1"
+  },
+  "city:까나": {
+    "cc": "VNM",
+    "adm1": "VNM.43_1",
+    "adm2": "VNM.43.7_1",
+    "adm3": "VNM.43.7.1_1"
+  },
+  "city:까마우": {
+    "cc": "VNM",
+    "adm1": "VNM.13_1",
+    "adm2": "VNM.13.1_1",
+    "adm3": "VNM.13.1.9_1"
+  },
+  "city:까올라인": {
+    "cc": "VNM",
+    "adm1": "VNM.18_1",
+    "adm2": "VNM.18.1_1",
+    "adm3": "VNM.18.1.7_1"
+  },
+  "city:깐저": {
+    "cc": "VNM",
+    "adm1": "VNM.25_1",
+    "adm2": "VNM.25.4_1",
+    "adm3": "VNM.25.4.3_1"
+  },
+  "city:깐짜나부리": {
+    "cc": "THA",
+    "adm1": "THA.16_1",
+    "adm2": "THA.16.5_1",
+    "adm3": "THA.16.5.4_1"
+  },
+  "city:깔라신": {
+    "cc": "THA",
+    "adm1": "THA.14_1",
+    "adm2": "THA.14.11_1",
+    "adm3": "THA.14.11.10_1"
+  },
+  "city:깜팽펫": {
+    "cc": "THA",
+    "adm1": "THA.15_1",
+    "adm2": "THA.15.7_1",
+    "adm3": "THA.15.7.1_1"
+  },
+  "city:깟띠엔": {
+    "cc": "VNM",
+    "adm1": "VNM.17_1",
+    "adm2": "VNM.17.10_1",
+    "adm3": "VNM.17.10.5_1"
+  },
+  "city:껀터": {
+    "cc": "VNM",
+    "adm1": "VNM.12_1",
+    "adm2": "VNM.12.4_1",
+    "adm3": "VNM.12.4.8_1"
+  },
+  "city:껌란": {
+    "cc": "VNM",
+    "adm1": "VNM.32_1",
+    "adm2": "VNM.32.2_1",
+    "adm3": "VNM.32.2.15_1"
+  },
+  "city:꼬꽁": {
+    "cc": "KHM",
+    "adm1": "KHM.9_1",
+    "adm2": "KHM.9.3_2",
+    "adm3": "KHM.9.3.2_2"
+  },
+  "city:꼬꿋": {
+    "cc": "THA",
+    "adm1": "THA.71_1",
+    "adm2": "THA.71.3_1",
+    "adm3": "THA.71.3.2_1"
+  },
+  "city:꼬따오": {
+    "cc": "THA",
+    "adm1": "THA.67_1",
+    "adm2": "THA.67.11_1",
+    "adm3": "THA.67.11.3_1"
+  },
+  "city:꼬란타": {
+    "cc": "THA",
+    "adm1": "THA.18_1",
+    "adm2": "THA.18.4_1",
+    "adm3": "THA.18.4.4_1"
+  },
+  "city:꼬리뻬": {
+    "cc": "THA",
+    "adm1": "THA.61_1",
+    "adm2": "THA.61.5_1",
+    "adm3": "THA.61.5.7_1"
+  },
+  "city:꼬막": {
+    "cc": "THA",
+    "adm1": "THA.71_1",
+    "adm2": "THA.71.3_1",
+    "adm3": "THA.71.3.1_1"
+  },
+  "city:꼬사멧": {
+    "cc": "THA",
+    "adm1": "THA.53_1",
+    "adm2": "THA.53.6_1",
+    "adm3": "THA.53.6.8_1"
+  },
+  "city:꼬사무이": {
+    "cc": "THA",
+    "adm1": "THA.67_1",
+    "adm2": "THA.67.12_1",
+    "adm3": "THA.67.12.2_1"
+  },
+  "city:꼬창": {
+    "cc": "THA",
+    "adm1": "THA.71_1",
+    "adm2": "THA.71.2_1",
+    "adm3": "THA.71.2.1_1"
+  },
+  "city:꼬탁": {
+    "cc": "VNM",
+    "adm1": "VNM.11_1",
+    "adm2": "VNM.11.10_1",
+    "adm3": "VNM.11.10.1_1"
+  },
+  "city:꼬파얌": {
+    "cc": "THA",
+    "adm1": "THA.51_1",
+    "adm2": "THA.51.5_1",
+    "adm3": "THA.51.5.5_1"
+  },
+  "city:꼬팡안": {
+    "cc": "THA",
+    "adm1": "THA.67_1",
+    "adm2": "THA.67.11_1",
+    "adm3": "THA.67.11.2_1"
+  },
+  "city:꼬피피": {
+    "cc": "THA",
+    "adm1": "THA.18_1",
+    "adm2": "THA.18.6_1",
+    "adm3": "THA.18.6.1_1"
+  },
+  "city:꼰다오": {
+    "cc": "VNM",
+    "adm1": "VNM.7_1",
+    "adm2": "VNM.7.6_1",
+    "adm3": ""
+  },
+  "city:꼰뚬": {
+    "cc": "VNM",
+    "adm1": "VNM.34_1",
+    "adm2": "VNM.34.7_1",
+    "adm3": "VNM.34.7.14_1"
+  },
+  "city:꽝응아이": {
+    "cc": "VNM",
+    "adm1": "VNM.48_1",
+    "adm2": "VNM.48.8_1",
+    "adm3": "VNM.48.8.22_1"
+  },
+  "city:꾸이년": {
+    "cc": "VNM",
+    "adm1": "VNM.8_1",
+    "adm2": "VNM.8.7_1",
+    "adm3": "VNM.8.7.6_1"
+  },
+  "city:꾸찌": {
+    "cc": "VNM",
+    "adm1": "VNM.25_1",
+    "adm2": "VNM.25.5_1",
+    "adm3": "VNM.25.5.9_1"
+  },
+  "city:끄라비": {
+    "cc": "THA",
+    "adm1": "THA.18_1",
+    "adm2": "THA.18.6_1",
+    "adm3": "THA.18.6.8_1"
+  },
+  "city:끄어로": {
+    "cc": "VNM",
+    "adm1": "VNM.41_1",
+    "adm2": "VNM.41.2_1",
+    "adm3": "VNM.41.2.7_1"
+  },
+  "city:나라티왓": {
+    "cc": "THA",
+    "adm1": "THA.33_1",
+    "adm2": "THA.33.4_1",
+    "adm3": "THA.33.4.3_1"
+  },
+  "city:나메오": {
+    "cc": "VNM",
+    "adm1": "VNM.41_1",
+    "adm2": "VNM.41.12_1",
+    "adm3": "VNM.41.12.12_1"
+  },
+  "city:나오저우섬": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.18_1",
+    "adm3": "CHN.6.18.6_1"
+  },
+  "city:나콘나욕": {
+    "cc": "THA",
+    "adm1": "THA.26_1",
+    "adm2": "THA.26.2_1",
+    "adm3": "THA.26.2.1_1"
+  },
+  "city:나콘랏차시마": {
+    "cc": "THA",
+    "adm1": "THA.29_1",
+    "adm2": "THA.29.20_1",
+    "adm3": "THA.29.20.1_1"
+  },
+  "city:나콘빠톰": {
+    "cc": "THA",
+    "adm1": "THA.27_1",
+    "adm2": "THA.27.4_1",
+    "adm3": "THA.27.4.13_1"
+  },
+  "city:나콘시탐마랏": {
+    "cc": "THA",
+    "adm1": "THA.31_1",
+    "adm2": "THA.31.12_1",
+    "adm3": "THA.31.12.4_1"
+  },
+  "city:나콘파놈": {
+    "cc": "THA",
+    "adm1": "THA.28_1",
+    "adm2": "THA.28.3_1",
+    "adm3": "THA.28.3.10_1"
+  },
+  "city:나트랑": {
+    "cc": "VNM",
+    "adm1": "VNM.32_1",
+    "adm2": "VNM.32.6_1",
+    "adm3": "VNM.32.6.13_1"
+  },
+  "city:난": {
+    "cc": "THA",
+    "adm1": "THA.32_1",
+    "adm2": "THA.32.7_1",
+    "adm3": "THA.32.7.1_1"
+  },
+  "city:난닝": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.11_1",
+    "adm3": "CHN.7.11.5_1"
+  },
+  "city:난아오섬": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.1_1",
+    "adm3": "CHN.6.1.3_1"
+  },
+  "city:난웨": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.4_1",
+    "adm3": "CHN.14.4.6_1"
+  },
+  "city:난징": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.9_1",
+    "adm3": "CHN.4.9.5_1"
+  },
+  "city:난창": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.6_1",
+    "adm3": "CHN.16.6.3_1"
+  },
+  "city:난촨": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.16_1"
+  },
+  "city:난충": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.13_1",
+    "adm3": "CHN.26.13.3_1"
+  },
+  "city:난핑": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.3_1",
+    "adm3": "CHN.4.3.5_1"
+  },
+  "city:남단": {
+    "cc": "VNM",
+    "adm1": "VNM.41_1",
+    "adm2": "VNM.41.9_1",
+    "adm3": "VNM.41.9.13_1"
+  },
+  "city:남두": {
+    "cc": "VNM",
+    "adm1": "VNM.33_1",
+    "adm2": "VNM.33.9_1",
+    "adm3": "VNM.33.9.1_1"
+  },
+  "city:남부 섬들": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:낭롱": {
+    "cc": "THA",
+    "adm1": "THA.5_1",
+    "adm2": "THA.5.14_1",
+    "adm3": "THA.5.14.5_1"
+  },
+  "city:네이장": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.15_1",
+    "adm3": "CHN.26.15.2_1"
+  },
+  "city:논타부리": {
+    "cc": "THA",
+    "adm1": "THA.36_1",
+    "adm2": "THA.36.4_1",
+    "adm3": "THA.36.4.1_1"
+  },
+  "city:농부아람푸": {
+    "cc": "THA",
+    "adm1": "THA.34_1",
+    "adm2": "THA.34.1_1",
+    "adm3": "THA.34.1.10_1"
+  },
+  "city:농카이": {
+    "cc": "THA",
+    "adm1": "THA.35_1",
+    "adm2": "THA.35.5_1",
+    "adm3": "THA.35.5.9_1"
+  },
+  "city:농키아우": {
+    "cc": "LAO",
+    "adm1": "LAO.8_1",
+    "adm2": "LAO.8.5_1",
+    "adm3": ""
+  },
+  "city:닌호아": {
+    "cc": "VNM",
+    "adm1": "VNM.32_1",
+    "adm2": "VNM.32.7_1",
+    "adm3": "VNM.32.7.3_1"
+  },
+  "city:닝더": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.4_1",
+    "adm3": "CHN.4.4.4_1"
+  },
+  "city:닝밍": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.3_1",
+    "adm3": "CHN.7.3.5_1"
+  },
+  "city:다디아": {
+    "cc": "VNM",
+    "adm1": "VNM.45_1",
+    "adm2": "VNM.45.8_1",
+    "adm3": "VNM.45.8.11_1"
+  },
+  "city:다리": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.3_1",
+    "adm3": "CHN.30.3.2_1"
+  },
+  "city:다오청": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.4_1"
+  },
+  "city:다저우": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.3_1",
+    "adm3": "CHN.26.3.2_1"
+  },
+  "city:다쭈": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.6_1"
+  },
+  "city:닥또": {
+    "cc": "VNM",
+    "adm1": "VNM.34_1",
+    "adm2": "VNM.34.3_1",
+    "adm3": "VNM.34.3.2_1"
+  },
+  "city:닥밀": {
+    "cc": "VNM",
+    "adm1": "VNM.16_1",
+    "adm2": "VNM.16.2_1",
+    "adm3": "VNM.16.2.3_1"
+  },
+  "city:단바": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.3_1"
+  },
+  "city:단사이": {
+    "cc": "THA",
+    "adm1": "THA.21_1",
+    "adm2": "THA.21.2_1",
+    "adm3": "THA.21.2.1_1"
+  },
+  "city:단샤산": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.14_1",
+    "adm3": "CHN.6.14.4_1"
+  },
+  "city:단저우": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.5_1"
+  },
+  "city:달랏": {
+    "cc": "VNM",
+    "adm1": "VNM.37_1",
+    "adm2": "VNM.37.7_1",
+    "adm3": "VNM.37.7.1_1"
+  },
+  "city:닷무이": {
+    "cc": "VNM",
+    "adm1": "VNM.13_1",
+    "adm2": "VNM.13.5_1",
+    "adm3": "VNM.13.5.1_1"
+  },
+  "city:더거": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.6_1"
+  },
+  "city:더친": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.5_1",
+    "adm3": "CHN.30.5.1_1"
+  },
+  "city:더톈": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.3_1",
+    "adm3": "CHN.7.3.2_1"
+  },
+  "city:더화": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.6_1",
+    "adm3": "CHN.4.6.2_1"
+  },
+  "city:도이뚱": {
+    "cc": "THA",
+    "adm1": "THA.11_1",
+    "adm2": "THA.11.9_1",
+    "adm3": "THA.11.9.2_1"
+  },
+  "city:도이매살롱": {
+    "cc": "THA",
+    "adm1": "THA.11_1",
+    "adm2": "THA.11.7_1",
+    "adm3": "THA.11.7.1_1"
+  },
+  "city:도이앙캉": {
+    "cc": "THA",
+    "adm1": "THA.10_1",
+    "adm2": "THA.10.6_1",
+    "adm3": "THA.10.6.3_1"
+  },
+  "city:도이인타논": {
+    "cc": "THA",
+    "adm1": "THA.10_1",
+    "adm2": "THA.10.3_1",
+    "adm3": "THA.10.3.1_1"
+  },
+  "city:동하": {
+    "cc": "VNM",
+    "adm1": "VNM.50_1",
+    "adm2": "VNM.50.4_1",
+    "adm3": "VNM.50.4.5_1"
+  },
+  "city:동호이": {
+    "cc": "VNM",
+    "adm1": "VNM.46_1",
+    "adm2": "VNM.46.7_1",
+    "adm3": "VNM.46.7.2_1"
+  },
+  "city:두윈": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.6_1",
+    "adm3": "CHN.8.6.3_1"
+  },
+  "city:두장옌": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.16_1",
+    "adm3": "CHN.26.16.3_1"
+  },
+  "city:둔황": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.6_1",
+    "adm3": "CHN.5.6.3_1"
+  },
+  "city:둥관": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.2_1",
+    "adm3": "CHN.6.2.1_1"
+  },
+  "city:둥산": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.9_1",
+    "adm3": "CHN.4.9.2_1"
+  },
+  "city:둥싱": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.4_1",
+    "adm3": "CHN.7.4.1_1"
+  },
+  "city:둥팡": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.7_1"
+  },
+  "city:드레이삽": {
+    "cc": "VNM",
+    "adm1": "VNM.15_1",
+    "adm2": "VNM.15.8_1",
+    "adm3": "VNM.15.8.4_1"
+  },
+  "city:딩안": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.6_1"
+  },
+  "city:딱": {
+    "cc": "THA",
+    "adm1": "THA.69_1",
+    "adm2": "THA.69.5_1",
+    "adm3": "THA.69.5.1_1"
+  },
+  "city:땀끼": {
+    "cc": "VNM",
+    "adm1": "VNM.47_1",
+    "adm2": "VNM.47.15_1",
+    "adm3": "VNM.47.15.1_1"
+  },
+  "city:땀탄": {
+    "cc": "VNM",
+    "adm1": "VNM.47_1",
+    "adm2": "VNM.47.15_1",
+    "adm3": "VNM.47.15.11_1"
+  },
+  "city:떠이닌": {
+    "cc": "VNM",
+    "adm1": "VNM.53_1",
+    "adm2": "VNM.53.8_1",
+    "adm3": "VNM.53.8.6_1"
+  },
+  "city:떠이선": {
+    "cc": "VNM",
+    "adm1": "VNM.8_1",
+    "adm2": "VNM.8.8_1",
+    "adm3": "VNM.8.8.4_1"
+  },
+  "city:떤안": {
+    "cc": "VNM",
+    "adm1": "VNM.39_1",
+    "adm2": "VNM.39.9_1",
+    "adm3": "VNM.39.9.9_1"
+  },
+  "city:뚜이호아": {
+    "cc": "VNM",
+    "adm1": "VNM.45_1",
+    "adm2": "VNM.45.9_1",
+    "adm3": "VNM.45.9.12_1"
+  },
+  "city:뜨랏": {
+    "cc": "THA",
+    "adm1": "THA.71_1",
+    "adm2": "THA.71.7_1",
+    "adm3": "THA.71.7.2_1"
+  },
+  "city:뜨랑": {
+    "cc": "THA",
+    "adm1": "THA.70_1",
+    "adm2": "THA.70.4_1",
+    "adm3": "THA.70.4.15_1"
+  },
+  "city:라농": {
+    "cc": "THA",
+    "adm1": "THA.51_1",
+    "adm2": "THA.51.5_1",
+    "adm3": "THA.51.5.4_1"
+  },
+  "city:라부안": {
+    "cc": "MYS",
+    "adm1": "MYS.5_1",
+    "adm2": "MYS.5.1_1",
+    "adm3": ""
+  },
+  "city:라용": {
+    "cc": "THA",
+    "adm1": "THA.53_1",
+    "adm2": "THA.53.6_1",
+    "adm3": "THA.53.6.6_1"
+  },
+  "city:라이빈": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.9_1",
+    "adm3": "CHN.7.9.3_1"
+  },
+  "city:라일레이": {
+    "cc": "THA",
+    "adm1": "THA.18_1",
+    "adm2": "THA.18.6_1",
+    "adm3": "THA.18.6.1_1"
+  },
+  "city:라지": {
+    "cc": "VNM",
+    "adm1": "VNM.11_1",
+    "adm2": "VNM.11.6_1",
+    "adm3": "VNM.11.6.2_1"
+  },
+  "city:락 호수": {
+    "cc": "VNM",
+    "adm1": "VNM.15_1",
+    "adm2": "VNM.15.13_1",
+    "adm3": "VNM.15.13.9_1"
+  },
+  "city:락자": {
+    "cc": "VNM",
+    "adm1": "VNM.33_1",
+    "adm2": "VNM.33.12_1",
+    "adm3": "VNM.33.12.11_1"
+  },
+  "city:란저우": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.7_1",
+    "adm3": "CHN.5.7.2_1"
+  },
+  "city:람빵": {
+    "cc": "THA",
+    "adm1": "THA.19_1",
+    "adm2": "THA.19.7_1",
+    "adm3": "THA.19.7.3_1"
+  },
+  "city:람푼": {
+    "cc": "THA",
+    "adm1": "THA.20_1",
+    "adm2": "THA.20.6_1",
+    "adm3": "THA.20.6.8_1"
+  },
+  "city:랑꼬": {
+    "cc": "VNM",
+    "adm1": "VNM.54_1",
+    "adm2": "VNM.54.7_1",
+    "adm3": "VNM.54.7.11_1"
+  },
+  "city:랑더": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.8_1"
+  },
+  "city:랑무쓰": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.3_1",
+    "adm3": "CHN.5.3.3_1"
+  },
+  "city:랑비앙": {
+    "cc": "VNM",
+    "adm1": "VNM.37_1",
+    "adm2": "VNM.37.11_1",
+    "adm3": "VNM.37.11.5_1"
+  },
+  "city:랑중": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.13_1",
+    "adm3": "CHN.26.13.1_1"
+  },
+  "city:랑카위": {
+    "cc": "MYS",
+    "adm1": "MYS.2_1",
+    "adm2": "MYS.2.7_1",
+    "adm3": ""
+  },
+  "city:러둥": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.8_1"
+  },
+  "city:러산": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.8_1",
+    "adm3": "CHN.26.8.9_1"
+  },
+  "city:러예": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.1_1",
+    "adm3": "CHN.7.1.4_1"
+  },
+  "city:러우디": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.6_1",
+    "adm3": "CHN.14.6.3_1"
+  },
+  "city:레이산": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.8_1"
+  },
+  "city:레이저우": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.18_1",
+    "adm3": "CHN.6.18.1_1"
+  },
+  "city:롄남": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.11_1",
+    "adm3": "CHN.6.11.2_1"
+  },
+  "city:롄저우": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.11_1",
+    "adm3": "CHN.6.11.4_1"
+  },
+  "city:롄청": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.2_1",
+    "adm3": "CHN.4.2.2_1"
+  },
+  "city:로이엣": {
+    "cc": "THA",
+    "adm1": "THA.54_1",
+    "adm2": "THA.54.9_1",
+    "adm3": "THA.54.9.8_1"
+  },
+  "city:롭부리": {
+    "cc": "THA",
+    "adm1": "THA.22_1",
+    "adm2": "THA.22.6_1",
+    "adm3": "THA.22.6.3_1"
+  },
+  "city:롱쑤옌": {
+    "cc": "VNM",
+    "adm1": "VNM.1_1",
+    "adm2": "VNM.1.6_1",
+    "adm3": "VNM.1.6.5_1"
+  },
+  "city:롱후산 (상칭)": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.11_1",
+    "adm3": "CHN.16.11.1_1"
+  },
+  "city:루구호": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.8_1",
+    "adm3": "CHN.30.8.3_1"
+  },
+  "city:루딩": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.12_1"
+  },
+  "city:루산 (구링)": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.5_1",
+    "adm3": "CHN.16.5.4_1"
+  },
+  "city:루앙남타": {
+    "cc": "LAO",
+    "adm1": "LAO.7_1",
+    "adm2": "LAO.7.3_1",
+    "adm3": ""
+  },
+  "city:루앙프라방": {
+    "cc": "LAO",
+    "adm1": "LAO.8_1",
+    "adm2": "LAO.8.1_1",
+    "adm3": ""
+  },
+  "city:루이리": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.4_1",
+    "adm3": "CHN.30.4.4_1"
+  },
+  "city:루이진": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.2_1",
+    "adm3": "CHN.16.2.12_1"
+  },
+  "city:루저우": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.10_1",
+    "adm3": "CHN.26.10.4_1"
+  },
+  "city:루펑": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.13_1",
+    "adm3": "CHN.6.13.2_1"
+  },
+  "city:룽난": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.9_1",
+    "adm3": "CHN.5.9.8_1"
+  },
+  "city:룽성": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.6_1",
+    "adm3": "CHN.7.6.7_1"
+  },
+  "city:룽옌": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.2_1",
+    "adm3": "CHN.4.2.3_1"
+  },
+  "city:룽장": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.11_1"
+  },
+  "city:룽저우": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.3_1",
+    "adm3": "CHN.7.3.4_1"
+  },
+  "city:뤄얼가이": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.16_1",
+    "adm3": "CHN.26.16.14_1"
+  },
+  "city:뤄핑": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.12_1",
+    "adm3": "CHN.30.12.4_1"
+  },
+  "city:류아오": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.9_1",
+    "adm3": "CHN.4.9.7_1"
+  },
+  "city:류저우": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.10_1",
+    "adm3": "CHN.7.10.3_1"
+  },
+  "city:류판수이": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.4_1",
+    "adm3": "CHN.8.4.4_1"
+  },
+  "city:르당섬": {
+    "cc": "MYS",
+    "adm1": "MYS.16_1",
+    "adm2": "MYS.16.7_1",
+    "adm3": ""
+  },
+  "city:르외": {
+    "cc": "THA",
+    "adm1": "THA.21_1",
+    "adm2": "THA.21.5_1",
+    "adm3": "THA.21.5.3_1"
+  },
+  "city:리보": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.6_1",
+    "adm3": "CHN.8.6.7_1"
+  },
+  "city:리선": {
+    "cc": "VNM",
+    "adm1": "VNM.48_1",
+    "adm2": "VNM.48.4_1",
+    "adm3": "VNM.48.4.2_1"
+  },
+  "city:리예": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.9_1",
+    "adm3": "CHN.14.9.6_1"
+  },
+  "city:리장": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.8_1",
+    "adm3": "CHN.30.8.2_1"
+  },
+  "city:리촨": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.1_1",
+    "adm3": "CHN.13.1.6_1"
+  },
+  "city:리탕": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.11_1"
+  },
+  "city:리틀 인디아": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:린가오": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.9_1"
+  },
+  "city:린샤": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.8_1",
+    "adm3": "CHN.5.8.7_1"
+  },
+  "city:린창": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.9_1",
+    "adm3": "CHN.30.9.4_1"
+  },
+  "city:링수이": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.10_1"
+  },
+  "city:마리나 베이": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:마얼캉": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.16_1",
+    "adm3": "CHN.26.16.2_1"
+  },
+  "city:마오밍": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.9_1",
+    "adm3": "CHN.6.9.4_1"
+  },
+  "city:마오타이": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.9_1",
+    "adm3": "CHN.8.9.5_1"
+  },
+  "city:마오현": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.16_1",
+    "adm3": "CHN.26.16.8_1"
+  },
+  "city:마청": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.3_1",
+    "adm3": "CHN.13.3.6_1"
+  },
+  "city:마하사라캄": {
+    "cc": "THA",
+    "adm1": "THA.24_1",
+    "adm2": "THA.24.8_1",
+    "adm3": "THA.24.8.1_1"
+  },
+  "city:만다이": {
+    "cc": "SGP",
+    "adm1": "SGP.3_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:말라카": {
+    "cc": "MYS",
+    "adm1": "MYS.6_1",
+    "adm2": "MYS.6.3_1",
+    "adm3": ""
+  },
+  "city:망덴": {
+    "cc": "VNM",
+    "adm1": "VNM.34_1",
+    "adm2": "VNM.34.5_1",
+    "adm3": "VNM.34.5.1_1"
+  },
+  "city:망시": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.4_1",
+    "adm3": "CHN.30.4.3_1"
+  },
+  "city:매깜퐁": {
+    "cc": "THA",
+    "adm1": "THA.10_1",
+    "adm2": "THA.10.10_1",
+    "adm3": "THA.10.10.1_1"
+  },
+  "city:매사리앙": {
+    "cc": "THA",
+    "adm1": "THA.23_1",
+    "adm2": "THA.23.3_1",
+    "adm3": "THA.23.3.1_1"
+  },
+  "city:매사이": {
+    "cc": "THA",
+    "adm1": "THA.11_1",
+    "adm2": "THA.11.9_1",
+    "adm3": "THA.11.9.7_1"
+  },
+  "city:매솟": {
+    "cc": "THA",
+    "adm1": "THA.69_1",
+    "adm2": "THA.69.4_1",
+    "adm3": "THA.69.4.5_1"
+  },
+  "city:매챔": {
+    "cc": "THA",
+    "adm1": "THA.10_1",
+    "adm2": "THA.10.12_1",
+    "adm3": "THA.10.12.4_1"
+  },
+  "city:매홍손": {
+    "cc": "THA",
+    "adm1": "THA.23_1",
+    "adm2": "THA.23.4_1",
+    "adm3": "THA.23.4.1_1"
+  },
+  "city:맥리치 저수지": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:머싱": {
+    "cc": "MYS",
+    "adm1": "MYS.1_1",
+    "adm2": "MYS.1.7_1",
+    "adm3": ""
+  },
+  "city:멍라": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.14_1",
+    "adm3": "CHN.30.14.3_1"
+  },
+  "city:멍산": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.13_1",
+    "adm3": "CHN.7.13.3_1"
+  },
+  "city:멍쯔": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.6_1",
+    "adm3": "CHN.30.6.9_1"
+  },
+  "city:메이저우": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.10_1",
+    "adm3": "CHN.6.10.5_1"
+  },
+  "city:메이저우섬": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.5_1",
+    "adm3": "CHN.4.5.2_1"
+  },
+  "city:몐양": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.12_1",
+    "adm3": "CHN.26.12.4_1"
+  },
+  "city:몐현": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.3_1",
+    "adm3": "CHN.22.3.6_1"
+  },
+  "city:모시": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.12_1"
+  },
+  "city:무당산": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.9_1",
+    "adm3": "CHN.13.9.2_1"
+  },
+  "city:무릉원": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.13_1",
+    "adm3": "CHN.14.13.2_1"
+  },
+  "city:무아르": {
+    "cc": "MYS",
+    "adm1": "MYS.1_1",
+    "adm2": "MYS.1.8_1",
+    "adm3": ""
+  },
+  "city:무이네": {
+    "cc": "VNM",
+    "adm1": "VNM.11_1",
+    "adm2": "VNM.11.7_1",
+    "adm3": "VNM.11.7.8_1"
+  },
+  "city:묵다한": {
+    "cc": "THA",
+    "adm1": "THA.25_1",
+    "adm2": "THA.25.4_1",
+    "adm3": "THA.25.4.10_1"
+  },
+  "city:므앙롱": {
+    "cc": "LAO",
+    "adm1": "LAO.7_1",
+    "adm2": "LAO.7.1_1",
+    "adm3": ""
+  },
+  "city:므앙싱": {
+    "cc": "LAO",
+    "adm1": "LAO.7_1",
+    "adm2": "LAO.7.4_1",
+    "adm3": ""
+  },
+  "city:므앙싸이": {
+    "cc": "LAO",
+    "adm1": "LAO.9_1",
+    "adm2": "LAO.9.7_1",
+    "adm3": ""
+  },
+  "city:므앙응언": {
+    "cc": "LAO",
+    "adm1": "LAO.15_1",
+    "adm2": "LAO.15.5_1",
+    "adm3": ""
+  },
+  "city:므앙응오이": {
+    "cc": "LAO",
+    "adm1": "LAO.8_1",
+    "adm2": "LAO.8.5_1",
+    "adm3": ""
+  },
+  "city:미러": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.6_1",
+    "adm3": "CHN.30.6.10_1"
+  },
+  "city:미리": {
+    "cc": "MYS",
+    "adm1": "MYS.14_1",
+    "adm2": "MYS.14.19_1",
+    "adm3": ""
+  },
+  "city:미선": {
+    "cc": "VNM",
+    "adm1": "VNM.47_1",
+    "adm2": "VNM.47.5_1",
+    "adm3": "VNM.47.5.3_1"
+  },
+  "city:미토": {
+    "cc": "VNM",
+    "adm1": "VNM.58_1",
+    "adm2": "VNM.58.9_1",
+    "adm3": "VNM.58.9.8_1"
+  },
+  "city:바돈": {
+    "cc": "VNM",
+    "adm1": "VNM.46_1",
+    "adm2": "VNM.46.2_1",
+    "adm3": "VNM.46.2.13_1"
+  },
+  "city:바둥": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.1_1",
+    "adm3": "CHN.13.1.1_1"
+  },
+  "city:바마": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.7_1",
+    "adm3": "CHN.7.7.1_1"
+  },
+  "city:바벳": {
+    "cc": "KHM",
+    "adm1": "KHM.23_1",
+    "adm2": "KHM.23.1_2",
+    "adm3": "KHM.23.1.2_2"
+  },
+  "city:바사": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.2_1"
+  },
+  "city:바오록": {
+    "cc": "VNM",
+    "adm1": "VNM.37_1",
+    "adm2": "VNM.37.1_1",
+    "adm3": "VNM.37.1.10_1"
+  },
+  "city:바오산": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.1_1",
+    "adm3": "CHN.30.1.1_1"
+  },
+  "city:바오지": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.2_1",
+    "adm3": "CHN.22.2.1_1"
+  },
+  "city:바오팅": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.2_1"
+  },
+  "city:바이샤": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.1_1"
+  },
+  "city:바이써": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.1_1",
+    "adm3": "CHN.7.1.1_1"
+  },
+  "city:바중": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.1_1",
+    "adm3": "CHN.26.1.1_1"
+  },
+  "city:바탐방": {
+    "cc": "KHM",
+    "adm1": "KHM.2_1",
+    "adm2": "KHM.2.3_2",
+    "adm3": "KHM.2.3.6_2"
+  },
+  "city:바탕": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.2_1"
+  },
+  "city:바투파핫": {
+    "cc": "MYS",
+    "adm1": "MYS.1_1",
+    "adm2": "MYS.1.1_1",
+    "adm3": ""
+  },
+  "city:박리에우": {
+    "cc": "VNM",
+    "adm1": "VNM.2_1",
+    "adm2": "VNM.2.1_1",
+    "adm3": "VNM.2.1.7_1"
+  },
+  "city:박총": {
+    "cc": "THA",
+    "adm1": "THA.29_1",
+    "adm2": "THA.29.25_1",
+    "adm3": "THA.29.25.7_1"
+  },
+  "city:반나힌": {
+    "cc": "LAO",
+    "adm1": "LAO.6_1",
+    "adm2": "LAO.6.2_1",
+    "adm3": ""
+  },
+  "city:반락타이": {
+    "cc": "THA",
+    "adm1": "THA.23_1",
+    "adm2": "THA.23.4_1",
+    "adm3": "THA.23.4.4_1"
+  },
+  "city:반룽": {
+    "cc": "KHM",
+    "adm1": "KHM.20_1",
+    "adm2": "KHM.20.2_2",
+    "adm3": "KHM.20.2.1_2"
+  },
+  "city:반치앙": {
+    "cc": "THA",
+    "adm1": "THA.73_1",
+    "adm2": "THA.73.12_1",
+    "adm3": "THA.73.12.2_1"
+  },
+  "city:반테아이츠마": {
+    "cc": "KHM",
+    "adm1": "KHM.1_1",
+    "adm2": "KHM.1.9_2",
+    "adm3": "KHM.1.9.1_2"
+  },
+  "city:반퐁": {
+    "cc": "VNM",
+    "adm1": "VNM.32_1",
+    "adm2": "VNM.32.8_1",
+    "adm3": "VNM.32.8.11_1"
+  },
+  "city:발레스티에": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:방비엥": {
+    "cc": "LAO",
+    "adm1": "LAO.14_1",
+    "adm2": "LAO.14.8_1",
+    "adm3": ""
+  },
+  "city:방센": {
+    "cc": "THA",
+    "adm1": "THA.12_1",
+    "adm2": "THA.12.6_1",
+    "adm3": "THA.12.6.1_1"
+  },
+  "city:방콕": {
+    "cc": "THA",
+    "adm1": "THA.3_1",
+    "adm2": "THA.3.33_1",
+    "adm3": "THA.3.33.1_1"
+  },
+  "city:베이하이": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.2_1",
+    "adm3": "CHN.7.2.1_1"
+  },
+  "city:베통": {
+    "cc": "THA",
+    "adm1": "THA.76_1",
+    "adm2": "THA.76.2_1",
+    "adm3": "THA.76.2.2_1"
+  },
+  "city:벤째": {
+    "cc": "VNM",
+    "adm1": "VNM.6_1",
+    "adm2": "VNM.6.1_1",
+    "adm3": "VNM.6.1.2_1"
+  },
+  "city:벤통": {
+    "cc": "MYS",
+    "adm1": "MYS.8_1",
+    "adm2": "MYS.8.1_1",
+    "adm3": ""
+  },
+  "city:보아오": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.11_1"
+  },
+  "city:보코르산": {
+    "cc": "KHM",
+    "adm1": "KHM.7_1",
+    "adm2": "KHM.7.8_2",
+    "adm3": "KHM.7.8.6_2"
+  },
+  "city:보클루아": {
+    "cc": "THA",
+    "adm1": "THA.32_1",
+    "adm2": "THA.32.2_1",
+    "adm3": "THA.32.2.1_1"
+  },
+  "city:보타닉 가든": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:보텐": {
+    "cc": "LAO",
+    "adm1": "LAO.7_1",
+    "adm2": "LAO.7.3_1",
+    "adm3": ""
+  },
+  "city:볼라벤 고원": {
+    "cc": "LAO",
+    "adm1": "LAO.4_1",
+    "adm2": "LAO.4.5_1",
+    "adm3": ""
+  },
+  "city:봉황": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.9_1",
+    "adm3": "CHN.14.9.2_1"
+  },
+  "city:부기스": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:부리람": {
+    "cc": "THA",
+    "adm1": "THA.5_1",
+    "adm2": "THA.5.12_1",
+    "adm3": "THA.5.12.5_1"
+  },
+  "city:부온돈": {
+    "cc": "VNM",
+    "adm1": "VNM.15_1",
+    "adm2": "VNM.15.1_1",
+    "adm3": "VNM.15.1.6_1"
+  },
+  "city:부온마투옷": {
+    "cc": "VNM",
+    "adm1": "VNM.15_1",
+    "adm2": "VNM.15.2_1",
+    "adm3": "VNM.15.2.11_1"
+  },
+  "city:부킷 티마": {
+    "cc": "SGP",
+    "adm1": "SGP.5_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:붕따우": {
+    "cc": "VNM",
+    "adm1": "VNM.7_1",
+    "adm2": "VNM.7.6_1",
+    "adm3": "VNM.7.6.8_1"
+  },
+  "city:붕로": {
+    "cc": "VNM",
+    "adm1": "VNM.45_1",
+    "adm2": "VNM.45.2_1",
+    "adm3": "VNM.45.2.9_1"
+  },
+  "city:븡깐": {
+    "cc": "THA",
+    "adm1": "THA.4_1",
+    "adm2": "THA.4.1_1",
+    "adm3": "THA.4.1.1_1"
+  },
+  "city:비엔티안": {
+    "cc": "LAO",
+    "adm1": "LAO.13_1",
+    "adm2": "LAO.13.1_1",
+    "adm3": ""
+  },
+  "city:비엔호아": {
+    "cc": "VNM",
+    "adm1": "VNM.17_1",
+    "adm2": "VNM.17.1_1",
+    "adm3": "VNM.17.1.28_1"
+  },
+  "city:비엥싸이": {
+    "cc": "LAO",
+    "adm1": "LAO.5_1",
+    "adm2": "LAO.5.5_1",
+    "adm3": ""
+  },
+  "city:비엥푸카": {
+    "cc": "LAO",
+    "adm1": "LAO.7_1",
+    "adm2": "LAO.7.5_1",
+    "adm3": ""
+  },
+  "city:비제": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.2_1",
+    "adm3": "CHN.8.2.1_1"
+  },
+  "city:빈": {
+    "cc": "VNM",
+    "adm1": "VNM.41_1",
+    "adm2": "VNM.41.20_1",
+    "adm3": "VNM.41.20.23_1"
+  },
+  "city:빈롱": {
+    "cc": "VNM",
+    "adm1": "VNM.61_1",
+    "adm2": "VNM.61.7_1",
+    "adm3": "VNM.61.7.3_1"
+  },
+  "city:빈목": {
+    "cc": "VNM",
+    "adm1": "VNM.50_1",
+    "adm2": "VNM.50.10_1",
+    "adm3": "VNM.50.10.17_1"
+  },
+  "city:빈바": {
+    "cc": "VNM",
+    "adm1": "VNM.32_1",
+    "adm2": "VNM.32.2_1",
+    "adm3": "VNM.32.2.2_1"
+  },
+  "city:빈툴루": {
+    "cc": "MYS",
+    "adm1": "MYS.14_1",
+    "adm2": "MYS.14.5_1",
+    "adm3": ""
+  },
+  "city:빈히": {
+    "cc": "VNM",
+    "adm1": "VNM.43_1",
+    "adm2": "VNM.43.2_1",
+    "adm3": "VNM.43.2.8_1"
+  },
+  "city:빙중뤄": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.10_1",
+    "adm3": "CHN.30.10.2_1"
+  },
+  "city:빠이": {
+    "cc": "THA",
+    "adm1": "THA.23_1",
+    "adm2": "THA.23.5_1",
+    "adm3": "THA.23.5.7_1"
+  },
+  "city:사깨오": {
+    "cc": "THA",
+    "adm1": "THA.55_1",
+    "adm2": "THA.55.6_1",
+    "adm3": "THA.55.6.4_1"
+  },
+  "city:사꼰나콘": {
+    "cc": "THA",
+    "adm1": "THA.56_1",
+    "adm2": "THA.56.8_1",
+    "adm3": "THA.56.8.9_1"
+  },
+  "city:사덱": {
+    "cc": "VNM",
+    "adm1": "VNM.18_1",
+    "adm2": "VNM.18.8_1",
+    "adm3": "VNM.18.8.9_1"
+  },
+  "city:사뚠": {
+    "cc": "THA",
+    "adm1": "THA.61_1",
+    "adm2": "THA.61.5_1",
+    "adm3": "THA.61.5.9_1"
+  },
+  "city:사라부리": {
+    "cc": "THA",
+    "adm1": "THA.60_1",
+    "adm2": "THA.60.6_1",
+    "adm3": "THA.60.6.2_1"
+  },
+  "city:사멩": {
+    "cc": "THA",
+    "adm1": "THA.10_1",
+    "adm2": "THA.10.19_1",
+    "adm3": "THA.10.19.4_1"
+  },
+  "city:사뭇쁘라깐": {
+    "cc": "THA",
+    "adm1": "THA.57_1",
+    "adm2": "THA.57.4_1",
+    "adm3": "THA.57.4.1_1"
+  },
+  "city:사뭇송크람": {
+    "cc": "THA",
+    "adm1": "THA.59_1",
+    "adm2": "THA.59.3_1",
+    "adm3": "THA.59.3.9_1"
+  },
+  "city:사반나켓": {
+    "cc": "LAO",
+    "adm1": "LAO.12_1",
+    "adm2": "LAO.12.4_1",
+    "adm3": ""
+  },
+  "city:사시": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.3_1",
+    "adm3": "CHN.30.3.5_1"
+  },
+  "city:사야부리": {
+    "cc": "LAO",
+    "adm1": "LAO.15_1",
+    "adm2": "LAO.15.9_1",
+    "adm3": ""
+  },
+  "city:사오관": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.14_1",
+    "adm3": "CHN.6.14.6_1"
+  },
+  "city:사오산": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.8_1",
+    "adm3": "CHN.14.8.1_1"
+  },
+  "city:사오양": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.7_1",
+    "adm3": "CHN.14.7.6_1"
+  },
+  "city:산다칸": {
+    "cc": "MYS",
+    "adm1": "MYS.13_1",
+    "adm2": "MYS.13.18_1",
+    "adm3": ""
+  },
+  "city:산웨이": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.13_1",
+    "adm3": "CHN.6.13.4_1"
+  },
+  "city:산칭산": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.8_1",
+    "adm3": "CHN.16.8.12_1"
+  },
+  "city:산터우": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.12_1",
+    "adm3": "CHN.6.12.3_1"
+  },
+  "city:살라완": {
+    "cc": "LAO",
+    "adm1": "LAO.11_1",
+    "adm2": "LAO.11.5_1",
+    "adm3": ""
+  },
+  "city:삼느아": {
+    "cc": "LAO",
+    "adm1": "LAO.5_1",
+    "adm2": "LAO.5.6_1",
+    "adm3": ""
+  },
+  "city:삼선": {
+    "cc": "VNM",
+    "adm1": "VNM.57_1",
+    "adm2": "VNM.57.18_1",
+    "adm3": "VNM.57.18.1_1"
+  },
+  "city:삼판복": {
+    "cc": "THA",
+    "adm1": "THA.72_1",
+    "adm2": "THA.72.18_1",
+    "adm3": "THA.72.18.3_1"
+  },
+  "city:상라오": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.8_1",
+    "adm3": "CHN.16.8.6_1"
+  },
+  "city:상뤄": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.4_1",
+    "adm3": "CHN.22.4.3_1"
+  },
+  "city:샤먼": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.8_1",
+    "adm3": "CHN.4.8.2_1"
+  },
+  "city:샤알람": {
+    "cc": "MYS",
+    "adm1": "MYS.15_1",
+    "adm2": "MYS.15.7_1",
+    "adm3": ""
+  },
+  "city:샤오간": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.16_1",
+    "adm3": "CHN.13.16.5_1"
+  },
+  "city:샤푸": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.4_1",
+    "adm3": "CHN.4.4.7_1"
+  },
+  "city:샤허": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.3_1",
+    "adm3": "CHN.5.3.6_1"
+  },
+  "city:샹그릴라": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.5_1",
+    "adm3": "CHN.30.5.3_1"
+  },
+  "city:샹양": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.13_1",
+    "adm3": "CHN.13.13.5_1"
+  },
+  "city:샹탄": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.8_1",
+    "adm3": "CHN.14.8.2_1"
+  },
+  "city:석림": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.7_1",
+    "adm3": "CHN.30.7.7_1"
+  },
+  "city:선농자 (무위진)": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.8_1",
+    "adm3": "CHN.13.8.1_1"
+  },
+  "city:선전": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.15_1",
+    "adm3": "CHN.6.15.2_1"
+  },
+  "city:세콩": {
+    "cc": "LAO",
+    "adm1": "LAO.17_1",
+    "adm2": "LAO.17.3_1",
+    "adm3": ""
+  },
+  "city:센모노롬": {
+    "cc": "KHM",
+    "adm1": "KHM.14_1",
+    "adm2": "KHM.14.5_2",
+    "adm3": "KHM.14.5.3_2"
+  },
+  "city:센토사": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:셈포르나": {
+    "cc": "MYS",
+    "adm1": "MYS.13_1",
+    "adm2": "MYS.13.19_1",
+    "adm3": ""
+  },
+  "city:셴닝": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.14_1",
+    "adm3": "CHN.13.14.6_1"
+  },
+  "city:셴양": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.8_1",
+    "adm3": "CHN.22.8.9_1"
+  },
+  "city:셴펑": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.1_1",
+    "adm3": "CHN.13.1.7_1"
+  },
+  "city:속짱": {
+    "cc": "VNM",
+    "adm1": "VNM.51_1",
+    "adm2": "VNM.51.8_1",
+    "adm3": "VNM.51.8.3_1"
+  },
+  "city:송꺼우": {
+    "cc": "VNM",
+    "adm1": "VNM.45_1",
+    "adm2": "VNM.45.5_1",
+    "adm3": "VNM.45.5.1_1"
+  },
+  "city:송클라": {
+    "cc": "THA",
+    "adm1": "THA.64_1",
+    "adm2": "THA.64.7_1",
+    "adm3": "THA.64.7.1_1"
+  },
+  "city:수랏타니": {
+    "cc": "THA",
+    "adm1": "THA.67_1",
+    "adm2": "THA.67.13_1",
+    "adm3": "THA.67.13.10_1"
+  },
+  "city:수린": {
+    "cc": "THA",
+    "adm1": "THA.68_1",
+    "adm2": "THA.68.10_1",
+    "adm3": "THA.68.10.1_1"
+  },
+  "city:수이저우": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.10_1",
+    "adm3": "CHN.13.10.1_1"
+  },
+  "city:수코타이": {
+    "cc": "THA",
+    "adm1": "THA.65_1",
+    "adm2": "THA.65.4_1",
+    "adm3": "THA.65.4.8_1"
+  },
+  "city:수판부리": {
+    "cc": "THA",
+    "adm1": "THA.66_1",
+    "adm2": "THA.66.5_1",
+    "adm3": "THA.66.5.10_1"
+  },
+  "city:순더": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.3_1",
+    "adm3": "CHN.6.3.5_1"
+  },
+  "city:숭게이 블로 습지 보호구역": {
+    "cc": "SGP",
+    "adm1": "SGP.3_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:쉬원": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.18_1",
+    "adm3": "CHN.6.18.5_1"
+  },
+  "city:스름반": {
+    "cc": "MYS",
+    "adm1": "MYS.7_1",
+    "adm2": "MYS.7.6_1",
+    "adm3": ""
+  },
+  "city:스옌": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.9_1",
+    "adm3": "CHN.13.9.3_1"
+  },
+  "city:스퉁트렝": {
+    "cc": "KHM",
+    "adm1": "KHM.22_1",
+    "adm2": "KHM.22.4_2",
+    "adm3": "KHM.22.4.4_2"
+  },
+  "city:시강": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.8_1"
+  },
+  "city:시부": {
+    "cc": "MYS",
+    "adm1": "MYS.14_1",
+    "adm2": "MYS.14.27_1",
+    "adm3": ""
+  },
+  "city:시빅 디스트릭트": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:시사켓": {
+    "cc": "THA",
+    "adm1": "THA.62_1",
+    "adm2": "THA.62.11_1",
+    "adm3": "THA.62.11.3_1"
+  },
+  "city:시소폰": {
+    "cc": "KHM",
+    "adm1": "KHM.1_1",
+    "adm2": "KHM.1.7_2",
+    "adm3": "KHM.1.7.4_2"
+  },
+  "city:시안": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.7_1",
+    "adm3": "CHN.22.7.6_1"
+  },
+  "city:시주": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.21_1"
+  },
+  "city:시창": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.9_1",
+    "adm3": "CHN.26.9.13_1"
+  },
+  "city:시판돈": {
+    "cc": "LAO",
+    "adm1": "LAO.4_1",
+    "adm2": "LAO.4.3_1",
+    "adm3": ""
+  },
+  "city:시하누크빌": {
+    "cc": "KHM",
+    "adm1": "KHM.13_1",
+    "adm2": "KHM.13.2_2",
+    "adm3": "KHM.13.2.5_2"
+  },
+  "city:신닝": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.7_1",
+    "adm3": "CHN.14.7.10_1"
+  },
+  "city:신위": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.9_1",
+    "adm3": "CHN.16.9.2_1"
+  },
+  "city:싱부리": {
+    "cc": "THA",
+    "adm1": "THA.63_1",
+    "adm2": "THA.63.4_1",
+    "adm3": "THA.63.4.1_1"
+  },
+  "city:싱이": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.7_1",
+    "adm3": "CHN.8.7.7_1"
+  },
+  "city:싱핑": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.6_1",
+    "adm3": "CHN.7.6.11_1"
+  },
+  "city:싼밍": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.7_1",
+    "adm3": "CHN.4.7.8_1"
+  },
+  "city:싼야": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.3_1",
+    "adm3": "CHN.9.3.1_1"
+  },
+  "city:싼장": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.10_1",
+    "adm3": "CHN.7.10.7_1"
+  },
+  "city:쌍클라부리": {
+    "cc": "THA",
+    "adm1": "THA.16_1",
+    "adm2": "THA.16.9_1",
+    "adm3": "THA.16.9.2_1"
+  },
+  "city:써다": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.14_1"
+  },
+  "city:쑹판": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.16_1",
+    "adm3": "CHN.26.16.10_1"
+  },
+  "city:쓰구냥산": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.16_1",
+    "adm3": "CHN.26.16.12_1"
+  },
+  "city:씨엠립": {
+    "cc": "KHM",
+    "adm1": "KHM.21_1",
+    "adm2": "KHM.21.8_2",
+    "adm3": "KHM.21.8.7_2"
+  },
+  "city:아르어이": {
+    "cc": "VNM",
+    "adm1": "VNM.54_1",
+    "adm2": "VNM.54.1_1",
+    "adm3": "VNM.54.1.20_1"
+  },
+  "city:아오낭": {
+    "cc": "THA",
+    "adm1": "THA.18_1",
+    "adm2": "THA.18.6_1",
+    "adm3": "THA.18.6.1_1"
+  },
+  "city:아유타야": {
+    "cc": "THA",
+    "adm1": "THA.46_1",
+    "adm2": "THA.46.11_1",
+    "adm3": "THA.46.11.10_1"
+  },
+  "city:아윤파": {
+    "cc": "VNM",
+    "adm1": "VNM.21_1",
+    "adm2": "VNM.21.2_1",
+    "adm3": "VNM.21.2.5_1"
+  },
+  "city:아타푸": {
+    "cc": "LAO",
+    "adm1": "LAO.1_1",
+    "adm2": "LAO.1.2_1",
+    "adm3": ""
+  },
+  "city:안년": {
+    "cc": "VNM",
+    "adm1": "VNM.8_1",
+    "adm2": "VNM.8.2_1",
+    "adm3": "VNM.8.2.1_1"
+  },
+  "city:안롱벵": {
+    "cc": "KHM",
+    "adm1": "KHM.15_1",
+    "adm2": "KHM.15.1_2",
+    "adm3": "KHM.15.1.4_2"
+  },
+  "city:안순": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.1_1",
+    "adm3": "CHN.8.1.1_1"
+  },
+  "city:안캉": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.1_1",
+    "adm3": "CHN.22.1.1_1"
+  },
+  "city:안케": {
+    "cc": "VNM",
+    "adm1": "VNM.21_1",
+    "adm2": "VNM.21.1_1",
+    "adm3": "VNM.21.1.8_1"
+  },
+  "city:알로르세타르": {
+    "cc": "MYS",
+    "adm1": "MYS.2_1",
+    "adm2": "MYS.2.3_1",
+    "adm3": ""
+  },
+  "city:암낫차른": {
+    "cc": "THA",
+    "adm1": "THA.1_1",
+    "adm2": "THA.1.4_1",
+    "adm3": "THA.1.4.1_1"
+  },
+  "city:암파와": {
+    "cc": "THA",
+    "adm1": "THA.59_1",
+    "adm2": "THA.59.1_1",
+    "adm3": "THA.59.1.2_1"
+  },
+  "city:앙코르 유적": {
+    "cc": "KHM",
+    "adm1": "KHM.21_1",
+    "adm2": "KHM.21.8_2",
+    "adm3": "KHM.21.8.6_2"
+  },
+  "city:앙통": {
+    "cc": "THA",
+    "adm1": "THA.2_1",
+    "adm2": "THA.2.2_1",
+    "adm3": "THA.2.2.4_1"
+  },
+  "city:야딩": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.4_1"
+  },
+  "city:야룽만": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.3_1",
+    "adm3": "CHN.9.3.1_1"
+  },
+  "city:야소톤": {
+    "cc": "THA",
+    "adm1": "THA.77_1",
+    "adm2": "THA.77.1_1",
+    "adm3": "THA.77.1.1_1"
+  },
+  "city:야안": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.19_1",
+    "adm3": "CHN.26.19.7_1"
+  },
+  "city:야알라": {
+    "cc": "THA",
+    "adm1": "THA.76_1",
+    "adm2": "THA.76.5_1",
+    "adm3": "THA.76.5.9_1"
+  },
+  "city:야오리": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.4_1",
+    "adm3": "CHN.16.4.1_1"
+  },
+  "city:양숴": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.6_1",
+    "adm3": "CHN.7.6.11_1"
+  },
+  "city:양장": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.16_1",
+    "adm3": "CHN.6.16.3_1"
+  },
+  "city:어메이산": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.8_1",
+    "adm3": "CHN.26.8.2_1"
+  },
+  "city:어저우": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.2_1",
+    "adm3": "CHN.13.2.1_1"
+  },
+  "city:옌안": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.9_1",
+    "adm3": "CHN.22.9.8_1"
+  },
+  "city:오차드 로드": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:완닝": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.14_1"
+  },
+  "city:완저우": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.24_1"
+  },
+  "city:왕셴구": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.8_1",
+    "adm3": "CHN.16.8.7_1"
+  },
+  "city:우궁산": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.3_1",
+    "adm3": "CHN.16.3.1_1"
+  },
+  "city:우돈타니": {
+    "cc": "THA",
+    "adm1": "THA.73_1",
+    "adm2": "THA.73.8_1",
+    "adm3": "THA.73.8.6_1"
+  },
+  "city:우동": {
+    "cc": "KHM",
+    "adm1": "KHM.8_1",
+    "adm2": "KHM.8.9_2",
+    "adm3": "KHM.8.9.7_2"
+  },
+  "city:우따라딧": {
+    "cc": "THA",
+    "adm1": "THA.75_1",
+    "adm2": "THA.75.4_1",
+    "adm3": "THA.75.4.13_1"
+  },
+  "city:우룽": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.25_1"
+  },
+  "city:우본랏차타니": {
+    "cc": "THA",
+    "adm1": "THA.72_1",
+    "adm2": "THA.72.14_1",
+    "adm3": "THA.72.14.1_1"
+  },
+  "city:우산": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.26_1"
+  },
+  "city:우웨이": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.13_1",
+    "adm3": "CHN.5.13.4_1"
+  },
+  "city:우위안": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.8_1",
+    "adm3": "CHN.16.8.9_1"
+  },
+  "city:우이산": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.3_1",
+    "adm3": "CHN.4.3.1_1"
+  },
+  "city:우저우": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.13_1",
+    "adm3": "CHN.7.13.5_1"
+  },
+  "city:우즈산": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.2_1"
+  },
+  "city:우타이타니": {
+    "cc": "THA",
+    "adm1": "THA.74_1",
+    "adm2": "THA.74.4_1",
+    "adm3": "THA.74.4.6_1"
+  },
+  "city:우한": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.12_1",
+    "adm3": "CHN.13.12.4_1"
+  },
+  "city:움팡": {
+    "cc": "THA",
+    "adm1": "THA.69_1",
+    "adm2": "THA.69.9_1",
+    "adm3": "THA.69.9.6_1"
+  },
+  "city:원창": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.15_1"
+  },
+  "city:원촨": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.16_1",
+    "adm3": "CHN.26.16.11_1"
+  },
+  "city:원탕진": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.10_1",
+    "adm3": "CHN.16.10.8_1"
+  },
+  "city:웨양": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.12_1",
+    "adm3": "CHN.14.12.6_1"
+  },
+  "city:웨이난": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.6_1",
+    "adm3": "CHN.22.6.11_1"
+  },
+  "city:웨이산": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.3_1",
+    "adm3": "CHN.30.3.8_1"
+  },
+  "city:웨이저우섬": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.2_1",
+    "adm3": "CHN.7.2.1_1"
+  },
+  "city:위린 (광시)": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.14_1",
+    "adm3": "CHN.7.14.5_1"
+  },
+  "city:위린 (산시)": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.10_1",
+    "adm3": "CHN.22.10.11_1"
+  },
+  "city:위벙": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.5_1",
+    "adm3": "CHN.30.5.1_1"
+  },
+  "city:위시": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.15_1",
+    "adm3": "CHN.30.15.9_1"
+  },
+  "city:위안머우": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.2_1",
+    "adm3": "CHN.30.2.10_1"
+  },
+  "city:위안양": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.6_1",
+    "adm3": "CHN.30.6.13_1"
+  },
+  "city:윈양": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.31_1"
+  },
+  "city:윈푸": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.17_1",
+    "adm3": "CHN.6.17.5_1"
+  },
+  "city:유양": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.30_1"
+  },
+  "city:융딩": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.2_1",
+    "adm3": "CHN.4.2.6_1"
+  },
+  "city:융저우": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.11_1",
+    "adm3": "CHN.14.11.5_1"
+  },
+  "city:융촨": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.29_1"
+  },
+  "city:은스": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.1_1",
+    "adm3": "CHN.13.1.2_1"
+  },
+  "city:응옥호이": {
+    "cc": "VNM",
+    "adm1": "VNM.34_1",
+    "adm2": "VNM.34.8_1",
+    "adm3": "VNM.34.8.5_1"
+  },
+  "city:이빈": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.20_1",
+    "adm3": "CHN.26.20.9_1"
+  },
+  "city:이스트 코스트 파크": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:이양": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.10_1",
+    "adm3": "CHN.14.10.5_1"
+  },
+  "city:이저우": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.7_1",
+    "adm3": "CHN.7.7.11_1"
+  },
+  "city:이창": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.17_1",
+    "adm3": "CHN.13.17.5_1"
+  },
+  "city:이춘": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.10_1",
+    "adm3": "CHN.16.10.8_1"
+  },
+  "city:이포": {
+    "cc": "MYS",
+    "adm1": "MYS.9_1",
+    "adm2": "MYS.9.6_1",
+    "adm3": ""
+  },
+  "city:잉더": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.11_1",
+    "adm3": "CHN.6.11.8_1"
+  },
+  "city:잉탄": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.11_1",
+    "adm3": "CHN.16.11.2_1"
+  },
+  "city:자오싱": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.9_1"
+  },
+  "city:자오칭": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.19_1",
+    "adm3": "CHN.6.19.7_1"
+  },
+  "city:자오퉁": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.16_1",
+    "adm3": "CHN.30.16.10_1"
+  },
+  "city:자위관": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.4_1",
+    "adm3": "CHN.5.4.1_1"
+  },
+  "city:자응이아": {
+    "cc": "VNM",
+    "adm1": "VNM.16_1",
+    "adm2": "VNM.16.6_1",
+    "adm3": "VNM.16.6.7_1"
+  },
+  "city:잔장": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.18_1",
+    "adm3": "CHN.6.18.6_1"
+  },
+  "city:장먼": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.7_1",
+    "adm3": "CHN.6.7.3_1"
+  },
+  "city:장예": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.14_1",
+    "adm3": "CHN.5.14.6_1"
+  },
+  "city:장융": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.11_1",
+    "adm3": "CHN.14.11.3_1"
+  },
+  "city:장자제": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.13_1",
+    "adm3": "CHN.14.13.2_1"
+  },
+  "city:장저우": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.9_1",
+    "adm3": "CHN.4.9.8_1"
+  },
+  "city:전위안": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.16_1"
+  },
+  "city:제양": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.8_1",
+    "adm3": "CHN.6.8.5_1"
+  },
+  "city:젠수이": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.6_1",
+    "adm3": "CHN.30.6.4_1"
+  },
+  "city:젠허": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.5_1"
+  },
+  "city:조지타운": {
+    "cc": "MYS",
+    "adm1": "MYS.11_1",
+    "adm2": "MYS.11.5_1",
+    "adm3": ""
+  },
+  "city:조호르바루": {
+    "cc": "MYS",
+    "adm1": "MYS.1_1",
+    "adm2": "MYS.1.2_1",
+    "adm3": ""
+  },
+  "city:주롱": {
+    "cc": "SGP",
+    "adm1": "SGP.5_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:주자이거우": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.16_1",
+    "adm3": "CHN.26.16.9_1"
+  },
+  "city:주저우": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.14_1",
+    "adm3": "CHN.14.14.5_1"
+  },
+  "city:주취안": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.6_1",
+    "adm3": "CHN.5.6.6_1"
+  },
+  "city:주하이": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.21_1",
+    "adm3": "CHN.6.21.2_1"
+  },
+  "city:중산": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.20_1",
+    "adm3": "CHN.6.20.1_1"
+  },
+  "city:중샹": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.5_1",
+    "adm3": "CHN.13.5.4_1"
+  },
+  "city:중현": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.32_1"
+  },
+  "city:즈진": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.2_1",
+    "adm3": "CHN.8.2.8_1"
+  },
+  "city:지서우": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.9_1",
+    "adm3": "CHN.14.9.5_1"
+  },
+  "city:지안": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.3_1",
+    "adm3": "CHN.16.3.3_1"
+  },
+  "city:지우장": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.5_1",
+    "adm3": "CHN.16.5.4_1"
+  },
+  "city:진장": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.6_1",
+    "adm3": "CHN.4.6.4_1"
+  },
+  "city:징강산 (츠핑)": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.3_1",
+    "adm3": "CHN.16.3.4_1"
+  },
+  "city:징더전": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.4_1",
+    "adm3": "CHN.16.4.1_1"
+  },
+  "city:징먼": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.5_1",
+    "adm3": "CHN.13.5.1_1"
+  },
+  "city:징시": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.1_1",
+    "adm3": "CHN.7.1.3_1"
+  },
+  "city:징저우": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.6_1",
+    "adm3": "CHN.13.6.6_1"
+  },
+  "city:징훙": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.14_1",
+    "adm3": "CHN.30.14.1_1"
+  },
+  "city:짜빈": {
+    "cc": "VNM",
+    "adm1": "VNM.59_1",
+    "adm2": "VNM.59.9_1",
+    "adm3": "VNM.59.9.2_1"
+  },
+  "city:쩌우독": {
+    "cc": "VNM",
+    "adm1": "VNM.1_1",
+    "adm2": "VNM.1.3_1",
+    "adm3": "VNM.1.3.2_1"
+  },
+  "city:쭌이": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.9_1",
+    "adm3": "CHN.8.9.12_1"
+  },
+  "city:쯔궁": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.21_1",
+    "adm3": "CHN.26.21.3_1"
+  },
+  "city:차둥": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.9_1",
+    "adm3": "CHN.14.9.4_1"
+  },
+  "city:차오저우": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.1_1",
+    "adm3": "CHN.6.1.1_1"
+  },
+  "city:차이나타운": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:차이낫": {
+    "cc": "THA",
+    "adm1": "THA.7_1",
+    "adm2": "THA.7.5_1",
+    "adm3": "THA.7.5.5_1"
+  },
+  "city:차이야품": {
+    "cc": "THA",
+    "adm1": "THA.8_1",
+    "adm2": "THA.8.10_1",
+    "adm3": "THA.8.10.12_1"
+  },
+  "city:찬타부리": {
+    "cc": "THA",
+    "adm1": "THA.9_1",
+    "adm2": "THA.9.7_1",
+    "adm3": "THA.9.7.7_1"
+  },
+  "city:참섬": {
+    "cc": "VNM",
+    "adm1": "VNM.47_1",
+    "adm2": "VNM.47.6_1",
+    "adm3": "VNM.47.6.12_1"
+  },
+  "city:참파삭": {
+    "cc": "LAO",
+    "adm1": "LAO.4_1",
+    "adm2": "LAO.4.2_1",
+    "adm3": ""
+  },
+  "city:창더": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.1_1",
+    "adm3": "CHN.14.1.9_1"
+  },
+  "city:창사": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.2_1",
+    "adm3": "CHN.14.2.1_1"
+  },
+  "city:창서우": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.3_1"
+  },
+  "city:창위안": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.9_1",
+    "adm3": "CHN.30.9.1_1"
+  },
+  "city:창이": {
+    "cc": "SGP",
+    "adm1": "SGP.2_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:창장": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.3_1"
+  },
+  "city:창팅": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.2_1",
+    "adm3": "CHN.4.2.1_1"
+  },
+  "city:천저우": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.3_1",
+    "adm3": "CHN.14.3.3_1"
+  },
+  "city:청두": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.2_1",
+    "adm3": "CHN.26.2.2_1"
+  },
+  "city:청마이": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.4_1"
+  },
+  "city:청양": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.10_1",
+    "adm3": "CHN.7.10.7_1"
+  },
+  "city:청장": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.15_1",
+    "adm3": "CHN.30.15.1_1"
+  },
+  "city:체라팅": {
+    "cc": "MYS",
+    "adm1": "MYS.8_1",
+    "adm2": "MYS.8.5_1",
+    "adm3": ""
+  },
+  "city:첸양": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.5_1",
+    "adm3": "CHN.14.5.4_1"
+  },
+  "city:첸웨이": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.8_1",
+    "adm3": "CHN.26.8.7_1"
+  },
+  "city:첸장 (충칭)": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.18_1"
+  },
+  "city:첸장 (후베이)": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.7_1",
+    "adm3": "CHN.13.7.1_1"
+  },
+  "city:촌부리": {
+    "cc": "THA",
+    "adm1": "THA.12_1",
+    "adm2": "THA.12.6_1",
+    "adm3": "THA.12.6.1_1"
+  },
+  "city:총멕": {
+    "cc": "THA",
+    "adm1": "THA.72_1",
+    "adm2": "THA.72.21_1",
+    "adm3": "THA.72.21.2_1"
+  },
+  "city:추라이": {
+    "cc": "VNM",
+    "adm1": "VNM.47_1",
+    "adm2": "VNM.47.11_1",
+    "adm3": "VNM.47.11.10_1"
+  },
+  "city:추슝": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.2_1",
+    "adm3": "CHN.30.2.1_1"
+  },
+  "city:춤폰": {
+    "cc": "THA",
+    "adm1": "THA.13_1",
+    "adm2": "THA.13.3_1",
+    "adm3": "THA.13.3.11_1"
+  },
+  "city:충우": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.6_1",
+    "adm3": "CHN.4.6.3_1"
+  },
+  "city:충장": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.2_1"
+  },
+  "city:충중": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.12_1"
+  },
+  "city:충쭤": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.3_1",
+    "adm3": "CHN.7.3.1_1"
+  },
+  "city:충칭": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.5_1"
+  },
+  "city:충하이": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.11_1"
+  },
+  "city:취안저우": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.6_1",
+    "adm3": "CHN.4.6.6_1"
+  },
+  "city:취징": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.12_1",
+    "adm3": "CHN.30.12.8_1"
+  },
+  "city:츠당야": {
+    "cc": "VNM",
+    "adm1": "VNM.21_1",
+    "adm2": "VNM.21.17_1",
+    "adm3": "VNM.21.17.16_1"
+  },
+  "city:츠리": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.13_1",
+    "adm3": "CHN.14.13.1_1"
+  },
+  "city:츠비": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.14_1",
+    "adm3": "CHN.13.14.3_1"
+  },
+  "city:츠수이": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.9_1",
+    "adm3": "CHN.8.9.1_1"
+  },
+  "city:치앙다오": {
+    "cc": "THA",
+    "adm1": "THA.10_1",
+    "adm2": "THA.10.2_1",
+    "adm3": "THA.10.2.1_1"
+  },
+  "city:치앙라이": {
+    "cc": "THA",
+    "adm1": "THA.11_1",
+    "adm2": "THA.11.11_1",
+    "adm3": "THA.11.11.9_1"
+  },
+  "city:치앙마이": {
+    "cc": "THA",
+    "adm1": "THA.10_1",
+    "adm2": "THA.10.16_1",
+    "adm3": "THA.10.16.2_1"
+  },
+  "city:치앙센": {
+    "cc": "THA",
+    "adm1": "THA.11_1",
+    "adm2": "THA.11.2_1",
+    "adm3": "THA.11.2.5_1"
+  },
+  "city:치앙칸": {
+    "cc": "THA",
+    "adm1": "THA.21_1",
+    "adm2": "THA.21.1_1",
+    "adm3": "THA.21.1.2_1"
+  },
+  "city:치앙콩": {
+    "cc": "THA",
+    "adm1": "THA.11_1",
+    "adm2": "THA.11.1_1",
+    "adm3": "THA.11.1.6_1"
+  },
+  "city:치장": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.19_1"
+  },
+  "city:치팟": {
+    "cc": "KHM",
+    "adm1": "KHM.9_1",
+    "adm2": "KHM.9.7_2",
+    "adm3": "KHM.9.7.1_2"
+  },
+  "city:친저우": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.12_1",
+    "adm3": "CHN.7.12.3_1"
+  },
+  "city:칭옌": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.3_1",
+    "adm3": "CHN.8.3.1_1"
+  },
+  "city:칭위안": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.11_1",
+    "adm3": "CHN.6.11.5_1"
+  },
+  "city:카메론 하이랜드": {
+    "cc": "MYS",
+    "adm1": "MYS.8_1",
+    "adm2": "MYS.8.3_1",
+    "adm3": ""
+  },
+  "city:카오락": {
+    "cc": "THA",
+    "adm1": "THA.39_1",
+    "adm2": "THA.39.5_1",
+    "adm3": "THA.39.5.5_1"
+  },
+  "city:카오속": {
+    "cc": "THA",
+    "adm1": "THA.67_1",
+    "adm2": "THA.67.14_1",
+    "adm3": "THA.67.14.2_1"
+  },
+  "city:카이리": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.7_1"
+  },
+  "city:카이핑": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.7_1",
+    "adm3": "CHN.6.7.4_1"
+  },
+  "city:카통·주치앗": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:카파스섬": {
+    "cc": "MYS",
+    "adm1": "MYS.16_1",
+    "adm2": "MYS.16.6_1",
+    "adm3": ""
+  },
+  "city:칸타랄락": {
+    "cc": "THA",
+    "adm1": "THA.62_1",
+    "adm2": "THA.62.6_1",
+    "adm3": "THA.62.6.8_1"
+  },
+  "city:캄득": {
+    "cc": "VNM",
+    "adm1": "VNM.47_1",
+    "adm2": "VNM.47.13_1",
+    "adm3": "VNM.47.13.1_1"
+  },
+  "city:캄폿": {
+    "cc": "KHM",
+    "adm1": "KHM.7_1",
+    "adm2": "KHM.7.7_2",
+    "adm3": "KHM.7.7.2_2"
+  },
+  "city:캄퐁 글램": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:캄퐁참": {
+    "cc": "KHM",
+    "adm1": "KHM.3_1",
+    "adm2": "KHM.3.4_2",
+    "adm3": "KHM.3.4.1_2"
+  },
+  "city:캄퐁츠낭": {
+    "cc": "KHM",
+    "adm1": "KHM.4_1",
+    "adm2": "KHM.4.3_2",
+    "adm3": "KHM.4.3.2_2"
+  },
+  "city:캄퐁톰": {
+    "cc": "KHM",
+    "adm1": "KHM.6_1",
+    "adm2": "KHM.6.8_2",
+    "adm3": "KHM.6.8.4_2"
+  },
+  "city:캉가르": {
+    "cc": "MYS",
+    "adm1": "MYS.10_1",
+    "adm2": "MYS.10.1_1",
+    "adm3": ""
+  },
+  "city:캉딩": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.5_1",
+    "adm3": "CHN.26.5.10_1"
+  },
+  "city:케가": {
+    "cc": "VNM",
+    "adm1": "VNM.11_1",
+    "adm2": "VNM.11.5_1",
+    "adm3": "VNM.11.5.10_1"
+  },
+  "city:케산": {
+    "cc": "VNM",
+    "adm1": "VNM.50_1",
+    "adm2": "VNM.50.7_1",
+    "adm3": "VNM.50.7.13_1"
+  },
+  "city:케탐섬": {
+    "cc": "MYS",
+    "adm1": "MYS.15_1",
+    "adm2": "MYS.15.4_1",
+    "adm3": ""
+  },
+  "city:켑": {
+    "cc": "KHM",
+    "adm1": "KHM.10_1",
+    "adm2": "KHM.10.2_2",
+    "adm3": "KHM.10.2.1_2"
+  },
+  "city:코롱": {
+    "cc": "KHM",
+    "adm1": "KHM.13_1",
+    "adm2": "KHM.13.2_2",
+    "adm3": "KHM.13.2.3_2"
+  },
+  "city:코롱산렘": {
+    "cc": "KHM",
+    "adm1": "KHM.13_1",
+    "adm2": "KHM.13.2_2",
+    "adm3": "KHM.13.2.3_2"
+  },
+  "city:코케르": {
+    "cc": "KHM",
+    "adm1": "KHM.18_1",
+    "adm2": "KHM.18.4_2",
+    "adm3": "KHM.18.4.5_2"
+  },
+  "city:코타바루": {
+    "cc": "MYS",
+    "adm1": "MYS.3_1",
+    "adm2": "MYS.3.4_1",
+    "adm3": ""
+  },
+  "city:코타키나발루": {
+    "cc": "MYS",
+    "adm1": "MYS.13_1",
+    "adm2": "MYS.13.6_1",
+    "adm3": ""
+  },
+  "city:콘깬": {
+    "cc": "THA",
+    "adm1": "THA.17_1",
+    "adm2": "THA.17.13_1",
+    "adm3": "THA.17.13.9_1"
+  },
+  "city:쿠닷": {
+    "cc": "MYS",
+    "adm1": "MYS.13_1",
+    "adm2": "MYS.13.9_1",
+    "adm3": ""
+  },
+  "city:쿠안탄": {
+    "cc": "MYS",
+    "adm1": "MYS.8_1",
+    "adm2": "MYS.8.5_1",
+    "adm3": ""
+  },
+  "city:쿠알라룸푸르": {
+    "cc": "MYS",
+    "adm1": "MYS.4_1",
+    "adm2": "MYS.4.1_1",
+    "adm3": ""
+  },
+  "city:쿠알라셀랑고르": {
+    "cc": "MYS",
+    "adm1": "MYS.15_1",
+    "adm2": "MYS.15.6_1",
+    "adm3": ""
+  },
+  "city:쿠알라캉사르": {
+    "cc": "MYS",
+    "adm1": "MYS.9_1",
+    "adm2": "MYS.9.7_1",
+    "adm3": ""
+  },
+  "city:쿠알라트렝가누": {
+    "cc": "MYS",
+    "adm1": "MYS.16_1",
+    "adm2": "MYS.16.5_1",
+    "adm3": ""
+  },
+  "city:쿠칭": {
+    "cc": "MYS",
+    "adm1": "MYS.14_1",
+    "adm2": "MYS.14.11_1",
+    "adm3": ""
+  },
+  "city:쿤밍": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.7_1",
+    "adm3": "CHN.30.7.6_1"
+  },
+  "city:쿰파와피": {
+    "cc": "THA",
+    "adm1": "THA.73_1",
+    "adm2": "THA.73.6_1",
+    "adm3": "THA.73.6.8_1"
+  },
+  "city:크라체": {
+    "cc": "KHM",
+    "adm1": "KHM.11_1",
+    "adm2": "KHM.11.3_2",
+    "adm3": "KHM.11.3.2_2"
+  },
+  "city:클락 키·로버슨 키": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:클랑": {
+    "cc": "MYS",
+    "adm1": "MYS.15_1",
+    "adm2": "MYS.15.4_1",
+    "adm3": ""
+  },
+  "city:클루앙": {
+    "cc": "MYS",
+    "adm1": "MYS.1_1",
+    "adm2": "MYS.1.3_1",
+    "adm3": ""
+  },
+  "city:키나발루 국립공원": {
+    "cc": "MYS",
+    "adm1": "MYS.13_1",
+    "adm2": "MYS.13.5_1",
+    "adm3": ""
+  },
+  "city:키리웡": {
+    "cc": "THA",
+    "adm1": "THA.31_1",
+    "adm2": "THA.31.11_1",
+    "adm3": "THA.31.11.1_1"
+  },
+  "city:타둥": {
+    "cc": "VNM",
+    "adm1": "VNM.16_1",
+    "adm2": "VNM.16.5_1",
+    "adm3": "VNM.16.5.2_1"
+  },
+  "city:타만네가라": {
+    "cc": "MYS",
+    "adm1": "MYS.8_1",
+    "adm2": "MYS.8.4_1",
+    "adm3": ""
+  },
+  "city:타와우": {
+    "cc": "MYS",
+    "adm1": "MYS.13_1",
+    "adm2": "MYS.13.22_1",
+    "adm3": ""
+  },
+  "city:타우텐": {
+    "cc": "THA",
+    "adm1": "THA.28_1",
+    "adm2": "THA.28.11_1",
+    "adm3": "THA.28.11.6_1"
+  },
+  "city:타이닝": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.7_1",
+    "adm3": "CHN.4.7.9_1"
+  },
+  "city:타이산": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.7_1",
+    "adm3": "CHN.6.7.5_1"
+  },
+  "city:타이핑": {
+    "cc": "MYS",
+    "adm1": "MYS.9_1",
+    "adm2": "MYS.9.8_1",
+    "adm3": ""
+  },
+  "city:타인호아": {
+    "cc": "VNM",
+    "adm1": "VNM.57_1",
+    "adm2": "VNM.57.21_1",
+    "adm3": "VNM.57.21.22_1"
+  },
+  "city:타케오": {
+    "cc": "KHM",
+    "adm1": "KHM.24_1",
+    "adm2": "KHM.24.4_2",
+    "adm3": "KHM.24.4.2_2"
+  },
+  "city:타켁": {
+    "cc": "LAO",
+    "adm1": "LAO.6_1",
+    "adm2": "LAO.6.7_1",
+    "adm3": ""
+  },
+  "city:타톤": {
+    "cc": "THA",
+    "adm1": "THA.10_1",
+    "adm2": "THA.10.11_1",
+    "adm3": "THA.10.11.6_1"
+  },
+  "city:탄종 파가": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:탕안": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.5_1",
+    "adm3": "CHN.8.5.9_1"
+  },
+  "city:텅충": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.1_1",
+    "adm3": "CHN.30.1.5_1"
+  },
+  "city:텔룩인탄": {
+    "cc": "MYS",
+    "adm1": "MYS.9_1",
+    "adm2": "MYS.9.2_1",
+    "adm3": ""
+  },
+  "city:템피니스·파시르리스": {
+    "cc": "SGP",
+    "adm1": "SGP.2_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:톈수이": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.12_1",
+    "adm3": "CHN.5.12.4_1"
+  },
+  "city:통다오": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.5_1",
+    "adm3": "CHN.14.5.8_1"
+  },
+  "city:투저우못": {
+    "cc": "VNM",
+    "adm1": "VNM.9_1",
+    "adm2": "VNM.9.8_1",
+    "adm3": "VNM.9.8.7_1"
+  },
+  "city:퉁난": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.23_1"
+  },
+  "city:퉁량": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.22_1"
+  },
+  "city:퉁런": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.8_1",
+    "adm3": "CHN.8.8.9_1"
+  },
+  "city:퉁촨": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.8_1",
+    "adm3": "CHN.22.8.12_1"
+  },
+  "city:티오만섬": {
+    "cc": "MYS",
+    "adm1": "MYS.1_1",
+    "adm2": "MYS.1.7_1",
+    "adm3": ""
+  },
+  "city:티옹 바루": {
+    "cc": "SGP",
+    "adm1": "SGP.1_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:파야오": {
+    "cc": "THA",
+    "adm1": "THA.41_1",
+    "adm2": "THA.41.8_1",
+    "adm3": "THA.41.8.9_1"
+  },
+  "city:파일린": {
+    "cc": "KHM",
+    "adm1": "KHM.12_1",
+    "adm2": "KHM.12.1_2",
+    "adm3": "KHM.12.1.3_2"
+  },
+  "city:파타니": {
+    "cc": "THA",
+    "adm1": "THA.38_1",
+    "adm2": "THA.38.6_1",
+    "adm3": "THA.38.6.6_1"
+  },
+  "city:파타야": {
+    "cc": "THA",
+    "adm1": "THA.12_1",
+    "adm2": "THA.12.2_1",
+    "adm3": "THA.12.2.1_1"
+  },
+  "city:파탈룽": {
+    "cc": "THA",
+    "adm1": "THA.40_1",
+    "adm2": "THA.40.6_1",
+    "adm3": "THA.40.6.10_1"
+  },
+  "city:팍벵": {
+    "cc": "LAO",
+    "adm1": "LAO.9_1",
+    "adm2": "LAO.9.6_1",
+    "adm3": ""
+  },
+  "city:팍산": {
+    "cc": "LAO",
+    "adm1": "LAO.3_1",
+    "adm2": "LAO.3.4_1",
+    "adm3": ""
+  },
+  "city:팍세": {
+    "cc": "LAO",
+    "adm1": "LAO.4_1",
+    "adm2": "LAO.4.6_1",
+    "adm3": ""
+  },
+  "city:팍송": {
+    "cc": "LAO",
+    "adm1": "LAO.4_1",
+    "adm2": "LAO.4.5_1",
+    "adm3": ""
+  },
+  "city:판랑-탑짬": {
+    "cc": "VNM",
+    "adm1": "VNM.43_1",
+    "adm2": "VNM.43.5_1",
+    "adm3": "VNM.43.5.15_1"
+  },
+  "city:판즈화": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.17_1",
+    "adm3": "CHN.26.17.1_1"
+  },
+  "city:판징산": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.8_1",
+    "adm3": "CHN.8.8.2_1"
+  },
+  "city:판티엣": {
+    "cc": "VNM",
+    "adm1": "VNM.11_1",
+    "adm2": "VNM.11.7_1",
+    "adm3": "VNM.11.7.13_1"
+  },
+  "city:팡": {
+    "cc": "THA",
+    "adm1": "THA.10_1",
+    "adm2": "THA.10.6_1",
+    "adm3": "THA.10.6.5_1"
+  },
+  "city:팡마파": {
+    "cc": "THA",
+    "adm1": "THA.23_1",
+    "adm2": "THA.23.6_1",
+    "adm3": "THA.23.6.1_1"
+  },
+  "city:팡아": {
+    "cc": "THA",
+    "adm1": "THA.39_1",
+    "adm2": "THA.39.4_1",
+    "adm3": "THA.39.4.7_1"
+  },
+  "city:팡청강": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.4_1",
+    "adm3": "CHN.7.4.1_1"
+  },
+  "city:팡코르": {
+    "cc": "MYS",
+    "adm1": "MYS.9_1",
+    "adm2": "MYS.9.9_1",
+    "adm3": ""
+  },
+  "city:펑두": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.8_1"
+  },
+  "city:펑수이": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.17_1"
+  },
+  "city:펑제": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.9_1"
+  },
+  "city:페탈링자야": {
+    "cc": "MYS",
+    "adm1": "MYS.4_1",
+    "adm2": "MYS.4.1_1",
+    "adm3": ""
+  },
+  "city:펫차분": {
+    "cc": "THA",
+    "adm1": "THA.42_1",
+    "adm2": "THA.42.6_1",
+    "adm3": "THA.42.6.10_1"
+  },
+  "city:포르삿": {
+    "cc": "KHM",
+    "adm1": "KHM.17_1",
+    "adm2": "KHM.17.5_2",
+    "adm3": "KHM.17.5.6_2"
+  },
+  "city:포산": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.3_1",
+    "adm3": "CHN.6.3.1_1"
+  },
+  "city:포양": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.8_1",
+    "adm3": "CHN.16.8.1_1"
+  },
+  "city:포이펫": {
+    "cc": "KHM",
+    "adm1": "KHM.1_1",
+    "adm2": "KHM.1.4_2",
+    "adm3": "KHM.1.4.2_2"
+  },
+  "city:포트딕슨": {
+    "cc": "MYS",
+    "adm1": "MYS.7_1",
+    "adm2": "MYS.7.4_1",
+    "adm3": ""
+  },
+  "city:폰사반": {
+    "cc": "LAO",
+    "adm1": "LAO.18_1",
+    "adm2": "LAO.18.5_1",
+    "adm3": ""
+  },
+  "city:폰피사이": {
+    "cc": "THA",
+    "adm1": "THA.35_1",
+    "adm2": "THA.35.6_1",
+    "adm3": "THA.35.6.3_1"
+  },
+  "city:퐁냐": {
+    "cc": "VNM",
+    "adm1": "VNM.46_1",
+    "adm2": "VNM.46.1_1",
+    "adm3": "VNM.46.1.23_1"
+  },
+  "city:퐁살리": {
+    "cc": "LAO",
+    "adm1": "LAO.10_1",
+    "adm2": "LAO.10.6_1",
+    "adm3": ""
+  },
+  "city:푸껫": {
+    "cc": "THA",
+    "adm1": "THA.48_1",
+    "adm2": "THA.48.2_1",
+    "adm3": "THA.48.2.7_1"
+  },
+  "city:푸꾸옥": {
+    "cc": "VNM",
+    "adm1": "VNM.33_1",
+    "adm2": "VNM.33.11_1",
+    "adm3": "VNM.33.11.5_1"
+  },
+  "city:푸꾸이": {
+    "cc": "VNM",
+    "adm1": "VNM.11_1",
+    "adm2": "VNM.11.8_1",
+    "adm3": "VNM.11.8.2_1"
+  },
+  "city:푸끄라등": {
+    "cc": "THA",
+    "adm1": "THA.21_1",
+    "adm2": "THA.21.10_1",
+    "adm3": "THA.21.10.3_1"
+  },
+  "city:푸닝": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.8_1",
+    "adm3": "CHN.6.8.4_1"
+  },
+  "city:푸딩": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.4_1",
+    "adm3": "CHN.4.4.2_1"
+  },
+  "city:푸룽진": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.9_1",
+    "adm3": "CHN.14.9.3_1"
+  },
+  "city:푸링": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.10_1"
+  },
+  "city:푸아": {
+    "cc": "THA",
+    "adm1": "THA.32_1",
+    "adm2": "THA.32.10_1",
+    "adm3": "THA.32.10.6_1"
+  },
+  "city:푸얼": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.11_1",
+    "adm3": "CHN.30.11.8_1"
+  },
+  "city:푸저우 (장시)": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.1_1",
+    "adm3": "CHN.16.1.7_1"
+  },
+  "city:푸저우 (푸젠)": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.1_1",
+    "adm3": "CHN.4.1.3_1"
+  },
+  "city:푸저헤이": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.13_1",
+    "adm3": "CHN.30.13.5_1"
+  },
+  "city:푸치파": {
+    "cc": "THA",
+    "adm1": "THA.11_1",
+    "adm2": "THA.11.18_1",
+    "adm3": "THA.11.18.3_1"
+  },
+  "city:푸톈": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.5_1",
+    "adm3": "CHN.4.5.1_1"
+  },
+  "city:푸트라자야": {
+    "cc": "MYS",
+    "adm1": "MYS.12_1",
+    "adm2": "MYS.12.1_1",
+    "adm3": ""
+  },
+  "city:풀라우 우빈": {
+    "cc": "SGP",
+    "adm1": "SGP.4_1",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:프놈펜": {
+    "cc": "KHM",
+    "adm1": "KHM.16_1",
+    "adm2": "KHM.16.5_2",
+    "adm3": "KHM.16.5.1_2"
+  },
+  "city:프래": {
+    "cc": "THA",
+    "adm1": "THA.47_1",
+    "adm2": "THA.47.3_1",
+    "adm3": "THA.47.3.3_1"
+  },
+  "city:프레아비헤아르": {
+    "cc": "KHM",
+    "adm1": "KHM.18_1",
+    "adm2": "KHM.18.3_2",
+    "adm3": "KHM.18.3.6_2"
+  },
+  "city:프레이저스 힐": {
+    "cc": "MYS",
+    "adm1": "MYS.8_1",
+    "adm2": "MYS.8.9_1",
+    "adm3": ""
+  },
+  "city:프렌티안 제도": {
+    "cc": "MYS",
+    "adm1": "MYS.16_1",
+    "adm2": "MYS.16.1_1",
+    "adm3": ""
+  },
+  "city:플레이꾸": {
+    "cc": "VNM",
+    "adm1": "VNM.21_1",
+    "adm2": "VNM.21.17_1",
+    "adm3": "VNM.21.17.15_1"
+  },
+  "city:피마이": {
+    "cc": "THA",
+    "adm1": "THA.29_1",
+    "adm2": "THA.29.27_1",
+    "adm3": "THA.29.27.5_1"
+  },
+  "city:피칫": {
+    "cc": "THA",
+    "adm1": "THA.44_1",
+    "adm2": "THA.44.5_1",
+    "adm3": "THA.44.5.9_1"
+  },
+  "city:핏사눌록": {
+    "cc": "THA",
+    "adm1": "THA.45_1",
+    "adm2": "THA.45.4_1",
+    "adm3": "THA.45.4.6_1"
+  },
+  "city:핑량": {
+    "cc": "CHN",
+    "adm1": "CHN.5_1",
+    "adm2": "CHN.5.10_1",
+    "adm3": "CHN.5.10.6_1"
+  },
+  "city:핑샹 (광시)": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.3_1",
+    "adm3": "CHN.7.3.6_1"
+  },
+  "city:핑샹 (장시)": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.7_1",
+    "adm3": "CHN.16.7.2_1"
+  },
+  "city:핑첸": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.8_1",
+    "adm3": "CHN.13.8.1_1"
+  },
+  "city:핑탄": {
+    "cc": "CHN",
+    "adm1": "CHN.4_1",
+    "adm2": "CHN.4.1_1",
+    "adm3": "CHN.4.1.2_1"
+  },
+  "city:핑탕": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.6_1",
+    "adm3": "CHN.8.6.10_1"
+  },
+  "city:하띠엔": {
+    "cc": "VNM",
+    "adm1": "VNM.33_1",
+    "adm2": "VNM.33.7_1",
+    "adm3": "VNM.33.7.4_1"
+  },
+  "city:하띤": {
+    "cc": "VNM",
+    "adm1": "VNM.29_1",
+    "adm2": "VNM.29.5_1",
+    "adm3": "VNM.29.5.6_1"
+  },
+  "city:하이룽툰": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.9_1",
+    "adm3": "CHN.8.9.13_1"
+  },
+  "city:하이링섬": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.16_1",
+    "adm3": "CHN.6.16.3_1"
+  },
+  "city:하이커우": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.1_1",
+    "adm3": "CHN.9.1.1_1"
+  },
+  "city:하이탕만": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.3_1",
+    "adm3": "CHN.9.3.1_1"
+  },
+  "city:하이화다오": {
+    "cc": "CHN",
+    "adm1": "CHN.9_1",
+    "adm2": "CHN.9.2_1",
+    "adm3": "CHN.9.2.5_1"
+  },
+  "city:한중": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.3_1",
+    "adm3": "CHN.22.3.3_1"
+  },
+  "city:한청": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.6_1",
+    "adm3": "CHN.22.6.5_1"
+  },
+  "city:핫야이": {
+    "cc": "THA",
+    "adm1": "THA.64_1",
+    "adm2": "THA.64.3_1",
+    "adm3": "THA.64.3.3_1"
+  },
+  "city:항아리 평원": {
+    "cc": "LAO",
+    "adm1": "LAO.18_1",
+    "adm2": "LAO.18.5_1",
+    "adm3": ""
+  },
+  "city:항찻": {
+    "cc": "THA",
+    "adm1": "THA.19_1",
+    "adm2": "THA.19.2_1",
+    "adm3": "THA.19.2.6_1"
+  },
+  "city:허위안": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.5_1",
+    "adm3": "CHN.6.5.5_1"
+  },
+  "city:허저우": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.8_1",
+    "adm3": "CHN.7.8.2_1"
+  },
+  "city:허촨": {
+    "cc": "CHN",
+    "adm1": "CHN.3_1",
+    "adm2": "CHN.3.1_1",
+    "adm3": "CHN.3.1.11_1"
+  },
+  "city:허츠": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.7_1",
+    "adm3": "CHN.7.7.6_1"
+  },
+  "city:허커우": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.6_1",
+    "adm3": "CHN.30.6.2_1"
+  },
+  "city:허펑": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.1_1",
+    "adm3": "CHN.13.1.3_1"
+  },
+  "city:헝양": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.4_1",
+    "adm3": "CHN.14.4.5_1"
+  },
+  "city:호도협": {
+    "cc": "CHN",
+    "adm1": "CHN.30_1",
+    "adm2": "CHN.30.5_1",
+    "adm3": "CHN.30.5.3_1"
+  },
+  "city:호이안": {
+    "cc": "VNM",
+    "adm1": "VNM.47_1",
+    "adm2": "VNM.47.6_1",
+    "adm3": "VNM.47.6.9_1"
+  },
+  "city:호짬": {
+    "cc": "VNM",
+    "adm1": "VNM.7_1",
+    "adm2": "VNM.7.7_1",
+    "adm3": "VNM.7.7.11_1"
+  },
+  "city:호찌민": {
+    "cc": "VNM",
+    "adm1": "VNM.25_1",
+    "adm2": "VNM.25.13_1",
+    "adm3": "VNM.25.13.1_1"
+  },
+  "city:홍콩": {
+    "cc": "CHN",
+    "adm1": "CHN.HKG",
+    "adm2": "",
+    "adm3": ""
+  },
+  "city:화이화": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.5_1",
+    "adm3": "CHN.14.5.4_1"
+  },
+  "city:화인": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.6_1",
+    "adm3": "CHN.22.6.8_1"
+  },
+  "city:황강": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.2_1",
+    "adm3": "CHN.13.2.2_1"
+  },
+  "city:황과수": {
+    "cc": "CHN",
+    "adm1": "CHN.8_1",
+    "adm2": "CHN.8.1_1",
+    "adm3": "CHN.8.1.5_1"
+  },
+  "city:황룽": {
+    "cc": "CHN",
+    "adm1": "CHN.26_1",
+    "adm2": "CHN.26.16_1",
+    "adm3": "CHN.26.16.10_1"
+  },
+  "city:황링 (산시)": {
+    "cc": "CHN",
+    "adm1": "CHN.22_1",
+    "adm2": "CHN.22.9_1",
+    "adm3": "CHN.22.9.4_1"
+  },
+  "city:황링 (장시)": {
+    "cc": "CHN",
+    "adm1": "CHN.16_1",
+    "adm2": "CHN.16.8_1",
+    "adm3": "CHN.16.8.9_1"
+  },
+  "city:황스": {
+    "cc": "CHN",
+    "adm1": "CHN.13_1",
+    "adm2": "CHN.13.4_1",
+    "adm3": "CHN.13.4.2_1"
+  },
+  "city:황야오": {
+    "cc": "CHN",
+    "adm1": "CHN.7_1",
+    "adm2": "CHN.7.8_1",
+    "adm3": "CHN.7.8.2_1"
+  },
+  "city:후에": {
+    "cc": "VNM",
+    "adm1": "VNM.54_1",
+    "adm2": "VNM.54.2_1",
+    "adm3": "VNM.54.2.26_1"
+  },
+  "city:후에이사이": {
+    "cc": "LAO",
+    "adm1": "LAO.2_1",
+    "adm2": "LAO.2.1_1",
+    "adm3": ""
+  },
+  "city:후이저우": {
+    "cc": "CHN",
+    "adm1": "CHN.6_1",
+    "adm2": "CHN.6.6_1",
+    "adm3": "CHN.6.6.4_1"
+  },
+  "city:훙장": {
+    "cc": "CHN",
+    "adm1": "CHN.14_1",
+    "adm2": "CHN.14.5_1",
+    "adm3": "CHN.14.5.3_1"
+  }
+}

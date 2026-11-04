@@ -1,0 +1,17 @@
+{
+  "asOf": "2026-11-01",
+  "source": "https://www.xe.com/currencyconverter/",
+  "approx": true,
+  "toKRW": {
+    "KRW": 1,
+    "HKD": 170.03,
+    "CNY": 200.32,
+    "VND": 0.0518,
+    "LAK": 0.0589,
+    "KHR": 0.3261,
+    "THB": 39.5,
+    "MYR": 328.53,
+    "SGD": 1043.64,
+    "USD": 1331.13
+  }
+}

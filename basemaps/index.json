@@ -1,0 +1,242 @@
+{
+  "hk": {
+    "south": 22.10599879975056,
+    "west": 113.818359375,
+    "north": 22.51255695405144,
+    "east": 114.43359375,
+    "zoom": 13,
+    "w": 3584,
+    "h": 2560,
+    "file": "basemaps/hk.jpg"
+  },
+  "sz": {
+    "south": 22.350075806124856,
+    "west": 113.642578125,
+    "north": 22.917922936146034,
+    "east": 114.697265625,
+    "zoom": 12,
+    "w": 3072,
+    "h": 1792,
+    "file": "basemaps/sz.jpg"
+  },
+  "guangzhou": {
+    "south": 23.039297747769734,
+    "west": 113.1591796875,
+    "north": 23.241346102386135,
+    "east": 113.37890625,
+    "zoom": 13,
+    "w": 1280,
+    "h": 1280,
+    "file": "basemaps/guangzhou.jpg"
+  },
+  "guilin": {
+    "south": 25.204941153569116,
+    "west": 110.21484375,
+    "north": 25.363882272740256,
+    "east": 110.3466796875,
+    "zoom": 13,
+    "w": 768,
+    "h": 1024,
+    "file": "basemaps/guilin.jpg"
+  },
+  "yangshuo": {
+    "south": 24.567108352575985,
+    "west": 110.3466796875,
+    "north": 24.96614015991296,
+    "east": 110.56640625,
+    "zoom": 13,
+    "w": 1280,
+    "h": 2560,
+    "file": "basemaps/yangshuo.jpg"
+  },
+  "chongqing": {
+    "south": 29.305561325527698,
+    "west": 106.259765625,
+    "north": 29.84064389983442,
+    "east": 106.875,
+    "zoom": 12,
+    "w": 1792,
+    "h": 1792,
+    "file": "basemaps/chongqing.jpg"
+  },
+  "kunming": {
+    "south": 24.68695241199915,
+    "west": 102.48046875,
+    "north": 25.16517336866394,
+    "east": 103.447265625,
+    "zoom": 12,
+    "w": 2816,
+    "h": 1536,
+    "file": "basemaps/kunming.jpg"
+  },
+  "dali": {
+    "south": 25.403584973186707,
+    "west": 99.931640625,
+    "north": 26.037041886515834,
+    "east": 100.546875,
+    "zoom": 12,
+    "w": 1792,
+    "h": 2048,
+    "file": "basemaps/dali.jpg"
+  },
+  "luang-prabang": {
+    "south": 19.683970235888445,
+    "west": 101.9091796875,
+    "north": 19.973348786110602,
+    "east": 102.216796875,
+    "zoom": 13,
+    "w": 1792,
+    "h": 1792,
+    "file": "basemaps/luang-prabang.jpg"
+  },
+  "vientiane": {
+    "south": 17.85329011409801,
+    "west": 102.5244140625,
+    "north": 18.020527657852334,
+    "east": 102.83203125,
+    "zoom": 13,
+    "w": 1792,
+    "h": 1024,
+    "file": "basemaps/vientiane.jpg"
+  },
+  "hoi-an": {
+    "south": 15.79225357036244,
+    "west": 108.28125,
+    "north": 15.961329081596643,
+    "east": 108.4130859375,
+    "zoom": 13,
+    "w": 768,
+    "h": 1024,
+    "file": "basemaps/hoi-an.jpg"
+  },
+  "ho-chi-minh": {
+    "south": 10.703791711680728,
+    "west": 106.611328125,
+    "north": 10.87646499481629,
+    "east": 106.787109375,
+    "zoom": 13,
+    "w": 1024,
+    "h": 1024,
+    "file": "basemaps/ho-chi-minh.jpg"
+  },
+  "phnom-penh": {
+    "south": 11.436955216143183,
+    "west": 104.853515625,
+    "north": 11.65223640411539,
+    "east": 104.9853515625,
+    "zoom": 13,
+    "w": 768,
+    "h": 1280,
+    "file": "basemaps/phnom-penh.jpg"
+  },
+  "siem-reap": {
+    "south": 13.154376055418524,
+    "west": 103.798828125,
+    "north": 13.496472765758957,
+    "east": 104.0625,
+    "zoom": 13,
+    "w": 1536,
+    "h": 2048,
+    "file": "basemaps/siem-reap.jpg"
+  },
+  "bangkok": {
+    "south": 13.496472765758957,
+    "west": 100.283203125,
+    "north": 14.093957177836227,
+    "east": 100.8984375,
+    "zoom": 12,
+    "w": 1792,
+    "h": 1792,
+    "file": "basemaps/bangkok.jpg"
+  },
+  "chiang-mai": {
+    "south": 18.729501999072138,
+    "west": 98.876953125,
+    "north": 18.854310361889805,
+    "east": 99.052734375,
+    "zoom": 13,
+    "w": 1024,
+    "h": 768,
+    "file": "basemaps/chiang-mai.jpg"
+  },
+  "kuala-lumpur": {
+    "south": 3.07469507236968,
+    "west": 101.6015625,
+    "north": 3.2940822283128073,
+    "east": 101.77734375,
+    "zoom": 13,
+    "w": 1024,
+    "h": 1280,
+    "file": "basemaps/kuala-lumpur.jpg"
+  },
+  "george-town": {
+    "south": 5.3535213553373335,
+    "west": 100.283203125,
+    "north": 5.484768018141261,
+    "east": 100.4150390625,
+    "zoom": 13,
+    "w": 768,
+    "h": 768,
+    "file": "basemaps/george-town.jpg"
+  },
+  "chengdu": {
+    "south": 30.600093873550065,
+    "west": 103.974609375,
+    "north": 30.789036751261147,
+    "east": 104.1943359375,
+    "zoom": 13,
+    "w": 1280,
+    "h": 1280,
+    "file": "basemaps/chengdu.jpg"
+  },
+  "lijiang": {
+    "south": 26.82407078047018,
+    "west": 100.107421875,
+    "north": 27.176469131898887,
+    "east": 100.283203125,
+    "zoom": 13,
+    "w": 1024,
+    "h": 2304,
+    "file": "basemaps/lijiang.jpg"
+  },
+  "hanoi": {
+    "south": 20.71501514551209,
+    "west": 105.46875,
+    "north": 21.37124437061831,
+    "east": 106.259765625,
+    "zoom": 12,
+    "w": 2304,
+    "h": 2048,
+    "file": "basemaps/hanoi.jpg"
+  },
+  "nha-trang": {
+    "south": 11.95334939364342,
+    "west": 108.896484375,
+    "north": 12.554563528593658,
+    "east": 109.51171875,
+    "zoom": 12,
+    "w": 1792,
+    "h": 1792,
+    "file": "basemaps/nha-trang.jpg"
+  },
+  "singapore": {
+    "south": 1.0546279422758842,
+    "west": 103.447265625,
+    "north": 1.5818302639606423,
+    "east": 104.150390625,
+    "zoom": 12,
+    "w": 2048,
+    "h": 1536,
+    "file": "basemaps/singapore.jpg"
+  },
+  "vang-vieng": {
+    "south": 18.646245142670605,
+    "west": 102.12890625,
+    "north": 19.22817673776625,
+    "east": 102.744140625,
+    "zoom": 12,
+    "w": 1792,
+    "h": 1792,
+    "file": "basemaps/vang-vieng.jpg"
+  }
+}

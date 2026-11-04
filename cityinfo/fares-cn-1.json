@@ -1,0 +1,2763 @@
+[
+  {
+    "city_id": "city:광저우",
+    "fares": [
+      {
+        "from_station": "광저우남역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guangzhou-to-shenzhen/"
+      },
+      {
+        "from_station": "광저우남역",
+        "to_city": "주하이",
+        "to_station": "주하이역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 70,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guangzhou-to-zhuhai/"
+      },
+      {
+        "from_station": "광저우남역",
+        "to_city": "구이린",
+        "to_station": "구이린북역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 164,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guangzhou-to-guilin/"
+      },
+      {
+        "from_station": "광저우남역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 2.8,
+        "price": {
+          "amount": 169,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guangzhou-to-nanning/"
+      },
+      {
+        "from_station": "광저우남역",
+        "to_city": "창사",
+        "to_station": "창사남역",
+        "train": "고속철 2등석",
+        "hours": 2.3,
+        "price": {
+          "amount": 314,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guangzhou-to-changsha/"
+      },
+      {
+        "from_station": "광저우남역",
+        "to_city": "홍콩",
+        "to_station": "홍콩 서구룡역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 215,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.highspeed.mtr.com.hk/en/ticket/fares.html"
+      }
+    ]
+  },
+  {
+    "city_id": "city:선전",
+    "fares": [
+      {
+        "from_station": "선전북역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shenzhen-to-guangzhou/"
+      },
+      {
+        "from_station": "선전북역",
+        "to_city": "홍콩",
+        "to_station": "홍콩 서구룡역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.highspeed.mtr.com.hk/en/ticket/fares.html"
+      },
+      {
+        "from_station": "선전북역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 3,
+        "price": {
+          "amount": 180,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shenzhen-to-xiamen/"
+      },
+      {
+        "from_station": "선전북역",
+        "to_city": "후이저우",
+        "to_station": "후이저우북역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 35,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shenzhen-to-huizhou/"
+      },
+      {
+        "from_station": "선전북역",
+        "to_city": "구이린",
+        "to_station": "구이린북역",
+        "train": "고속철 2등석",
+        "hours": 3.2,
+        "price": {
+          "amount": 239,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shenzhen-to-guilin/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:주하이",
+    "fares": [
+      {
+        "from_station": "주하이역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 70,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhuhai-to-guangzhou/"
+      },
+      {
+        "from_station": "주하이역",
+        "to_city": "중산",
+        "to_station": "중산북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhuhai-to-zhongshan/"
+      },
+      {
+        "from_station": "주하이역",
+        "to_city": "포산",
+        "to_station": "포산서역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 80,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhuhai-to-foshan/"
+      },
+      {
+        "from_station": "주하이역",
+        "to_city": "구이린",
+        "to_station": "구이린북역",
+        "train": "고속철 2등석",
+        "hours": 3.5,
+        "price": {
+          "amount": 207,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhuhai-to-guilin/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:포산",
+    "fares": [
+      {
+        "from_station": "포산서역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/foshan-to-guangzhou/"
+      },
+      {
+        "from_station": "포산서역",
+        "to_city": "자오칭",
+        "to_station": "자오칭동역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/foshan-to-zhaoqing/"
+      },
+      {
+        "from_station": "포산서역",
+        "to_city": "구이린",
+        "to_station": "구이린북역",
+        "train": "고속철 2등석",
+        "hours": 2,
+        "price": {
+          "amount": 145,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/foshan-to-guilin/"
+      },
+      {
+        "from_station": "포산서역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 155,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/foshan-to-nanning/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:순더",
+    "fares": [
+      {
+        "from_station": "순더역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.2,
+        "price": {
+          "amount": 10,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shunde-to-guangzhou/"
+      },
+      {
+        "from_station": "순더역",
+        "to_city": "중산",
+        "to_station": "중산북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shunde-to-zhongshan/"
+      },
+      {
+        "from_station": "순더역",
+        "to_city": "주하이",
+        "to_station": "주하이역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 60,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shunde-to-zhuhai/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:둥관",
+    "fares": [
+      {
+        "from_station": "둥관역",
+        "to_city": "광저우",
+        "to_station": "광저우동역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/dongguan-to-guangzhou/"
+      },
+      {
+        "from_station": "둥관역",
+        "to_city": "선전",
+        "to_station": "선전역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 40,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/dongguan-to-shenzhen/"
+      },
+      {
+        "from_station": "둥관역",
+        "to_city": "후이저우",
+        "to_station": "후이저우북역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 30,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/dongguan-to-huizhou/"
+      },
+      {
+        "from_station": "후먼역",
+        "to_city": "홍콩",
+        "to_station": "홍콩 서구룡역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 96,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.highspeed.mtr.com.hk/en/ticket/fares.html"
+      }
+    ]
+  },
+  {
+    "city_id": "city:중산",
+    "fares": [
+      {
+        "from_station": "중산북역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 40,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhongshan-to-guangzhou/"
+      },
+      {
+        "from_station": "중산북역",
+        "to_city": "주하이",
+        "to_station": "주하이역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhongshan-to-zhuhai/"
+      },
+      {
+        "from_station": "중산북역",
+        "to_city": "장먼",
+        "to_station": "장먼역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhongshan-to-jiangmen/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:장먼",
+    "fares": [
+      {
+        "from_station": "장먼역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 40,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jiangmen-to-guangzhou/"
+      },
+      {
+        "from_station": "장먼역",
+        "to_city": "주하이",
+        "to_station": "주하이역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jiangmen-to-zhuhai/"
+      },
+      {
+        "from_station": "장먼역",
+        "to_city": "양장",
+        "to_station": "양장역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 46,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jiangmen-to-yangjiang/"
+      },
+      {
+        "from_station": "장먼역",
+        "to_city": "잔장",
+        "to_station": "잔장서역",
+        "train": "고속철 2등석",
+        "hours": 2.2,
+        "price": {
+          "amount": 170,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jiangmen-to-zhanjiang/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:후이저우",
+    "fares": [
+      {
+        "from_station": "후이저우북역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 35,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/huizhou-to-shenzhen/"
+      },
+      {
+        "from_station": "후이저우북역",
+        "to_city": "광저우",
+        "to_station": "광저우동역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 60,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/huizhou-to-guangzhou/"
+      },
+      {
+        "from_station": "후이저우북역",
+        "to_city": "산웨이",
+        "to_station": "산웨이역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/huizhou-to-shanwei/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:차오저우",
+    "fares": [
+      {
+        "from_station": "차오산역",
+        "to_city": "산터우",
+        "to_station": "산터우역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chaozhou-to-shantou/"
+      },
+      {
+        "from_station": "차오산역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 2,
+        "price": {
+          "amount": 107,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chaozhou-to-shenzhen/"
+      },
+      {
+        "from_station": "차오산역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 73,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chaozhou-to-xiamen/"
+      },
+      {
+        "from_station": "차오산역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 179,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chaozhou-to-guangzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:산터우",
+    "fares": [
+      {
+        "from_station": "산터우역",
+        "to_city": "차오저우",
+        "to_station": "차오산역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shantou-to-chaozhou/"
+      },
+      {
+        "from_station": "산터우역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 2.2,
+        "price": {
+          "amount": 120,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shantou-to-shenzhen/"
+      },
+      {
+        "from_station": "산터우역",
+        "to_city": "광저우",
+        "to_station": "광저우동역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 160,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shantou-to-guangzhou/"
+      },
+      {
+        "from_station": "산터우역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 85,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shantou-to-xiamen/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:제양",
+    "fares": [
+      {
+        "from_station": "제양역",
+        "to_city": "차오저우",
+        "to_station": "차오산역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jieyang-to-chaozhou/"
+      },
+      {
+        "from_station": "제양역",
+        "to_city": "산터우",
+        "to_station": "산터우역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jieyang-to-shantou/"
+      },
+      {
+        "from_station": "제양역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 2.2,
+        "price": {
+          "amount": 125,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jieyang-to-shenzhen/"
+      },
+      {
+        "from_station": "제양역",
+        "to_city": "광저우",
+        "to_station": "광저우동역",
+        "train": "고속철 2등석",
+        "hours": 2.6,
+        "price": {
+          "amount": 165,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jieyang-to-guangzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:산웨이",
+    "fares": [
+      {
+        "from_station": "산웨이역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shanwei-to-shenzhen/"
+      },
+      {
+        "from_station": "산웨이역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 1.4,
+        "price": {
+          "amount": 105,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shanwei-to-guangzhou/"
+      },
+      {
+        "from_station": "산웨이역",
+        "to_city": "차오저우",
+        "to_station": "차오산역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shanwei-to-chaozhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:메이저우",
+    "fares": [
+      {
+        "from_station": "메이저우서역",
+        "to_city": "차오저우",
+        "to_station": "차오산역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/meizhou-to-chaozhou/"
+      },
+      {
+        "from_station": "메이저우서역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 1.6,
+        "price": {
+          "amount": 115,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/meizhou-to-shenzhen/"
+      },
+      {
+        "from_station": "메이저우서역",
+        "to_city": "광저우",
+        "to_station": "광저우동역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 135,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/meizhou-to-guangzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:허위안",
+    "fares": [
+      {
+        "from_station": "허위안동역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 65,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/heyuan-to-shenzhen/"
+      },
+      {
+        "from_station": "허위안동역",
+        "to_city": "광저우",
+        "to_station": "광저우동역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/heyuan-to-guangzhou/"
+      },
+      {
+        "from_station": "허위안동역",
+        "to_city": "후이저우",
+        "to_station": "후이저우북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/heyuan-to-huizhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:사오관",
+    "fares": [
+      {
+        "from_station": "사오관역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 105,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shaoguan-to-guangzhou/"
+      },
+      {
+        "from_station": "사오관역",
+        "to_city": "칭위안",
+        "to_station": "칭위안역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shaoguan-to-qingyuan/"
+      },
+      {
+        "from_station": "사오관역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 1.4,
+        "price": {
+          "amount": 180,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shaoguan-to-shenzhen/"
+      },
+      {
+        "from_station": "사오관역",
+        "to_city": "창사",
+        "to_station": "창사남역",
+        "train": "고속철 2등석",
+        "hours": 1.4,
+        "price": {
+          "amount": 210,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/shaoguan-to-changsha/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:칭위안",
+    "fares": [
+      {
+        "from_station": "칭위안역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 40,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/qingyuan-to-guangzhou/"
+      },
+      {
+        "from_station": "칭위안역",
+        "to_city": "사오관",
+        "to_station": "사오관역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/qingyuan-to-shaoguan/"
+      },
+      {
+        "from_station": "칭위안역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 115,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/qingyuan-to-shenzhen/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:자오칭",
+    "fares": [
+      {
+        "from_station": "자오칭동역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 30,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhaoqing-to-guangzhou/"
+      },
+      {
+        "from_station": "자오칭동역",
+        "to_city": "포산",
+        "to_station": "포산서역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhaoqing-to-foshan/"
+      },
+      {
+        "from_station": "자오칭동역",
+        "to_city": "윈푸",
+        "to_station": "윈푸동역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhaoqing-to-yunfu/"
+      },
+      {
+        "from_station": "자오칭동역",
+        "to_city": "구이린",
+        "to_station": "구이린북역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 125,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhaoqing-to-guilin/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:윈푸",
+    "fares": [
+      {
+        "from_station": "윈푸동역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/yunfu-to-guangzhou/"
+      },
+      {
+        "from_station": "윈푸동역",
+        "to_city": "자오칭",
+        "to_station": "자오칭동역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/yunfu-to-zhaoqing/"
+      },
+      {
+        "from_station": "윈푸동역",
+        "to_city": "우저우",
+        "to_station": "우저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 35,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/yunfu-to-wuzhou/"
+      },
+      {
+        "from_station": "윈푸동역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 1.9,
+        "price": {
+          "amount": 115,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/yunfu-to-nanning/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:잔장",
+    "fares": [
+      {
+        "from_station": "잔장서역",
+        "to_city": "마오밍",
+        "to_station": "마오밍역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhanjiang-to-maoming/"
+      },
+      {
+        "from_station": "잔장서역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 2.8,
+        "price": {
+          "amount": 220,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhanjiang-to-guangzhou/"
+      },
+      {
+        "from_station": "잔장역",
+        "to_city": "난닝",
+        "to_station": "난닝역",
+        "train": "일반열차 좌석",
+        "hours": 4,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhanjiang-to-nanning/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:마오밍",
+    "fares": [
+      {
+        "from_station": "마오밍역",
+        "to_city": "잔장",
+        "to_station": "잔장서역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/maoming-to-zhanjiang/"
+      },
+      {
+        "from_station": "마오밍역",
+        "to_city": "양장",
+        "to_station": "양장역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/maoming-to-yangjiang/"
+      },
+      {
+        "from_station": "마오밍역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 2.3,
+        "price": {
+          "amount": 180,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/maoming-to-guangzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:양장",
+    "fares": [
+      {
+        "from_station": "양장역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 1.6,
+        "price": {
+          "amount": 125,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/yangjiang-to-guangzhou/"
+      },
+      {
+        "from_station": "양장역",
+        "to_city": "마오밍",
+        "to_station": "마오밍역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/yangjiang-to-maoming/"
+      },
+      {
+        "from_station": "양장역",
+        "to_city": "장먼",
+        "to_station": "장먼역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 46,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/yangjiang-to-jiangmen/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:난닝",
+    "fares": [
+      {
+        "from_station": "난닝동역",
+        "to_city": "충쭤",
+        "to_station": "충쭤남역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/nanning-to-chongzuo/"
+      },
+      {
+        "from_station": "난닝역",
+        "to_city": "핑샹 (광시)",
+        "to_station": "핑샹역",
+        "train": "일반열차 좌석",
+        "hours": 3.5,
+        "price": {
+          "amount": 30,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/nanning-to-pingxiang/"
+      },
+      {
+        "from_station": "난닝동역",
+        "to_city": "팡청강",
+        "to_station": "팡청강북역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 43,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/nanning-to-fangchenggang/"
+      },
+      {
+        "from_station": "난닝동역",
+        "to_city": "베이하이",
+        "to_station": "베이하이역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 58,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/nanning-to-beihai/"
+      },
+      {
+        "from_station": "난닝동역",
+        "to_city": "구이린",
+        "to_station": "구이린역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 110,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/nanning-to-guilin/"
+      },
+      {
+        "from_station": "난닝동역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 2.8,
+        "price": {
+          "amount": 169,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/nanning-to-guangzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:구이린",
+    "fares": [
+      {
+        "from_station": "구이린역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 110,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guilin-to-nanning/"
+      },
+      {
+        "from_station": "구이린역",
+        "to_city": "류저우",
+        "to_station": "류저우역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guilin-to-liuzhou/"
+      },
+      {
+        "from_station": "구이린북역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 164,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guilin-to-guangzhou/"
+      },
+      {
+        "from_station": "구이린북역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 3.2,
+        "price": {
+          "amount": 239,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guilin-to-shenzhen/"
+      },
+      {
+        "from_station": "구이린역",
+        "to_city": "창사",
+        "to_station": "창사남역",
+        "train": "고속철 2등석",
+        "hours": 3,
+        "price": {
+          "amount": 180,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guilin-to-changsha/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:류저우",
+    "fares": [
+      {
+        "from_station": "류저우역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 60,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/liuzhou-to-nanning/"
+      },
+      {
+        "from_station": "류저우역",
+        "to_city": "구이린",
+        "to_station": "구이린역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/liuzhou-to-guilin/"
+      },
+      {
+        "from_station": "류저우역",
+        "to_city": "라이빈",
+        "to_station": "라이빈북역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/liuzhou-to-laibin/"
+      },
+      {
+        "from_station": "류저우역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 3.5,
+        "price": {
+          "amount": 215,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/liuzhou-to-guangzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:허츠",
+    "fares": [
+      {
+        "from_station": "허츠서역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/hechi-to-nanning/"
+      },
+      {
+        "from_station": "허츠서역",
+        "to_city": "구이양",
+        "to_station": "구이양북역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 115,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/hechi-to-guiyang/"
+      },
+      {
+        "from_station": "진청장역",
+        "to_city": "류저우",
+        "to_station": "류저우역",
+        "train": "일반열차 좌석",
+        "hours": 2.2,
+        "price": {
+          "amount": 24,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/hechi-to-liuzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:바이써",
+    "fares": [
+      {
+        "from_station": "바이써역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 1.4,
+        "price": {
+          "amount": 82,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/baise-to-nanning/"
+      },
+      {
+        "from_station": "바이써역",
+        "to_city": "쿤밍",
+        "to_station": "쿤밍남역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 185,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/baise-to-kunming/"
+      },
+      {
+        "from_station": "바이써역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 4.5,
+        "price": {
+          "amount": 250,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/baise-to-guangzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:충쭤",
+    "fares": [
+      {
+        "from_station": "충쭤남역",
+        "to_city": "난닝",
+        "to_station": "난닝역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chongzuo-to-nanning/"
+      },
+      {
+        "from_station": "충쭤역",
+        "to_city": "핑샹 (광시)",
+        "to_station": "핑샹역",
+        "train": "일반열차 좌석",
+        "hours": 1.2,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chongzuo-to-pingxiang/"
+      },
+      {
+        "from_station": "충쭤남역",
+        "to_city": "베이하이",
+        "to_station": "베이하이역",
+        "train": "고속철 2등석",
+        "hours": 2.6,
+        "price": {
+          "amount": 105,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/chongzuo-to-beihai/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:구이강",
+    "fares": [
+      {
+        "from_station": "구이강역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 40,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guigang-to-nanning/"
+      },
+      {
+        "from_station": "구이강역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 2.2,
+        "price": {
+          "amount": 130,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guigang-to-guangzhou/"
+      },
+      {
+        "from_station": "구이강역",
+        "to_city": "우저우",
+        "to_station": "우저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 48,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/guigang-to-wuzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:라이빈",
+    "fares": [
+      {
+        "from_station": "라이빈북역",
+        "to_city": "류저우",
+        "to_station": "류저우역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/laibin-to-liuzhou/"
+      },
+      {
+        "from_station": "라이빈북역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/laibin-to-nanning/"
+      },
+      {
+        "from_station": "라이빈북역",
+        "to_city": "구이린",
+        "to_station": "구이린역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 70,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/laibin-to-guilin/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:우저우",
+    "fares": [
+      {
+        "from_station": "우저우남역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 85,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/wuzhou-to-nanning/"
+      },
+      {
+        "from_station": "우저우남역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 1.4,
+        "price": {
+          "amount": 85,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/wuzhou-to-guangzhou/"
+      },
+      {
+        "from_station": "우저우남역",
+        "to_city": "구이강",
+        "to_station": "구이강역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 48,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/wuzhou-to-guigang/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:허저우",
+    "fares": [
+      {
+        "from_station": "허저우역",
+        "to_city": "구이린",
+        "to_station": "구이린북역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/hezhou-to-guilin/"
+      },
+      {
+        "from_station": "허저우역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 85,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/hezhou-to-guangzhou/"
+      },
+      {
+        "from_station": "허저우역",
+        "to_city": "자오칭",
+        "to_station": "자오칭동역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/hezhou-to-zhaoqing/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:베이하이",
+    "fares": [
+      {
+        "from_station": "베이하이역",
+        "to_city": "친저우",
+        "to_station": "친저우동역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/beihai-to-qinzhou/"
+      },
+      {
+        "from_station": "베이하이역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 58,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/beihai-to-nanning/"
+      },
+      {
+        "from_station": "베이하이역",
+        "to_city": "류저우",
+        "to_station": "류저우역",
+        "train": "고속철 2등석",
+        "hours": 2.5,
+        "price": {
+          "amount": 115,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/beihai-to-liuzhou/"
+      },
+      {
+        "from_station": "베이하이역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 4.5,
+        "price": {
+          "amount": 230,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/beihai-to-guangzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:팡청강",
+    "fares": [
+      {
+        "from_station": "팡청강북역",
+        "to_city": "친저우",
+        "to_station": "친저우동역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/fangchenggang-to-qinzhou/"
+      },
+      {
+        "from_station": "팡청강북역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 43,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/fangchenggang-to-nanning/"
+      },
+      {
+        "from_station": "팡청강북역",
+        "to_city": "둥싱",
+        "to_station": "둥싱시역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 24,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/fangchenggang-to-dongxing/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:친저우",
+    "fares": [
+      {
+        "from_station": "친저우동역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 32,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/qinzhou-to-nanning/"
+      },
+      {
+        "from_station": "친저우동역",
+        "to_city": "베이하이",
+        "to_station": "베이하이역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/qinzhou-to-beihai/"
+      },
+      {
+        "from_station": "친저우동역",
+        "to_city": "팡청강",
+        "to_station": "팡청강북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/qinzhou-to-fangchenggang/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:위린 (광시)",
+    "fares": [
+      {
+        "from_station": "위린역",
+        "to_city": "난닝",
+        "to_station": "난닝동역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 65,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/yulin-to-nanning/"
+      },
+      {
+        "from_station": "위린역",
+        "to_city": "구이강",
+        "to_station": "구이강역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 30,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/yulin-to-guigang/"
+      },
+      {
+        "from_station": "위린역",
+        "to_city": "광저우",
+        "to_station": "광저우남역",
+        "train": "고속철 2등석",
+        "hours": 3,
+        "price": {
+          "amount": 160,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/yulin-to-guangzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:하이커우",
+    "fares": [
+      {
+        "from_station": "하이커우동역",
+        "to_city": "싼야",
+        "to_station": "싼야역",
+        "train": "고속철 2등석",
+        "hours": 1.6,
+        "price": {
+          "amount": 100,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/haikou-to-sanya/"
+      },
+      {
+        "from_station": "하이커우동역",
+        "to_city": "원창",
+        "to_station": "원창역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/haikou-to-wenchang/"
+      },
+      {
+        "from_station": "하이커우동역",
+        "to_city": "충하이",
+        "to_station": "충하이역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 38,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/haikou-to-qionghai/"
+      },
+      {
+        "from_station": "하이커우동역",
+        "to_city": "완닝",
+        "to_station": "완닝역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/haikou-to-wanning/"
+      },
+      {
+        "from_station": "하이커우역",
+        "to_city": "광저우",
+        "to_station": "광저우백운역",
+        "train": "침대열차 하단 침대",
+        "hours": 11.5,
+        "price": {
+          "amount": 285,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/haikou-to-guangzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:싼야",
+    "fares": [
+      {
+        "from_station": "싼야역",
+        "to_city": "하이커우",
+        "to_station": "하이커우동역",
+        "train": "고속철 2등석",
+        "hours": 1.6,
+        "price": {
+          "amount": 100,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/sanya-to-haikou/"
+      },
+      {
+        "from_station": "싼야역",
+        "to_city": "완닝",
+        "to_station": "완닝역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/sanya-to-wanning/"
+      },
+      {
+        "from_station": "싼야역",
+        "to_city": "충하이",
+        "to_station": "충하이역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 60,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/sanya-to-qionghai/"
+      },
+      {
+        "from_station": "싼야역",
+        "to_city": "둥팡",
+        "to_station": "둥팡역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/sanya-to-dongfang/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:완닝",
+    "fares": [
+      {
+        "from_station": "완닝역",
+        "to_city": "싼야",
+        "to_station": "싼야역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/wanning-to-sanya/"
+      },
+      {
+        "from_station": "완닝역",
+        "to_city": "하이커우",
+        "to_station": "하이커우동역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/wanning-to-haikou/"
+      },
+      {
+        "from_station": "완닝역",
+        "to_city": "충하이",
+        "to_station": "충하이역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/wanning-to-qionghai/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:충하이",
+    "fares": [
+      {
+        "from_station": "충하이역",
+        "to_city": "하이커우",
+        "to_station": "하이커우동역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 38,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/qionghai-to-haikou/"
+      },
+      {
+        "from_station": "충하이역",
+        "to_city": "싼야",
+        "to_station": "싼야역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 60,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/qionghai-to-sanya/"
+      },
+      {
+        "from_station": "충하이역",
+        "to_city": "원창",
+        "to_station": "원창역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 18,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/qionghai-to-wenchang/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:원창",
+    "fares": [
+      {
+        "from_station": "원창역",
+        "to_city": "하이커우",
+        "to_station": "하이커우동역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/wenchang-to-haikou/"
+      },
+      {
+        "from_station": "원창역",
+        "to_city": "충하이",
+        "to_station": "충하이역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 18,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/wenchang-to-qionghai/"
+      },
+      {
+        "from_station": "원창역",
+        "to_city": "싼야",
+        "to_station": "싼야역",
+        "train": "고속철 2등석",
+        "hours": 1.3,
+        "price": {
+          "amount": 80,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/wenchang-to-sanya/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:단저우",
+    "fares": [
+      {
+        "from_station": "백마정역",
+        "to_city": "하이커우",
+        "to_station": "하이커우역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/danzhou-to-haikou/"
+      },
+      {
+        "from_station": "백마정역",
+        "to_city": "둥팡",
+        "to_station": "둥팡역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 35,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/danzhou-to-dongfang/"
+      },
+      {
+        "from_station": "백마정역",
+        "to_city": "싼야",
+        "to_station": "싼야역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 90,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/danzhou-to-sanya/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:둥팡",
+    "fares": [
+      {
+        "from_station": "둥팡역",
+        "to_city": "싼야",
+        "to_station": "싼야역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/dongfang-to-sanya/"
+      },
+      {
+        "from_station": "둥팡역",
+        "to_city": "단저우",
+        "to_station": "백마정역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 35,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/dongfang-to-danzhou/"
+      },
+      {
+        "from_station": "둥팡역",
+        "to_city": "하이커우",
+        "to_station": "하이커우역",
+        "train": "고속철 2등석",
+        "hours": 1.4,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/dongfang-to-haikou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:푸저우 (푸젠)",
+    "fares": [
+      {
+        "from_station": "푸저우남역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 80,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/fuzhou-to-xiamen/"
+      },
+      {
+        "from_station": "푸저우남역",
+        "to_city": "취안저우",
+        "to_station": "취안저우동역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/fuzhou-to-quanzhou/"
+      },
+      {
+        "from_station": "푸저우역",
+        "to_city": "닝더",
+        "to_station": "닝더역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 35,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/fuzhou-to-ningde/"
+      },
+      {
+        "from_station": "푸저우역",
+        "to_city": "난핑",
+        "to_station": "옌핑역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/fuzhou-to-nanping/"
+      },
+      {
+        "from_station": "푸저우남역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 4,
+        "price": {
+          "amount": 260,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/fuzhou-to-shenzhen/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:샤먼",
+    "fares": [
+      {
+        "from_station": "샤먼북역",
+        "to_city": "푸저우 (푸젠)",
+        "to_station": "푸저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.9,
+        "price": {
+          "amount": 80,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/xiamen-to-fuzhou/"
+      },
+      {
+        "from_station": "샤먼북역",
+        "to_city": "취안저우",
+        "to_station": "취안저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/xiamen-to-quanzhou/"
+      },
+      {
+        "from_station": "샤먼역",
+        "to_city": "장저우",
+        "to_station": "장저우역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/xiamen-to-zhangzhou/"
+      },
+      {
+        "from_station": "샤먼북역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 3,
+        "price": {
+          "amount": 180,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/xiamen-to-shenzhen/"
+      },
+      {
+        "from_station": "샤먼북역",
+        "to_city": "룽옌",
+        "to_station": "룽옌역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/xiamen-to-longyan/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:취안저우",
+    "fares": [
+      {
+        "from_station": "취안저우역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/quanzhou-to-xiamen/"
+      },
+      {
+        "from_station": "취안저우남역",
+        "to_city": "푸저우 (푸젠)",
+        "to_station": "푸저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/quanzhou-to-fuzhou/"
+      },
+      {
+        "from_station": "취안저우역",
+        "to_city": "푸톈",
+        "to_station": "푸톈역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/quanzhou-to-putian/"
+      },
+      {
+        "from_station": "취안저우역",
+        "to_city": "선전",
+        "to_station": "선전북역",
+        "train": "고속철 2등석",
+        "hours": 3.3,
+        "price": {
+          "amount": 205,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/quanzhou-to-shenzhen/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:장저우",
+    "fares": [
+      {
+        "from_station": "장저우역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhangzhou-to-xiamen/"
+      },
+      {
+        "from_station": "장저우역",
+        "to_city": "차오저우",
+        "to_station": "차오산역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 60,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhangzhou-to-chaozhou/"
+      },
+      {
+        "from_station": "장저우역",
+        "to_city": "룽옌",
+        "to_station": "룽옌역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 40,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhangzhou-to-longyan/"
+      },
+      {
+        "from_station": "장저우역",
+        "to_city": "푸저우 (푸젠)",
+        "to_station": "푸저우남역",
+        "train": "고속철 2등석",
+        "hours": 1.3,
+        "price": {
+          "amount": 100,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/zhangzhou-to-fuzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:푸톈",
+    "fares": [
+      {
+        "from_station": "푸톈역",
+        "to_city": "푸저우 (푸젠)",
+        "to_station": "푸저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 35,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/putian-to-fuzhou/"
+      },
+      {
+        "from_station": "푸톈역",
+        "to_city": "취안저우",
+        "to_station": "취안저우역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/putian-to-quanzhou/"
+      },
+      {
+        "from_station": "푸톈역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/putian-to-xiamen/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:닝더",
+    "fares": [
+      {
+        "from_station": "닝더역",
+        "to_city": "푸저우 (푸젠)",
+        "to_station": "푸저우역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 35,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/ningde-to-fuzhou/"
+      },
+      {
+        "from_station": "닝더역",
+        "to_city": "원저우",
+        "to_station": "원저우남역",
+        "train": "고속철 2등석",
+        "hours": 1.2,
+        "price": {
+          "amount": 70,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/ningde-to-wenzhou/"
+      },
+      {
+        "from_station": "닝더역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 1.8,
+        "price": {
+          "amount": 115,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/ningde-to-xiamen/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:싼밍",
+    "fares": [
+      {
+        "from_station": "싼밍북역",
+        "to_city": "푸저우 (푸젠)",
+        "to_station": "푸저우역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/sanming-to-fuzhou/"
+      },
+      {
+        "from_station": "싼밍북역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 1.5,
+        "price": {
+          "amount": 80,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/sanming-to-xiamen/"
+      },
+      {
+        "from_station": "싼밍북역",
+        "to_city": "난핑",
+        "to_station": "옌핑역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 30,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/sanming-to-nanping/"
+      },
+      {
+        "from_station": "싼밍역",
+        "to_city": "룽옌",
+        "to_station": "룽옌역",
+        "train": "고속철 2등석",
+        "hours": 1.1,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/sanming-to-longyan/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:룽옌",
+    "fares": [
+      {
+        "from_station": "룽옌역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 1,
+        "price": {
+          "amount": 55,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/longyan-to-xiamen/"
+      },
+      {
+        "from_station": "룽옌역",
+        "to_city": "장저우",
+        "to_station": "장저우역",
+        "train": "고속철 2등석",
+        "hours": 0.8,
+        "price": {
+          "amount": 40,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/longyan-to-zhangzhou/"
+      },
+      {
+        "from_station": "룽옌역",
+        "to_city": "간저우",
+        "to_station": "간저우서역",
+        "train": "고속철 2등석",
+        "hours": 1.3,
+        "price": {
+          "amount": 75,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/longyan-to-ganzhou/"
+      },
+      {
+        "from_station": "룽옌역",
+        "to_city": "푸저우 (푸젠)",
+        "to_station": "푸저우남역",
+        "train": "고속철 2등석",
+        "hours": 2,
+        "price": {
+          "amount": 130,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/longyan-to-fuzhou/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:난핑",
+    "fares": [
+      {
+        "from_station": "옌핑역",
+        "to_city": "푸저우 (푸젠)",
+        "to_station": "푸저우역",
+        "train": "고속철 2등석",
+        "hours": 0.6,
+        "price": {
+          "amount": 45,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/nanping-to-fuzhou/"
+      },
+      {
+        "from_station": "옌핑역",
+        "to_city": "싼밍",
+        "to_station": "싼밍북역",
+        "train": "고속철 2등석",
+        "hours": 0.5,
+        "price": {
+          "amount": 30,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/nanping-to-sanming/"
+      },
+      {
+        "from_station": "옌핑역",
+        "to_city": "우이산",
+        "to_station": "우이산북역",
+        "train": "고속철 2등석",
+        "hours": 0.4,
+        "price": {
+          "amount": 25,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/nanping-to-wuyishan/"
+      }
+    ]
+  },
+  {
+    "city_id": "city:진장",
+    "fares": [
+      {
+        "from_station": "진장역",
+        "to_city": "샤먼",
+        "to_station": "샤먼북역",
+        "train": "고속철 2등석",
+        "hours": 0.3,
+        "price": {
+          "amount": 20,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jinjiang-to-xiamen/"
+      },
+      {
+        "from_station": "진장역",
+        "to_city": "취안저우",
+        "to_station": "취안저우역",
+        "train": "고속철 2등석",
+        "hours": 0.2,
+        "price": {
+          "amount": 15,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jinjiang-to-quanzhou/"
+      },
+      {
+        "from_station": "진장역",
+        "to_city": "푸저우 (푸젠)",
+        "to_station": "푸저우남역",
+        "train": "고속철 2등석",
+        "hours": 0.7,
+        "price": {
+          "amount": 60,
+          "currency": "CNY"
+        },
+        "price_note": "약",
+        "source": "https://www.trip.com/trains/china/jinjiang-to-fuzhou/"
+      }
+    ]
+  }
+]
