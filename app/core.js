@@ -585,6 +585,34 @@ export const store = {
     return this.picksMap[id]?.note || "";
   },
 
+  /** City research request with a tier: 2 (more spots) or 3 (visit fixed: full list and restaurants). 0 cancels. */
+  getResearchTier(id) {
+    const p = this.picksMap[id];
+    return p && p.v === "request" ? Number(p.tier) || 2 : 0;
+  },
+
+  async setResearch(id, tier) {
+    const existing = this.picksMap[id] || {};
+    const next = { ...existing, v: tier ? "request" : "none", t: Date.now() };
+    if (tier) next.tier = tier;
+    else delete next.tier;
+    this.picksMap[id] = next;
+    bus.emit("pick:changed", { id, v: next.v });
+    if (this.isSelftest) return;
+    if (this.useLocal || !this.refPicks) {
+      this.saveLocal();
+      this.schedulePush();
+      return;
+    }
+    try {
+      await this.refPicks.set({ ...this.picksMap });
+      this.picksDocExists = true;
+    } catch (e) {
+      console.error("store.setResearch error", e);
+      showSaveError();
+    }
+  },
+
   async setNote(id, text) {
     const t = Date.now();
     const existing = this.picksMap[id] || { v: "none" };
@@ -765,6 +793,10 @@ export const data = {
               if (v !== undefined && v !== null) {
                 cur[k] = v;
               }
+            } else if (k === "dishes" && Array.isArray(cur[k]) && Array.isArray(v)) {
+              // Research tiers add dishes in later files: keep the old ones, add new names
+              const names = new Set(cur[k].map((d) => d && d.name));
+              cur[k] = [...cur[k], ...v.filter((d) => d && !names.has(d.name))];
             } else {
               if (
                 cur[k] === undefined ||

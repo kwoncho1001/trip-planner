@@ -1286,62 +1286,59 @@ export function init(ctx) {
           </div>
         `;
       } else if (Array.isArray(rail.stations) && rail.stations.length > 0) {
-        const stationsHtml = rail.stations
-          .map((st) => {
-            const dist = st.km_from_center != null ? `<span class="station-distance">중심에서 ${st.km_from_center}km</span>` : "";
-            const typeBadge = st.type ? `<span class="station-type-badge">${st.type}</span>` : "";
-            const localName = st.local ? `<span class="station-local">${st.local}</span>` : "";
-            const linesHtml = st.lines ? `<div class="station-lines">${st.lines}</div>` : "";
+        // One fold per station with its own fares; the whole box folds too (user, 2026-11-05)
+        const esc = (t) => String(t ?? "").replace(/[&<>"]/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+        const norm = (t) => String(t || "").replace(/\s+/g, "");
+        const fares = Array.isArray(city.info?.fares) ? city.info.fares : [];
+        const stations = rail.stations;
+        const byStation = stations.map(() => []);
+        for (const fr of fares) {
+          let i = stations.findIndex((st) => norm(st.name) === norm(fr.from_station));
+          if (i < 0) i = stations.findIndex((st) => norm(fr.from_station).includes(norm(st.name)) || norm(st.name).includes(norm(fr.from_station)));
+          byStation[i < 0 ? 0 : i].push(fr);
+        }
+        const fareRow = (fr) => {
+          const p = fr.price && typeof fr.price.amount === "number"
+            ? `${fr.price_note === "약" ? "약 " : ""}${fr.price.amount.toLocaleString()} ${fr.price.currency}`
+            : esc(fr.price_note || "미확인");
+          const krw = fr.price && util.toKRW ? util.toKRW(fr.price.amount, fr.price.currency) : null;
+          const krwText = krw ? ` <span class="fare-krw">(${util.formatKRW ? util.formatKRW(krw) : krw + "원"})</span>` : "";
+          const src = fr.source ? ` <a class="fare-src" href="${esc(fr.source)}" target="_blank" rel="noopener">↗</a>` : "";
+          return `<div class="fare-row">
+            <span class="fare-to">→ ${esc(fr.to_city)}</span>
+            <span class="fare-train">${esc(fr.train)} · ${fr.hours}시간</span>
+            <span class="fare-price">${p}${krwText}${src}</span>
+          </div>`;
+        };
+        // The station with the most fares opens first
+        let openIdx = 0;
+        byStation.forEach((list, i) => { if (list.length > byStation[openIdx].length) openIdx = i; });
+        // Station: Korean name, local name, 고속철/일반, its fares. Nothing else (user, 2026-11-05)
+        const stationsHtml = stations
+          .map((st, i) => {
+            const localName = st.local ? String(st.local).split(" / ")[0] : "";
+            const typeBadge = st.type ? `<span class="station-type-badge">${esc(st.type)}</span>` : "";
+            const list = byStation[i];
+            const head = `
+                  <span class="station-name">${esc(st.name)}</span>
+                  ${localName ? `<span class="station-local">${esc(localName)}</span>` : ""}
+                  ${typeBadge}`;
+            if (!list.length) return `<div class="station-item station-item-plain"><div class="station-item-header">${head}</div></div>`;
             return `
-              <div class="station-item">
-                <div class="station-item-header">
-                  <span class="station-name">${st.name || ""}</span>
-                  ${localName}
-                  ${typeBadge}
-                  ${dist}
-                </div>
-                ${linesHtml}
-              </div>
+              <details class="station-item"${i === openIdx ? " open" : ""}>
+                <summary class="station-item-header">${head}</summary>
+                <div class="station-item-body station-fares">${list.map(fareRow).join("")}</div>
+              </details>
             `;
           })
           .join("");
-        const noteHtml = rail.note ? `<div class="station-note">${rail.note}</div>` : "";
-        const sourceHtml = rail.source
-          ? `<a class="station-source-link" href="${rail.source}" target="_blank" rel="noopener">출처 ↗</a>`
-          : "";
-        // Fares from the main station to the next useful cities (cityinfo/fares-*.json)
-        const esc = (t) => String(t ?? "").replace(/[&<>"]/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
-        const fares = Array.isArray(city.info?.fares) ? city.info.fares : [];
-        const faresHtml = fares.length
-          ? `<div class="station-fares">
-              <div class="station-fares-title">주요 구간 요금</div>
-              ${fares
-                .map((fr) => {
-                  const p = fr.price && typeof fr.price.amount === "number"
-                    ? `${fr.price_note === "약" ? "약 " : ""}${fr.price.amount.toLocaleString()} ${fr.price.currency}`
-                    : esc(fr.price_note || "미확인");
-                  const krw = fr.price && util.toKRW ? util.toKRW(fr.price.amount, fr.price.currency) : null;
-                  const krwText = krw ? ` <span class="fare-krw">(${util.formatKRW ? util.formatKRW(krw) : krw + "원"})</span>` : "";
-                  const src = fr.source ? ` <a class="fare-src" href="${esc(fr.source)}" target="_blank" rel="noopener">↗</a>` : "";
-                  return `<div class="fare-row">
-                    <span class="fare-to">→ ${esc(fr.to_city)}</span>
-                    <span class="fare-train">${esc(fr.train)} · ${fr.hours}시간</span>
-                    <span class="fare-price">${p}${krwText}${src}</span>
-                  </div>`;
-                })
-                .join("")}
-            </div>`
-          : "";
         railBoxHtml = `
-          <div class="station-box rail-station-box detail-station-box">
-            <div class="station-box-title">🚆 기차역</div>
+          <details class="station-box rail-station-box detail-station-box" open>
+            <summary class="station-box-title">🚆 기차역 <span class="station-count">${stations.length}곳</span></summary>
             <div class="station-list">
               ${stationsHtml}
             </div>
-            ${faresHtml}
-            ${noteHtml}
-            ${sourceHtml}
-          </div>
+          </details>
         `;
       }
     }
@@ -1362,7 +1359,7 @@ export function init(ctx) {
         <button type="button" class="btn btn-pick-city like ${pick === "like" ? "is-active" : ""}" data-pick="like">♥ 끌림</button>
         <button type="button" class="btn btn-pick-city pass ${pick === "pass" ? "is-active" : ""}" data-pick="pass">✕ 패스</button>
         <button type="button" class="btn btn-add-stop" data-action="add-stop">경로에 추가</button>
-        <button type="button" class="btn btn-research-req ${researchPick === "request" ? "is-active" : ""}" data-action="request-research">${researchPick === "request" ? "조사 요청됨" : "조사 요청"}</button>
+        ${researchReqHtml(city)}
         <a href="https://www.google.com/maps/@${city.lat},${city.lng},14z/data=!3m1!1e3" target="_blank" rel="noopener noreferrer" class="btn btn-satellite" data-action="satellite">위성지도</a>
       </div>
     `;
@@ -1402,14 +1399,7 @@ export function init(ctx) {
       });
     }
 
-    const reqBtn = header.querySelector('[data-action="request-research"]');
-    if (reqBtn) {
-      reqBtn.addEventListener("click", () => {
-        store.setPick("research:" + city.id, "request");
-        reqBtn.textContent = "조사 요청됨";
-        reqBtn.classList.add("is-active");
-      });
-    }
+    bindResearchReq(header, city.id);
 
     const satBtn = header.querySelector('[data-action="satellite"]');
     if (satBtn) {
@@ -1793,12 +1783,6 @@ export function init(ctx) {
       `;
       spotsSection.appendChild(emptyState);
     } else {
-      // Shortcut hint line (M1-3)
-      const hintEl = document.createElement("div");
-      hintEl.className = "spot-shortcuts-hint";
-      hintEl.textContent = "j/k 이동 · l 끌림 · h 패스 · u 되돌리기";
-      spotsSection.appendChild(hintEl);
-
       // Filter chips: categories and "무료만"
       const cats = Array.from(
         new Set(allSpots.map((s) => s.cat || s.category_std).filter(Boolean))
@@ -1898,6 +1882,35 @@ export function init(ctx) {
     }
 
     viewDetail.appendChild(body);
+  }
+
+  // Research tiers (user, 2026-11-05): 1 = basic (about 10 spots, 3+ dishes, intro), 2 = 20 to 50 spots, 3 = 50 to 100+ spots with restaurants
+  function researchLevel(cityId) {
+    const n = (data.spotsOfCity(cityId) || []).length;
+    return n >= 50 ? 3 : n >= 20 ? 2 : 1;
+  }
+  function researchReqHtml(city) {
+    const key = "research:" + city.id;
+    const tier = store.getResearchTier ? store.getResearchTier(key) : (store.getPick(key) === "request" ? 2 : 0);
+    const level = researchLevel(city.id);
+    const btn = (n) => {
+      const on = tier === n;
+      const done = level >= n;
+      return `<button type="button" class="btn btn-research-req ${on ? "is-active" : ""}" data-action="request-research" data-tier="${n}"${done ? " disabled" : ""}>${done ? `${n}단계 완료` : on ? `${n}단계 요청됨` : `${n}단계 조사`}</button>`;
+    };
+    return `<span class="research-req" role="group" aria-label="조사 요청"><span class="research-level" title="2단계: 장소 20~50곳 · 3단계: 장소 50~100곳 이상과 음식별 대표 식당">지금 ${level}단계</span>${btn(2)}${btn(3)}</span>`;
+  }
+  function bindResearchReq(root, cityId) {
+    if (!root) return;
+    for (const b of root.querySelectorAll('.research-req [data-action="request-research"]')) {
+      b.addEventListener("click", () => {
+        const key = "research:" + cityId;
+        const n = Number(b.dataset.tier);
+        const cur = store.getResearchTier ? store.getResearchTier(key) : 0;
+        if (store.setResearch) store.setResearch(key, cur === n ? 0 : n);
+        else store.setPick(key, "request");
+      });
+    }
   }
 
   function renderSpotCard(spot) {
@@ -2057,28 +2070,6 @@ export function init(ctx) {
       card.appendChild(factsEl);
     }
 
-    // Google Maps Link
-    const gmapLink = document.createElement("div");
-    gmapLink.className = "spot-links";
-    gmapLink.innerHTML = `
-      <a class="spot-gmap-link" href="https://www.google.com/maps/search/?api=1&query=${spot.lat},${spot.lng}" target="_blank" rel="noopener">Google Maps ↗</a>
-    `;
-    card.appendChild(gmapLink);
-
-    // Note Input
-    const noteWrap = document.createElement("div");
-    noteWrap.className = "spot-note-wrap";
-    const noteInput = document.createElement("input");
-    noteInput.type = "text";
-    noteInput.className = "spot-note-input";
-    noteInput.placeholder = "메모 남기기...";
-    noteInput.value = store.getNote(spot.id) || "";
-    noteInput.addEventListener("change", () => {
-      store.setNote(spot.id, noteInput.value.trim());
-    });
-    noteWrap.appendChild(noteInput);
-    card.appendChild(noteWrap);
-
     // Pick Actions
     const actions = document.createElement("div");
     actions.className = "spot-actions";
@@ -2163,10 +2154,16 @@ export function init(ctx) {
 
     // 3. If it's a research request for the active city
     if (id === `research:${activeCityId}`) {
-      const reqBtn = viewDetail.querySelector('[data-action="request-research"]');
-      if (reqBtn) {
-        reqBtn.textContent = v === "request" ? "조사 요청됨" : "조사 요청";
-        reqBtn.classList.toggle("is-active", v === "request");
+      const wrap = viewDetail.querySelector(".research-req");
+      if (wrap) {
+        const city = data.cities.find((c) => c.id === activeCityId);
+        if (city) {
+          const tmp = document.createElement("div");
+          tmp.innerHTML = researchReqHtml(city);
+          const fresh = tmp.firstElementChild;
+          wrap.replaceWith(fresh);
+          bindResearchReq(fresh.parentElement, activeCityId);
+        }
       }
       const researchWrap = viewDetail.querySelector(".detail-research-footer");
       if (researchWrap) {

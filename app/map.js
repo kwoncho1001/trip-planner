@@ -513,6 +513,59 @@ export function init(ctx) {
   const cityVectorRenderer = L.canvas({ pane: "cityVectorPane" });
   const cityVectorGroup = L.layerGroup().addTo(map);
 
+  // Intercity rail for the whole trip area (geo/rail.json from scripts/national_rail.py), under the city lines.
+  // High-speed lines are thicker; from zoom 8 both get the railway look (dark line, white dash) like the city train lines.
+  map.createPane("nationalRailPane");
+  map.getPane("nationalRailPane").style.zIndex = "405";
+  map.getPane("nationalRailPane").style.pointerEvents = "none";
+  const railRenderer = L.canvas({ pane: "nationalRailPane", padding: 0.3 });
+  const railGroup = L.layerGroup().addTo(map);
+  const railLayerCache = {};
+  let railData = null;
+  let railTier = null;
+  function railLayers(tier) {
+    if (railLayerCache[tier]) return railLayerCache[tier];
+    const o = { pane: "nationalRailPane", renderer: railRenderer, interactive: false, lineCap: "round", lineJoin: "round" };
+    const src = tier === "low" ? "low" : "mid";
+    const dec = (a) => (a || []).map(decodeLine).filter((p) => p.length >= 2);
+    const rail = dec(railData.rail?.[src]);
+    const hsr = dec(railData.hsr?.[src]);
+    const layers = [];
+    if (tier === "low") {
+      if (rail.length) layers.push(L.polyline(rail, { ...o, color: "#5b5b5b", weight: 1.4, opacity: 0.85 }));
+      if (hsr.length) layers.push(L.polyline(hsr, { ...o, color: "#2f2f2f", weight: 2.2 }));
+    } else {
+      const k = tier === "mid" ? 1 : 1.4;
+      if (rail.length) {
+        layers.push(L.polyline(rail, { ...o, color: "#3d3d3d", weight: 3 * k }));
+        layers.push(L.polyline(rail, { ...o, color: "#ffffff", weight: 1.2 * k, dashArray: `${5 * k} ${5 * k}`, lineCap: "butt" }));
+      }
+      if (hsr.length) {
+        layers.push(L.polyline(hsr, { ...o, color: "#2f2f2f", weight: 4 * k }));
+        layers.push(L.polyline(hsr, { ...o, color: "#ffffff", weight: 1.6 * k, dashArray: `${8 * k} ${8 * k}`, lineCap: "butt" }));
+      }
+    }
+    railLayerCache[tier] = layers;
+    return layers;
+  }
+  function updateNationalRail() {
+    if (!railData) return;
+    const z = map.getZoom();
+    const tier = z < 4 ? null : z <= 7 ? "low" : z <= 10 ? "mid" : "near";
+    if (tier === railTier) return;
+    railTier = tier;
+    railGroup.clearLayers();
+    if (tier) for (const l of railLayers(tier)) railGroup.addLayer(l);
+  }
+  fetch("geo/rail.json")
+    .then((r) => (r.ok ? r.json() : null))
+    .then((d) => {
+      railData = d;
+      updateNationalRail();
+    })
+    .catch(() => {});
+  map.on("zoomend", updateNationalRail);
+
   const cityVectorCache = new Map();
   const loadingCities = new Set();
   let currentZoomTier = null;
@@ -795,23 +848,6 @@ export function init(ctx) {
       div.appendChild(linesDiv);
     }
 
-    const linksDiv = document.createElement("div");
-    linksDiv.className = "transit-popup-links";
-    const gLink = document.createElement("a");
-    gLink.href = `https://www.google.com/maps/search/?api=1&query=${st.lat},${st.lng}`;
-    gLink.target = "_blank";
-    gLink.rel = "noopener noreferrer";
-    gLink.textContent = "Google 지도에서 보기";
-    linksDiv.appendChild(gLink);
-
-    const satLink = document.createElement("a");
-    satLink.href = `https://www.google.com/maps/@${st.lat},${st.lng},14z/data=!3m1!1e3`;
-    satLink.target = "_blank";
-    satLink.rel = "noopener noreferrer";
-    satLink.textContent = "위성지도로 보기";
-    linksDiv.appendChild(satLink);
-
-    div.appendChild(linksDiv);
     return div;
   }
 
@@ -899,23 +935,6 @@ export function init(ctx) {
       div.appendChild(routesDiv);
     }
 
-    const linksDiv = document.createElement("div");
-    linksDiv.className = "transit-popup-links";
-    const gLink = document.createElement("a");
-    gLink.href = `https://www.google.com/maps/search/?api=1&query=${t.lat},${t.lng}`;
-    gLink.target = "_blank";
-    gLink.rel = "noopener noreferrer";
-    gLink.textContent = "Google 지도에서 보기";
-    linksDiv.appendChild(gLink);
-
-    const satLink = document.createElement("a");
-    satLink.href = `https://www.google.com/maps/@${t.lat},${t.lng},14z/data=!3m1!1e3`;
-    satLink.target = "_blank";
-    satLink.rel = "noopener noreferrer";
-    satLink.textContent = "위성지도로 보기";
-    linksDiv.appendChild(satLink);
-
-    div.appendChild(linksDiv);
     return div;
   }
 

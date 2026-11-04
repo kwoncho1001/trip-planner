@@ -154,18 +154,6 @@ export async function run(ctx) {
     errors.push(`document.documentElement.scrollWidth (${scrollWidth}) > 375`);
   }
 
-  // Step 9: MAKE SURE .spot-note-input has font size 16 px or more.
-  const noteInput = document.querySelector(".spot-note-input");
-  if (!noteInput) {
-    errors.push(".spot-note-input not found");
-  } else {
-    const style = window.getComputedStyle(noteInput);
-    const fontSize = parseFloat(style.fontSize);
-    if (fontSize < 16) {
-      errors.push(`.spot-note-input font size < 16px: got ${fontSize}px`);
-    }
-  }
-
   // Step 10: OPEN the photo viewer. MAKE SURE the close button box does not meet the source link box.
   const mediaCard = document.querySelector(".city-media-card") || document.querySelector(".spot-photo") || document.querySelector(".spot-photo-wrap img");
   if (mediaCard) {

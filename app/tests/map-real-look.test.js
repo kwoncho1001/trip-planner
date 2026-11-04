@@ -208,7 +208,7 @@ export async function run(ctx) {
             errors.push("detail action row not found");
           } else {
             const actBtns = Array.from(actionRow.querySelectorAll("button, a, .btn"));
-            const hasResearch = actBtns.some((b) => b.textContent.includes("조사 요청"));
+            const hasResearch = actBtns.some((b) => b.dataset.action === "request-research");
             const hasSat = actBtns.some((b) => b.textContent.includes("위성지도"));
             if (!hasResearch) errors.push('action row missing button "조사 요청"');
             if (!hasSat) errors.push('action row missing button "위성지도"');
