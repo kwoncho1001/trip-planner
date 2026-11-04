@@ -27,10 +27,10 @@ export async function run(ctx) {
     return { pass: false, detail: errors.join("; ") };
   }
 
-  // 2. MAKE SURE the map has a tile layer whose URL contains basemaps.cartocdn.com.
-  const cartoLayer = findTileLayer(map, "basemaps.cartocdn.com");
+  // 2. MAKE SURE the map has a tile layer whose URL contains tile.openstreetmap.org.
+  const cartoLayer = findTileLayer(map, "tile.openstreetmap.org");
   if (!cartoLayer) {
-    errors.push("expected tile layer with URL containing basemaps.cartocdn.com");
+    errors.push("expected tile layer with URL containing tile.openstreetmap.org");
   }
 
   // 3. SET the view to [22.30, 114.17] zoom 13. MAKE SURE no layer with pane cityVectorPane has fill colour #f2efe9 (no land box).
@@ -64,9 +64,9 @@ export async function run(ctx) {
     }
     satBtn.click();
     await sleep(200);
-    const voyagerLayer = findTileLayer(map, "basemaps.cartocdn.com");
+    const voyagerLayer = findTileLayer(map, "tile.openstreetmap.org");
     if (!voyagerLayer) {
-      errors.push("expected tile layer with URL containing basemaps.cartocdn.com after clicking 위성 again");
+      errors.push("expected tile layer with URL containing tile.openstreetmap.org after clicking 위성 again");
     }
   }
 

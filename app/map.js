@@ -384,15 +384,17 @@ export function init(ctx) {
       if (saved === "satellite") currentBasemap = "satellite";
     } catch (_) {}
 
-    voyagerLayer = L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+    // CARTO now needs an API key (tiles showed "API KEY REQUIRED", 2026-11-04): OpenStreetMap standard tiles need none
+    voyagerLayer = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
-      attribution: "© OpenStreetMap contributors © CARTO"
+      attribution: "© OpenStreetMap contributors"
     });
     esriLayer = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
       maxZoom: 19,
       attribution: "Esri, Maxar, Earthstar Geographics"
     });
-    cartoLabelsLayer = L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png", {
+    // Place names over the satellite view, also keyless
+    cartoLabelsLayer = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}", {
       maxZoom: 19,
       attribution: ""
     });
