@@ -1395,7 +1395,7 @@ export function init(ctx) {
         <button type="button" class="btn btn-add-stop" data-action="add-stop">경로에 추가</button>
         ${researchReqHtml(city)}
       </div>
-      ${city.desc ? `<p class="detail-desc">${city.desc}</p>` : ""}
+      ${introHtml(city)}
     `;
     // Order (user, 2026-11-05): name, buttons, intro, photos, evaluation, train stations, food, spots
     let railEl = null;
@@ -1637,15 +1637,17 @@ export function init(ctx) {
       const reviews = city.info?.reviews;
 
       if (evaluation) {
-        const evalSection = document.createElement("div");
-        evalSection.className = "city-eval-section detail-eval-section";
+        // With a story, the evaluation is a folded summary: the story already reads as one flow
+        const hasStory = Array.isArray(city.info?.intro?.story) && city.info.intro.story.length > 0;
+        const evalSection = document.createElement(hasStory ? "details" : "div");
+        evalSection.className = `city-eval-section detail-eval-section${hasStory ? " is-folded" : ""}`;
 
-        const eTitle = document.createElement("h4");
+        const eTitle = document.createElement(hasStory ? "summary" : "h4");
         eTitle.className = "section-subtitle";
-        eTitle.textContent = "도시 평가";
+        eTitle.textContent = hasStory ? "좋은 점 · 아쉬운 점 한눈에" : "도시 평가";
         evalSection.appendChild(eTitle);
 
-        if (evaluation.summary) {
+        if (evaluation.summary && !hasStory) {
           const summaryP = document.createElement("p");
           summaryP.className = "eval-summary";
           summaryP.textContent = evaluation.summary;
@@ -1912,6 +1914,38 @@ export function init(ctx) {
     }
 
     viewDetail.appendChild(body);
+  }
+
+  // City introduction (user, 2026-11-05): one flowing story; tier 2 and 3 add deeper reading when researched
+  function introHtml(city) {
+    const esc = (t) => String(t ?? "").replace(/[&<>"]/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+    const it = city.info?.intro;
+    const story = Array.isArray(it?.story) ? it.story.filter(Boolean) : [];
+    if (!story.length) return city.desc ? `<p class="detail-desc">${esc(city.desc)}</p>` : "";
+    const hooks = Array.isArray(it.hooks) && it.hooks.length
+      ? `<div class="intro-hooks">${it.hooks.map((h) => `<span class="intro-hook">${esc(h)}</span>`).join("")}</div>`
+      : "";
+    const facts = [];
+    if (it.winter?.temp) facts.push(`<div class="intro-fact"><span class="intro-fact-k">12~2월</span><span class="intro-fact-v">${esc(it.winter.temp)}${it.winter.note ? ` · ${esc(it.winter.note)}` : ""}</span></div>`);
+    if (it.stay?.nights) facts.push(`<div class="intro-fact"><span class="intro-fact-k">추천 체류</span><span class="intro-fact-v">${esc(it.stay.nights)}${it.stay.why ? ` · ${esc(it.stay.why)}` : ""}</span></div>`);
+    const deeper = (key, title) => {
+      const d = city.info?.[key];
+      if (!d) return "";
+      const paras = [...(Array.isArray(d.story) ? d.story : []), ...(Array.isArray(d.history) ? d.history : [])].filter(Boolean);
+      const districts = Array.isArray(d.districts) ? d.districts : [];
+      if (!paras.length && !districts.length) return "";
+      return `<details class="intro-deeper"><summary>${title}</summary>
+        <div class="intro-story">${paras.map((t) => `<p>${esc(t)}</p>`).join("")}</div>
+        ${districts.length ? `<div class="intro-districts">${districts.map((x) => `<div class="intro-district"><div class="intro-district-name">${esc(x.name)}</div><p>${esc(x.text)}</p></div>`).join("")}</div>` : ""}
+      </details>`;
+    };
+    return `<div class="detail-intro">
+      ${hooks}
+      <div class="intro-story">${story.map((t) => `<p>${esc(t)}</p>`).join("")}</div>
+      ${facts.length ? `<div class="intro-facts">${facts.join("")}</div>` : ""}
+      ${deeper("intro2", "더 깊이 — 역사와 도시 이야기")}
+      ${deeper("intro3", "방문 전에 — 역사 전체와 동네 읽기")}
+    </div>`;
   }
 
   // Research tiers (user, 2026-11-05): 1 = basic (about 10 spots, 3+ dishes, intro), 2 = 20 to 50 spots, 3 = 50 to 100+ spots with restaurants

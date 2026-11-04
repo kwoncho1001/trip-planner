@@ -1751,3 +1751,42 @@
 [data-tab="overview"] .detail-spots-section { display: none; }
 [data-tab="spots"] .detail-hero-cover,
 [data-tab="spots"] .detail-body > :not(.detail-spots-section) { display: none; }
+
+/* City introduction story */
+.detail-intro { display: flex; flex-direction: column; gap: var(--space-3); margin-top: var(--space-2); }
+.intro-story p {
+  margin: 0 0 var(--space-3) 0;
+  font: var(--text-body);
+  line-height: 1.75;
+  color: var(--text-primary);
+}
+.intro-story p:last-child { margin-bottom: 0; }
+.intro-hooks { display: flex; flex-wrap: wrap; gap: var(--space-1); }
+.intro-hook {
+  font: var(--text-footnote);
+  font-weight: 600;
+  color: var(--color-accent);
+  background: color-mix(in srgb, var(--color-accent) 10%, transparent);
+  padding: 2px var(--space-2);
+  border-radius: 999px;
+}
+.intro-facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.intro-fact { display: contents; }
+.intro-fact-k, .intro-fact-v { padding: var(--space-2) var(--space-3); font: var(--text-footnote); border-top: 1px solid var(--border-subtle); }
+.intro-fact:first-child .intro-fact-k, .intro-fact:first-child .intro-fact-v { border-top: none; }
+.intro-fact-k { background: var(--fill); color: var(--text-secondary); font-weight: 600; white-space: nowrap; }
+.intro-fact-v { color: var(--text-primary); }
+.intro-deeper { border-top: 1px solid var(--border-subtle); padding-top: var(--space-2); }
+.intro-deeper > summary { cursor: pointer; font: var(--text-callout); font-weight: 600; color: var(--color-accent); }
+.intro-deeper .intro-story { margin-top: var(--space-3); }
+.intro-district { margin-top: var(--space-3); }
+.intro-district-name { font: var(--text-headline); margin-bottom: var(--space-1); }
+.intro-district p { margin: 0; font: var(--text-body); line-height: 1.7; }
+.detail-eval-section.is-folded > summary { cursor: pointer; margin: 0; }
+.detail-eval-section.is-folded[open] > summary { margin-bottom: var(--space-3); }

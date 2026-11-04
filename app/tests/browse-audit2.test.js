@@ -29,7 +29,7 @@ export async function run(ctx) {
     errors.push('.detail-breadcrumb not found for "순더"');
   } else {
     const nonSepCrumbs = Array.from(crumbShunde.children).filter(
-      (el) => !el.classList.contains("crumb-separator") && !el.classList.contains("btn-back")
+      (el) => !el.classList.contains("crumb-separator") && !el.classList.contains("btn-back") && !el.classList.contains("detail-tabs")
     );
     const lastCrumb = nonSepCrumbs[nonSepCrumbs.length - 1];
     const lastText = lastCrumb ? lastCrumb.textContent.trim() : "";
