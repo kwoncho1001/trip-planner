@@ -771,3 +771,39 @@
 .progress-item[hidden] {
   display: none !important;
 }
+
+/* Device sync */
+.sync-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+.sync-note {
+  margin: 0;
+  font: var(--text-footnote, 13px/1.45 inherit);
+  color: var(--text-secondary);
+}
+.sync-error { color: #c0392b; }
+.sync-id code { user-select: all; word-break: break-all; }
+.sync-steps {
+  margin: 0;
+  padding-left: 1.3em;
+  font: var(--text-footnote, 13px/1.45 inherit);
+  color: var(--text-secondary);
+}
+.sync-steps a { color: inherit; text-decoration: underline; }
+.sync-connect-row {
+  display: flex;
+  gap: var(--space-2);
+}
+.sync-token {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 8px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-primary);
+  font-size: 16px;
+}

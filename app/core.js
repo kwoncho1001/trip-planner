@@ -2,6 +2,7 @@
  * Asia trip planner v4 - Shared core
  * docs/design/app-contract.md
  */
+import { sync, mergePicks } from "./sync.js";
 
 // --- Event Bus (contract §4) ---
 const listeners = new Map();
@@ -398,9 +399,9 @@ export const store = {
     return this.ready;
   },
 
-  fallbackToLocal() {
+  async fallbackToLocal() {
     this.useLocal = true;
-    showStorageBanner("이 기기에만 저장 중 — Claude가 읽을 수 없습니다");
+    if (!sync.enabled()) showStorageBanner("이 기기에만 저장 중 — 계획 창의 '기기 간 동기화'를 켜면 다른 기기와 Claude도 봅니다");
     try {
       const savedPicks = localStorage.getItem("trip-picks");
       this.picksMap = savedPicks ? JSON.parse(savedPicks) : {};
@@ -413,7 +414,132 @@ export const store = {
     } catch (e) {
       this.planObj = createEmptyPlan();
     }
+    try {
+      this.planT = Number(localStorage.getItem("trip-plan-t")) || 0;
+    } catch (e) {
+      this.planT = 0;
+    }
+    if (sync.enabled() && !this.isSelftest) {
+      // Start with the other devices' picks, but never wait more than 5 s for GitHub
+      await Promise.race([this.syncNow(), new Promise((r) => setTimeout(r, 5000))]);
+      const pullAgain = () => {
+        if (document.visibilityState === "visible") this.syncNow();
+      };
+      document.addEventListener("visibilitychange", pullAgain);
+      setInterval(pullAgain, 90000);
+    }
     resolveStoreReady();
+  },
+
+  // --- Device sync through a GitHub Gist (web mode, see sync.js) ---
+  planT: 0,
+  syncStatus: "off",
+  syncError: "",
+  syncAt: 0,
+  _syncing: false,
+  _syncAgain: false,
+  _pushTimer: null,
+
+  saveLocal() {
+    try {
+      localStorage.setItem("trip-picks", JSON.stringify(this.picksMap));
+      localStorage.setItem("trip-plan", JSON.stringify(this.planObj));
+      localStorage.setItem("trip-plan-t", String(this.planT || 0));
+    } catch (e) {
+      showSaveError();
+    }
+  },
+
+  setSyncStatus(status, error = "") {
+    this.syncStatus = status;
+    this.syncError = error;
+    bus.emit("sync:status", { status, error, at: this.syncAt });
+  },
+
+  syncData() {
+    return {
+      version: 1,
+      updatedAt: new Date().toISOString(),
+      planT: this.planT || 0,
+      plan: this.planObj,
+      picks: this.picksMap
+    };
+  },
+
+  /** Take newer picks and a newer plan from the gist; true when the gist must be updated. */
+  applyRemote(remote) {
+    if (!remote) return true;
+    const before = this.picksMap;
+    const merged = mergePicks(before, remote.picks);
+    const changedIds = Object.keys(merged).filter((id) => merged[id] !== before[id]);
+    this.picksMap = merged;
+    let planChanged = false;
+    if (remote.plan && (remote.planT || 0) > (this.planT || 0)) {
+      const p = JSON.parse(JSON.stringify(remote.plan));
+      if (!p.legs) p.legs = [];
+      if (!p.requests) p.requests = [];
+      this.planObj = p;
+      this.planT = remote.planT;
+      planChanged = true;
+    }
+    if (changedIds.length || planChanged) this.saveLocal();
+    for (const id of changedIds) bus.emit("pick:changed", { id, v: this.getPick(id) });
+    if (planChanged) bus.emit("plan:changed", { plan: this.planObj });
+    const rp = remote.picks || {};
+    const same = (x, y) => x && y && x.t === y.t && x.v === y.v && (x.note || "") === (y.note || "");
+    const picksDiffer = Object.keys(merged).some((id) => !same(merged[id], rp[id]));
+    return picksDiffer || (this.planT || 0) > (remote.planT || 0);
+  },
+
+  async syncNow() {
+    if (!this.useLocal || this.isSelftest || !sync.enabled()) return;
+    if (this._syncing) {
+      this._syncAgain = true;
+      return;
+    }
+    this._syncing = true;
+    this.setSyncStatus("syncing");
+    try {
+      const remote = await sync.pull();
+      if (this.applyRemote(remote)) await sync.push(this.syncData());
+      this.syncAt = Date.now();
+      this.setSyncStatus("ok");
+    } catch (e) {
+      console.warn("sync error", e);
+      this.setSyncStatus("error", e.message || String(e));
+    } finally {
+      this._syncing = false;
+      if (this._syncAgain) {
+        this._syncAgain = false;
+        this.schedulePush();
+      }
+    }
+  },
+
+  schedulePush() {
+    if (!this.useLocal || this.isSelftest || !sync.enabled()) return;
+    clearTimeout(this._pushTimer);
+    this._pushTimer = setTimeout(() => this.syncNow(), 1500);
+  },
+
+  async connectSync(token) {
+    this.setSyncStatus("syncing");
+    try {
+      await sync.connect(token, this.syncData());
+    } catch (e) {
+      this.setSyncStatus("off", e.message || String(e));
+      throw e;
+    }
+    await this.syncNow();
+  },
+
+  disconnectSync() {
+    sync.disconnect();
+    this.setSyncStatus("off");
+  },
+
+  syncInfo() {
+    return { enabled: sync.enabled(), gistId: sync.config().gistId || "", status: this.syncStatus, error: this.syncError, at: this.syncAt };
   },
 
   getPick(id) {
@@ -437,6 +563,7 @@ export const store = {
       } catch (e) {
         showSaveError();
       }
+      this.schedulePush();
       return;
     }
 
@@ -472,6 +599,7 @@ export const store = {
       } catch (e) {
         showSaveError();
       }
+      this.schedulePush();
       return;
     }
 
@@ -503,11 +631,9 @@ export const store = {
     if (this.isSelftest) return;
 
     if (this.useLocal || !this.refPlan) {
-      try {
-        localStorage.setItem("trip-plan", JSON.stringify(this.planObj));
-      } catch (e) {
-        showSaveError();
-      }
+      this.planT = Date.now();
+      this.saveLocal();
+      this.schedulePush();
       return;
     }
 

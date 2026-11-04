@@ -214,6 +214,109 @@ export function init(ctx) {
     progressEl.appendChild(budgetWarnEl);
   }
 
+  // Device sync (web mode): built once and moved into each render, so a half-typed token survives re-renders
+  let syncEl = null;
+  function syncSection() {
+    if (syncEl) return syncEl;
+    syncEl = document.createElement("section");
+    syncEl.className = "plan-export-section plan-sync-section";
+    const det = document.createElement("details");
+    det.className = "plan-export-details";
+    const sum = document.createElement("summary");
+    det.appendChild(sum);
+    const body = document.createElement("div");
+    body.className = "sync-body";
+    det.appendChild(body);
+    syncEl.appendChild(det);
+
+    const fmt = (t) => (t ? new Date(t).toLocaleTimeString("ko-KR", { hour: "2-digit", minute: "2-digit" }) : "");
+    function draw() {
+      const info = store.syncInfo();
+      sum.textContent = info.enabled
+        ? `기기 간 동기화 · ${info.status === "error" ? "오류" : info.status === "syncing" ? "동기화 중" : "켜짐"}`
+        : "기기 간 동기화 · 꺼짐";
+      body.innerHTML = "";
+      const p = (text, cls = "sync-note") => {
+        const e = document.createElement("p");
+        e.className = cls;
+        e.textContent = text;
+        body.appendChild(e);
+        return e;
+      };
+      if (info.enabled) {
+        p(info.status === "error" ? `마지막 시도 실패: ${info.error}` : info.at ? `마지막 동기화 ${fmt(info.at)}` : "동기화 준비 중", info.status === "error" ? "sync-note sync-error" : "sync-note");
+        p("끌림·패스·메모·계획이 내 비공개 GitHub Gist에 저장됩니다. 다른 기기에서도 같은 토큰으로 연결하면 같은 데이터를 봅니다.");
+        const idLine = p("Gist ID: ", "sync-note sync-id");
+        const code = document.createElement("code");
+        code.textContent = info.gistId;
+        idLine.appendChild(code);
+        const row = document.createElement("div");
+        row.className = "export-buttons-grid";
+        const now = document.createElement("button");
+        now.type = "button";
+        now.className = "btn";
+        now.textContent = "지금 동기화";
+        now.addEventListener("click", () => store.syncNow());
+        const off = document.createElement("button");
+        off.type = "button";
+        off.className = "btn";
+        off.textContent = "연결 해제";
+        off.addEventListener("click", () => {
+          if (confirm("이 기기의 동기화를 끕니다. 이 기기에 저장된 데이터와 Gist는 그대로 남습니다.")) store.disconnectSync();
+        });
+        row.appendChild(now);
+        row.appendChild(off);
+        body.appendChild(row);
+        return;
+      }
+      p("지금은 이 기기에만 저장됩니다. 켜면 휴대폰·PC가 같은 끌림·계획을 보고, Claude도 읽을 수 있습니다.");
+      const steps = document.createElement("ol");
+      steps.className = "sync-steps";
+      const li1 = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = "https://github.com/settings/tokens/new?scopes=gist&description=trip-planner-sync";
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "GitHub 토큰 만들기";
+      li1.appendChild(link);
+      li1.appendChild(document.createTextNode(" — 'gist'만 체크된 상태로 맨 아래 Generate token"));
+      const li2 = document.createElement("li");
+      li2.textContent = "만든 토큰(ghp_로 시작)을 아래에 붙여 넣고 연결";
+      steps.appendChild(li1);
+      steps.appendChild(li2);
+      body.appendChild(steps);
+      const row = document.createElement("div");
+      row.className = "sync-connect-row";
+      const input = document.createElement("input");
+      input.type = "password";
+      input.placeholder = "ghp_…";
+      input.autocomplete = "off";
+      input.className = "sync-token";
+      const go = document.createElement("button");
+      go.type = "button";
+      go.className = "btn btn-primary";
+      go.textContent = "연결";
+      go.addEventListener("click", async () => {
+        go.disabled = true;
+        go.textContent = "연결 중…";
+        try {
+          await store.connectSync(input.value);
+        } catch (e) {
+          go.disabled = false;
+          go.textContent = "연결";
+          draw();
+        }
+      });
+      row.appendChild(input);
+      row.appendChild(go);
+      body.appendChild(row);
+      if (info.error) p(info.error, "sync-note sync-error");
+    }
+    draw();
+    bus.on("sync:status", draw);
+    return syncEl;
+  }
+
   function render() {
     if (isRendering) return;
     isRendering = true;
@@ -1363,6 +1466,7 @@ export function init(ctx) {
   exportDetails.appendChild(exportGrid);
   exportSection.appendChild(exportDetails);
   container.appendChild(exportSection);
+  if (store.syncInfo) container.appendChild(syncSection());
     el.appendChild(container);
     } finally {
       isRendering = false;
