@@ -731,3 +731,10 @@ path.city-area {
 .osm-base-tiles .leaflet-tile {
   filter: saturate(0.85) brightness(1.02) contrast(0.97);
 }
+
+.map-lens-sep {
+  width: 1px;
+  align-self: stretch;
+  margin: var(--space-1) 2px;
+  background: var(--border-strong);
+}

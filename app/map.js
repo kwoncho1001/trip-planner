@@ -1656,7 +1656,7 @@ export function init(ctx) {
     title.appendChild(titleSpan);
     div.appendChild(title);
 
-    const cat = spot.category_std || spot.cat;
+    const cat = spot.cat || spot.category_std;
     if (cat) {
       const badge = document.createElement("span");
       badge.className = "cost-badge spot-cat-badge";
@@ -1745,7 +1745,7 @@ export function init(ctx) {
     const pick = ctx.store ? ctx.store.getPick(spot.id) : "none";
     if (pick === "pass") return null;
 
-    const rawCat = spot.category_std || spot.cat || "명소";
+    const rawCat = spot.cat || spot.category_std || "명소";
     const letter = (rawCat.length > 0 ? rawCat[0] : "•").toUpperCase();
 
     const spotIcon = L.divIcon({
@@ -1812,7 +1812,7 @@ export function init(ctx) {
     for (const spot of spots) {
       if (typeof spot.lat !== "number" || typeof spot.lng !== "number") continue;
 
-      const rawCat = spot.category_std || spot.cat || "명소";
+      const rawCat = spot.cat || spot.category_std || "명소";
       const letter = (rawCat.length > 0 ? rawCat[0] : "•").toUpperCase();
 
       const pick = ctx.store ? ctx.store.getPick(spot.id) : "none";
@@ -1924,8 +1924,21 @@ export function init(ctx) {
           }
         }
       }
+      if (source === "card") {
+        // From a spot card name: go to the place even before its marker exists, then open it once the view loads spots
+        const spot = (ctx.data.spots || []).find((x) => x.id === spotId);
+        if (spot && typeof spot.lat === "number") {
+          // Markers are rebuilt after the move, so open the popup on the new marker
+          map.once("moveend", () => setTimeout(() => spotMarkers.get(spotId)?.openPopup(), 450));
+          map.setView([spot.lat, spot.lng], Math.max(map.getZoom(), 15), { animate: true });
+          setTimeout(() => { const mk = spotMarkers.get(spotId); if (mk && !mk.isPopupOpen()) mk.openPopup(); }, 1300);
+          return;
+        }
+      }
       if (sm) {
-        if (source !== "map") {
+        if (source === "card") {
+          map.setView(sm.getLatLng(), Math.max(map.getZoom(), 15), { animate: true });
+        } else if (source !== "map") {
           map.panTo(sm.getLatLng());
         }
         sm.openPopup();
@@ -1963,6 +1976,22 @@ export function init(ctx) {
     const div = L.DomUtil.create("div", "map-lens-control");
     div.id = "map-lens";
 
+    // Satellite sits on the map only, left of 나라/지역/장소 (user, 2026-11-05)
+    if (webMode) {
+      basemapBtn = document.createElement("button");
+      basemapBtn.type = "button";
+      basemapBtn.className = `chip-lens chip-basemap ${currentBasemap === "satellite" ? "is-active active" : ""}`;
+      basemapBtn.setAttribute("data-basemap", "satellite");
+      basemapBtn.textContent = "위성";
+      basemapBtn.addEventListener("click", () => {
+        setBasemap(currentBasemap === "satellite" ? "voyager" : "satellite");
+      });
+      div.appendChild(basemapBtn);
+      const sep = document.createElement("span");
+      sep.className = "map-lens-sep";
+      div.appendChild(sep);
+    }
+
     for (const opt of LENS_OPTIONS) {
       const btn = document.createElement("button");
       btn.type = "button";
@@ -1982,26 +2011,6 @@ export function init(ctx) {
   };
   lensControl.addTo(map);
 
-  if (webMode) {
-    const basemapControl = L.control({ position: "topleft" });
-    basemapControl.onAdd = function () {
-      const div = L.DomUtil.create("div", "map-basemap-control");
-      div.id = "map-basemap";
-      basemapBtn = document.createElement("button");
-      basemapBtn.type = "button";
-      basemapBtn.className = `chip-lens chip-basemap ${currentBasemap === "satellite" ? "is-active active" : ""}`;
-      basemapBtn.setAttribute("data-basemap", "satellite");
-      basemapBtn.textContent = "위성";
-      basemapBtn.addEventListener("click", () => {
-        setBasemap(currentBasemap === "satellite" ? "voyager" : "satellite");
-      });
-      div.appendChild(basemapBtn);
-      L.DomEvent.disableClickPropagation(div);
-      L.DomEvent.disableScrollPropagation(div);
-      return div;
-    };
-    basemapControl.addTo(map);
-  }
 
   function updateLensChipsUI() {
     for (const btn of lensButtons) {

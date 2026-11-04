@@ -1346,7 +1346,9 @@ export function init(ctx) {
       //
     }
 
+    // Order (user, 2026-11-05): cover photo, more photos, name, buttons, intro
     header.innerHTML = `
+      ${mediaSectionHtml}
       <div class="detail-title-line">
         <h2 class="detail-title">${city.city}</h2>
         ${city.local ? `<span class="detail-local">${city.local}</span>` : ""}
@@ -1357,10 +1359,8 @@ export function init(ctx) {
         <button type="button" class="btn btn-pick-city pass ${pick === "pass" ? "is-active" : ""}" data-pick="pass">✕ 패스</button>
         <button type="button" class="btn btn-add-stop" data-action="add-stop">경로에 추가</button>
         ${researchReqHtml(city)}
-        <a href="https://www.google.com/maps/@${city.lat},${city.lng},14z/data=!3m1!1e3" target="_blank" rel="noopener noreferrer" class="btn btn-satellite" data-action="satellite">위성지도</a>
       </div>
       ${city.desc ? `<p class="detail-desc">${city.desc}</p>` : ""}
-      ${mediaSectionHtml}
     `;
     // Order (user, 2026-11-05): name, buttons, intro, photos, evaluation, train stations, food, spots
     let railEl = null;
@@ -1407,17 +1407,6 @@ export function init(ctx) {
 
     bindResearchReq(header, city.id);
 
-    const satBtn = header.querySelector('[data-action="satellite"]');
-    if (satBtn) {
-      satBtn.addEventListener("click", (e) => {
-        if (util?.isWebMode?.()) {
-          e.preventDefault();
-          bus.emit("map:basemap", { basemap: "satellite" });
-          bus.emit("city:focus", { cityId: city.id, source: "browse" });
-          bus.emit("pane:show", { pane: "map" });
-        }
-      });
-    }
 
     body.appendChild(header);
 
@@ -1995,6 +1984,20 @@ export function init(ctx) {
       </div>
     `;
     card.appendChild(head);
+    // Name shows the place on the map (user, 2026-11-05)
+    const nameEl = head.querySelector(".spot-name");
+    if (nameEl && typeof spot.lat === "number") {
+      nameEl.classList.add("is-map-link");
+      nameEl.title = "지도에서 보기";
+      nameEl.addEventListener("click", (e) => {
+        e.stopPropagation();
+        bus.emit("spot:focus", { spotId: spot.id, source: "card" });
+        if (window.matchMedia("(max-width: 899px)").matches) {
+          bus.emit("pane:show", { pane: "map" });
+          document.querySelector('#mobile-tabs button[data-pane="map"]')?.click();
+        }
+      });
+    }
 
     // Desc
     if (spot.desc) {
@@ -2057,19 +2060,19 @@ export function init(ctx) {
 
     let factsHtml = "";
     if (feeText) {
-      factsHtml += `<div class="spot-fact"><span class="fact-label">입장료:</span> <span class="fact-val">${feeText}</span></div>`;
+      factsHtml += `<div class="spot-fact"><span class="fact-label">입장료</span><span class="fact-val">${feeText}</span></div>`;
     }
     if (hoursText) {
-      factsHtml += `<div class="spot-fact"><span class="fact-label">운영시간:</span> <span class="fact-val">${hoursText}</span></div>`;
+      factsHtml += `<div class="spot-fact"><span class="fact-label">운영시간</span><span class="fact-val">${hoursText}</span></div>`;
     }
     if (closedText) {
-      factsHtml += `<div class="spot-fact"><span class="fact-label">휴무일:</span> <span class="fact-val">${closedText}</span></div>`;
+      factsHtml += `<div class="spot-fact"><span class="fact-label">휴무일</span><span class="fact-val">${closedText}</span></div>`;
     }
     if (transportText) {
-      factsHtml += `<div class="spot-fact"><span class="fact-label">교통:</span> <span class="fact-val">${transportText}</span></div>`;
+      factsHtml += `<div class="spot-fact"><span class="fact-label">교통</span><span class="fact-val">${transportText}</span></div>`;
     }
     if (durationText) {
-      factsHtml += `<div class="spot-fact"><span class="fact-label">소요시간:</span> <span class="fact-val">${durationText}</span></div>`;
+      factsHtml += `<div class="spot-fact"><span class="fact-label">소요시간</span><span class="fact-val">${durationText}</span></div>`;
     }
     if (factsHtml) {
       factsEl.innerHTML = factsHtml;
