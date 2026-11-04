@@ -1142,6 +1142,9 @@ export function init(ctx) {
     currentView = "detail";
     viewCities.hidden = true;
     viewDetail.hidden = false;
+    viewDetail.classList.remove("view-enter");
+    void viewDetail.offsetWidth;
+    viewDetail.classList.add("view-enter");
 
     renderCityDetailView(city);
   }

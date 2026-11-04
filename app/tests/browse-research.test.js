@@ -3,9 +3,9 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 export async function run(ctx) {
   const errors = [];
 
-  // 6. emit city:focus for "city:광저우", wait 800 ms, click [data-action="request-research"], wait 300 ms.
+  // 6. emit city:focus for "city:난닝", wait 800 ms, click [data-action="request-research"], wait 300 ms.
   if (ctx?.bus?.emit) {
-    ctx.bus.emit('city:focus', { cityId: 'city:광저우', source: 'map' });
+    ctx.bus.emit('city:focus', { cityId: 'city:난닝', source: 'map' });
   } else {
     errors.push('ctx.bus.emit is not available');
   }
@@ -19,10 +19,10 @@ export async function run(ctx) {
     await sleep(300);
   }
 
-  // 7. In it, MAKE SURE getPick("research:city:광저우") === "request". Then click [data-action="add-stop"] and MAKE SURE the last plan stop has cityId "city:광저우".
-  const pick = ctx?.store?.getPick ? ctx.store.getPick('research:city:광저우') : null;
+  // 7. In it, MAKE SURE getPick("research:city:난닝") === "request". Then click [data-action="add-stop"] and MAKE SURE the last plan stop has cityId "city:난닝".
+  const pick = ctx?.store?.getPick ? ctx.store.getPick('research:city:난닝') : null;
   if (pick !== 'request') {
-    errors.push(`getPick("research:city:광저우") expected "request", got "${pick}"`);
+    errors.push(`getPick("research:city:난닝") expected "request", got "${pick}"`);
   }
 
   const addStopBtn = document.querySelector('[data-action="add-stop"]');
@@ -34,8 +34,8 @@ export async function run(ctx) {
 
     const plan = ctx?.store?.getPlan ? ctx.store.getPlan() : null;
     const lastStop = plan?.stops?.[plan.stops.length - 1];
-    if (!lastStop || lastStop.cityId !== 'city:광저우') {
-      errors.push(`last plan stop expected cityId "city:광저우", got "${lastStop?.cityId}"`);
+    if (!lastStop || lastStop.cityId !== 'city:난닝') {
+      errors.push(`last plan stop expected cityId "city:난닝", got "${lastStop?.cityId}"`);
     }
   }
 
