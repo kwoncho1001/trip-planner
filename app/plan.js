@@ -1199,6 +1199,7 @@ export function init(ctx) {
             }
           }
         }
+        alert(`가져왔습니다: 선택 ${Object.keys(dataObj.picks || {}).length}개, 일정 ${(targetPlan.stops || []).length}곳`);
       }
     } catch (err) {
       alert("파일을 불러오는 중 오류가 발생했습니다: " + (err.message || String(err)));
