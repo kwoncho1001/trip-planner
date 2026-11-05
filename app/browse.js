@@ -29,6 +29,7 @@ if (typeof Element !== "undefined" && Element.prototype.querySelectorAll) {
 
 // --- Photo helpers (ported from legacy.html, S-86 placeholder) ---
 let adminData = null;
+const closedProvinces = new Set();
 let adminDataPromise = null;
 function loadAdminData() {
   if (!adminDataPromise) {
@@ -666,6 +667,7 @@ export function init(ctx) {
 
   function renderCityList() {
     cityGroupsContainer.innerHTML = "";
+    if (!adminData) loadAdminData().then(() => renderCityList());
 
     const countryOrder = [];
     const countryMap = new Map();
@@ -678,8 +680,46 @@ export function init(ctx) {
       countryMap.get(country).push(c);
     }
 
+    // Cities grouped by province or region inside each country (user, 2026-11-05)
+    function provinceOf(c) {
+      const r = String(c.region || "").trim();
+      if (r && r !== c.country) return r;
+      const e = adminData?.cityAdmin?.[c.id];
+      return (e?.adm1 && adminData?.namesKo?.[e.adm1]) || r || "기타";
+    }
     function renderGroupRows(rowsContainer, country, filtered) {
       rowsContainer.innerHTML = "";
+      const byProv = new Map();
+      for (const c of filtered) {
+        const k = provinceOf(c);
+        if (!byProv.has(k)) byProv.set(k, []);
+        byProv.get(k).push(c);
+      }
+      if (byProv.size <= 1) {
+        renderRows(rowsContainer, country, filtered);
+        return;
+      }
+      for (const [prov, list] of byProv) {
+        const key = `${country}/${prov}`;
+        const g = document.createElement("details");
+        g.className = "province-group";
+        g.open = !closedProvinces.has(key);
+        const liked = list.filter((c) => store.getPick(c.id) === "like").length;
+        g.innerHTML = `<summary class="province-title"><span class="province-name"></span><span class="province-count">${liked ? `끌림 ${liked} · ` : ""}${list.length}곳</span></summary>`;
+        g.querySelector(".province-name").textContent = prov;
+        g.addEventListener("toggle", () => {
+          if (g.open) closedProvinces.delete(key);
+          else closedProvinces.add(key);
+        });
+        const box = document.createElement("div");
+        box.className = "province-rows";
+        renderRows(box, key, list, true);
+        g.appendChild(box);
+        rowsContainer.appendChild(g);
+      }
+    }
+
+    function renderRows(rowsContainer, country, filtered, inProvince = false) {
       const sorted = sortCities(filtered, currentSort);
       if (currentFilter !== "전체" && currentFilter !== "미정") {
         sorted.forEach((city) => {
@@ -690,7 +730,8 @@ export function init(ctx) {
         let p1Cities = sorted.filter((c) => c.kind === "대도시" || c.kind === "중소도시");
         let p2Cities = sorted.filter((c) => c.kind !== "대도시" && c.kind !== "중소도시");
 
-        if (p1Cities.length === 0) {
+        // A province with only small towns keeps them behind "더 보기"; a whole country without large cities shows them
+        if (p1Cities.length === 0 && !inProvince) {
           p1Cities = sorted;
           p2Cities = [];
         }
@@ -1831,6 +1872,16 @@ export function init(ctx) {
       );
       let selectedCat = "all";
       let freeOnly = false;
+      let selectedPick = "all";
+
+      // 끌림 / 미정 / 패스 filter (user, 2026-11-05)
+      const pickBar = document.createElement("div");
+      pickBar.className = "spot-pick-filter";
+      pickBar.setAttribute("role", "tablist");
+      pickBar.innerHTML = [["all", "전체"], ["like", "끌림"], ["none", "미정"], ["pass", "패스"]]
+        .map(([v, t]) => `<button type="button" class="spot-pick-tab${v === "all" ? " is-active" : ""}" data-pick-filter="${v}">${t}</button>`)
+        .join("");
+      spotsSection.appendChild(pickBar);
 
       const spotFilterBar = document.createElement("div");
       spotFilterBar.className = "spot-filter-bar";
@@ -1848,11 +1899,50 @@ export function init(ctx) {
       const spotsContainer = document.createElement("div");
       spotsContainer.className = "spots-container";
 
-      // Render all spot cards
-      allSpots.forEach((spot) => {
-        const card = renderSpotCard(spot);
-        spotsContainer.appendChild(card);
-      });
+      // Big cities: spots grouped by district from their "area" text; small districts go to "그 밖의 지역" (user, 2026-11-05)
+      const areaKey = (a) => {
+        a = String(a || "").trim();
+        if (!a) return "";
+        if (a.includes(",")) {
+          const parts = a.split(",").map((x) => x.trim()).filter(Boolean);
+          return (parts[parts.length - 1] || "").split("/")[0].trim();
+        }
+        return a.split(/[-(/·]/)[0].trim();
+      };
+      const groups = new Map();
+      if (allSpots.length >= 20) {
+        for (const sp of allSpots) {
+          const k = areaKey(sp.area) || "그 밖의 지역";
+          if (!groups.has(k)) groups.set(k, []);
+          groups.get(k).push(sp);
+        }
+        const rest = groups.get("그 밖의 지역") || [];
+        for (const [k, list] of [...groups]) {
+          if (k !== "그 밖의 지역" && list.length < 3) {
+            rest.push(...list);
+            groups.delete(k);
+          }
+        }
+        groups.delete("그 밖의 지역");
+        if (rest.length) groups.set("그 밖의 지역", rest);
+      }
+      if (groups.size > 1) {
+        const ordered = [...groups].sort((a, b) => (a[0] === "그 밖의 지역") - (b[0] === "그 밖의 지역") || b[1].length - a[1].length);
+        for (const [name, list] of ordered) {
+          const g = document.createElement("details");
+          g.className = "spot-group";
+          g.open = true;
+          g.innerHTML = `<summary class="spot-group-title"><span class="spot-group-name"></span> <span class="spot-group-count"></span></summary>`;
+          g.querySelector(".spot-group-name").textContent = name;
+          const box = document.createElement("div");
+          box.className = "spot-group-body";
+          list.forEach((spot) => box.appendChild(renderSpotCard(spot)));
+          g.appendChild(box);
+          spotsContainer.appendChild(g);
+        }
+      } else {
+        allSpots.forEach((spot) => spotsContainer.appendChild(renderSpotCard(spot)));
+      }
       spotsSection.appendChild(spotsContainer);
 
       function updateSpotVisibility() {
@@ -1875,9 +1965,27 @@ export function init(ctx) {
               freeMatch = Boolean(isFree);
             }
           }
-          card.hidden = !(catMatch && freeMatch);
+          const pickNow = store.getPick(sId);
+          const pickMatch = selectedPick === "all" || (selectedPick === "none" ? pickNow !== "like" && pickNow !== "pass" : pickNow === selectedPick);
+          card.hidden = !(catMatch && freeMatch && pickMatch);
+        });
+        spotsContainer.querySelectorAll(".spot-group").forEach((g) => {
+          const shown = g.querySelectorAll(".spot-card:not([hidden])").length;
+          g.hidden = shown === 0;
+          const cnt = g.querySelector(".spot-group-count");
+          if (cnt) cnt.textContent = String(shown);
         });
       }
+      updateSpotVisibility();
+      spotsSection._refreshSpots = updateSpotVisibility;
+
+      pickBar.addEventListener("click", (e) => {
+        const b = e.target.closest("[data-pick-filter]");
+        if (!b) return;
+        selectedPick = b.dataset.pickFilter;
+        pickBar.querySelectorAll("[data-pick-filter]").forEach((x) => x.classList.toggle("is-active", x === b));
+        updateSpotVisibility();
+      });
 
       spotFilterBar.addEventListener("click", (e) => {
         const chip = e.target.closest("button.chip");
@@ -2265,7 +2373,8 @@ export function init(ctx) {
       }
     }
 
-    // 4. Update spot card if present (DO NOT re-render whole list!)
+    // 4. Update spot card if present (DO NOT re-render whole list!); keep the pick filter right
+    viewDetail.querySelector(".detail-spots-section")?._refreshSpots?.();
     const spotCard = viewDetail.querySelector(`[data-spot-id="${id}"]`);
     if (spotCard) {
       spotCard.classList.toggle("is-like", v === "like");
