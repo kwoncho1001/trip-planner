@@ -2190,23 +2190,14 @@ export function init(ctx) {
   bus.on("city:focus", ({ cityId, source }) => {
     if (source === "browse") return; // contract: ignore self
     openCityDetail(cityId);
-    if (source === "map") {
+    // A map click only opens the card on the map; the card's 자세히 button opens this pane (user, 2026-11-05)
+    if (source === "popup") {
       bus.emit("pane:show", { pane: "browse" });
-      const browseTab = document.querySelector('#mobile-tabs button[data-pane="browse"]');
-      if (browseTab) {
-        browseTab.click();
-      }
+      document.querySelector('#mobile-tabs button[data-pane="browse"]')?.click();
     }
   });
 
   bus.on("spot:focus", ({ spotId, source }) => {
-    if (source === "map") {
-      bus.emit("pane:show", { pane: "browse" });
-      const browseTab = document.querySelector('#mobile-tabs button[data-pane="browse"]');
-      if (browseTab) {
-        browseTab.click();
-      }
-    }
     // If we're not in the city detail of this spot, switch to it
     const spot = (data.spots || []).find((s) => s.id === spotId);
     if (spot && activeCityId !== spot.cityId) {

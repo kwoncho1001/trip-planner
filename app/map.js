@@ -67,7 +67,14 @@ const PICK_COLORS = {
 
 // Web mode draws on colourful OSM tiles: city outlines need a colour that OSM does not use, and more weight
 let webOutline = false;
+// City outlines are always dashed, at every zoom and for every pick (user, 2026-11-05)
 function cityAreaStyle(pick, zoom) {
+  const st = cityAreaStyleBase(pick, zoom);
+  // Liked cities get a pale green fill, passed cities a pale grey fill (user, 2026-11-05)
+  const fill = pick === "like" ? { fillColor: "#30A46C", fillOpacity: 0.16 } : pick === "pass" ? { fillColor: "#8E8E93", fillOpacity: 0.22 } : { fillOpacity: 0 };
+  return { ...st, ...fill, dashArray: "6 4" };
+}
+function cityAreaStyleBase(pick, zoom) {
   const isCityView = typeof zoom === "number" ? zoom >= 10 : false;
   const undecided = !PICK_COLORS[pick] || pick === "none";
   if (webOutline && undecided) {
@@ -1616,6 +1623,16 @@ export function init(ctx) {
       }
     });
     actions.appendChild(btnAdd);
+
+    const btnDetail = document.createElement("button");
+    btnDetail.type = "button";
+    btnDetail.className = "btn-popup-action detail";
+    btnDetail.setAttribute("data-action", "detail");
+    btnDetail.textContent = "자세히";
+    btnDetail.addEventListener("click", () => {
+      ctx.bus?.emit?.("city:focus", { cityId: c.id, source: "popup" });
+    });
+    actions.appendChild(btnDetail);
 
     div.appendChild(actions);
     return div;

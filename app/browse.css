@@ -2076,7 +2076,7 @@
   .photo-modal-stage {
     width: 100%;
     box-sizing: border-box;
-    padding: var(--space-3) var(--space-3) calc(var(--space-3) + 52px);
+    padding: var(--space-3);
     background: var(--bg-card);
     border-radius: var(--radius-lg);
   }
@@ -2090,12 +2090,14 @@
     border-radius: var(--radius-md);
     background: transparent;
   }
+  /* Arrows sit on the same row as the counter and 끌림 / 패스 */
+  .photo-modal-footer { padding: 0 calc(52px + var(--space-2)); box-sizing: border-box; }
   .photo-modal-nav {
     top: auto;
     bottom: var(--space-3);
     transform: none;
     width: 52px;
-    height: 40px;
+    height: 30px;
     border-radius: 999px;
     background: var(--fill);
     border: none;
