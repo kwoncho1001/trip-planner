@@ -70,15 +70,12 @@ let webOutline = false;
 function cityAreaStyle(pick, zoom) {
   const isCityView = typeof zoom === "number" ? zoom >= 10 : false;
   const undecided = !PICK_COLORS[pick] || pick === "none";
-  if (webOutline && undecided && isCityView) {
-    return {
-      className: "city-area",
-      color: "#2B2F36",
-      weight: 2.6,
-      opacity: 0.85,
-      dashArray: "7 5",
-      fillOpacity: 0
-    };
+  if (webOutline && undecided) {
+    // Charcoal on OSM: dashed in city view, a thin solid line when wide (user, 2026-11-05)
+    const z0 = typeof zoom === "number" ? zoom : 6;
+    return isCityView
+      ? { className: "city-area", color: "#2B2F36", weight: 2.6, opacity: 0.85, dashArray: "7 5", fillOpacity: 0 }
+      : { className: "city-area", color: "#B4562C", weight: z0 >= 8 ? 2 : 1.4, opacity: z0 >= 8 ? 0.85 : 0.7, dashArray: z0 >= 8 ? "6 4" : "4 3", fillOpacity: 0 };
   }
 
   if (isCityView) {

@@ -16,6 +16,10 @@
   --bg-dim: rgba(0, 0, 0, 0.6);
   --map-water: #CAD7E2;
   --map-land: #F3F1EC;
+  /* Map labels sit on light map tiles in both themes */
+  --map-label: #1D1D1F;
+  --map-label-2: #48484A;
+  --map-label-halo: #FFFFFF;
 
   --region-1: #4C8DF6;
   --region-2: #F2994A;

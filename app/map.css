@@ -768,3 +768,19 @@ path.city-area {
   margin: var(--space-1) 2px;
   background: var(--border-strong);
 }
+
+/* City names like Apple Maps: dark text with a white halo, no box; liked cities keep a green pill (user, 2026-11-05) */
+.city-name-label:not(.pick-like) {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  color: var(--map-label) !important;
+  text-shadow:
+    0 0 2px var(--map-label-halo), 0 0 2px var(--map-label-halo),
+    0 0 3px var(--map-label-halo), 0 0 4px var(--map-label-halo);
+}
+.city-name-label.tier-1:not(.pick-like) { font: var(--text-callout); font-weight: 700; }
+.city-name-label.tier-2:not(.pick-like) { font: var(--text-footnote); font-weight: 600; }
+.city-name-label.tier-3:not(.pick-like) { font: var(--text-caption); font-weight: 600; color: var(--map-label-2) !important; }
+.city-name-label.pick-like { box-shadow: var(--shadow-pin); }
