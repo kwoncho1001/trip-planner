@@ -70,13 +70,13 @@ let webOutline = false;
 function cityAreaStyle(pick, zoom) {
   const isCityView = typeof zoom === "number" ? zoom >= 10 : false;
   const undecided = !PICK_COLORS[pick] || pick === "none";
-  if (webOutline && undecided) {
+  if (webOutline && undecided && isCityView) {
     return {
       className: "city-area",
-      color: "#6E3FA3",
-      weight: isCityView ? 3 : 1.8,
-      opacity: isCityView ? 0.9 : 0.75,
-      dashArray: isCityView ? "8 5" : undefined,
+      color: "#2B2F36",
+      weight: 2.6,
+      opacity: 0.85,
+      dashArray: "7 5",
       fillOpacity: 0
     };
   }
@@ -539,14 +539,25 @@ export function init(ctx) {
   function railLayers(tier) {
     if (railLayerCache[tier]) return railLayerCache[tier];
     const o = { pane: "nationalRailPane", renderer: railRenderer, interactive: false, lineCap: "round", lineJoin: "round" };
-    const src = tier === "low" ? "low" : "mid";
+    const src = tier === "far" || tier === "low" ? "low" : "mid";
     const dec = (a) => (a || []).map(decodeLine).filter((p) => p.length >= 2);
     const rail = dec(railData.rail?.[src]);
     const hsr = dec(railData.hsr?.[src]);
     const layers = [];
-    if (tier === "low") {
-      if (rail.length) layers.push(L.polyline(rail, { ...o, color: "#5b5b5b", weight: 1.4, opacity: 0.85 }));
-      if (hsr.length) layers.push(L.polyline(hsr, { ...o, color: "#2f2f2f", weight: 2.2 }));
+    if (tier === "far") {
+      // Whole-Asia view: thin and pale, so dense China does not turn black
+      if (rail.length) layers.push(L.polyline(rail, { ...o, color: "#3a3a3a", weight: 0.8, opacity: 0.45 }));
+      if (hsr.length) layers.push(L.polyline(hsr, { ...o, color: "#1f1f1f", weight: 1.4, opacity: 0.75 }));
+    } else if (tier === "low") {
+      // Railway look already at zoom 6-7, so rails never read as borders
+      if (rail.length) {
+        layers.push(L.polyline(rail, { ...o, color: "#333333", weight: 2.6 }));
+        layers.push(L.polyline(rail, { ...o, color: "#ffffff", weight: 1, dashArray: "4 4", lineCap: "butt" }));
+      }
+      if (hsr.length) {
+        layers.push(L.polyline(hsr, { ...o, color: "#1f1f1f", weight: 3.4 }));
+        layers.push(L.polyline(hsr, { ...o, color: "#ffffff", weight: 1.3, dashArray: "6 6", lineCap: "butt" }));
+      }
     } else {
       const k = tier === "mid" ? 1 : 1.4;
       if (rail.length) {
@@ -564,7 +575,7 @@ export function init(ctx) {
   function updateNationalRail() {
     if (!railData) return;
     const z = map.getZoom();
-    const tier = z < 4 ? null : z <= 7 ? "low" : z <= 10 ? "mid" : "near";
+    const tier = z < 4 ? null : z <= 5 ? "far" : z <= 7 ? "low" : z <= 10 ? "mid" : "near";
     if (tier === railTier) return;
     railTier = tier;
     railGroup.clearLayers();
