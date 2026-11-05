@@ -203,6 +203,19 @@ export function init(ctx) {
     photoOverlay.querySelector("#photo-modal-close").addEventListener("click", closePhotoModal);
     photoOverlay.querySelector("#photo-modal-prev").addEventListener("click", prevPhoto);
     photoOverlay.querySelector("#photo-modal-next").addEventListener("click", nextPhoto);
+    // Swipe left or right on the photo to change it (phones)
+    {
+      const stage = photoOverlay.querySelector(".photo-modal-stage");
+      let sx = null, sy = null;
+      stage.addEventListener("touchstart", (e) => { const t = e.touches[0]; sx = t.clientX; sy = t.clientY; }, { passive: true });
+      stage.addEventListener("touchend", (e) => {
+        if (sx === null) return;
+        const t = e.changedTouches[0];
+        const dx = t.clientX - sx, dy = t.clientY - sy;
+        sx = sy = null;
+        if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) (dx < 0 ? nextPhoto : prevPhoto)();
+      }, { passive: true });
+    }
 
     photoOverlay.querySelector("#photo-modal-like").addEventListener("click", () => {
       if (!modalSpot || !modalSpot.id || modalSpot.id.startsWith("dish-") || modalSpot.kind === "food") return;

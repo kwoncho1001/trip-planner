@@ -2065,3 +2065,59 @@
 .intro-district p { margin: 0; font: var(--text-body); line-height: 1.7; }
 .detail-eval-section.is-folded > summary { cursor: pointer; margin: 0; }
 .detail-eval-section.is-folded[open] > summary { margin-bottom: var(--space-3); }
+
+/* Phone photo viewer: full screen, photo full width, arrows below the photo, swipe to change (user, 2026-11-05) */
+@media (max-width: 899px) {
+  .photo-modal-content {
+    max-width: 100vw;
+    max-height: 100dvh;
+    width: 100vw;
+    height: 100dvh;
+  }
+  .photo-modal-stage {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    padding: calc(var(--space-12) + env(safe-area-inset-top)) 0 calc(var(--space-12) + var(--space-8) + env(safe-area-inset-bottom));
+    background: var(--bg-primary);
+  }
+  .photo-modal-header,
+  .photo-modal-footer {
+    padding: 0 var(--space-4);
+    box-sizing: border-box;
+  }
+  .photo-modal-header { padding-right: var(--space-12); }
+  #photo-modal-img {
+    width: 100vw;
+    max-width: 100vw;
+    max-height: calc(100dvh - 200px);
+    height: auto;
+    aspect-ratio: auto;
+    border-radius: 0;
+    background: transparent;
+  }
+  .photo-modal-nav {
+    top: auto;
+    bottom: calc(var(--space-4) + env(safe-area-inset-bottom));
+    transform: none;
+    width: 52px;
+    height: 44px;
+    border-radius: 999px;
+    background: var(--fill);
+    border: none;
+  }
+  .photo-modal-nav.prev { left: var(--space-4); }
+  .photo-modal-nav.next { right: var(--space-4); }
+  .photo-modal-close {
+    top: calc(var(--space-2) + env(safe-area-inset-top));
+    right: var(--space-2);
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    border: none;
+    background: var(--fill);
+  }
+}
