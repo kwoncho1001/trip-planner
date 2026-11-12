@@ -59,7 +59,14 @@ function computeBudgetBreakdown(plan, ctx) {
     for (const spot of citySpots) {
       const pick = picks[spot.id];
       if (pick?.v === "like" || pick === "like") {
-        fees += Number(spot?.fee?.krw) || 0;
+        if (spot?.cost) {
+          if (!spot.cost.free && spot.cost.min_total && spot.cost.min_total.amount != null) {
+            const mt = spot.cost.min_total;
+            fees += (ctx.util?.toKRW ? ctx.util.toKRW(mt.amount, mt.currency) : null) || 0;
+          }
+        } else {
+          fees += Number(spot?.fee?.krw) || 0;
+        }
       }
     }
 

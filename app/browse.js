@@ -1900,7 +1900,14 @@ export function init(ctx) {
       spotsContainer.className = "spots-container";
 
       // Big cities: spots grouped by district from their "area" text; small districts go to "그 밖의 지역" (user, 2026-11-05)
+      const allCleanArea =
+        allSpots.length > 0 &&
+        allSpots.every((sp) => {
+          const a = String(sp.area || "").trim();
+          return a.length > 0 && !/[-(\/·,]/.test(a);
+        });
       const areaKey = (a) => {
+        if (allCleanArea) return String(a || "").trim();
         a = String(a || "").trim();
         if (!a) return "";
         if (a.includes(",")) {
@@ -1916,6 +1923,7 @@ export function init(ctx) {
           if (!groups.has(k)) groups.set(k, []);
           groups.get(k).push(sp);
         }
+        if (!allCleanArea) {
         const rest = groups.get("그 밖의 지역") || [];
         for (const [k, list] of [...groups]) {
           if (k !== "그 밖의 지역" && list.length < 3) {
@@ -1925,6 +1933,7 @@ export function init(ctx) {
         }
         groups.delete("그 밖의 지역");
         if (rest.length) groups.set("그 밖의 지역", rest);
+        }
       }
       if (groups.size > 1) {
         const ordered = [...groups].sort((a, b) => (a[0] === "그 밖의 지역") - (b[0] === "그 밖의 지역") || b[1].length - a[1].length);
@@ -1954,7 +1963,9 @@ export function init(ctx) {
           let catMatch = selectedCat === "all" || (s.cat || s.category_std) === selectedCat;
           let freeMatch = true;
           if (freeOnly) {
-            if (!s.fee || (!s.fee.amount && !s.fee.free && !s.fee.text && s.fee !== "무료" && s.fee.krw == null)) {
+            if (s.cost) {
+              freeMatch = s.cost.free === true;
+            } else if (!s.fee || (!s.fee.amount && !s.fee.free && !s.fee.text && s.fee !== "무료" && s.fee.krw == null)) {
               freeMatch = true;
             } else {
               const isFree =
@@ -2203,41 +2214,130 @@ export function init(ctx) {
     const factsEl = document.createElement("div");
     factsEl.className = "spot-facts";
 
+    const formatWithKRW = (amount, currency, existingKrw) => {
+      const base = `${amount}${currency ? ` ${currency}` : ""}`;
+      if (existingKrw != null) return `${base} (${util.formatKRW(existingKrw)})`;
+      const krw = currency && util.toKRW ? util.toKRW(amount, currency) : null;
+      return krw != null ? `${base} (약 ${util.formatKRW(krw)})` : base;
+    };
+    const appendParsedKRW = (text) => {
+      if (!text || !util.toKRW || /원\)/.test(text)) return text;
+      const m = String(text).match(/(\d[\d,]*(?:\.\d+)?)\s*(VND|CNY|HKD|THB|USD|LAK|KHR|MYR|SGD)\b/i);
+      if (!m) return text;
+      const krw = util.toKRW(Number(m[1].replace(/,/g, "")), m[2].toUpperCase());
+      return krw != null ? `${text} (약 ${util.formatKRW(krw)})` : text;
+    };
+
+    const esc = (t) => String(t ?? "").replace(/[&<>"]/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+    const formatCostItem = (item) => {
+      if (!item) return "";
+      const label = item.label ? esc(item.label) : "";
+      const curr = item.currency ? String(item.currency).trim() : "";
+      const minNum = item.min != null && item.min !== "" && !isNaN(item.min) ? Number(item.min) : null;
+      const maxNum = item.max != null && item.max !== "" && !isNaN(item.max) ? Number(item.max) : null;
+      let amtPart = "";
+      if (minNum != null && maxNum != null) {
+        amtPart = minNum === maxNum
+          ? `${minNum.toLocaleString("ko-KR")}`
+          : `${minNum.toLocaleString("ko-KR")}~${maxNum.toLocaleString("ko-KR")}`;
+      } else if (minNum != null) {
+        amtPart = `${minNum.toLocaleString("ko-KR")}`;
+      } else if (maxNum != null) {
+        amtPart = `~${maxNum.toLocaleString("ko-KR")}`;
+      }
+      if (amtPart && curr) amtPart = `${amtPart} ${esc(curr)}`;
+      if (amtPart && item.basis === "estimate") amtPart = `약 ${amtPart}`;
+      if (amtPart && item.basis === "seller_from") amtPart = `${amtPart}~부터`;
+
+      let krwPart = "";
+      if (curr && util.toKRW && util.formatKRW && curr.toUpperCase() !== "KRW") {
+        const kMin = minNum != null ? util.toKRW(minNum, curr) : null;
+        const kMax = maxNum != null ? util.toKRW(maxNum, curr) : null;
+        if (kMin != null && kMax != null) {
+          const fMin = util.formatKRW(kMin);
+          const fMax = util.formatKRW(kMax);
+          krwPart = fMin === fMax ? ` (약 ${fMin})` : ` (약 ${fMin}~${fMax})`;
+        } else if (kMin != null) {
+          krwPart = ` (약 ${util.formatKRW(kMin)})`;
+        } else if (kMax != null) {
+          krwPart = ` (약 ${util.formatKRW(kMax)})`;
+        }
+      }
+      return [label, `${amtPart}${krwPart}`].filter(Boolean).join(" ").trim();
+    };
+
     let feeText = "";
-    if (spot.fee) {
+    if (spot.cost) {
+      const items = Array.isArray(spot.cost.items) ? spot.cost.items.map(formatCostItem).filter(Boolean) : [];
+      if (spot.cost.free === true) {
+        feeText = "무료";
+      } else if (items.length) {
+        feeText = items.join("<br>");
+      } else if (spot.cost.min_total && spot.cost.min_total.amount != null) {
+        feeText = formatWithKRW(spot.cost.min_total.amount, spot.cost.min_total.currency, null);
+      } else if (spot.cost.note) {
+        feeText = esc(spot.cost.note);
+      } else {
+        feeText = "비용 미확인";
+      }
+    } else if (spot.fee) {
       if (spot.fee.text) {
-        if (spot.fee.amount != null && !spot.fee.text.includes(String(spot.fee.amount))) {
-          feeText = `${spot.fee.amount} ${spot.fee.currency || ""} (${spot.fee.text})`;
+        const amt = spot.fee.amount;
+        const hasAmtInText = amt != null && (spot.fee.text.includes(String(amt)) || spot.fee.text.includes(Number(amt).toLocaleString("en-US")));
+        if (amt != null && !hasAmtInText) {
+          feeText = `${amt}${spot.fee.currency ? ` ${spot.fee.currency}` : ""} (${spot.fee.text})`;
         } else {
           feeText = spot.fee.text;
+        }
+        if (!/원\)/.test(feeText)) {
+          if (spot.fee.krw != null && spot.fee.krw > 0) {
+            feeText += ` (${util.formatKRW(spot.fee.krw)})`;
+          } else if (amt != null && amt > 0 && spot.fee.currency && util.toKRW) {
+            const krw = util.toKRW(amt, spot.fee.currency);
+            if (krw != null) feeText += ` (약 ${util.formatKRW(krw)})`;
+          } else if (amt == null) {
+            feeText = appendParsedKRW(feeText);
+          }
         }
       } else if (spot.fee.free || spot.fee === "무료" || spot.fee.amount === 0) {
         feeText = "무료";
       } else if (typeof spot.fee === "string") {
-        feeText = spot.fee;
+        feeText = appendParsedKRW(spot.fee);
       } else if (spot.fee.amount != null) {
-        feeText = `${spot.fee.amount} ${spot.fee.currency || ""}`;
-        if (spot.fee.krw != null) feeText += ` (${util.formatKRW(spot.fee.krw)})`;
+        feeText = formatWithKRW(spot.fee.amount, spot.fee.currency, spot.fee.krw);
       } else {
-        feeText = "입장료 미확인";
+        feeText = "비용 미확인";
       }
     } else {
-      feeText = "입장료 미확인";
+      feeText = "비용 미확인";
     }
 
-    let hoursText = spot.hours ? String(spot.hours) : "";
-    let closedText = spot.closed ? String(spot.closed) : "";
+    const unverified = new Set(Array.isArray(spot.unverified_fields) ? spot.unverified_fields : []);
+    const isUnverified = (...keys) => keys.some((k) => unverified.has(k));
+    if (feeText && feeText !== "비용 미확인" && isUnverified("cost", "fee")) {
+      feeText += '<span class="fact-unverified"> (미확인)</span>';
+    }
+
+    let hoursText = spot.hours ? esc(spot.hours) : "";
+    if (hoursText && isUnverified("hours")) {
+      hoursText += '<span class="fact-unverified"> (미확인)</span>';
+    }
+    let closedText = spot.closed ? esc(spot.closed) : "";
 
     let transportText = "";
     if (spot.transport) {
       if (typeof spot.transport === "string") {
-        transportText = spot.transport;
+        transportText = esc(spot.transport);
       } else {
-        const how = spot.transport.how || "";
+        const how = spot.transport.how ? esc(spot.transport.how) : "";
         let costPart = "";
         if (spot.transport.cost && spot.transport.cost.amount != null) {
-          costPart = `${spot.transport.cost.amount} ${spot.transport.cost.currency || ""}`;
-          if (spot.transport.krw != null) costPart += ` (${util.formatKRW(spot.transport.krw)})`;
+          const tc = spot.transport.cost;
+          const existingKrw = tc.krw != null ? tc.krw : spot.transport.krw;
+          costPart = esc(formatWithKRW(tc.amount, tc.currency, existingKrw));
+          if (spot.transport.basis === "estimate" && Number(tc.amount) > 0 && !costPart.startsWith("약 ")) {
+            costPart = `약 ${costPart}`;
+          }
         }
         transportText = [how, costPart].filter(Boolean).join(" · ");
       }
@@ -2247,12 +2347,36 @@ export function init(ctx) {
     if (spot.duration_min) {
       durationText = `${spot.duration_min}분`;
     } else if (spot.duration) {
-      durationText = String(spot.duration);
+      durationText = esc(spot.duration);
     }
 
+    if (transportText && isUnverified("transport")) {
+      transportText += '<span class="fact-unverified"> (미확인)</span>';
+    }
+    if (durationText && isUnverified("duration_min", "duration")) {
+      durationText += '<span class="fact-unverified"> (미확인)</span>';
+    }
+
+    let ratingText = "";
+    if (spot.rating && spot.rating.score != null) {
+      const r = spot.rating;
+      const countStr = r.count != null ? Number(r.count).toLocaleString("ko-KR") : "";
+      const siteStr = r.site ? esc(r.site) : "";
+      const meta = [countStr, siteStr].filter(Boolean).join(", ");
+      ratingText = meta ? `★ ${esc(r.score)} (${meta})` : `★ ${esc(r.score)}`;
+    }
+    const bestTimeMap = { morning: "오전", afternoon: "오후", sunset: "일몰", night: "야간", any: "상시" };
+    const bestTimeText = spot.best_time ? esc(bestTimeMap[spot.best_time] || spot.best_time) : "";
+    const bookingMap = { none: "예약 불필요", recommended: "예약 권장", required: "사전 예약 필수" };
+    const bookingText = spot.booking ? esc(bookingMap[spot.booking] || spot.booking) : "";
+    const familyText = spot.family ? esc(spot.family) : "";
+
     let factsHtml = "";
+    if (ratingText) {
+      factsHtml += `<div class="spot-fact"><span class="fact-label">평점</span><span class="fact-val">${ratingText}</span></div>`;
+    }
     if (feeText) {
-      factsHtml += `<div class="spot-fact"><span class="fact-label">입장료</span><span class="fact-val">${feeText}</span></div>`;
+      factsHtml += `<div class="spot-fact"><span class="fact-label">비용</span><span class="fact-val">${feeText}</span></div>`;
     }
     if (hoursText) {
       factsHtml += `<div class="spot-fact"><span class="fact-label">운영시간</span><span class="fact-val">${hoursText}</span></div>`;
@@ -2265,6 +2389,15 @@ export function init(ctx) {
     }
     if (durationText) {
       factsHtml += `<div class="spot-fact"><span class="fact-label">소요시간</span><span class="fact-val">${durationText}</span></div>`;
+    }
+    if (bestTimeText) {
+      factsHtml += `<div class="spot-fact"><span class="fact-label">추천 시간</span><span class="fact-val">${bestTimeText}</span></div>`;
+    }
+    if (bookingText) {
+      factsHtml += `<div class="spot-fact"><span class="fact-label">예약</span><span class="fact-val">${bookingText}</span></div>`;
+    }
+    if (familyText) {
+      factsHtml += `<div class="spot-fact"><span class="fact-label">부모님 동선</span><span class="fact-val">${familyText}</span></div>`;
     }
     if (factsHtml) {
       factsEl.innerHTML = factsHtml;

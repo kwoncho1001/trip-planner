@@ -1706,13 +1706,51 @@ export function init(ctx) {
       div.appendChild(badge);
     }
 
-    if (spot.fee) {
+    if (spot.cost || spot.fee) {
       const feeBadge = document.createElement("span");
       feeBadge.className = "cost-badge spot-fee-badge";
-      if (spot.fee.free) feeBadge.textContent = "무료";
-      else if (spot.fee.krw) feeBadge.textContent = `입장료 ${ctx.util.formatKRW(spot.fee.krw)}`;
-      else if (spot.fee.text) feeBadge.textContent = spot.fee.text;
-      else feeBadge.textContent = "입장료 유료";
+      if (spot.cost) {
+        if (spot.cost.free === true) {
+          feeBadge.textContent = "무료";
+        } else if (spot.cost.min_total && spot.cost.min_total.amount != null) {
+          const mt = spot.cost.min_total;
+          const curr = mt.currency || "";
+          const krw = curr && ctx.util?.toKRW ? ctx.util.toKRW(mt.amount, curr) : null;
+          const amtStr = Number(mt.amount).toLocaleString("ko-KR");
+          const base = `${amtStr}${curr ? ` ${curr}` : ""}`;
+          if (curr.toUpperCase() === "KRW" && krw != null) {
+            feeBadge.textContent = `비용 ${ctx.util.formatKRW(krw)}`;
+          } else {
+            feeBadge.textContent = krw != null ? `비용 ${base} (약 ${ctx.util.formatKRW(krw)})` : `비용 ${base}`;
+          }
+        } else {
+          feeBadge.textContent = "비용 있음";
+        }
+      } else {
+        const appendParsedKRW = (text) => {
+          if (!text || !ctx.util?.toKRW || /원\)/.test(text)) return text;
+          const m = String(text).match(/(\d[\d,]*(?:\.\d+)?)\s*(VND|CNY|HKD|THB|USD|LAK|KHR|MYR|SGD)\b/i);
+          if (!m) return text;
+          const krw = ctx.util.toKRW(Number(m[1].replace(/,/g, "")), m[2].toUpperCase());
+          return krw != null ? `${text} (약 ${ctx.util.formatKRW(krw)})` : text;
+        };
+        if (spot.fee.free || spot.fee === "무료" || spot.fee.amount === 0) {
+          feeBadge.textContent = "무료";
+        } else if (typeof spot.fee === "string") {
+          feeBadge.textContent = appendParsedKRW(spot.fee);
+        } else if (spot.fee.krw) {
+          feeBadge.textContent = `비용 ${ctx.util.formatKRW(spot.fee.krw)}`;
+        } else if (spot.fee.amount != null) {
+          const curr = spot.fee.currency || "";
+          const krw = curr && ctx.util?.toKRW ? ctx.util.toKRW(spot.fee.amount, curr) : null;
+          const base = `${spot.fee.amount}${curr ? ` ${curr}` : ""}`;
+          feeBadge.textContent = krw != null ? `비용 ${base} (약 ${ctx.util.formatKRW(krw)})` : `비용 ${base}`;
+        } else if (spot.fee.text) {
+          feeBadge.textContent = appendParsedKRW(spot.fee.text);
+        } else {
+          feeBadge.textContent = "비용 있음";
+        }
+      }
       div.appendChild(feeBadge);
     }
 
